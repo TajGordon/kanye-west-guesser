@@ -10,9 +10,16 @@ const io = new SocketIOServer(server, {
 
 const PORT = 3000;
 
-app.length('/', (req, res) => {
-    res.send('Hello from server');
-});
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+app.use(express.static(path.join(__dirname, '../../client')));
+
+app.get('/', (req, res) => {
+    res.send('ehllo from server')
+})
 
 io.on('connection', (socket) => {
     console.log('Client connected: ', socket.id);
@@ -23,6 +30,8 @@ io.on('connection', (socket) => {
 
     socket.on('submitAnswer', (payload) => {
         console.log('submitAnswer', payload);
+        const result = true;
+        socket.emit('answerResult', { result });
     });
 
     socket.on('disconnect', () => {

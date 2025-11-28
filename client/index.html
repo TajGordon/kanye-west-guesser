@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kanye Guesser</title>
+</head>
+<body>
+  <h1>Kanye Guesser</h1>
+
+  <div>
+    <label>
+      Name:
+      <input id="nameInput" />
+    </label>
+    <button id="joinBtn">Join Lobby</button>
+  </div>
+
+  <div>
+    <label>
+      Answer:
+      <input id="answerInput" />
+    </label>
+    <button id="answerBtn">Submit Answer</button>
+  </div>
+
+  <pre id="log"></pre>
+
+  <!-- Socket.IO client (served automatically by socket.io on the server) -->
+  <script src="/socket.io/socket.io.js"></script>
+  <!-- Your own client code -->
+  <script src="main.js"></script>
+</body>
+</html>
