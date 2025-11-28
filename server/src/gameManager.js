@@ -1,48 +1,33 @@
-const roundsByLobbyId = new Map();
+import { getRandomQuestion, evaluateAnswer, formatQuestionForClient } from './questionStore.js'
 
-const DEFAULT_ROUND_DURATION_MS = 20000;
+const roundsByLobbyId = new Map()
 
-const sampleQuestions = [
-    {
-        id: 'q1',
-        type: 'guessArtist',
-        prompt: 'Who is the artist of the song "Stronger"?',
-        answer: 'Kanye West'
-    },
-    {
-        id: 'q2',
-        type: 'guessSongFromLine',
-        prompt: 'Which Kanye song contains the line "Work it harder, make it better"?',
-        answer: 'Stronger'
-    },
-    {
-        id: 'q3',
-        type: 'finishLyric',
-        prompt: 'Finish the lyric: "I miss the old ____"',
-        answer: 'Kanye'
-    }
-];
+const DEFAULT_ROUND_DURATION_MS = 20000
 
-function pickRandomQuestion() {
-    if (!sampleQuestions.length) {
-        return {
-            id: 'fallback',
-            type: 'guessArtist',
-            prompt: 'Who is Kanye West?',
-            answer: 'Kanye West'
-        };
-    }
-    const idx = Math.floor(Math.random() * sampleQuestions.length);
-    return sampleQuestions[idx];
+const FALLBACK_QUESTION = {
+    id: 'fallback',
+    title: 'Who is the artist of the song "Stronger"?',
+    content: { type: 'text', text: 'Stronger' },
+    answers: [
+        {
+            id: 'fallback-answer',
+            display: 'Kanye West',
+            aliases: ['kanye west'],
+            normalizedAliases: ['kanye west']
+        }
+    ],
+    acceptedAliasMap: new Map([['kanye west', { display: 'Kanye West' }]]),
+    primaryAnswer: 'Kanye West',
+    tags: ['fallback']
 }
 
-function normalizeText(value = '') {
-    return value.trim().toLowerCase();
+function pickRandomQuestion() {
+    return getRandomQuestion() || FALLBACK_QUESTION
 }
 
 export function startNewRound(lobbyId, durationMs = DEFAULT_ROUND_DURATION_MS) {
-    const question = pickRandomQuestion();
-    const startedAt = Date.now();
+    const question = pickRandomQuestion()
+    const startedAt = Date.now()
     const round = {
         lobbyId,
         question,
@@ -51,85 +36,81 @@ export function startNewRound(lobbyId, durationMs = DEFAULT_ROUND_DURATION_MS) {
         endsAt: startedAt + durationMs,
         isActive: true,
         answers: new Map() // key: playerId, value: { answerText, isCorrect, submittedAt }
-    };
-    roundsByLobbyId.set(lobbyId, round);
-    return round;
+    }
+    roundsByLobbyId.set(lobbyId, round)
+    return round
 }
 
 export function getActiveRound(lobbyId) {
-    const round = roundsByLobbyId.get(lobbyId);
+    const round = roundsByLobbyId.get(lobbyId)
     if (!round || !round.isActive) {
-        return null;
+        return null
     }
-    return round;
+    return round
 }
 
 export function buildRoundPayload(round) {
-    if (!round) return null;
+    if (!round) return null
+    const formattedQuestion = formatQuestionForClient(round.question)
     return {
         lobbyId: round.lobbyId,
-        question: {
-            id: round.question.id,
-            type: round.question.type,
-            prompt: round.question.prompt
-        },
+        question: formattedQuestion,
         startedAt: round.startedAt,
         durationMs: round.durationMs,
         endsAt: round.endsAt
-    };
+    }
 }
 
 export function submitAnswerToRound({ lobbyId, playerId, answerText }) {
-    const round = roundsByLobbyId.get(lobbyId);
+    const round = roundsByLobbyId.get(lobbyId)
     if (!round) {
-        return { status: 'no-round' };
+        return { status: 'no-round' }
     }
 
     if (!round.isActive) {
-        return { status: 'round-complete', round };
+        return { status: 'round-complete', round }
     }
 
-    const previousEntry = round.answers.get(playerId);
+    const previousEntry = round.answers.get(playerId)
     if (previousEntry?.isCorrect) {
-        return { status: 'already-correct', round };
+        return { status: 'already-correct', round }
     }
 
-    const normalizedAnswer = normalizeText(answerText);
-    const normalizedCorrect = normalizeText(round.question.answer);
-    const isCorrect = normalizedAnswer === normalizedCorrect;
+    const { isCorrect, matchedAnswer } = evaluateAnswer(round.question, answerText)
 
     const entry = {
         playerId,
         answerText,
         isCorrect,
-        submittedAt: Date.now()
-    };
+        submittedAt: Date.now(),
+        matchedAnswerDisplay: matchedAnswer?.display || null
+    }
 
-    round.answers.set(playerId, entry);
+    round.answers.set(playerId, entry)
 
-    return { status: isCorrect ? 'correct' : 'incorrect', round, entry };
+    return { status: isCorrect ? 'correct' : 'incorrect', round, entry }
 }
 
 export function finalizeRound(lobbyId, reason = 'manual') {
-    const round = roundsByLobbyId.get(lobbyId);
-    if (!round || !round.isActive) return null;
+    const round = roundsByLobbyId.get(lobbyId)
+    if (!round || !round.isActive) return null
 
-    round.isActive = false;
-    round.endedAt = Date.now();
+    round.isActive = false
+    round.endedAt = Date.now()
 
     return {
         round,
         reason,
         summary: buildRoundSummary(round)
-    };
+    }
 }
 
 export function clearRoundState(lobbyId) {
-    roundsByLobbyId.delete(lobbyId);
+    roundsByLobbyId.delete(lobbyId)
 }
 
 function buildRoundSummary(round) {
-    const answers = Array.from(round.answers.values());
+    const answers = Array.from(round.answers.values())
     const correctResponders = answers
         .filter(a => a.isCorrect)
         .sort((a, b) => a.submittedAt - b.submittedAt)
@@ -137,18 +118,21 @@ function buildRoundSummary(round) {
             playerId,
             answerText,
             submittedAt
-        }));
+        }))
+
+    const correctAnswer = round.question?.primaryAnswer || round.question?.answers?.[0]?.display || 'Unknown'
 
     return {
         lobbyId: round.lobbyId,
         question: {
             id: round.question.id,
-            prompt: round.question.prompt,
-            type: round.question.type
+            title: round.question.title,
+            content: round.question.content
         },
-        correctAnswer: round.question.answer,
+        correctAnswer,
+        answers: round.question.answers?.map(({ display }) => display) || [],
         correctResponders,
         startedAt: round.startedAt,
         endedAt: round.endedAt
-    };
+    }
 }

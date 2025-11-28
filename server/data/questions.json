@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "generatedBy": "manual-seed",
+    "generatedAt": "2025-11-28T00:00:00.000Z"
+  },
+  "questions": [
+    {
+      "id": "artist-stronger",
+      "title": "Who is the artist of the following song?",
+      "content": {
+        "type": "text",
+        "text": "Stronger"
+      },
+      "answers": [
+        {
+          "display": "Kanye West",
+          "aliases": ["kanye", "kanye west", "ye"]
+        }
+      ],
+      "tags": ["artist", "song", "graduation", "easy"]
+    },
+    {
+      "id": "finish-lyric-old-kanye",
+      "title": "Finish the lyric",
+      "content": {
+        "type": "text",
+        "text": "I miss the old ____"
+      },
+      "answers": [
+        {
+          "display": "Kanye",
+          "aliases": ["kanye", "ye"]
+        }
+      ],
+      "tags": ["lyrics", "fill-in", "easy"]
+    },
+    {
+      "id": "cover-graduation",
+      "title": "Which album features this cover art?",
+      "content": {
+        "type": "image",
+        "source": "media",
+        "file": "graduation-cover.svg",
+        "alt": "Colorful bear flying through the sky",
+        "display": {
+          "maxWidth": 360,
+          "aspectRatio": 1
+        }
+      },
+      "answers": [
+        {
+          "display": "Graduation",
+          "aliases": ["graduation"]
+        }
+      ],
+      "tags": ["album", "art", "medium"]
+    }
+  ]
+}

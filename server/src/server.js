@@ -21,12 +21,20 @@ import {
 } from './lobbyManager.js'
 import { connectPlayer, disconnectSocket, getPlayerBySocket, listPlayers } from "./playerManager.js"
 import { startNewRound, getActiveRound, submitAnswerToRound, buildRoundPayload, finalizeRound, clearRoundState } from './gameManager.js'
+import { initializeQuestionStore } from './questionStore.js'
 
 const app = express();
 const server = http.createServer(app);
 const io = new SocketIOServer(server, {
     cors: { origin: '*' } // for local dev
 });
+
+try {
+    initializeQuestionStore()
+} catch (error) {
+    console.error('Failed to load questions data. Exiting...', error)
+    process.exit(1)
+}
 
 const PORT = 3000;
 const roundTimers = new Map();
@@ -44,6 +52,11 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const clientDistPath = path.join(__dirname, '../../client/dist');
+const mediaAssetsPath = path.join(__dirname, '../public/media');
+
+if (fs.existsSync(mediaAssetsPath)) {
+    app.use('/media', express.static(mediaAssetsPath));
+}
 
 if (fs.existsSync(clientDistPath)) {
     app.use(express.static(clientDistPath));

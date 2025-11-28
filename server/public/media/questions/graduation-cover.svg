@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8ec7" />
+      <stop offset="100%" stop-color="#6cc3ff" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#grad)" />
+  <circle cx="300" cy="260" r="90" fill="#fff" opacity="0.8" />
+  <path d="M240 420 L300 340 L360 420" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="300" y="520" font-family="'Segoe UI', sans-serif" font-size="48" fill="#fff" text-anchor="middle">Graduation</text>
+</svg>
