@@ -8,6 +8,14 @@ const DEFAULT_LOBBY_SETTINGS = {
   pointsToWin: 50
 };
 
+function formatCompactNameList(names, limit = 2) {
+  if (!names.length) return '';
+  const visible = names.slice(0, limit);
+  const remaining = names.length - visible.length;
+  const base = visible.join(', ');
+  return remaining > 0 ? `${base} +${remaining} more` : base;
+}
+
 function usePersistentPlayerId() {
   return useMemo(() => {
     let stored = localStorage.getItem('playerId');
@@ -319,14 +327,6 @@ export default function App() {
   const canStartRound = isHost && !isRoundPhase && !isWinPhase;
   const startButtonLabel = hasRoundRun ? 'Next Question' : 'Start Round';
   const canAcceptAnswer = isRoundPhase && !hasAnsweredCorrectly && !isWinPhase;
-  const questionPrompt = isRoundPhase
-    ? (question?.prompt || 'Question incoming...')
-    : isWinPhase
-      ? ((winDetails?.winner?.name || 'A player') + ' wins the game!')
-      : isSummaryPhase
-        ? 'Round complete. Summary below.'
-        : 'Waiting for host to start the first question...';
-
   const summaryToDisplay = !isRoundPhase && !isWinPhase ? (roundResults || lastRoundSummary) : null;
   const roomUrl = useMemo(() => {
     return routeLobbyId ? `${window.location.origin}/room/${routeLobbyId}` : window.location.origin;
@@ -336,7 +336,41 @@ export default function App() {
     : isSummaryPhase
       ? 'Waiting for host to start the next question...'
       : 'Host will start the first round soon.';
-  const answeredMessage = 'You already answered correctly! Waiting for everyone else...';
+  const answeredMessage = 'You got the answer correct! Waiting for everyone else...';
+  const summaryNames = summaryToDisplay?.correctResponders?.map((entry) => entry.name || 'Player') ?? [];
+  const summarySolvedLine = summaryToDisplay
+    ? (summaryNames.length ? `Solved by ${formatCompactNameList(summaryNames)}` : 'No correct answers this round.')
+    : '';
+  let heroHeadline = '';
+  let heroSupportingText = '';
+  let heroMetaRight = '';
+  if (isRoundPhase) {
+    heroHeadline = question?.prompt || 'Question incoming...';
+    heroSupportingText = hasAnsweredCorrectly ? answeredMessage : 'Round live';
+    heroMetaRight = `Time left: ${countdownText}`;
+  } else if (summaryToDisplay) {
+    heroHeadline = summaryToDisplay.correctAnswer
+      ? `Correct answer: ${summaryToDisplay.correctAnswer}`
+      : 'Round complete';
+    heroSupportingText = summarySolvedLine;
+    heroMetaRight = '';
+  } else if (!isWinPhase) {
+    heroHeadline = 'Waiting for host to start the first question...';
+    heroSupportingText = waitingMessage;
+    heroMetaRight = '';
+  }
+  if (!heroHeadline && !isWinPhase) {
+    heroHeadline = waitingMessage;
+  }
+  if (!heroSupportingText && !isWinPhase) {
+    heroSupportingText = waitingMessage;
+  }
+  const answerInputDisplayValue = hasAnsweredCorrectly ? 'You got the answer correct!' : answer;
+  const answerPlaceholder = hasAnsweredCorrectly ? 'You got the answer correct!' : (canAcceptAnswer ? 'Type your guess...' : waitingMessage);
+  const answerFormClass = ['answer-bar-form'];
+  if (hasAnsweredCorrectly) {
+    answerFormClass.push('answered');
+  }
   const progressAnimationDelay = useMemo(() => {
     if (!roundTiming.startedAt || !roundTiming.durationMs) return '0ms';
     const elapsed = Date.now() - roundTiming.startedAt;
@@ -362,6 +396,40 @@ export default function App() {
     const currentPoints = lobbySettings.pointsToWin ?? DEFAULT_LOBBY_SETTINGS.pointsToWin;
     setPointsToWinInput(String(currentPoints));
   }, [lobbySettings.pointsToWin, isEditingPointsToWin]);
+
+  useEffect(() => {
+    if (!canAcceptAnswer) return undefined;
+    const handleGlobalTyping = (event) => {
+      if (event.metaKey || event.ctrlKey || event.altKey) return;
+      const target = event.target;
+      if (target instanceof HTMLElement) {
+        const tag = target.tagName;
+        if (tag === 'INPUT' || tag === 'TEXTAREA' || target.isContentEditable) {
+          return;
+        }
+      }
+      const input = answerInputRef.current;
+      if (!input) return;
+      if (event.key.length === 1) {
+        event.preventDefault();
+        input.focus();
+        setAnswer((prev) => prev + event.key);
+        return;
+      }
+      if (event.key === 'Backspace') {
+        event.preventDefault();
+        input.focus();
+        setAnswer((prev) => prev.slice(0, -1));
+        return;
+      }
+      if (event.key === 'Enter') {
+        input.focus();
+      }
+    };
+
+    window.addEventListener('keydown', handleGlobalTyping);
+    return () => window.removeEventListener('keydown', handleGlobalTyping);
+  }, [canAcceptAnswer]);
 
   const isSettingsEditable = isHost;
 
@@ -512,8 +580,6 @@ export default function App() {
   const utilityPanelsOpen = isSettingsOpen || isLogOpen;
   const utilityStackClass = ['utility-stack'];
   if (isSettingsOpen && isLogOpen) utilityStackClass.push('dual');
-  const contentShellClass = ['content-shell'];
-  if (utilityPanelsOpen) contentShellClass.push('with-utility');
 
   return (
     <div className={`app-frame ${utilityPanelsOpen ? 'utility-open' : ''}`}>
@@ -547,7 +613,7 @@ export default function App() {
           </button>
         </div>
       </header>
-      <div className={contentShellClass.join(' ')}>
+      <div className="content-shell">
         {utilityPanelsOpen && (
           <aside className={utilityStackClass.join(' ')}>
             {isSettingsOpen && (
@@ -678,42 +744,14 @@ export default function App() {
               </div>
             ) : (
               <div className="hero-body">
-                <p className="question-prompt">{questionPrompt}</p>
+                <p className="question-prompt">{heroHeadline}</p>
                 <div className="hero-meta">
-                  <span>{isRoundPhase ? 'Round live' : waitingMessage}</span>
-                  <span>Time left: {isRoundPhase ? '' : countdownText}</span>
+                  <span>{heroSupportingText}</span>
+                  {heroMetaRight && <span>{heroMetaRight}</span>}
                 </div>
               </div>
             )}
           </section>
-
-          {!isWinPhase && summaryToDisplay && (
-            <section className="summary-panel">
-              {summaryToDisplay.correctAnswer && (
-                <div className="round-results-answer">
-                  Correct answer: <strong>{summaryToDisplay.correctAnswer}</strong>
-                </div>
-              )}
-              <div className="round-results-label">Correct players:</div>
-              {summaryToDisplay.correctResponders?.length ? (
-                <ul>
-                  {summaryToDisplay.correctResponders.map((entry, index) => {
-                    const elapsedMs = entry.submittedAt && summaryToDisplay.startedAt
-                      ? entry.submittedAt - summaryToDisplay.startedAt
-                      : null;
-                    const timeText = elapsedMs != null ? `${(elapsedMs / 1000).toFixed(2)}s` : '—';
-                    return (
-                      <li key={entry.playerId + index}>
-                        #{index + 1} {entry.name || 'Player'} ({timeText})
-                      </li>
-                    );
-                  })}
-                </ul>
-              ) : (
-                <div className="round-summary-empty">No correct answers this round.</div>
-              )}
-            </section>
-          )}
         </main>
 
         <aside className="player-rail">
@@ -747,12 +785,12 @@ export default function App() {
       </div>
 
       <div className="answer-bar">
-        <form onSubmit={handleAnswerSubmit}>
+        <form className={answerFormClass.join(' ')} onSubmit={handleAnswerSubmit}>
           <input
             ref={answerInputRef}
-            value={answer}
+            value={answerInputDisplayValue}
             onChange={(e) => setAnswer(e.target.value)}
-            placeholder={canAcceptAnswer ? 'Type your guess...' : waitingMessage}
+            placeholder={answerPlaceholder}
             disabled={!canAcceptAnswer}
           />
           <button className="secondary-btn" type="submit" disabled={!canAcceptAnswer || !answer.trim()}>
