@@ -1,80 +1,15 @@
 const socket = io();
 
-function getOrCreatePlayerId() {
-    let pid = localStorage.getItem('playerId');
-    if (!pid) {
-        pid = crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).slice(2);
-        localStorage.setItem('playerId', pid);
-    }
-    return pid;
-}
-
-const playerId = getOrCreatePlayerId();
-
-function log(message, data) { 
-    const el = document.getElementById('log');
-    el.textContent += message + (data ? ' ' + JSON.stringify(data) : '') + '\n';
-}
-
-socket.on('connect', () => {
-    log('Connected with socket id:', socket.id);
-    log('Using playerId:', playerId);
-});
-
-socket.on('disconnect', () => {
-    log('disconnected');
-});
-
-socket.on('answerResult', (payload) => {
-    log('answer result:', { payload });
-    scoreDisplay.textContent = payload.score;
-});
-
-socket.on('joinLobbyResult', (payload) => {
-    log('join lobby result:', { payload });
+let isHostUser = false;
+let roundActive = false;
+let hasStartedRound = false;
+// Legacy placeholder. The client UI now lives in the React app under src/.
+console.warn('Legacy client script is no longer used. Run the React client instead.');
     scoreDisplay.textContent = payload.score;
     lobbyIdDisplay.textContent = payload.lobby.id;
     if (payload.lobby && Array.isArray(payload.lobby.players)) {
         renderPlayers(payload.lobby.players);
-    }
-});
-
-socket.on('lobbyRosterUpdate', (payload) => {
-    log('lobby roster update:', payload);
-    if (Array.isArray(payload.players)) {
-        renderPlayers(payload.players);
-    }
-});
-
-const nameInput = document.getElementById('nameInput');
-const lobbyIdInput = document.getElementById('lobbyIdInput');
-const joinBtn = document.getElementById('joinBtn');
-const answerInput = document.getElementById('answerInput');
-const answerBtn = document.getElementById('answerBtn');
-const scoreDisplay = document.getElementById('scoreDisplay');
-const lobbyIdDisplay = document.getElementById('lobbyIdDisplay');
-const playersList = document.getElementById('playersList');
-
-function renderPlayers(players) {
-    if (!playersList) return;
-    playersList.innerHTML = '';
-    players.forEach((player) => {
-        const li = document.createElement('li');
-        li.textContent = `${player.name || '??'} (${player.score ?? 0})`;
-        playersList.appendChild(li);
-    });
-}
-
-// name input / joining
-joinBtn.addEventListener('click', () => {
-    const name = nameInput.value || 'anon';
-    const lobbyId = lobbyIdInput.value || 'None';
-    if (lobbyId == 'None') {
-        log('Invalid lobby Id');
-        return;
-    }
-    socket.emit('joinLobby', { name, lobbyId, playerId });
-    log('sent joinLobby', { name, lobbyId, playerId });
+    // Legacy client entry removed; the React app in src/ now handles all UI logic.
 });
 
 // answering
@@ -83,3 +18,10 @@ answerBtn.addEventListener('click', () => {
     socket.emit('submitAnswer', { answer });
     log('Sent submitAnswer', { answer });
 });
+
+if (startRoundBtn) {
+    startRoundBtn.addEventListener('click', () => {
+        socket.emit('startRoundRequest');
+        log('Requested round start');
+    });
+}

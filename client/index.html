@@ -1,55 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Kanye Guesser</title>
-</head>
-<body>
-  <h1>Kanye Guesser</h1>
-
-  <div>
-    <label>
-      Name:
-      <input id="nameInput" />
-    </label>
-  </div>
-  <div>
-    <label>
-      Lobby Id:
-      <input id="lobbyIdInput" />
-    </label>
-    <button id="joinBtn">Join Lobby</button>
-  </div>
-
-  <div>
-    <label>
-      Answer:
-      <input id="answerInput" />
-    </label>
-    <button id="answerBtn">Submit Answer</button>
-  </div>
-
-  <div>
-    <Label>
-      Lobby Id:
-      <span id="lobbyIdDisplay">0</span>
-    </Label>
-    <label>
-      Score:
-      <span id="scoreDisplay">0</span>
-    </label>
-  </div>
-
-  <div>
-    <strong>Players in lobby:</strong>
-    <ul id="playersList"></ul>
-  </div>
-
-  <pre id="log"></pre>
-
-  <!-- Socket.IO client (served automatically by socket.io on the server) -->
-  <script src="/socket.io/socket.io.js"></script>
-  <!-- Your own client code -->
-  <script src="main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanye Guesser</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
