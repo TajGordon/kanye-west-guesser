@@ -185,14 +185,16 @@ select {
   padding: 0 var(--page-gutter);
   display: grid;
   grid-template-columns: minmax(0, 1fr) var(--player-rail-width);
-  grid-template-rows: auto 1fr;
-  grid-template-areas:
-    'utility player'
-    'center player';
-  gap: 24px;
+  grid-template-areas: 'center player';
+  gap: var(--section-gap);
   min-height: calc(100vh - 260px);
   flex: 1 1 auto;
   align-items: start;
+}
+
+.content-shell.utility-open {
+  grid-template-columns: var(--utility-column) minmax(0, 1fr) var(--player-rail-width);
+  grid-template-areas: 'utility center player';
 }
 
 .utility-panel,
@@ -212,14 +214,20 @@ select {
   display: flex;
   flex-direction: column;
   gap: 18px;
-  align-self: stretch;
   justify-self: stretch;
   grid-column: 1;
   grid-area: utility;
+  position: sticky;
+  top: var(--player-rail-offset);
+  align-self: start;
+  max-height: calc(100vh - var(--player-rail-offset) - var(--answer-bar-reserve));
+  overflow-y: auto;
+  padding-right: 8px;
+  min-width: 0;
 }
 
 .utility-stack.dual {
-  height: 100%;
+  height: auto;
 }
 
 .utility-stack.dual .utility-panel {
@@ -229,8 +237,8 @@ select {
 }
 
 .utility-panel {
-  max-height: calc(100vh - 260px);
-  overflow: auto;
+  max-height: none;
+  overflow: visible;
 }
 
 .settings-panel {
@@ -299,6 +307,15 @@ select {
   grid-column: 1;
   grid-area: center;
   margin: 0 auto;
+}
+
+.content-shell.utility-open .center-stage {
+  max-width: 720px;
+  padding: 0 24px;
+}
+
+.content-shell.utility-open .question-hero {
+  width: 100%;
 }
 
 .question-hero {
@@ -544,6 +561,10 @@ select {
   z-index: 5;
 }
 
+.app-frame.utility-open .answer-bar {
+  left: calc(var(--page-gutter) + var(--utility-column) + var(--section-gap));
+}
+
 .answer-bar form,
 .answer-bar-form {
   width: min(720px, 100%);
@@ -703,12 +724,18 @@ select {
     grid-template-columns: minmax(0, 1fr);
     grid-template-areas:
       'center'
+      'utility'
       'player';
   }
 
   .utility-stack {
     width: 100%;
     order: -1;
+    position: static;
+    top: auto;
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
   }
 
   .utility-stack.dual {

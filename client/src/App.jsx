@@ -669,8 +669,13 @@ export default function App() {
   const utilityStackClass = ['utility-stack'];
   if (isSettingsOpen && isLogOpen) utilityStackClass.push('dual');
 
+  const appFrameClass = ['app-frame'];
+  if (utilityPanelsOpen) appFrameClass.push('utility-open');
+  const contentShellClass = ['content-shell'];
+  if (utilityPanelsOpen) contentShellClass.push('utility-open');
+
   return (
-    <div className={`app-frame ${utilityPanelsOpen ? 'utility-open' : ''}`}>
+    <div className={appFrameClass.join(' ')}>
       <header className="top-bar">
         <div className="brand-block">
           <h1>Kanye Guesser</h1>
@@ -701,7 +706,7 @@ export default function App() {
           </button>
         </div>
       </header>
-      <div className="content-shell">
+      <div className={contentShellClass.join(' ')}>
         {utilityPanelsOpen && (
           <aside className={utilityStackClass.join(' ')}>
             {isSettingsOpen && (
