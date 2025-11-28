@@ -8,6 +8,41 @@ const DEFAULT_LOBBY_SETTINGS = {
   pointsToWin: 50
 };
 
+function QuestionContentBlock({ content }) {
+  if (!content) return null;
+  if (content.type === 'image' && content.url) {
+    const style = {};
+    const display = content.display || {};
+    if (display.maxWidth) {
+      style.maxWidth = typeof display.maxWidth === 'number'
+        ? `${display.maxWidth}px`
+        : display.maxWidth;
+    }
+    if (content.width && !style.maxWidth) {
+      style.maxWidth = `${content.width}px`;
+    }
+    const aspectValue = display.aspectRatio || content.aspectRatio;
+    if (aspectValue) {
+      style.aspectRatio = typeof aspectValue === 'number' ? aspectValue : undefined;
+    }
+    return (
+      <div className="question-content-block question-content-image" style={style}>
+        <img src={content.url} alt={content.alt || 'Question media'} />
+      </div>
+    );
+  }
+
+  if (content.type === 'text' && content.text) {
+    return (
+      <div className="question-content-block question-content-text">
+        <p>{content.text}</p>
+      </div>
+    );
+  }
+
+  return null;
+}
+
 function formatCompactNameList(names, limit = 2) {
   if (!names.length) return '';
   const visible = names.slice(0, limit);
@@ -197,7 +232,7 @@ export default function App() {
     });
 
     socket.on('roundStarted', (payload) => {
-      pushLog('Round started', payload.question?.prompt);
+      pushLog('Round started', payload.question?.title || payload.question?.prompt);
       setWinDetails(null);
       setQuestion(payload.question || null);
       setRoundStatus('Round in progress');
@@ -386,15 +421,26 @@ export default function App() {
   let heroHeadline = '';
   let heroSupportingText = '';
   let heroMetaRight = '';
+  const activeQuestionTitle = isRoundPhase
+    ? (question?.title || question?.prompt)
+    : (summaryToDisplay?.question?.title || summaryToDisplay?.question?.prompt);
+  const activeQuestionContent = isRoundPhase
+    ? question?.content
+    : summaryToDisplay?.question?.content;
   if (isRoundPhase) {
-    heroHeadline = question?.prompt || 'Question incoming...';
+    heroHeadline = activeQuestionTitle || 'Question incoming...';
     heroSupportingText = hasAnsweredCorrectly ? answeredMessage : 'Round live';
     heroMetaRight = `Time left: ${countdownText}`;
   } else if (summaryToDisplay) {
-    heroHeadline = summaryToDisplay.correctAnswer
-      ? `Correct answer: ${summaryToDisplay.correctAnswer}`
-      : 'Round complete';
-    heroSupportingText = summarySolvedLine;
+    heroHeadline = activeQuestionTitle || 'Round complete';
+    const summaryLines = [];
+    if (summaryToDisplay.correctAnswer) {
+      summaryLines.push(`Correct answer: ${summaryToDisplay.correctAnswer}`);
+    }
+    if (summarySolvedLine) {
+      summaryLines.push(summarySolvedLine);
+    }
+    heroSupportingText = summaryLines.join(' • ') || 'Round complete';
     heroMetaRight = isSummaryPhase && summaryEndsAt ? `Next round in ${summaryCountdownText}` : '';
   } else if (!isWinPhase) {
     heroHeadline = 'Waiting for host to start the game';
@@ -786,6 +832,9 @@ export default function App() {
             ) : (
               <div className="hero-body">
                 <p className="question-prompt">{heroHeadline}</p>
+                {(isRoundPhase || summaryToDisplay) && activeQuestionContent && (
+                  <QuestionContentBlock content={activeQuestionContent} />
+                )}
                 <div className="hero-meta">
                   <span>{heroSupportingText}</span>
                   {heroMetaRight && <span>{heroMetaRight}</span>}

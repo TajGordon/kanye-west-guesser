@@ -358,6 +358,45 @@ select {
   gap: 12px;
 }
 
+.question-content-block {
+  width: 100%;
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.question-content-text {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 18px 20px;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center;
+  width: 100%;
+}
+
+.question-content-text p {
+  margin: 0;
+}
+
+.question-content-image {
+  width: 100%;
+  padding: 12px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(8, 10, 20, 0.4);
+}
+
+.question-content-image img {
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: contain;
+  border-radius: 18px;
+  display: block;
+}
+
 .question-prompt {
   font-size: clamp(24px, 4vw, 40px);
   line-height: 1.2;
