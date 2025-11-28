@@ -114,10 +114,12 @@ function buildRoundSummary(round) {
     const correctResponders = answers
         .filter(a => a.isCorrect)
         .sort((a, b) => a.submittedAt - b.submittedAt)
-        .map(({ playerId, answerText, submittedAt }) => ({
+        .map(({ playerId, answerText, submittedAt, matchedAnswerDisplay }) => ({
             playerId,
             answerText,
-            submittedAt
+            submittedAt,
+            matchedAnswerDisplay,
+            elapsedMs: typeof round.startedAt === 'number' ? submittedAt - round.startedAt : null
         }))
 
     const correctAnswer = round.question?.primaryAnswer || round.question?.answers?.[0]?.display || 'Unknown'

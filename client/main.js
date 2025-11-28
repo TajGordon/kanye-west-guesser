@@ -1,27 +1,30 @@
-const socket = io();
+// Legacy placeholder. The React client now lives under src/ via Vite.
+// Keeping this stub prevents stale browser tabs or server renders from crashing
+// when they still request /client/main.js.
+(function legacyClientNotice() {
+    if (typeof window === 'undefined') return;
 
-let isHostUser = false;
-let roundActive = false;
-let hasStartedRound = false;
-// Legacy placeholder. The client UI now lives in the React app under src/.
-console.warn('Legacy client script is no longer used. Run the React client instead.');
-    scoreDisplay.textContent = payload.score;
-    lobbyIdDisplay.textContent = payload.lobby.id;
-    if (payload.lobby && Array.isArray(payload.lobby.players)) {
-        renderPlayers(payload.lobby.players);
-    // Legacy client entry removed; the React app in src/ now handles all UI logic.
-});
+    console.warn('Legacy client script is no longer used. Run the React client instead.');
 
-// answering
-answerBtn.addEventListener('click', () => {
-    const answer = answerInput.value;
-    socket.emit('submitAnswer', { answer });
-    log('Sent submitAnswer', { answer });
-});
+    const bannerId = 'legacy-client-banner';
+    if (document.getElementById(bannerId)) return;
 
-if (startRoundBtn) {
-    startRoundBtn.addEventListener('click', () => {
-        socket.emit('startRoundRequest');
-        log('Requested round start');
-    });
-}
+    const banner = document.createElement('div');
+    banner.id = bannerId;
+    banner.style.cssText = [
+        'position:fixed',
+        'top:0',
+        'left:0',
+        'right:0',
+        'padding:12px',
+        'background:#222',
+        'color:#fff',
+        'font-family:system-ui, sans-serif',
+        'font-size:14px',
+        'z-index:9999',
+        'text-align:center'
+    ].join(';');
+
+    banner.textContent = 'The legacy client has been replaced. Run `npm run dev` inside client/ to launch the React UI.';
+    document.body.appendChild(banner);
+})();

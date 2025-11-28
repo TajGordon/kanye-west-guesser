@@ -415,6 +415,7 @@ export default function App() {
       : 'Host will start the game soon.';
   const answeredMessage = 'You got the answer correct! Waiting for everyone else...';
   const summaryNames = summaryToDisplay?.correctResponders?.map((entry) => entry.name || 'Player') ?? [];
+  const summaryCorrectResponders = summaryToDisplay?.correctResponders ?? [];
   const summarySolvedLine = summaryToDisplay
     ? (summaryNames.length ? `Solved by ${formatCompactNameList(summaryNames)}` : 'No correct answers this round.')
     : '';
@@ -844,6 +845,39 @@ export default function App() {
                   <span>{heroSupportingText}</span>
                   {heroMetaRight && <span>{heroMetaRight}</span>}
                 </div>
+                {summaryToDisplay && summaryCorrectResponders.length > 0 && (
+                  <div className="summary-correct-card">
+                    <div className="summary-correct-header">
+                      <span>Correct answers</span>
+                      <span>{summaryCorrectResponders.length}</span>
+                    </div>
+                    <ul className="summary-correct-list">
+                      {summaryCorrectResponders.map((entry) => {
+                        const key = entry.playerId || `${entry.name}-${entry.submittedAt}`;
+                        const rawAnswer = entry.answerText?.trim() || '';
+                        const canonicalAnswer = entry.matchedAnswerDisplay?.trim() || '';
+                        const normalizedRaw = rawAnswer.toLowerCase();
+                        const normalizedCanonical = canonicalAnswer.toLowerCase();
+                        const showAlias = canonicalAnswer && normalizedRaw !== normalizedCanonical;
+                        const elapsedLabel = formatElapsedSeconds(entry.elapsedMs);
+                        return (
+                          <li key={key} className="summary-correct-item">
+                            <div className="summary-correct-row">
+                              <span className="summary-correct-name">{entry.name || 'Player'}</span>
+                              {elapsedLabel && <span className="summary-correct-time">{elapsedLabel}</span>}
+                            </div>
+                            <div className="summary-correct-answer">
+                              {rawAnswer ? `"${rawAnswer}"` : '—'}
+                              {showAlias && (
+                                <span className="summary-correct-alias">{' -> '}{canonicalAnswer}</span>
+                              )}
+                            </div>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                )}
               </div>
             )}
           </section>
