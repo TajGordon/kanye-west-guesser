@@ -23,9 +23,17 @@ export function connectPlayer(socket, { name, lobbyId, playerId }) {
 
 export function disconnectSocket(socket) {
     const player = playersBySocketId.get(socket.id);
-    if (!player) return;
-    player.socketIds.delete(socket.id);
+    if (!player) return null;
+
     playersBySocketId.delete(socket.id);
+    player.socketIds.delete(socket.id);
+
+    const fullyDisconnected = player.socketIds.size === 0;
+    if (fullyDisconnected) {
+        playersById.delete(player.playerId);
+    }
+
+    return { player, fullyDisconnected };
 }
 
 export function getPlayerBySocket(socket) {
