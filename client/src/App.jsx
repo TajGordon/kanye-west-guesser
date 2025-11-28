@@ -182,13 +182,11 @@ export default function App() {
       } else if (nextPhase === 'summary') {
         setRoundStatus('Round complete');
         setRoundActive(false);
-        setHasAnsweredCorrectly(false);
       } else if (nextPhase === 'win') {
         setRoundStatus('Game complete - awaiting reset');
         setRoundActive(false);
         setRoundResults(null);
         setCountdownText('--');
-        setHasAnsweredCorrectly(false);
       }
     });
 
@@ -230,7 +228,6 @@ export default function App() {
       setRoundResults(payload);
       setLastRoundSummary(payload);
       setPhase('summary');
-      setHasAnsweredCorrectly(false);
       setSummaryCountdownText('--');
       setSummaryEndsAt(payload.revealEndsAt || null);
 
@@ -260,7 +257,6 @@ export default function App() {
       setRoundTiming({ startedAt: null, durationMs: null });
       setProgressKey((key) => key + 1);
       setRoundResults(null);
-      setHasAnsweredCorrectly(false);
       setSummaryEndsAt(null);
       setSummaryCountdownText('--');
     });
@@ -401,7 +397,7 @@ export default function App() {
     heroSupportingText = summarySolvedLine;
     heroMetaRight = isSummaryPhase && summaryEndsAt ? `Next round in ${summaryCountdownText}` : '';
   } else if (!isWinPhase) {
-    heroHeadline = 'Waiting for host to start the first question...';
+    heroHeadline = 'Waiting for host to start the game';
     heroSupportingText = waitingMessage;
     heroMetaRight = '';
   }
@@ -807,12 +803,19 @@ export default function App() {
                 const isHostPlayer = p.playerId === hostPlayerId;
                 const isSelf = p.playerId === playerId;
                 const guessMeta = getPlayerGuessMeta(p);
+                const chipClasses = ['player-chip'];
+                if (p.roundGuessStatus === 'correct') {
+                  chipClasses.push('player-chip-correct');
+                }
+                const nameClasses = ['player-name'];
+                if (isHostPlayer) {
+                  nameClasses.push('host-name');
+                }
                 return (
-                  <li key={p.playerId} className={`player-chip ${isHostPlayer ? 'host-chip' : ''}`}>
+                  <li key={p.playerId} className={chipClasses.join(' ')}>
                     <div className="player-main-row">
-                      <span className={`player-name ${isHostPlayer ? 'host-name' : ''}`}>
+                      <span className={nameClasses.join(' ')}>
                         {p.name || 'Player'}
-                        {isHostPlayer ? ' • Host' : ''}
                         {isSelf ? ' • You' : ''}
                       </span>
                       <strong className="player-score-value">{p.score ?? 0}</strong>

@@ -414,6 +414,23 @@ select {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.player-chip-correct {
+  border-color: rgba(255, 255, 255, 0.85);
+  background: linear-gradient(135deg, rgba(77, 216, 138, 0.25), rgba(255, 255, 255, 0.02));
+  box-shadow: 0 12px 30px rgba(77, 216, 138, 0.25);
+  animation: correctPulse 0.8s ease-out;
+}
+
+@keyframes correctPulse {
+  from {
+    box-shadow: 0 0 0 rgba(77, 216, 138, 0.4);
+  }
+  to {
+    box-shadow: 0 12px 30px rgba(77, 216, 138, 0.25);
+  }
 }
 
 .player-main-row {
@@ -427,12 +444,9 @@ select {
   color: var(--text);
 }
 
-.host-chip {
-  border-color: rgba(241, 196, 83, 0.4);
-}
-
 .host-name {
   color: var(--accent);
+  font-weight: 600;
 }
 
 .player-score-value {
