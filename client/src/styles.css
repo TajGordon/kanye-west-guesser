@@ -11,6 +11,11 @@
   --muted: #99a0b5;
   --danger: #ff7f8e;
   --player-rail-width: 280px;
+  --section-gap: 24px;
+  --page-padding-y: 32px;
+  --page-gutter: 32px;
+  --answer-bar-reserve: 160px;
+  --player-rail-offset: calc(var(--page-padding-y) + var(--section-gap));
   font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
 }
 
@@ -71,10 +76,10 @@ select {
   min-height: 100%;
   --utility-column: 0px;
   width: 100%;
-  padding: 32px 0 120px;
+  padding: var(--page-padding-y) 0 var(--answer-bar-reserve);
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: var(--section-gap);
 }
 
 .app-frame.utility-open {
@@ -177,9 +182,13 @@ select {
 
 .content-shell {
   width: 100%;
-  padding: 0 32px;
+  padding: 0 var(--page-gutter);
   display: grid;
-  grid-template-columns: var(--utility-column) minmax(0, 1fr) var(--player-rail-width);
+  grid-template-columns: minmax(0, 1fr) var(--player-rail-width);
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    'utility player'
+    'center player';
   gap: 24px;
   min-height: calc(100vh - 260px);
   flex: 1 1 auto;
@@ -199,13 +208,14 @@ select {
 }
 
 .utility-stack {
-  width: var(--utility-column);
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 18px;
   align-self: stretch;
-  justify-self: start;
+  justify-self: stretch;
   grid-column: 1;
+  grid-area: utility;
 }
 
 .utility-stack.dual {
@@ -285,9 +295,10 @@ select {
   align-items: center;
   padding: 0 32px;
   width: 100%;
-  grid-column: 2;
-  margin-left: calc((var(--player-rail-width) - var(--utility-column)) / 2);
-  margin-right: calc((var(--utility-column) - var(--player-rail-width)) / 2);
+  max-width: 880px;
+  grid-column: 1;
+  grid-area: center;
+  margin: 0 auto;
 }
 
 .question-hero {
@@ -423,17 +434,27 @@ select {
   color: var(--muted);
 }
 
-.player-list-scroll {
-  max-height: 480px;
-  overflow: auto;
-  padding-right: 8px;
-}
-
 .player-rail {
   transform: none;
   width: var(--player-rail-width);
   justify-self: end;
-  grid-column: 3;
+  grid-column: 2;
+  grid-area: player;
+  position: sticky;
+  top: var(--player-rail-offset);
+  align-self: start;
+  min-height: calc(100vh - var(--player-rail-offset) - var(--answer-bar-reserve));
+  max-height: calc(100vh - var(--player-rail-offset) - var(--answer-bar-reserve));
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-bottom: 48px;
+}
+
+.player-list-scroll {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding-right: 8px;
 }
 
 .players-list {
@@ -512,11 +533,11 @@ select {
 
 .answer-bar {
   position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 32px;
-  width: 100%;
-  padding: 0 32px;
+  left: var(--page-gutter);
+  right: calc(var(--page-gutter) + var(--player-rail-width) + var(--section-gap));
+  bottom: 40px;
+  width: auto;
+  padding: 0;
   display: flex;
   justify-content: center;
   pointer-events: none;
@@ -680,6 +701,9 @@ select {
   .content-shell {
     padding: 0 20px;
     grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      'center'
+      'player';
   }
 
   .utility-stack {
@@ -702,11 +726,25 @@ select {
   .player-rail {
     width: 100%;
     justify-self: stretch;
+    grid-column: 1;
+    grid-area: player;
+    position: static;
+    top: auto;
+    min-height: auto;
+    max-height: 360px;
   }
 
   .center-stage {
     margin-left: 0;
     margin-right: 0;
+    grid-area: center;
+    min-height: auto;
+  }
+
+  .answer-bar {
+    left: 0;
+    right: 0;
+    padding: 0 20px;
   }
 }
 
