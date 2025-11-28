@@ -47,7 +47,8 @@ export function createLobbyIfMissing(lobbyId) {
             lastHostPlayerId: null,
             hostReleaseAt: null,
             scoreByPlayerId: new Map(),
-            settings: { ...DEFAULT_LOBBY_SETTINGS }
+            settings: { ...DEFAULT_LOBBY_SETTINGS },
+            isAutoPlayActive: false
         });
     }
 
@@ -59,6 +60,9 @@ export function createLobbyIfMissing(lobbyId) {
     lobby?.players?.forEach(ensurePlayerGuessState);
     if (lobby && !lobby.settings) {
         lobby.settings = { ...DEFAULT_LOBBY_SETTINGS };
+    }
+    if (lobby && typeof lobby.isAutoPlayActive !== 'boolean') {
+        lobby.isAutoPlayActive = false;
     }
     return lobby;
 }
@@ -246,5 +250,6 @@ export function resetLobbyGameState(lobbyId) {
     lobby.lastRoundSummary = null;
     lobby.lastActiveAt = Date.now();
     lobby.pendingDestroyAt = null;
+    lobby.isAutoPlayActive = false;
     return lobby;
 }

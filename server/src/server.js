@@ -30,11 +30,13 @@ const io = new SocketIOServer(server, {
 
 const PORT = 3000;
 const roundTimers = new Map();
+const summaryTimers = new Map();
 const LOBBY_DESTROY_GRACE_MS = 60_000;
 const LOBBY_CLEANUP_INTERVAL_MS = 30_000;
 const MAX_GUESS_PREVIEW_LENGTH = 40;
 const MAX_CORRECT_POINTS = 10;
 const MIN_CORRECT_POINTS = 1;
+const SUMMARY_DURATION_MS = 4_000;
 
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -75,9 +77,17 @@ function announceLobbyWin(lobbyId, winPayload) {
     io.to(lobbyId).emit('lobbyWin', winPayload);
 }
 
+function ensureLobbyRuntimeDefaults(lobby) {
+    if (!lobby) return;
+    if (typeof lobby.isAutoPlayActive !== 'boolean') {
+        lobby.isAutoPlayActive = false;
+    }
+}
+
 function broadcastLobbyRoster(lobbyId) {
     const lobby = getLobby(lobbyId);
     if (!lobby) return;
+    ensureLobbyRuntimeDefaults(lobby);
     markLobbyActive(lobbyId);
 
     const payload = {
@@ -99,6 +109,7 @@ function broadcastLobbyRoster(lobbyId) {
 function emitLobbyPhase(lobbyId) {
     const lobby = getLobby(lobbyId);
     if (!lobby) return;
+    ensureLobbyRuntimeDefaults(lobby);
     markLobbyActive(lobbyId);
     const payload = {
         lobbyId,
@@ -139,6 +150,41 @@ function clearRoundTimer(lobbyId) {
     }
 }
 
+function clearSummaryTimer(lobbyId) {
+    const timer = summaryTimers.get(lobbyId);
+    if (timer) {
+        clearTimeout(timer);
+        summaryTimers.delete(lobbyId);
+    }
+}
+
+function getRevealDurationMs(lobbyId) {
+    const lobby = getLobby(lobbyId);
+    if (lobby?.settings?.revealDurationMs && Number.isFinite(lobby.settings.revealDurationMs)) {
+        return lobby.settings.revealDurationMs;
+    }
+    return SUMMARY_DURATION_MS;
+}
+
+function scheduleSummaryAdvance(lobbyId) {
+    const lobby = getLobby(lobbyId);
+    ensureLobbyRuntimeDefaults(lobby);
+    if (!lobby?.isAutoPlayActive) return;
+    if (lobby.phase !== getLobbyPhases().SUMMARY) return;
+
+    const duration = getRevealDurationMs(lobbyId);
+    clearSummaryTimer(lobbyId);
+    const timer = setTimeout(() => {
+        summaryTimers.delete(lobbyId);
+        const latestLobby = getLobby(lobbyId);
+        ensureLobbyRuntimeDefaults(latestLobby);
+        if (!latestLobby?.isAutoPlayActive) return;
+        if (latestLobby.phase !== getLobbyPhases().SUMMARY) return;
+        beginRoundForLobby(lobbyId, 'auto');
+    }, duration);
+    summaryTimers.set(lobbyId, timer);
+}
+
 function finalizeRoundAndBroadcast(lobbyId, reason = 'manual') {
     clearRoundTimer(lobbyId);
     const result = finalizeRound(lobbyId, reason);
@@ -146,10 +192,23 @@ function finalizeRoundAndBroadcast(lobbyId, reason = 'manual') {
 
     const { summary } = result;
     const payload = buildRoundEndPayload(summary, reason);
-    setLobbyPhase(lobbyId, getLobbyPhases().SUMMARY, { summary: payload });
+    const lobby = getLobby(lobbyId);
+    ensureLobbyRuntimeDefaults(lobby);
+    const revealDurationMs = getRevealDurationMs(lobbyId);
+    const revealEndsAt = Date.now() + revealDurationMs;
+    const autoAdvanceEnabled = Boolean(lobby?.isAutoPlayActive);
+    payload.revealDurationMs = revealDurationMs;
+    if (autoAdvanceEnabled) {
+        payload.revealEndsAt = revealEndsAt;
+    } else {
+        payload.revealEndsAt = null;
+    }
+    const phaseData = autoAdvanceEnabled ? { summary: payload, revealEndsAt } : { summary: payload };
+    setLobbyPhase(lobbyId, getLobbyPhases().SUMMARY, phaseData);
     io.to(lobbyId).emit('roundEnded', payload);
     broadcastLobbyRoster(lobbyId);
     emitLobbyPhase(lobbyId);
+    scheduleSummaryAdvance(lobbyId);
     return payload;
 }
 
@@ -194,6 +253,8 @@ function handleLobbyWin(lobby, winnerPlayer) {
     const targetScore = (lobby.settings?.pointsToWin) || getLobbySettings(lobby.id).pointsToWin;
     clearRoundTimer(lobby.id);
     clearRoundState(lobby.id);
+    clearSummaryTimer(lobby.id);
+    lobby.isAutoPlayActive = false;
 
     const winPayload = buildWinPayload(lobby, winnerPlayer, targetScore);
     setLobbyPhase(lobby.id, getLobbyPhases().WIN, { win: winPayload });
@@ -214,6 +275,33 @@ function maybeHandleWin(lobbyId, lobbyPlayer) {
         return false;
     }
     return handleLobbyWin(lobby, lobbyPlayer);
+}
+
+function beginRoundForLobby(lobbyId, reason = 'manual') {
+    const lobby = getLobby(lobbyId);
+    ensureLobbyRuntimeDefaults(lobby);
+    if (!lobby) return null;
+    if (lobby.phase === getLobbyPhases().WIN) return null;
+
+    const activeRound = getActiveRound(lobbyId);
+    if (activeRound) {
+        return activeRound;
+    }
+
+    const settings = lobby?.settings || getLobbySettings(lobbyId);
+    const roundDurationMs = settings?.roundDurationMs;
+    const round = startNewRound(lobbyId, roundDurationMs);
+    resetLobbyRoundGuesses(lobbyId);
+    const payload = buildRoundPayload(round);
+    if (payload) {
+        setLobbyPhase(lobbyId, getLobbyPhases().ROUND, { round: payload, reason });
+        io.to(lobbyId).emit('roundStarted', payload);
+    }
+    broadcastLobbyRoster(lobbyId);
+    scheduleRoundTimer(lobbyId, round);
+    clearSummaryTimer(lobbyId);
+    emitLobbyPhase(lobbyId);
+    return round;
 }
 
 io.on('connection', (socket) => {
@@ -341,29 +429,52 @@ io.on('connection', (socket) => {
             return;
         }
 
+        const lobby = getLobby(lobbyId);
+        ensureLobbyRuntimeDefaults(lobby);
+        if (lobby?.isAutoPlayActive) {
+            socket.emit('roundStartDenied', { reason: 'auto-active' });
+            return;
+        }
+
         const activeRound = getActiveRound(lobbyId);
         if (activeRound) {
             socket.emit('roundStartDenied', { reason: 'round-active' });
             return;
         }
 
-        const lobby = getLobby(lobbyId);
         if (lobby?.phase === getLobbyPhases().WIN) {
             socket.emit('roundStartDenied', { reason: 'game-complete' });
             return;
         }
-        const settings = lobby?.settings || getLobbySettings(lobbyId);
-        const roundDurationMs = settings?.roundDurationMs;
-        const round = startNewRound(lobbyId, roundDurationMs);
-        resetLobbyRoundGuesses(lobbyId);
-        const payload = buildRoundPayload(round);
-        if (payload) {
-            setLobbyPhase(lobbyId, getLobbyPhases().ROUND, { round: payload });
-            io.to(lobbyId).emit('roundStarted', payload);
+
+        beginRoundForLobby(lobbyId, 'manual');
+    });
+
+    socket.on('startGameRequest', () => {
+        const player = getPlayerBySocket(socket);
+        if (!player) return;
+
+        const lobbyId = player.lobbyId;
+        if (!lobbyId) {
+            socket.emit('roundStartDenied', { reason: 'no-lobby' });
+            return;
         }
-        broadcastLobbyRoster(lobbyId);
-        scheduleRoundTimer(lobbyId, round);
-        emitLobbyPhase(lobbyId);
+
+        if (!isLobbyHost(lobbyId, player.playerId)) {
+            socket.emit('roundStartDenied', { reason: 'not-host' });
+            return;
+        }
+
+        const lobby = getLobby(lobbyId);
+        ensureLobbyRuntimeDefaults(lobby);
+        if (!lobby) return;
+        if (lobby.phase !== getLobbyPhases().SEATING) {
+            socket.emit('roundStartDenied', { reason: 'not-seating' });
+            return;
+        }
+
+        lobby.isAutoPlayActive = true;
+        beginRoundForLobby(lobbyId, 'auto');
     });
 
     socket.on('updateLobbySettings', (payload = {}) => {
@@ -386,6 +497,7 @@ io.on('connection', (socket) => {
         if (!isLobbyHost(lobbyId, player.playerId)) return;
 
         clearRoundTimer(lobbyId);
+        clearSummaryTimer(lobbyId);
         clearRoundState(lobbyId);
         const lobby = resetLobbyGameState(lobbyId);
         if (!lobby) return;
@@ -415,6 +527,7 @@ function cleanupStaleLobbies() {
         if (now - lobby.pendingDestroyAt < LOBBY_DESTROY_GRACE_MS) return;
         console.log(`Destroying inactive lobby ${lobby.id}`);
         clearRoundTimer(lobby.id);
+        clearSummaryTimer(lobby.id);
         clearRoundState(lobby.id);
         destroyLobby(lobby.id);
     });

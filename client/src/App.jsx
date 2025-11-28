@@ -50,6 +50,8 @@ export default function App() {
   const [roundResults, setRoundResults] = useState(null);
   const [countdownText, setCountdownText] = useState('--');
   const [roundEndsAt, setRoundEndsAt] = useState(null);
+  const [summaryEndsAt, setSummaryEndsAt] = useState(null);
+  const [summaryCountdownText, setSummaryCountdownText] = useState('--');
   const [phase, setPhase] = useState('seating');
   const [lastRoundSummary, setLastRoundSummary] = useState(null);
   const [roundTiming, setRoundTiming] = useState({ startedAt: null, durationMs: null });
@@ -90,6 +92,8 @@ export default function App() {
       pushLog('Disconnected');
       setRoundActive(false);
       setCountdownText('--');
+      setSummaryEndsAt(null);
+      setSummaryCountdownText('--');
     });
 
     socket.on('answerResult', (payload) => {
@@ -117,6 +121,12 @@ export default function App() {
       }
       const joinedWinDetails = joinedPhase === 'win' ? payload.phaseData?.win || null : null;
       setWinDetails(joinedWinDetails);
+      if (joinedPhase === 'summary') {
+        setSummaryEndsAt(payload.phaseData?.revealEndsAt || null);
+      } else {
+        setSummaryEndsAt(null);
+        setSummaryCountdownText('--');
+      }
       if (joinedPhase === 'round') {
         setRoundStatus('Round in progress');
         setRoundActive(true);
@@ -132,6 +142,9 @@ export default function App() {
       } else {
         setRoundStatus('Waiting for host');
         setRoundActive(false);
+        setHasRoundRun(false);
+        setRoundEndsAt(null);
+        setCountdownText('--');
       }
     });
     socket.on('lobbyRosterUpdate', (payload) => {
@@ -153,10 +166,19 @@ export default function App() {
       setLastRoundSummary(payload.lastRoundSummary || null);
       const nextWinDetails = nextPhase === 'win' ? payload.phaseData?.win || null : null;
       setWinDetails(nextWinDetails);
+      if (nextPhase === 'summary') {
+        setSummaryEndsAt(payload.phaseData?.revealEndsAt || null);
+      } else {
+        setSummaryEndsAt(null);
+        setSummaryCountdownText('--');
+      }
       if (nextPhase === 'seating') {
         setRoundStatus('Waiting for host');
         setRoundActive(false);
         setHasAnsweredCorrectly(false);
+        setHasRoundRun(false);
+        setRoundEndsAt(null);
+        setCountdownText('--');
       } else if (nextPhase === 'summary') {
         setRoundStatus('Round complete');
         setRoundActive(false);
@@ -186,6 +208,8 @@ export default function App() {
       setRoundResults(null);
       setAnswer('');
       setHasAnsweredCorrectly(false);
+      setSummaryEndsAt(null);
+      setSummaryCountdownText('--');
       const endsAt = payload.endsAt ?? (payload.startedAt + (payload.durationMs || 0));
       setRoundEndsAt(endsAt);
       setRoundTiming({ startedAt: payload.startedAt || Date.now(), durationMs: payload.durationMs || null });
@@ -207,6 +231,8 @@ export default function App() {
       setLastRoundSummary(payload);
       setPhase('summary');
       setHasAnsweredCorrectly(false);
+      setSummaryCountdownText('--');
+      setSummaryEndsAt(payload.revealEndsAt || null);
 
       const fastest = payload?.correctResponders?.[0];
       if (fastest) {
@@ -235,6 +261,8 @@ export default function App() {
       setProgressKey((key) => key + 1);
       setRoundResults(null);
       setHasAnsweredCorrectly(false);
+      setSummaryEndsAt(null);
+      setSummaryCountdownText('--');
     });
 
     if (socket.connected && routeLobbyId) {
@@ -248,7 +276,8 @@ export default function App() {
 
   useEffect(() => {
     if (!roundActive || !roundEndsAt) {
-      setCountdownText(hasRoundRun ? '0.0s' : '--');
+      const shouldShowZero = hasRoundRun && phase !== 'seating';
+      setCountdownText(shouldShowZero ? '0.0s' : '--');
       return;
     }
 
@@ -260,7 +289,23 @@ export default function App() {
     updateCountdown();
     const interval = setInterval(updateCountdown, 100);
     return () => clearInterval(interval);
-  }, [roundActive, roundEndsAt, hasRoundRun]);
+  }, [roundActive, roundEndsAt, hasRoundRun, phase]);
+
+  useEffect(() => {
+    if (!summaryEndsAt) {
+      setSummaryCountdownText('--');
+      return undefined;
+    }
+
+    const updateSummaryCountdown = () => {
+      const remaining = Math.max(summaryEndsAt - Date.now(), 0);
+      setSummaryCountdownText(`${(remaining / 1000).toFixed(1)}s`);
+    };
+
+    updateSummaryCountdown();
+    const interval = setInterval(updateSummaryCountdown, 100);
+    return () => clearInterval(interval);
+  }, [summaryEndsAt]);
 
   function pushLog(message, data) {
     setLogLines((prev) => {
@@ -303,9 +348,9 @@ export default function App() {
     setAnswer('');
   }
 
-  function handleStartRound() {
-    if (phase === 'win') return;
-    emit('startRoundRequest');
+  function handleStartGame() {
+    if (!isHost || phase !== 'seating') return;
+    emit('startGameRequest');
   }
 
   function handleApplyDisplayName() {
@@ -324,8 +369,9 @@ export default function App() {
   const isRoundPhase = phase === 'round';
   const isSummaryPhase = phase === 'summary';
   const isWinPhase = phase === 'win';
-  const canStartRound = isHost && !isRoundPhase && !isWinPhase;
-  const startButtonLabel = hasRoundRun ? 'Next Question' : 'Start Round';
+  const showHeroHostButton = isHost && (phase === 'seating' || isWinPhase);
+  const heroHostButtonLabel = phase === 'seating' ? 'Start Game' : 'Return to Lobby';
+  const heroHostButtonAction = phase === 'seating' ? handleStartGame : handleResetGame;
   const canAcceptAnswer = isRoundPhase && !hasAnsweredCorrectly && !isWinPhase;
   const summaryToDisplay = !isRoundPhase && !isWinPhase ? (roundResults || lastRoundSummary) : null;
   const roomUrl = useMemo(() => {
@@ -334,8 +380,8 @@ export default function App() {
   const waitingMessage = isWinPhase
     ? 'Game complete! Waiting for host to start a new game...'
     : isSummaryPhase
-      ? 'Waiting for host to start the next question...'
-      : 'Host will start the first round soon.';
+      ? 'Revealing the answer... next round loads automatically.'
+      : 'Host will start the game soon.';
   const answeredMessage = 'You got the answer correct! Waiting for everyone else...';
   const summaryNames = summaryToDisplay?.correctResponders?.map((entry) => entry.name || 'Player') ?? [];
   const summarySolvedLine = summaryToDisplay
@@ -353,7 +399,7 @@ export default function App() {
       ? `Correct answer: ${summaryToDisplay.correctAnswer}`
       : 'Round complete';
     heroSupportingText = summarySolvedLine;
-    heroMetaRight = '';
+    heroMetaRight = isSummaryPhase && summaryEndsAt ? `Next round in ${summaryCountdownText}` : '';
   } else if (!isWinPhase) {
     heroHeadline = 'Waiting for host to start the first question...';
     heroSupportingText = waitingMessage;
@@ -706,14 +752,13 @@ export default function App() {
           <section className={`question-hero ${isWinPhase ? 'win' : ''}`}>
             <div className="hero-ribbon">
               <span>{isWinPhase ? 'Winner' : roundStatus}</span>
-              {isHost && !isWinPhase && (
+              {showHeroHostButton && (
                 <button
                   className="host-button"
                   type="button"
-                  onClick={handleStartRound}
-                  disabled={!canStartRound}
+                  onClick={heroHostButtonAction}
                 >
-                  {startButtonLabel}
+                  {heroHostButtonLabel}
                 </button>
               )}
             </div>
