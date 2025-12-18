@@ -66,6 +66,24 @@
             },
             "content": "'Cause I just heard some real bad news",
             "voice": "kanye west"
+        },
+        {
+            "line_number": 7,
+            "section": {
+                "type": "verse",
+                "number": 2
+            },
+            "content": "People'll talk like it's old news",
+            "voice": "kanye west"
+        },
+        {
+            "line_number": 8,
+            "section": {
+                "type": "verse",
+                "number": 2
+            },
+            "content": "I played it off and act like I already knew",
+            "voice": "kanye west"
         }
     ]
 }
