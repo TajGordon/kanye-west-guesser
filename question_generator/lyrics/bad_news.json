@@ -1,0 +1,71 @@
+{
+    "song_name": "bad news",
+    "author": "kanye west",
+    "song_aliases": [],
+    "song_id": 0,
+    "release": {
+        "formats": ["album"],
+        "status": "official",
+        "project": "808s & Heartbreak",
+        "year": 2008
+    },
+    "features": [],
+    "youtube_link": "https://www.youtube.com/watch?v=1BlH1JZBeXI",
+    "line_count": 24,
+    "lines": [
+        {
+            "line_number": 1,
+            "section": {
+                "type": "verse",
+                "number": 1
+            },
+            "content": "Didn't you know I was waiting on you?",
+            "voice": "kanye west"
+        },
+        {
+            "line_number": 2,
+            "section": {
+                "type": "verse",
+                "number": 1
+            },
+            "content": "Waiting on a dream that'll never come true",
+            "voice": "kanye west"
+        },
+        {
+            "line_number": 3,
+            "section": {
+                "type": "verse",
+                "number": 1
+            },
+            "content": "Didn't you know I was waiting on you?",
+            "voice": "kanye west"
+        },
+        {
+            "line_number": 4,
+            "section": {
+                "type": "verse",
+                "number": 1
+            },
+            "content": "My face turned to stone when I heard the news",
+            "voice": "kanye west"
+        },
+        {
+            "line_number": 5,
+            "section": {
+                "type": "verse",
+                "number": 1
+            },
+            "content": "When you decide to break the rules?",
+            "voice": "kanye west"
+        },
+        {
+            "line_number": 6,
+            "section": {
+                "type": "verse",
+                "number": 1
+            },
+            "content": "'Cause I just heard some real bad news",
+            "voice": "kanye west"
+        }
+    ]
+}
