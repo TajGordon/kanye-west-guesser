@@ -5,26 +5,50 @@
 
 // Helper functions (copied from server.js)
 const normalizeType = (typeStr) => {
-  return typeStr
+  const normalized = typeStr
     .trim()
     .toLowerCase()
     .replace(/\s+/g, '-')
     .replace(/prechorus/, 'pre-chorus');
+
+  // Synonyms used in real-world lyric sources (e.g. Genius)
+  if (normalized === 'refrain') return 'chorus';
+  if (normalized === 'hook') return 'chorus';
+  if (normalized === 'post-chorus') return 'chorus';
+
+  return normalized;
 };
 
 const parseArtists = (artistString) => {
   if (!artistString) return [];
-  
-  const artists = artistString
-    .split(/[,&]+/)
-    .map(a => a.trim())
+
+  const protectedNames = [
+    'Tyler, The Creator'
+  ];
+
+  let working = String(artistString).trim();
+
+  for (const name of protectedNames) {
+    const token = name.replace(/,/g, '__COMMA__');
+    working = working.split(name).join(token);
+  }
+
+  working = working
+    .replace(/\s*&\s*/g, ',')
+    .replace(/\s+and\s+/gi, ',');
+
+  return working
+    .split(/\s*,\s*/)
+    .map(a => a.replace(/__COMMA__/g, ',').trim())
     .filter(a => a.length > 0);
-  
-  return artists;
 };
 
 const generateSectionLabel = (section) => {
-  const typeLabel = section.type.charAt(0).toUpperCase() + section.type.slice(1);
+  const typeLabel = String(section.type || '')
+    .split('-')
+    .filter(Boolean)
+    .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+    .join('-');
   const artistPart = section.artists && section.artists.length > 0
     ? ` (${section.artists.join(', ')})`
     : '';
@@ -178,6 +202,7 @@ const testCases = [
     input: '[Chorus: Kid Cudi]',
     expectedType: 'chorus',
     expectedNumber: 3,
+    expectedArtists: ['Kid Cudi'],
     expectedAutoNumbered: true,
     expectedLabel: 'Chorus 3 (Kid Cudi)',
     previousSections: [
@@ -185,6 +210,16 @@ const testCases = [
       { type: 'chorus', number: 1, artists: ['Kanye West'] },
       { type: 'chorus', number: 2, artists: ['Kid Cudi'] }
     ]
+  },
+  {
+    name: 'Synonym: Refrain should parse as chorus',
+    input: '[Refrain: Kanye West]',
+    expectedType: 'chorus',
+    expectedNumber: 1,
+    expectedArtists: ['Kanye West'],
+    expectedAutoNumbered: true,
+    expectedLabel: 'Chorus (Kanye West)',
+    previousSections: []
   },
   {
     name: 'Invalid: Non-verse type should not match',

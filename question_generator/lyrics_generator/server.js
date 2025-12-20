@@ -9,23 +9,56 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const LYRICS_DIR = path.join(__dirname, '../lyrics');
 const PROJECTS_FILE = path.join(__dirname, '../projects.json');
 
+const CURRENT_SCHEMA_VERSION = 2;
+
 const app = express();
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
 
 const normalizeSongArtists = (data) => {
   if (!data || typeof data !== 'object') return data;
-  let artists = Array.isArray(data.artists) ? data.artists : null;
 
-  if (!artists || artists.length === 0) {
-    if (typeof data.artist === 'string' && data.artist.trim()) {
-      artists = [data.artist.trim()];
-    } else {
-      artists = [];
+  // Only apply to lyrics-editor style songs
+  const looksLikeLyricsEditorSong =
+    typeof data.title === 'string' ||
+    Array.isArray(data.lyrics) ||
+    typeof data.artist === 'string' ||
+    Array.isArray(data.artists);
+  if (!looksLikeLyricsEditorSong) return data;
+
+  // Versioned migration: schemaVersion 2 introduces
+  // - artists: publisher/primary artist(s)
+  // - features: performers beyond the primary
+  const current = Number.isInteger(data.schemaVersion) ? data.schemaVersion : 0;
+
+  // Determine primary/publisher
+  const legacyArtistsList = Array.isArray(data.artists) ? data.artists : [];
+  const primary = (
+    (typeof data.artist === 'string' && data.artist.trim())
+      ? data.artist.trim()
+      : (legacyArtistsList[0] ? String(legacyArtistsList[0]).trim() : 'Kanye West')
+  );
+
+  // Migrate old meaning of artists (sometimes used as "all performers")
+  if (current < CURRENT_SCHEMA_VERSION) {
+    if (!Array.isArray(data.features)) {
+      const inferred = legacyArtistsList
+        .map(a => String(a).trim())
+        .filter(Boolean)
+        .filter(a => a.toLowerCase() !== primary.toLowerCase());
+      data.features = inferred;
     }
+    data.artists = [primary];
+    data.artist = primary;
+    data.schemaVersion = CURRENT_SCHEMA_VERSION;
   }
 
-  // De-dupe + normalize whitespace
+  // Normalize publisher artists
+  let artists = Array.isArray(data.artists) ? data.artists : null;
+  if (!artists || artists.length === 0) {
+    artists = [primary || 'Kanye West'];
+  }
+
   const seen = new Set();
   data.artists = artists
     .map(a => String(a).trim())
@@ -37,10 +70,51 @@ const normalizeSongArtists = (data) => {
       return true;
     });
 
-  // Keep legacy field for compatibility (primary artist)
-  if (!data.artist && data.artists.length > 0) {
-    data.artist = data.artists[0];
+  // Ensure artist string (legacy primary)
+  data.artist = String(data.artists[0] || 'Kanye West');
+
+  // Normalize features (performers)
+  const featureInput = Array.isArray(data.features)
+    ? data.features
+    : (typeof data.features === 'string' ? [data.features] : []);
+  const fSeen = new Set();
+  data.features = featureInput
+    .flatMap(v => String(v).split(','))
+    .map(v => v.trim())
+    .filter(v => v.length > 0)
+    .filter(v => v.toLowerCase() !== data.artist.toLowerCase())
+    .filter(v => {
+      const key = v.toLowerCase();
+      if (fSeen.has(key)) return false;
+      fSeen.add(key);
+      return true;
+    });
+
+  if (!Number.isInteger(data.schemaVersion)) {
+    data.schemaVersion = CURRENT_SCHEMA_VERSION;
   }
+
+  return data;
+};
+
+const normalizeSongProducers = (data) => {
+  if (!data || typeof data !== 'object') return data;
+
+  const input = Array.isArray(data.producers)
+    ? data.producers
+    : (typeof data.producers === 'string' ? [data.producers] : []);
+
+  const seen = new Set();
+  data.producers = input
+    .flatMap(p => String(p).split(','))
+    .map(p => p.trim())
+    .filter(p => p.length > 0)
+    .filter(p => {
+      const key = p.toLowerCase();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
 
   return data;
 };
@@ -49,13 +123,16 @@ const normalizeLineVoices = (song) => {
   if (!song || typeof song !== 'object') return song;
   if (!Array.isArray(song.lyrics)) return song;
 
-  const fallbackArtists = Array.isArray(song.artists) ? song.artists : (song.artist ? [song.artist] : []);
+  // Performers = publisher artists + features
+  const publisher = Array.isArray(song.artists) ? song.artists : (song.artist ? [song.artist] : ['Kanye West']);
+  const features = Array.isArray(song.features) ? song.features : [];
+  const fallbackPerformers = [...publisher, ...features];
 
   song.lyrics = song.lyrics.map((line) => {
     if (!line || typeof line !== 'object') return line;
 
     const fromSection = Array.isArray(line?.section?.artists) ? line.section.artists : [];
-    const preferred = fromSection.length > 0 ? fromSection : fallbackArtists;
+    const preferred = fromSection.length > 0 ? fromSection : fallbackPerformers;
 
     // Back-compat: if voices missing, derive from voice or fallback lists
     let voices = Array.isArray(line.voices) ? line.voices : null;
@@ -226,6 +303,7 @@ app.get('/api/songs/:name', (req, res) => {
     
     let data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
     data = normalizeSongArtists(data);
+    data = normalizeSongProducers(data);
     
     // CRITICAL: Normalize section format (fixes old data format where type="verse-1")
     if (data.lyrics) {
@@ -267,7 +345,8 @@ app.post('/api/songs/:name', (req, res) => {
     }
     
     const filePath = path.join(LYRICS_DIR, `${sanitized}.json`);
-    const data = normalizeSongArtists(req.body);
+    let data = normalizeSongArtists(req.body);
+    data = normalizeSongProducers(data);
     
     // Normalize and validate section format before saving
     if (data.lyrics) {
@@ -327,6 +406,20 @@ app.post('/api/parse', (req, res) => {
 
     const parsed = [];
     let currentSection = { type: 'verse', number: 1, originalText: '[Verse 1]' };
+
+    const parseProducedByLine = (rawLine) => {
+      const m = String(rawLine || '').match(/^\[(produced\s+by)\s+(.+)\]$/i);
+      if (!m) return [];
+      const body = m[2] || '';
+      return body
+        .replace(/\s*&\s*/g, ', ')
+        .replace(/\s+and\s+/gi, ', ')
+        .split(',')
+        .map(s => s.trim())
+        .filter(Boolean);
+    };
+
+    const producersSet = new Set();
     const artistNameToVoiceId = (name) => {
       const n = String(name || '').trim().toLowerCase();
       if (!n) return null;
@@ -375,6 +468,14 @@ app.post('/api/parse', (req, res) => {
       }
 
       // Try to detect section headers (pass collectedSections for auto-numbering)
+      // Capture producer credits like: [Produced by Mike Dean & Kanye West]
+      const producedBy = parseProducedByLine(line);
+      if (producedBy.length > 0) {
+        for (const p of producedBy) producersSet.add(p);
+        allLines.push({ type: 'credit', content: line });
+        continue;
+      }
+
       const section = parseSection(line, collectedSections);
       if (section) {
         currentSection = section;
@@ -413,7 +514,13 @@ app.post('/api/parse', (req, res) => {
       return res.status(400).json({ error: `Invalid lyrics format: ${validationErr.message}` });
     }
 
-    res.json({ lines: normalizedLines, allLines });
+    res.json({
+      lines: normalizedLines,
+      allLines,
+      meta: {
+        producers: Array.from(producersSet)
+      }
+    });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

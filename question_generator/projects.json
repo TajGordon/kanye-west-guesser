@@ -8,5 +8,51 @@
     "artists": [
       "Kanye West"
     ]
+  },
+  "Donda": {
+    "name": "Donda",
+    "year": 2025,
+    "formats": [
+      "single"
+    ],
+    "artists": [
+      "Kanye West",
+      "Vory"
+    ]
+  },
+  "Late Registration": {
+    "name": "Late Registration",
+    "year": 2025,
+    "formats": [
+      "album"
+    ],
+    "artists": [
+      "Kanye West",
+      "Paul Wall",
+      "GLC",
+      "Tony Williams"
+    ]
+  },
+  "My Beautiful Dark Twisted Fantasy": {
+    "name": "My Beautiful Dark Twisted Fantasy",
+    "year": 2025,
+    "formats": [
+      "single"
+    ],
+    "artists": [
+      "Kanye West",
+      "Kid Cudi",
+      "Raekwon"
+    ]
+  },
+  "Yeezus": {
+    "name": "Yeezus",
+    "year": 2025,
+    "formats": [
+      "single"
+    ],
+    "artists": [
+      "Kanye West"
+    ]
   }
 }

@@ -48,15 +48,38 @@ export default function App() {
         throw new Error('No data provided');
       })();
       
-      // Back-compat: normalize single-artist songs into artists[]
+      const CURRENT_SCHEMA_VERSION = 2;
+
+      // Back-compat + versioned migration:
+      // schemaVersion 2 means:
+      // - artists: publisher/primary artist(s)
+      // - features: performers beyond the primary
       const normalized = { ...data };
+
+      const legacyArtistsList = Array.isArray(normalized.artists) ? normalized.artists : [];
+      const primary = (typeof normalized.artist === 'string' && normalized.artist.trim())
+        ? normalized.artist.trim()
+        : (legacyArtistsList[0] ? String(legacyArtistsList[0]).trim() : 'Kanye West');
+
+      const current = Number.isInteger(normalized.schemaVersion) ? normalized.schemaVersion : 0;
+      if (current < CURRENT_SCHEMA_VERSION) {
+        if (!Array.isArray(normalized.features)) {
+          normalized.features = legacyArtistsList
+            .map(a => String(a).trim())
+            .filter(Boolean)
+            .filter(a => a.toLowerCase() !== primary.toLowerCase());
+        }
+        normalized.artists = [primary];
+        normalized.artist = primary;
+        normalized.schemaVersion = CURRENT_SCHEMA_VERSION;
+      }
+
       if (!Array.isArray(normalized.artists) || normalized.artists.length === 0) {
-        const primary = (typeof normalized.artist === 'string' && normalized.artist.trim()) ? normalized.artist.trim() : '';
-        normalized.artists = primary ? [primary] : [];
+        normalized.artists = [primary || 'Kanye West'];
       }
-      if (!normalized.artist && normalized.artists.length > 0) {
-        normalized.artist = normalized.artists[0];
-      }
+      normalized.artist = normalized.artists[0] || 'Kanye West';
+      if (!Array.isArray(normalized.features)) normalized.features = [];
+      if (!Number.isInteger(normalized.schemaVersion)) normalized.schemaVersion = CURRENT_SCHEMA_VERSION;
 
       // Back-compat: normalize per-line voices (multi-voice candidates)
       if (Array.isArray(normalized.lyrics)) {
@@ -64,7 +87,8 @@ export default function App() {
           if (!line || typeof line !== 'object') return line;
 
           const fromSection = Array.isArray(line?.section?.artists) ? line.section.artists : [];
-          const preferred = fromSection.length > 0 ? fromSection : normalized.artists;
+          const performers = [...(normalized.artists || []), ...(normalized.features || [])];
+          const preferred = fromSection.length > 0 ? fromSection : performers;
 
           let voices = Array.isArray(line.voices) ? line.voices : null;
           if (!voices || voices.length === 0) {
@@ -81,6 +105,24 @@ export default function App() {
           const primary = voices[0] || line.voice || { id: 'kanye-west', display: 'Kanye West' };
           return { ...line, voices, voice: primary };
         });
+      }
+
+      // Back-compat: normalize song-level producers
+      if (normalized.producers !== undefined) {
+        const input = Array.isArray(normalized.producers)
+          ? normalized.producers
+          : (typeof normalized.producers === 'string' ? [normalized.producers] : []);
+        const seen = new Set();
+        normalized.producers = input
+          .flatMap(p => String(p).split(','))
+          .map(p => p.trim())
+          .filter(p => p.length > 0)
+          .filter(p => {
+            const key = p.toLowerCase();
+            if (seen.has(key)) return false;
+            seen.add(key);
+            return true;
+          });
       }
 
       setSong(normalized);
@@ -119,8 +161,11 @@ export default function App() {
   const handleNewSong = useCallback(() => {
     setSong({
       title: 'New Song',
+      schemaVersion: 2,
       artists: ['Kanye West'],
       artist: 'Kanye West',
+      features: [],
+      producers: [],
       release: {
         formats: ['single'],
         status: 'official',

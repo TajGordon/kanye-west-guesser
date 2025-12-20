@@ -198,7 +198,8 @@ export default function LyricsEditor({ song, setSong }) {
       }
 
       setSong(prev => {
-        const existingArtists = Array.isArray(prev.artists) ? prev.artists : (prev.artist ? [prev.artist] : []);
+        const publisherArtists = Array.isArray(prev.artists) ? prev.artists : (prev.artist ? [prev.artist] : ['Kanye West']);
+        const existingFeatures = Array.isArray(prev.features) ? prev.features : [];
         const detectedArtists = new Set();
         for (const line of data.lines) {
           const artists = Array.isArray(line?.section?.artists) ? line.section.artists : [];
@@ -207,8 +208,16 @@ export default function LyricsEditor({ song, setSong }) {
             if (s) detectedArtists.add(s);
           }
         }
-        const merged = Array.from(new Map(
-          [...existingArtists, ...Array.from(detectedArtists)]
+        const mergedFeatures = Array.from(new Map(
+          [...existingFeatures, ...Array.from(detectedArtists)]
+            .map(a => String(a).trim())
+            .filter(a => a.length > 0)
+            .filter(a => !publisherArtists.some(p => String(p).toLowerCase() === String(a).toLowerCase()))
+            .map(a => [a.toLowerCase(), a])
+        ).values());
+
+        const performers = Array.from(new Map(
+          [...publisherArtists, ...mergedFeatures]
             .map(a => String(a).trim())
             .filter(a => a.length > 0)
             .map(a => [a.toLowerCase(), a])
@@ -222,7 +231,7 @@ export default function LyricsEditor({ song, setSong }) {
 
         const withVoices = (data.lines || []).map((line) => {
           const sectionArtists = Array.isArray(line?.section?.artists) ? line.section.artists : [];
-          const preferred = sectionArtists.length > 0 ? sectionArtists : merged;
+          const preferred = sectionArtists.length > 0 ? sectionArtists : performers;
           const voices = (preferred || [])
             .map((display) => ({ id: toVoiceId(display), display: String(display) }))
             .filter(v => v.id);
@@ -235,10 +244,22 @@ export default function LyricsEditor({ song, setSong }) {
           lyrics: withVoices
         };
 
-        // Keep artists[] in sync (multi-artist songs)
-        nextSong.artists = merged;
-        if (!nextSong.artist && merged.length > 0) {
-          nextSong.artist = merged[0];
+        // Keep publisher artists stable; merge detected header artists into features (performers)
+        nextSong.artists = publisherArtists;
+        nextSong.artist = String(publisherArtists[0] || prev.artist || 'Kanye West');
+        nextSong.features = mergedFeatures;
+        if (!Number.isInteger(nextSong.schemaVersion)) nextSong.schemaVersion = 2;
+
+        // Optional: producers[] extracted from credit lines like [Produced by ...]
+        if (data?.meta?.producers && Array.isArray(data.meta.producers)) {
+          const existing = Array.isArray(prev.producers) ? prev.producers : [];
+          const mergedProducers = Array.from(new Map(
+            [...existing, ...data.meta.producers]
+              .map(p => String(p).trim())
+              .filter(p => p.length > 0)
+              .map(p => [p.toLowerCase(), p])
+          ).values());
+          nextSong.producers = mergedProducers;
         }
         console.log(`[Parse] Applied v${version}: ${nextSong.lyrics.length} lines`);
         return nextSong;
@@ -792,7 +813,9 @@ export default function LyricsEditor({ song, setSong }) {
                             index={i}
                             line={line}
                             isSelected={selectedIndices.has(i)}
-                            songArtists={Array.isArray(song?.artists) ? song.artists : (song?.artist ? [song.artist] : [])}
+                            songArtists={Array.isArray(song?.artists)
+                              ? [...song.artists, ...(Array.isArray(song?.features) ? song.features : [])]
+                              : (song?.artist ? [song.artist, ...(Array.isArray(song?.features) ? song.features : [])] : (Array.isArray(song?.features) ? song.features : []))}
                             onChange={(updated) => {
                               setSong(prev => {
                                 const updatedLyrics = (prev.lyrics || []).map((l, idx) => 
