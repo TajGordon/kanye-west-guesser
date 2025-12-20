@@ -1,0 +1,1477 @@
+{
+  "title": "BURN",
+  "schemaVersion": 3,
+  "artists": [
+    "Y$",
+    "Kanye West",
+    "Ty Dolla $ign"
+  ],
+  "artist": "Y$",
+  "features": [
+    "Ty Dolla $ign"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Vultures",
+    "edition": "standard",
+    "year": 2024
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Her body like the wild, wild west",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "What if you don't bow down? Yeah",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Ridin' in the wind, God bless",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "She's an inferno, it's a hell of a time",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Burnin' like a candlelight",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Your love is dangerous",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Your love is, my love is",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Our love is",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Burnin' like a candlelight (Are you not entertained?)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Your love is dangerous",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Your love is, my love is (Are you not entertained?)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Our love is",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Who's not entertained by my pain?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Who ain't cash a check off my name?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "When my campaign turned to cam-pain",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "I burned eight billion to takе off my chains",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "Burn, baby, burn",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "Sometimes it hurts, I guess I nеver learned",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "To who it may concern, the CEO of the firm",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Is now somewhere smoking sherm with Big Worm",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Man, a couple wrong turns",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Could fry you forever, it's a permanent burn",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "You charging for cookie, that's bang for your buck",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "If you kissin' on the mouth, you ain't charging enough",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "You heard I was flyin' 'em out",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "They was tryin' for clout, I was dyin' of gout",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Man, the world gone mad",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Heard R. Kelly in the next Balenciaga ad",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Burnin' like a candlelight (Burn)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Your love is dangerous",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Your love is, my love is",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Our love is",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Burnin' like a candlelight",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Your love is dangerous",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Your love is, my love is",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "Our love is",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign, Kanye West, Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign, Kanye West, Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Her body like the wild, wild west",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "What if you don't bow down? Yeah",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "Ridin' in the wind, God bless",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "She's an inferno, it's a hell of a time",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    }
+  ]
+}

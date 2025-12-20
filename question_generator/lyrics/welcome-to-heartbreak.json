@@ -1,0 +1,1658 @@
+{
+  "title": "Welcome To Heartbreak",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Kid Cudi"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "808s & Heartbreak",
+    "edition": "standard",
+    "year": 2008
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "My friend showed me pictures of his kids",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "And all I could show him was pictures of my cribs",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "He said his daughter got a brand new report card, card",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "And all I got was a brand new sports car, oh",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "And my head keeps spinning",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Can't stop having these visions",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "I gotta get with it (Ooh-hoo, ooh-hoo, ooh-hoo)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "And my head keeps spinning",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "I can't stop having these visions",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "I gotta get with it (Ooh-hoo, ooh-hoo, ooh-hoo)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Dad cracked a joke, all the kids laughed",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "But I couldn't hear him all the way in first class",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Chased the good life my whole life long",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Look back on my life and my life gone",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Where did I go wrong?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "And my head keeps spinning",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "Can't stop having these visions",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "I gotta get with it (Ooh-hoo, ooh-hoo, ooh-hoo)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "And my head keeps spinning",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "I can't stop having these visions",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "I gotta get with it (Ooh-hoo, ooh-hoo, ooh-hoo)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "I've seen it, I've seen it before",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "I've seen it, I've seen it before",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "I've seen it, I've seen it before",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "I've seen it, I've seen it before",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "My god-sister getting married by the lake",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "But I couldn't figure out who I wanna take",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Bad enough that I showed up late",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "I had to leave 'fore they even cut the cake",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Welcome to heartbreak",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "And my head keeps spinning",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Can't stop having these visions",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "I gotta get with it (Ooh-hoo, ooh-hoo, ooh-hoo)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "And my head keeps spinning",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "I can't stop having these visions",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "I gotta get with it (Ooh-hoo, ooh-hoo, ooh-hoo)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kid Cudi & Kanye West]",
+        "artists": [
+          "Kid Cudi",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kid Cudi, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Ooh-hoo",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Ooh-hoo",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "Ooh-hoo",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "And I, and I can't stop",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "No, no, I can't stop",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "No, no, no, no, I can't stop",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "No, no, no, no, I can't stop",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Can't stop, I can't stop, I can't stop",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "No, no, no, no",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "No, no, no, no",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "No, no, no, no",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "No, no, I can't stop",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "No, can't stop having these visions",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "I gotta get with it",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "Ooh-hoo, ooh-hoo, ooh-hoo",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "Hoo-hoo, hoo-hoo-hoo",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "Ooh-hoo",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2404 @@
+{
+  "title": "Diamonds From Sierra Leone",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West",
+    "Paul Wall",
+    "GLC",
+    "Tony Williams"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Shirley Bassey"
+  ],
+  "producers": [
+    "Kanye West",
+    "Devo Springsteen",
+    "Jon Brion"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Late Registration",
+    "edition": "standard",
+    "year": 2005
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Diamonds are forever",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Shirley Bassey]",
+        "artists": [
+          "Shirley Bassey"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Shirley Bassey)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "They won't leave in the night",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Shirley Bassey]",
+        "artists": [
+          "Shirley Bassey"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Shirley Bassey)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "I've no fear that they might",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Shirley Bassey]",
+        "artists": [
+          "Shirley Bassey"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Shirley Bassey)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Desert me",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Shirley Bassey]",
+        "artists": [
+          "Shirley Bassey"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Shirley Bassey)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Diamonds are forever (forever, forever)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Throw your diamonds in the sky if you feel the vibe",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Diamonds are forever (forever, forever, forever)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "The Roc is still alive every time I rhyme",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Forever ever? Forever ever? Ever, ever? Ever, ever?",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Ever, ever? Ever, ever? Ever, ever?",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Close your eyes and imagine, feel the magic",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Vegas on acid, seen through Yves St. Laurent glasses",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "And I've realized that I've arrived",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "'Cause it take more than a magazine to kill my Vibe",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "\"Does he write his own rhymes?\" Well, sort of, I think 'em",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "That mean I forgot better shit than you ever thought of",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "\"Damn, is he really that caught up?\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "I ask, if you talkin' about classics, do my name get brought up?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "I remember I couldn't afford a Ford Escort",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Or even a four-track recorder",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "So it's only right that I let the top drop on a drop-top Porsche",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Spoil yourself, that's important",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "If your stripper name \"Porsche\" and you get tips from many men",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Then your fat friend, her nickname is \"Minivan\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Excuse me, that's just the Henny, man",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "I smoke, I drink, I'm supposed to stop, I can't, because—",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Diamonds are forever (forever, forever)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Throw your diamonds in the sky if you feel the vibe",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Diamonds are forever (forever, forever, forever)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "The Roc is still alive every time I rhyme",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Forever ever? Forever ever? Ever, ever? Ever, ever?",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Ever, ever? Ever, ever? Ever, ever?",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "I was sick about awards, couldn't nobody cure me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Only playa that got robbed but kept all his jewelry",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Alicia Keys tried to talk some sense in him",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "Thirty minutes later seein' there's no convincin' him",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "What more could you ask for? The international asshole",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Who complain about what he is owed?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "And throw a tantrum like he is three years old",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "You gotta love it though: somebody still speaks from his soul",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "And wouldn't change by the change or the game or the fame",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "When he came in the game, he made his own lane",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Now all I need is y'all to pronounce my name",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "It's Kanye, but some of my plaques, they still say \"Kayne\"",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Got family in the D, kinfolk from Motown",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Back in the Chi, them Folks ain't from Moe Town",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Life movin' too fast, I need to slow down",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Girl ain't give me no ass, you need to go down",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "My father been said I need Jesus",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "So he took me to church and let the water wash over my caesar",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "The preacher said we need leaders",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "Right then, my body got still like a paraplegic",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "You know who you call; you got a message, then leave it",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "The Roc stand tall and you would never believe it",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "Take your diamonds and throw 'em up like you bulimic",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "Yeah, the beat cold, but the flow is anemic",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "After debris settles and the dust get swept off",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "Big K pick up where young Hov left off",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "Right when magazines wrote Kanye West off",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "I dropped my new shit, it sound like the best of",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "A&R's lookin' like, \"Pssh, we messed up.\"",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "Grammy night, damn right, we got dressed up",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "Bottle after bottle 'til we got messed up",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 64,
+      "content": "In the studio with Really Doe, yeah, he next up",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 65,
+      "content": "People askin' me if I'm gon' give my chain back",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 66,
+      "content": "That'll be the same day I give the game back",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 67,
+      "content": "You know the next question, dog: \"Yo, where Dame at?\"",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 68,
+      "content": "This track the Indian dance to bring our reign back",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 69,
+      "content": "\"What's up with you and Jay, man? Are y'all okay, man?\"",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 70,
+      "content": "They pray for the death of our dynasty like \"Amen\"",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 71,
+      "content": "But r-r-r-right here stands a man",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 72,
+      "content": "With the power to make a diamond with his bare hands",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 73,
+      "content": "Diamonds are forever (forever, forever)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 74,
+      "content": "Throw your diamonds in the sky if you feel the vibe",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 75,
+      "content": "Diamonds are forever (forever, forever, forever)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 76,
+      "content": "The Roc is still alive every time I rhyme",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 77,
+      "content": "Forever ever? Forever ever? Ever, ever? Ever, ever?",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 78,
+      "content": "Ever, ever? Ever, ever? Ever, ever?",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Shirley Bassey & Kanye West]",
+        "artists": [
+          "Shirley Bassey",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Shirley Bassey, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 79,
+      "content": "Diamonds are forever (forever, forever)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Shirley Bassey]",
+        "artists": [
+          "Shirley Bassey"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Shirley Bassey)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey"
+        ]
+      }
+    },
+    {
+      "line_number": 80,
+      "content": "Diamonds are forever (forever, forever, forever)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Shirley Bassey]",
+        "artists": [
+          "Shirley Bassey"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Shirley Bassey)"
+      },
+      "voices": [
+        {
+          "id": "shirley-bassey",
+          "display": "Shirley Bassey"
+        }
+      ],
+      "voice": {
+        "id": "shirley-bassey",
+        "display": "Shirley Bassey"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Shirley Bassey"
+        ]
+      }
+    }
+  ]
+}

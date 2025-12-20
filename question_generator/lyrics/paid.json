@@ -1,0 +1,2486 @@
+{
+  "title": "PAID",
+  "schemaVersion": 3,
+  "artists": [
+    "Y$",
+    "Kanye West",
+    "Ty Dolla $ign"
+  ],
+  "artist": "Y$",
+  "features": [
+    "Jodeci",
+    "Ty Dolla $ign",
+    "Marshawn Lynch",
+    "K-Ci"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Vultures",
+    "edition": "standard",
+    "year": 2024
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Get on up now",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Jodeci]",
+        "artists": [
+          "Jodeci"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Jodeci)"
+      },
+      "voices": [
+        {
+          "id": "jodeci",
+          "display": "Jodeci"
+        }
+      ],
+      "voice": {
+        "id": "jodeci",
+        "display": "Jodeci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Jodeci"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Get on up now",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Jodeci]",
+        "artists": [
+          "Jodeci"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Jodeci)"
+      },
+      "voices": [
+        {
+          "id": "jodeci",
+          "display": "Jodeci"
+        }
+      ],
+      "voice": {
+        "id": "jodeci",
+        "display": "Jodeci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Jodeci"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Get on up now",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Jodeci]",
+        "artists": [
+          "Jodeci"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Jodeci)"
+      },
+      "voices": [
+        {
+          "id": "jodeci",
+          "display": "Jodeci"
+        }
+      ],
+      "voice": {
+        "id": "jodeci",
+        "display": "Jodeci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Jodeci"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Come with me, I got booze and that drip misting",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Cut Wock' and the cost is fifteen",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Life flew past too fast",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Old stomach is the new ass",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "He can't afford you, that's too bad",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "Told her what you gon' do with a durag?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "Fuck the lame, do you write down the names?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "You was stuck, run in placе",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "You ain't runnin' with the strays no more",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Roxanne, you don't havе to put on",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Yeah, I got that shit on",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Give me somethin' to spit on",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Roxanne, you don't have to race after the red light",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "I got that pump, but it's off on the headlights",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Fuck the lame, do you write and your girlfriend think I'm dope?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Really? Thanks",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Dark skin nigga only shootin' Billy Blanks",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "I'm just here to get paid (Ooh, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "I'm just here to get paid (Yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "I'm just here to get paid (Ah-ah)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "I'm just here to get paid (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "You know why I'm here",
+      "section": {
+        "type": "interlude",
+        "number": 1,
+        "originalText": "[Interlude: Marshawn Lynch]",
+        "artists": [
+          "Marshawn Lynch"
+        ],
+        "autoNumbered": true,
+        "label": "Interlude (Marshawn Lynch)"
+      },
+      "voices": [
+        {
+          "id": "marshawn-lynch",
+          "display": "Marshawn Lynch"
+        }
+      ],
+      "voice": {
+        "id": "marshawn-lynch",
+        "display": "Marshawn Lynch"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Marshawn Lynch"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Baby, you're the hottest in the city",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "You got my attention when you're with me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "All this Spanish spinning got us dizzy",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Dollars all she do it for",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "I throw this cash, you shake that ass",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Get that upfront, just throw it back",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "It's just the job and that's a shame",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "You made it plain, you keep on sayin'",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "I'm just here to get paid (Ooh, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "I'm just here to get paid (Yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "I'm just here to get paid (Ah-ah)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "I'm just here to get paid (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "I'm just here to get paid",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "Everybody grab somebody",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "Turn this motherfucker into a party",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "Fellas, take a lady's hand",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "Ladies, go and choose your man",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "There's no need to be afraid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "Friday night, let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "Friday night, let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "Friday night, let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "Friday night, let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "Friday night, let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 64,
+      "content": "Friday night, let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 65,
+      "content": "Fri-Fri, let-let-let get 'ai-ai-ai-aid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 66,
+      "content": "Friday night, let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 67,
+      "content": "Friday night, let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 68,
+      "content": "Friday night, let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 69,
+      "content": "Friday night, let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 70,
+      "content": "Let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 71,
+      "content": "Let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 72,
+      "content": "Let-let-let get 'ai-ai-ai-aid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 73,
+      "content": "Let's all get paid (Roxanne)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 74,
+      "content": "Let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 75,
+      "content": "Let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 76,
+      "content": "Let-let-let get 'ai-ai-ai-aid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 77,
+      "content": "Let's all get paid",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: K-Ci & Kanye West]",
+        "artists": [
+          "K-Ci",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (K-Ci, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "k-ci",
+          "display": "K-Ci"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "k-ci",
+        "display": "K-Ci"
+      },
+      "meta": {
+        "detectedVoices": [
+          "K-Ci",
+          "Kanye West"
+        ]
+      }
+    }
+  ]
+}

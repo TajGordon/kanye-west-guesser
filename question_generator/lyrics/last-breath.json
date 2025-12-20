@@ -1,0 +1,1140 @@
+{
+  "title": "LAST BREATH",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Poncho Sánchez",
+    "Ye"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "BULLY",
+    "edition": "E.P",
+    "year": 2025
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Bésame, mamá, como tú sabes",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Poncho Sánchez]",
+        "artists": [
+          "Poncho Sánchez"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Poncho Sánchez)"
+      },
+      "voices": [
+        {
+          "id": "poncho-s-nchez",
+          "display": "Poncho Sánchez"
+        }
+      ],
+      "voice": {
+        "id": "poncho-s-nchez",
+        "display": "Poncho Sánchez"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Poncho Sánchez"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Déjame, mamá, como te gusta a ti",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Poncho Sánchez]",
+        "artists": [
+          "Poncho Sánchez"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Poncho Sánchez)"
+      },
+      "voices": [
+        {
+          "id": "poncho-s-nchez",
+          "display": "Poncho Sánchez"
+        }
+      ],
+      "voice": {
+        "id": "poncho-s-nchez",
+        "display": "Poncho Sánchez"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Poncho Sánchez"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Bésame, mamá, como tú sabes",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Poncho Sánchez]",
+        "artists": [
+          "Poncho Sánchez"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Poncho Sánchez)"
+      },
+      "voices": [
+        {
+          "id": "poncho-s-nchez",
+          "display": "Poncho Sánchez"
+        }
+      ],
+      "voice": {
+        "id": "poncho-s-nchez",
+        "display": "Poncho Sánchez"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Poncho Sánchez"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Déjame, mamá, como te gusta a ti",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Poncho Sánchez]",
+        "artists": [
+          "Poncho Sánchez"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Poncho Sánchez)"
+      },
+      "voices": [
+        {
+          "id": "poncho-s-nchez",
+          "display": "Poncho Sánchez"
+        }
+      ],
+      "voice": {
+        "id": "poncho-s-nchez",
+        "display": "Poncho Sánchez"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Poncho Sánchez"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Te doy hasta mi último, último",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Take my last breath away, mi aire",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "I gave you my everything, sin problemas",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Noche tras noche alejado",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Way too much tequila, Clase Azul",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Take my last breath away",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Sé lo que has dicho, no es cierto",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Now look at the mess you made",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "No quiero pelear, tú dale",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Take my last breath away",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Bésame, mamá, como tú sabes",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Poncho Sánchez]",
+        "artists": [
+          "Poncho Sánchez"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Poncho Sánchez)"
+      },
+      "voices": [
+        {
+          "id": "poncho-s-nchez",
+          "display": "Poncho Sánchez"
+        }
+      ],
+      "voice": {
+        "id": "poncho-s-nchez",
+        "display": "Poncho Sánchez"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Poncho Sánchez"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Déjame, mamá, como te gusta a ti",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Poncho Sánchez]",
+        "artists": [
+          "Poncho Sánchez"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Poncho Sánchez)"
+      },
+      "voices": [
+        {
+          "id": "poncho-s-nchez",
+          "display": "Poncho Sánchez"
+        }
+      ],
+      "voice": {
+        "id": "poncho-s-nchez",
+        "display": "Poncho Sánchez"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Poncho Sánchez"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "Bésame, mamá, como tú sabes",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Poncho Sánchez]",
+        "artists": [
+          "Poncho Sánchez"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Poncho Sánchez)"
+      },
+      "voices": [
+        {
+          "id": "poncho-s-nchez",
+          "display": "Poncho Sánchez"
+        }
+      ],
+      "voice": {
+        "id": "poncho-s-nchez",
+        "display": "Poncho Sánchez"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Poncho Sánchez"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "Déjame, mamá, como tе gusta a ti",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Poncho Sánchez]",
+        "artists": [
+          "Poncho Sánchez"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Poncho Sánchez)"
+      },
+      "voices": [
+        {
+          "id": "poncho-s-nchez",
+          "display": "Poncho Sánchez"
+        }
+      ],
+      "voice": {
+        "id": "poncho-s-nchez",
+        "display": "Poncho Sánchez"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Poncho Sánchez"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "Cambia tu tono, no me pidas que yo te dé todo",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Dándolе stop a las fotos, me dijeron que estoy loco",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Todas las noches que lloras, estando a estas horas",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Con todo el desmadre que tú traes",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Okay, you win, babe, you're right",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Take all of me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Taking my breath away",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Take all of me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Taking my breath away",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Bésame, mamá, como tú sabes",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Poncho Sánchez]",
+        "artists": [
+          "Poncho Sánchez"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Poncho Sánchez)"
+      },
+      "voices": [
+        {
+          "id": "poncho-s-nchez",
+          "display": "Poncho Sánchez"
+        }
+      ],
+      "voice": {
+        "id": "poncho-s-nchez",
+        "display": "Poncho Sánchez"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Poncho Sánchez"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Déjame, mamá, como te gusta a ti",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Poncho Sánchez]",
+        "artists": [
+          "Poncho Sánchez"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Poncho Sánchez)"
+      },
+      "voices": [
+        {
+          "id": "poncho-s-nchez",
+          "display": "Poncho Sánchez"
+        }
+      ],
+      "voice": {
+        "id": "poncho-s-nchez",
+        "display": "Poncho Sánchez"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Poncho Sánchez"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Bésame, mamá, como tú sabes",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Poncho Sánchez]",
+        "artists": [
+          "Poncho Sánchez"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Poncho Sánchez)"
+      },
+      "voices": [
+        {
+          "id": "poncho-s-nchez",
+          "display": "Poncho Sánchez"
+        }
+      ],
+      "voice": {
+        "id": "poncho-s-nchez",
+        "display": "Poncho Sánchez"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Poncho Sánchez"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Déjame, mamá, como te gusta a ti",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Poncho Sánchez]",
+        "artists": [
+          "Poncho Sánchez"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Poncho Sánchez)"
+      },
+      "voices": [
+        {
+          "id": "poncho-s-nchez",
+          "display": "Poncho Sánchez"
+        }
+      ],
+      "voice": {
+        "id": "poncho-s-nchez",
+        "display": "Poncho Sánchez"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Poncho Sánchez"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Kiss me, mama",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Come and hold me",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Kiss me, mama",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "But you'll never control me",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "Kiss me, mama",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Come and hold me",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Kiss me, mama",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "But you'll never control me",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    }
+  ]
+}

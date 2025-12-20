@@ -128,10 +128,9 @@ export default function MetadataEditor({ song, setSong }) {
   }, [projectMetadata, handleRelease, setSong]);
 
   const handleCustomProjectChange = useCallback((value) => {
+    // Keep the user's in-progress name locally. Committing happens on Enter.
     setCustomProject(value);
-    // Store the actual name on the song so saving the song persists the project reference.
-    handleRelease('project', value);
-  }, [handleRelease]);
+  }, []);
 
   const persistProjectIfNeeded = useCallback(async (name) => {
     const projectName = String(name || '').trim();
@@ -162,6 +161,20 @@ export default function MetadataEditor({ song, setSong }) {
       setFormatOverride(false);
     }
   }, [projects, refreshProjects, song]);
+
+  const commitCustomProjectIfNeeded = useCallback(async () => {
+    const projectName = String(customProject || '').trim();
+    if (!projectName) return;
+
+    // Commit to the song only when the user is done typing.
+    handleRelease('project', projectName);
+
+    try {
+      await persistProjectIfNeeded(projectName);
+    } catch (err) {
+      console.error(err);
+    }
+  }, [customProject, handleRelease, persistProjectIfNeeded]);
 
   const getEditionsForSelectedProject = useCallback(() => {
     const projectName = song.release?.project;
@@ -353,23 +366,12 @@ export default function MetadataEditor({ song, setSong }) {
           <input
             type="text"
             placeholder="New project name"
-            value={customProject || (song.release?.project === '__custom__' ? '' : (song.release?.project || ''))}
+            value={customProject}
             onChange={(e) => handleCustomProjectChange(e.target.value)}
-            onBlur={async () => {
-              try {
-                await persistProjectIfNeeded(customProject || song.release?.project);
-              } catch (err) {
-                console.error(err);
-              }
-            }}
             onKeyDown={async (e) => {
               if (e.key !== 'Enter') return;
               e.preventDefault();
-              try {
-                await persistProjectIfNeeded(customProject || song.release?.project);
-              } catch (err) {
-                console.error(err);
-              }
+              await commitCustomProjectIfNeeded();
             }}
           />
         ) : null}

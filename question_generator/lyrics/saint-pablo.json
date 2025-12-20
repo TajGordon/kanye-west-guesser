@@ -1,0 +1,3396 @@
+{
+  "title": "Saint Pablo",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Sampha"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "The Life Of Pablo",
+    "edition": "standard",
+    "year": 2016
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Yeah-yeah, 9:08 L.A. time",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Back in the lab and shit",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "My wife said I can't say no to nobody",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "And at this rate, we gon' both die broke",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Got friends that ask me for money knowin' I'm in debt",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "And like my wife said, I still didn't say no",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "People tryna say I'm goin' crazy on Twitter",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "My friends' best advice was to stay low",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "I guess it's hard to decipher all of the bills",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Especially when you got family members on payroll",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "The media said it was outlandish spendin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "The media said he's way out of control",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "I just feel like I'm the only one not pretendin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "I'm not out of control, I'm just not in their control",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "I know I'm the most influential",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "That TIME cover was just confirmation",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "This generation's closest thing to Einstein",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "So don't worry about me, I'm fine",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "I can see a thousand years from now in real life",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Skate on the paradigm and shift it when I feel like",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Troll conventional thought, don't need to question",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "I know it's antiquated so sometimes I get aggressive",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Thank God for Jay Electra, he down with the mission",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Did it with no permission, on our own conditions",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Most blacks with money have been beaten to submission",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Yeezy with the big house, did it way different",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Never listen to Hollywood producers",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Don't stare at money too long, it's Medusa",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "The ultimate Gemini has survived",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "I wasn't supposed to make it past 25",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Yeah, you're lookin' at the church in the night sky",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Wonderin' whether God's gonna say hi",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Oh, you're lookin' at the church in the night sky",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "And you wonder where is God in your nightlife",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Yeah, you're lookin' at the church in the night sky",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "(Father, Father, Father in the night sky)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Wonderin' whether God's gonna say hi",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Yeah, I feel like I'm home, yeah, yeah",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "I've been wakin' the spirits of millions more to come",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "A million illegally downloaded my truth over the drums",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "I believe in the children, listen to the kids, bro",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "If the phone ringin', go and get your kids, ho",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Brother Don Muhammad told the minister about the presentation",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "He sat back and smiled",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Black on black lies is worse than black on black crime",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "The Jews share their truth on how to make a dime",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Most black men couldn't balance a checkbook",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "But buy a new car, talkin' 'bout, \"How my neck look?\"",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Well, it all looks great",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Four hundred years later, we buyin' our own chains",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "The light is before us brothers, so the devil workin' hard",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "Real family stick together and see through the mirage",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "The smokescreens, perceptions of false reality",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "Who the real owner if your boss gets a salary?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "I am one with the people",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "I am one with the people (Real!)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "I've been woken from enlightened man's dream",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "Checkin' Instagram comments to crowdsource my self-esteem",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "Let me not say too much or do too much",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "'Cause if I'm up way too much, I'm out of touch",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "I'm prayin' a out-of-body experience will happen",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "So the people can see my light, now it's not just rappin'",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "God, I have humbled myself before the court",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 64,
+      "content": "Drop my ego when confidence was my last resort",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 65,
+      "content": "I know, I know He got a plan, I know I'm on Your beams",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 66,
+      "content": "One set of footsteps, You was carryin' me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 67,
+      "content": "When I turned on the news and they was buryin' me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 68,
+      "content": "One set of footsteps, You was carryin' me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 69,
+      "content": "When I was negotiatin' with Apple, it was Larry and me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 70,
+      "content": "Told Tim Cook to call me, I was scary to see",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 71,
+      "content": "I would've took a hundred million and gave twenty to Hov",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 72,
+      "content": "I heard it's the way they did it when we only had a stove",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 73,
+      "content": "But it's better that I stayed at home with my folks",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 74,
+      "content": "'Cause if Jay a billionaire then I'ma never go broke",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 75,
+      "content": "Only thing I ask is next time I'm on stage we all go",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 76,
+      "content": "We all go",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 77,
+      "content": "Not just by myself, lookin' for niggas like where's Waldo",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 78,
+      "content": "She got the same shoes as my wife but she copped 'em at Aldo",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 79,
+      "content": "Modern-day MJ, with a off-the-wall flow",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 80,
+      "content": "Nightlife, walk all over me",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 81,
+      "content": "Walk all over me",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 82,
+      "content": "I'm deliverin' everything I've ever sent that you'll bring",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 83,
+      "content": "Fly, fly, fly overseas",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 84,
+      "content": "Fly overseas",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 85,
+      "content": "Oh, anywhere, everything but in between",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 86,
+      "content": "Oh, yeah",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 87,
+      "content": "Yeah, you're lookin' at the church in the night sky",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 88,
+      "content": "Wonderin' whether God's gonna say hi",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 89,
+      "content": "Oh, you're lookin' at the church in the night sky",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 90,
+      "content": "And you wonder where is God in your nightlife",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 91,
+      "content": "Yeah, you're lookin' at the church in the night sky",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 92,
+      "content": "Wonderin' whether God's gonna say hi",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 93,
+      "content": "(Father, Father, Father in the night sky)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 94,
+      "content": "Oh, you're lookin' at the church in the night sky",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 95,
+      "content": "And you wonder where is God in your nightlife",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 96,
+      "content": "(Father, Father, Father in the night sky)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 97,
+      "content": "Please face me when I speak",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "label": "Verse 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 98,
+      "content": "Please say to me somethin' before you leave",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "label": "Verse 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 99,
+      "content": "You've been treatin' me like I'm invisible, now I'm visible to you",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "label": "Verse 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 100,
+      "content": "Oh, the invisible truth stay sober",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "label": "Verse 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 101,
+      "content": "I can't quite understand the games you play",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "label": "Verse 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 102,
+      "content": "Understand, understand, understand I'm standin' under oath",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "label": "Verse 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 103,
+      "content": "And I promised I, I wouldn't fall anymore",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "label": "Verse 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 104,
+      "content": "But I'm cryin' at the bar",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "label": "Verse 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 105,
+      "content": "I'm wishin' that you saw my scars, man",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "label": "Verse 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 106,
+      "content": "I'm wishin' that you came down here and stood by me",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "label": "Verse 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 107,
+      "content": "And looked at me like you knew me",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "label": "Verse 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 108,
+      "content": "But I feel so alone",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "label": "Verse 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 109,
+      "content": "Like I don't know anyone except the night sky above",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "label": "Verse 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 110,
+      "content": "Yeah, you're lookin' at the church in the night sky",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 111,
+      "content": "Wonderin' whether God's gonna say hi",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 112,
+      "content": "Oh, you're lookin' at the church in the night sky",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 113,
+      "content": "And you wonder where is God in your nightlife",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 114,
+      "content": "Yeah, you're lookin' at the church in the night sky",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 115,
+      "content": "(Father, Father, Father in the night sky)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 116,
+      "content": "Wonderin' whether God's gonna say hi",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 117,
+      "content": "Oh, you're lookin' at the church in the night sky",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 118,
+      "content": "And you wonder where is God in your nightlife",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    },
+    {
+      "line_number": 119,
+      "content": "(Father, Father, Father in the night sky)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Sampha]",
+        "artists": [
+          "Sampha"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Sampha)"
+      },
+      "voices": [
+        {
+          "id": "sampha",
+          "display": "Sampha"
+        }
+      ],
+      "voice": {
+        "id": "sampha",
+        "display": "Sampha"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sampha"
+        ]
+      }
+    }
+  ]
+}

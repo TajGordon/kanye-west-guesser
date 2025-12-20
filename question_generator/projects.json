@@ -17,6 +17,10 @@
     ],
     "artists": [
       "Kanye West"
+    ],
+    "editions": [
+      "standard",
+      "deluxe"
     ]
   },
   "Late Registration": {
@@ -62,6 +66,147 @@
     ],
     "artists": [
       "Kanye West"
+    ]
+  },
+  "G.O.O.D": {
+    "name": "G.O.O.D",
+    "year": 2025,
+    "formats": [
+      "ep"
+    ],
+    "artists": [
+      "Kanye West"
+    ]
+  },
+  "Vultures": {
+    "name": "Vultures",
+    "year": 2025,
+    "formats": [
+      "single"
+    ],
+    "artists": [
+      "Y$",
+      "Kanye West",
+      "Ty Dolla $ign"
+    ]
+  },
+  "BULLY": {
+    "name": "BULLY",
+    "year": 2025,
+    "formats": [
+      "single"
+    ],
+    "artists": [
+      "Kanye West"
+    ],
+    "editions": [
+      "standard",
+      "E.P"
+    ]
+  },
+  "Watch the Throne": {
+    "name": "Watch the Throne",
+    "year": 2025,
+    "formats": [
+      "single"
+    ],
+    "artists": [
+      "Kanye West"
+    ],
+    "editions": [
+      "standard"
+    ]
+  },
+  "Graduation": {
+    "name": "Graduation",
+    "year": 2025,
+    "formats": [
+      "single"
+    ],
+    "artists": [
+      "Kanye West"
+    ],
+    "editions": [
+      "standard"
+    ]
+  },
+  "CUCK": {
+    "name": "CUCK",
+    "year": 2025,
+    "formats": [
+      "single"
+    ],
+    "artists": [
+      "Kanye West"
+    ],
+    "editions": [
+      "standard"
+    ]
+  },
+  "JESUS IS KING": {
+    "name": "JESUS IS KING",
+    "year": 2025,
+    "formats": [
+      "single"
+    ],
+    "artists": [
+      "Kanye West"
+    ],
+    "editions": [
+      "standard"
+    ]
+  },
+  "BALLADS 1": {
+    "name": "BALLADS 1",
+    "year": 2025,
+    "formats": [
+      "single"
+    ],
+    "artists": [
+      "Joji"
+    ],
+    "editions": [
+      "standard"
+    ]
+  },
+  "Donda 2": {
+    "name": "Donda 2",
+    "year": 2025,
+    "formats": [
+      "single"
+    ],
+    "artists": [
+      "Kanye West"
+    ],
+    "editions": [
+      "standard"
+    ]
+  },
+  "SMITHEREENS": {
+    "name": "SMITHEREENS",
+    "year": 2022,
+    "formats": [
+      "single",
+      "album"
+    ],
+    "artists": [
+      "Kanye West"
+    ],
+    "editions": [
+      "standard"
+    ]
+  },
+  "Lets Get It: Thug Motivation 101": {
+    "name": "Lets Get It: Thug Motivation 101",
+    "year": 2025,
+    "formats": [
+      "single"
+    ],
+    "artists": [
+      "Young Jeezy"
+    ],
+    "editions": [
+      "standard"
     ]
   }
 }

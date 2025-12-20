@@ -1,0 +1,2117 @@
+{
+  "title": "Champion",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Connie Mitchell"
+  ],
+  "producers": [
+    "Kanye West",
+    "Brian Miller"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Graduation",
+    "edition": "standard",
+    "year": 2007
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Did you realize",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "That you were a champion in their eyes?",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Yes, I did",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "So I packed it up and brought it back to the crib",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Just a lil' something, show ya how we live",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Everybody want it but it ain't that serious",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Mhm, that's that shit",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "So if you gon' do it, do it just like this",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Did you realize",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Refrain]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "That you were a champion in their eyes?",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Refrain]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "You don't see just how wild the crowd is?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "You don't see just how fly my style is?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "I don't see why I need a stylist",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "When I shop so much I can speak Italian",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "I don't know, I just want it better for my kids",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "And I ain't sayin' we was from the projects",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "But every time I wanted layaway or a deposit",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "My dad'd say, \"When you see clothes, close your eyelids\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "We was sort of like Will Smith and his son",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "In the movie, I ain't talkin' 'bout the rich ones",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "'Cause every summer he'd get some",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Brand new hare-brained scheme to get rich from",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "And I don't know what he did for dough",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "But he'd send me back to school wit' a new wardrobe, but ayy",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Did you realize",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Ayy, ayy, ayy",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "That you were a champion in their eyes?",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "I think he did",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "When he packed it up and brought it back to the crib",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Just a lil' somethin', show ya how we live",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Everything I wanted, man, it seem so serious",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Mhm, that's that shit",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "So if you gon' do it, do it just like this",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Did you realize",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Refrain]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 6"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "That you were a champion in their eyes?",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Refrain]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 6"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "When it feel like living's harder than dyin'",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "For me, givin' up's way harder than tryin'",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Lauryn Hill said her heart was in Zion",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "I wish her heart still was in rhymin'",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "'Cause who the kids gon' listen to? Huh?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "I guess me if it isn't you",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "Last week, I paid a visit to the institute",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "They got the dropout keepin' kids in the school",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "I guess I'll cleaned up my act like Prince'll do",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "If not for the pleasure, least for the principle",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "They got the CD, they got to see me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Drop gems like I dropped out of PE",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "They used to feel invisible",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Now, they know they invincible",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Did you realize",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "Ayy, ayy, ayy",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "That you were a champion in their eyes?",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "This is the story of a champion",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Connie Mitchell]",
+        "artists": [
+          "Connie Mitchell"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Connie Mitchell)"
+      },
+      "voices": [
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "connie-mitchell",
+        "display": "Connie Mitchell"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Connie Mitchell"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "Runners on their mark and they pop their guns",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Connie Mitchell]",
+        "artists": [
+          "Connie Mitchell"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Connie Mitchell)"
+      },
+      "voices": [
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "connie-mitchell",
+        "display": "Connie Mitchell"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Connie Mitchell"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "Stand up, stand up, here he comes",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Connie Mitchell]",
+        "artists": [
+          "Connie Mitchell"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Connie Mitchell)"
+      },
+      "voices": [
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "connie-mitchell",
+        "display": "Connie Mitchell"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Connie Mitchell"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "Tell me what it takes to be number one",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Connie Mitchell]",
+        "artists": [
+          "Connie Mitchell"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Connie Mitchell)"
+      },
+      "voices": [
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "connie-mitchell",
+        "display": "Connie Mitchell"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Connie Mitchell"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "Tell me what it takes to be number one",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Connie Mitchell]",
+        "artists": [
+          "Connie Mitchell"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Connie Mitchell)"
+      },
+      "voices": [
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "connie-mitchell",
+        "display": "Connie Mitchell"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Connie Mitchell"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "This is the story of a champion",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Connie Mitchell]",
+        "artists": [
+          "Connie Mitchell"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Connie Mitchell)"
+      },
+      "voices": [
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "connie-mitchell",
+        "display": "Connie Mitchell"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Connie Mitchell"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "Runners on their mark and they pop their guns",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Connie Mitchell]",
+        "artists": [
+          "Connie Mitchell"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Connie Mitchell)"
+      },
+      "voices": [
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "connie-mitchell",
+        "display": "Connie Mitchell"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Connie Mitchell"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "Stand up, stand up, here he comes",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Connie Mitchell]",
+        "artists": [
+          "Connie Mitchell"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Connie Mitchell)"
+      },
+      "voices": [
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "connie-mitchell",
+        "display": "Connie Mitchell"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Connie Mitchell"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "Tell me what it takes to be number one",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Connie Mitchell]",
+        "artists": [
+          "Connie Mitchell"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Connie Mitchell)"
+      },
+      "voices": [
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "connie-mitchell",
+        "display": "Connie Mitchell"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Connie Mitchell"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "Tell me what it takes to be number one",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Connie Mitchell]",
+        "artists": [
+          "Connie Mitchell"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Connie Mitchell)"
+      },
+      "voices": [
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "connie-mitchell",
+        "display": "Connie Mitchell"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Connie Mitchell"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "Did you realize",
+      "section": {
+        "type": "chorus",
+        "number": 8,
+        "originalText": "[Refrain]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 8"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 64,
+      "content": "That you were a champion in their eyes?",
+      "section": {
+        "type": "chorus",
+        "number": 8,
+        "originalText": "[Refrain]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 8"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 65,
+      "content": "Yes, I did",
+      "section": {
+        "type": "chorus",
+        "number": 9,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 9 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 66,
+      "content": "So I packed it up and brought it back to the crib",
+      "section": {
+        "type": "chorus",
+        "number": 9,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 9 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 67,
+      "content": "Just a lil' somethin', show ya how we live",
+      "section": {
+        "type": "chorus",
+        "number": 9,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 9 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 68,
+      "content": "Everybody want it but it ain't that serious",
+      "section": {
+        "type": "chorus",
+        "number": 9,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 9 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 69,
+      "content": "Mhm, that's that shit",
+      "section": {
+        "type": "chorus",
+        "number": 9,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 9 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 70,
+      "content": "So if you gon' do it, do it just like this",
+      "section": {
+        "type": "chorus",
+        "number": 9,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 9 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 71,
+      "content": "Like this",
+      "section": {
+        "type": "chorus",
+        "number": 9,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 9 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 72,
+      "content": "Did you realize",
+      "section": {
+        "type": "chorus",
+        "number": 10,
+        "originalText": "[Refrain]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 10"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 73,
+      "content": "That you were a champion in their eyes?",
+      "section": {
+        "type": "chorus",
+        "number": 10,
+        "originalText": "[Refrain]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 10"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "connie-mitchell",
+          "display": "Connie Mitchell"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    }
+  ]
+}

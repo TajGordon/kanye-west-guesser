@@ -1,0 +1,2019 @@
+{
+  "title": "Junya",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Playboi Carti"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Donda",
+    "edition": "standard",
+    "year": 2021
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Junya Watanabe on my wri', wri'",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Junya Watanabe on my wri', wri'",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Tell 'em this, did he miss?",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Junya Watanabe on my, mm",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "I can't really see, where did I miss? (Mm, mm)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Ex-strippers (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "New killers (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Chi' **** tell 'em (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "This on Donda (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "On my mama (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Made a promise (Mm)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Junya Watanabe on my wri'",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Junya Watanabe on my wri'",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Tell 'em this, did he miss? (Wri')",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Junya Watanabe on my, mm",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "I can't really see, where did I miss? (Mm)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "Junya Watanabe on my wri' (Mm, mm)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "Junya Watanabe on my—",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "All summer (Mm-mm), all summer (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": ".45 gunners (Mm-mm), in pajamas (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "They piranhas (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Buy out the store in hours like we planned it",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Junya Watanabe on my wri'",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Junya Watanabe on my wri'",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Tell 'em this, did he miss?",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Junya Watanabe on my, mm",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "I can't really see, where did I miss? (Mm)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Junya Watanabe on my wri'",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "For five summers, hold up, uh",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "For five summers, hold up",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "For five summers, hold up, uh",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "For five summers, hold up, uh",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "We took over, hold up, uh",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "We took over, hold up",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "We took over, hold up",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "We took over, hold up",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Born in Atlanta (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Not Montana (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "'Scuse my manners (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "I got standards",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Uh, yeah, 'scuse my manners (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "I got standards (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "I got status (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "You don't want static (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Playboi Carti & Kanye West]",
+        "artists": [
+          "Playboi Carti",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Playboi Carti, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "See more comments (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Than I see commas (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "They going dummy (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "We going Donda (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Let me be honest (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Let me be honest (Mmh, mmh)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "I'm one with the bucks, boy",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "Let me Giannis (Mmh, mmh)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "I'm one with the bucks, boy (Mm)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "The spirit is on us (Mm-mm)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "The spirit of Donda",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "God's time can't fit on a wrist",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "Junya wanna have me on my— (Wri', wri', wri')",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "Move out of the way of my release (Yeah, yeah, yeah)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "Tryna get me off my Q's and P's (Yeah, yeah, yeah, watch it)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "Why can't losers never lose in peace? (Yeah, yeah, watch it)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "Ain't nobody 'round me losing sleep (Uh)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "Better find God 'fore He find me",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "Tell the Devil good night, go to sleep",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West & Playboi Carti]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti"
+        ],
+        "label": "Verse 4 (Kanye West, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti"
+        ]
+      }
+    }
+  ]
+}

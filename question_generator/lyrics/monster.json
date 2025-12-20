@@ -1,0 +1,3743 @@
+{
+  "title": "Monster",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West",
+    "Kid Cudi",
+    "Raekwon"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Justin Vernon",
+    "Rick Ross",
+    "JAY-Z",
+    "Nicki Minaj",
+    "Charlie Wilson"
+  ],
+  "producers": [
+    "Kanye West",
+    "Mike Dean",
+    "Plain Pat"
+  ],
+  "release": {
+    "formats": [
+      "album",
+      "single"
+    ],
+    "status": "official",
+    "project": "My Beautiful Dark Twisted Fantasy",
+    "edition": "standard",
+    "year": 2010
+  },
+  "ignoredMarkers": [
+    {
+      "id": "m1",
+      "content": "[Video directed by Jake Nava]",
+      "rawLineNumber": 140,
+      "insertAfterLineNumber": 123
+    }
+  ],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "I shoot the lights out",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Justin Vernon]",
+        "artists": [
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Hide 'til it's bright out",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Justin Vernon]",
+        "artists": [
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Oh, just another lonely night",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Justin Vernon]",
+        "artists": [
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Are you willing to sacrifice your life? (Ah)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Justin Vernon]",
+        "artists": [
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Bitch, I'm a monster, no-good bloodsucker",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Rick Ross]",
+        "artists": [
+          "Rick Ross"
+        ],
+        "label": "Verse (Rick Ross)"
+      },
+      "voices": [
+        {
+          "id": "rick-ross",
+          "display": "Rick Ross"
+        }
+      ],
+      "voice": {
+        "id": "rick-ross",
+        "display": "Rick Ross"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Rick Ross"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Fat motherfucker, now look who's in trouble",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Rick Ross]",
+        "artists": [
+          "Rick Ross"
+        ],
+        "label": "Verse (Rick Ross)"
+      },
+      "voices": [
+        {
+          "id": "rick-ross",
+          "display": "Rick Ross"
+        }
+      ],
+      "voice": {
+        "id": "rick-ross",
+        "display": "Rick Ross"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Rick Ross"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "As you run through my jungles, all you hear is rumbles",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Rick Ross]",
+        "artists": [
+          "Rick Ross"
+        ],
+        "label": "Verse (Rick Ross)"
+      },
+      "voices": [
+        {
+          "id": "rick-ross",
+          "display": "Rick Ross"
+        }
+      ],
+      "voice": {
+        "id": "rick-ross",
+        "display": "Rick Ross"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Rick Ross"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Kanye West samples, here's one for example",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Rick Ross]",
+        "artists": [
+          "Rick Ross"
+        ],
+        "label": "Verse (Rick Ross)"
+      },
+      "voices": [
+        {
+          "id": "rick-ross",
+          "display": "Rick Ross"
+        }
+      ],
+      "voice": {
+        "id": "rick-ross",
+        "display": "Rick Ross"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Rick Ross"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Gossip, gossip, nigga, just stop it",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Everybody know I'm a motherfuckin' monster",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "I'ma need to see your fuckin' hands at the concert",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "I'ma need to see your fuckin' hands at the concert",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Profit, profit, nigga, I got it",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Everybody know I'm a motherfuckin' monster",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "I'ma need to see your fuckin' hands at the concert",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "I'ma need to see your fuckin' hands",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "Uh, the best living or dead hands down, huh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "Less talk, more head right now, huh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "And my eyes more red than the devil is",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "And I'm 'bout to take it to another level, bitch",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Matter who you go and get, ain't nobody cold as this",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Do the rap and the track, triple-double, no assists",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "And my only focus is stayin' on some bogus shit",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Arguin' with my older bitch, actin' like I owe her shit",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "I heard the beat, the same raps that gave the track pain",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Bought the chain that always give me back pain",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Fuckin' up my money so, yeah, I had to act sane",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Chi nigga, but these hoes love my accent",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Chick came up to me and said, \"This the number to dial",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "If you wanna make your number one your number two now\"",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Mix that Goose and Malibu, I call it \"Malibooyah\"",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Goddamn, Yeezy always hit 'em with a new style",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Know that motherfucker, well, what you gon' do now?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Whatever I wanna do, gosh, it's cool now",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Know I'm gonna do, ah, it's the new now",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "Think you motherfuckers really, really need to cool out",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "'Cause you'll never get on top of this",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "So, mami, best advice is just to get on top of this",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "Have you ever had sex with a pharaoh?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "Ah, put the pussy in a sarcophagus",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Now she claiming that I bruised her esophagus",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "Head of the class and she just won a swallowship",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "I'm livin' in the future so the present is my past",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "My presence is a present, kiss my ass",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Gossip, gossip, nigga, just stop it",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Kanye West & JAY-Z, JAY-Z]",
+        "artists": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Kanye West, JAY-Z, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Everybody know I'm a motherfuckin' monster",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Kanye West & JAY-Z, JAY-Z]",
+        "artists": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Kanye West, JAY-Z, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "I'ma need to see your fuckin' hands at the concert",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Kanye West & JAY-Z, JAY-Z]",
+        "artists": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Kanye West, JAY-Z, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "I'ma need to see your fuckin' hands at the concert (Yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Kanye West & JAY-Z, JAY-Z]",
+        "artists": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Kanye West, JAY-Z, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Profit, profit, nigga, I got it",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Kanye West & JAY-Z, JAY-Z]",
+        "artists": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Kanye West, JAY-Z, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Everybody know I'm a motherfuckin' monster",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Kanye West & JAY-Z, JAY-Z]",
+        "artists": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Kanye West, JAY-Z, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "I'ma need to see your fuckin' hands at the concert",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Kanye West & JAY-Z, JAY-Z]",
+        "artists": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Kanye West, JAY-Z, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "I'ma need to see your fuckin' hands",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Kanye West & JAY-Z, JAY-Z]",
+        "artists": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Kanye West, JAY-Z, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kanye West",
+          "JAY-Z",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "Sasquatch, Godzilla, King Kong, Loch Ness",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "Goblin, ghoul, a zombie with no conscience",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "Question, what do these things all have in common?",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "Everybody knows I'm a motherfuckin' monster",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "Conquer, stomp ya, stop your silly nonsense",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "Nonsense, none of you niggas know where the swamp is",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "None of you niggas have seen the carnage that I've seen",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "I still hear fiends scream in my dreams",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "Murder, murder in black convertibles, I",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "Kill a block, I murder the avenues, I",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "Rape and pillage your village, women and children",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 64,
+      "content": "Everybody want to know what my Achilles heel is",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 65,
+      "content": "Love, I don't get enough of it",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 66,
+      "content": "All I get is these vampires and bloodsuckers",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 67,
+      "content": "All I see is these niggas I made millionaires",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 68,
+      "content": "Millin' about, spillin' they feelings in the air",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 69,
+      "content": "All I see is these fake fucks with no fangs",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 70,
+      "content": "Tryna draw blood from my ice-cold veins",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 71,
+      "content": "I smell a massacre",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 72,
+      "content": "Seems to be the only way to back you bastards up",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 73,
+      "content": "Gossip, gossip, nigga, just stop it",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 74,
+      "content": "Everybody know I'm a motherfuckin' monster",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 75,
+      "content": "I'ma need to see your fuckin' hands at the concert",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 76,
+      "content": "I'ma need to see your fuckin' hands at the concert",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 77,
+      "content": "Profit, profit, nigga, I got it",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 78,
+      "content": "Everybody know I'm a motherfuckin' monster",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 79,
+      "content": "I'ma need to see your fuckin' hands at the concert",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 80,
+      "content": "I'ma need to see your fuckin' hands",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 81,
+      "content": "Pull up in the monster, automobile gangsta",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 82,
+      "content": "With a bad bitch that came from Sri Lanka",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 83,
+      "content": "Yeah, I'm in that Tonka, color of Willy Wonka",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 84,
+      "content": "You could be the king, but watch the queen conquer",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 85,
+      "content": "Okay, first things first, I'll eat your brains",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 86,
+      "content": "Then I'ma start rocking gold teeth and fangs",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 87,
+      "content": "'Cause that's what a motherfuckin' monster do",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 88,
+      "content": "Hair dresser from Milan, that's the monster 'do",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 89,
+      "content": "Monster Giuseppe heel, that's the monster shoe",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 90,
+      "content": "Young Money is the roster and a monster crew",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 91,
+      "content": "And I'm all up, all up, all up in the bank with the funny face",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 92,
+      "content": "And if I'm fake, I ain't notice 'cause my money ain't",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 93,
+      "content": "So let me get this straight, wait, I'm the rookie?",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 94,
+      "content": "But my features and my shows ten times your pay?",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 95,
+      "content": "50K for a verse, no album out",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 96,
+      "content": "Yeah, my money's so tall that my Barbies got to climb it",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 97,
+      "content": "Hotter than a Middle Eastern climate, violent",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 98,
+      "content": "Tony Matterhorn, dutty wine it, wine it",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 99,
+      "content": "Nicki on them titties when I sign it",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 100,
+      "content": "That's how these niggas so one-track-minded",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 101,
+      "content": "But really, really, I don't give an F-U-C-K",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 102,
+      "content": "\"Forget Barbie, fuck Nicki, sh-she's fake\"",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 103,
+      "content": "\"She on a diet,\" but my pockets eatin' cheesecake",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 104,
+      "content": "And I'll say, bride of Chucky, it's child's play",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 105,
+      "content": "Just killed another career, it's a mild day",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 106,
+      "content": "Besides, Ye, they can't stand besides me",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 107,
+      "content": "I think me, you, and Am' should ménage Friday",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 108,
+      "content": "Pink wig, thick ass, give 'em whiplash",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 109,
+      "content": "I think big, get cash, make 'em blink fast",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 110,
+      "content": "Now look at what you just saw, this is what you live for",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 111,
+      "content": "Ah, I'm a motherfuckin' monster!",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Nicki Minaj]",
+        "artists": [
+          "Nicki Minaj"
+        ],
+        "label": "Verse 4 (Nicki Minaj)"
+      },
+      "voices": [
+        {
+          "id": "nicki-minaj",
+          "display": "Nicki Minaj"
+        }
+      ],
+      "voice": {
+        "id": "nicki-minaj",
+        "display": "Nicki Minaj"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Nicki Minaj"
+        ]
+      }
+    },
+    {
+      "line_number": 112,
+      "content": "I, I crossed the limelight",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Justin Vernon & Charlie Wilson]",
+        "artists": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Justin Vernon, Charlie Wilson)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        },
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ]
+      }
+    },
+    {
+      "line_number": 113,
+      "content": "And I'll, I'll let God decide, 'cide",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Justin Vernon & Charlie Wilson]",
+        "artists": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Justin Vernon, Charlie Wilson)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        },
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ]
+      }
+    },
+    {
+      "line_number": 114,
+      "content": "And I, I wouldn't last these shows",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Justin Vernon & Charlie Wilson]",
+        "artists": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Justin Vernon, Charlie Wilson)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        },
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ]
+      }
+    },
+    {
+      "line_number": 115,
+      "content": "So I, I am headed home (Headed home)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Justin Vernon & Charlie Wilson]",
+        "artists": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Justin Vernon, Charlie Wilson)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        },
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ]
+      }
+    },
+    {
+      "line_number": 116,
+      "content": "I, I crossed the limelight",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Justin Vernon & Charlie Wilson]",
+        "artists": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Justin Vernon, Charlie Wilson)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        },
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ]
+      }
+    },
+    {
+      "line_number": 117,
+      "content": "And I'll, I'll let God decide, 'cide (No)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Justin Vernon & Charlie Wilson]",
+        "artists": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Justin Vernon, Charlie Wilson)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        },
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ]
+      }
+    },
+    {
+      "line_number": 118,
+      "content": "And I, I wouldn't last these shows",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Justin Vernon & Charlie Wilson]",
+        "artists": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Justin Vernon, Charlie Wilson)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        },
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ]
+      }
+    },
+    {
+      "line_number": 119,
+      "content": "So I, I am headed home (Head home)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Justin Vernon & Charlie Wilson]",
+        "artists": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Justin Vernon, Charlie Wilson)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        },
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ]
+      }
+    },
+    {
+      "line_number": 120,
+      "content": "I, I crossed the limelight (No, the limelight)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Justin Vernon & Charlie Wilson]",
+        "artists": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Justin Vernon, Charlie Wilson)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        },
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ]
+      }
+    },
+    {
+      "line_number": 121,
+      "content": "And I'll, I'll let God decide, 'cide",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Justin Vernon & Charlie Wilson]",
+        "artists": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Justin Vernon, Charlie Wilson)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        },
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ]
+      }
+    },
+    {
+      "line_number": 122,
+      "content": "And I, I wouldn't last these shows",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Justin Vernon & Charlie Wilson]",
+        "artists": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Justin Vernon, Charlie Wilson)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        },
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ]
+      }
+    },
+    {
+      "line_number": 123,
+      "content": "So I, I am headed home",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Justin Vernon & Charlie Wilson]",
+        "artists": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Justin Vernon, Charlie Wilson)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        },
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon",
+          "Charlie Wilson"
+        ]
+      }
+    }
+  ]
+}

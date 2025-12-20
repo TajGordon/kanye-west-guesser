@@ -1,0 +1,1995 @@
+{
+  "title": "Pt. 2",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Kid Cudi",
+    "Desiigner",
+    "Pastor T. L. Barrett",
+    "Caroline Shaw"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "The Life Of Pablo",
+    "edition": "standard",
+    "year": 2016
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Fa— (Perfect)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "pastor-t-l-barrett",
+          "display": "Pastor T. L. Barrett"
+        },
+        {
+          "id": "caroline-shaw",
+          "display": "Caroline Shaw"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Fa—",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "pastor-t-l-barrett",
+          "display": "Pastor T. L. Barrett"
+        },
+        {
+          "id": "caroline-shaw",
+          "display": "Caroline Shaw"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Fa—",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "pastor-t-l-barrett",
+          "display": "Pastor T. L. Barrett"
+        },
+        {
+          "id": "caroline-shaw",
+          "display": "Caroline Shaw"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Fa—",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "pastor-t-l-barrett",
+          "display": "Pastor T. L. Barrett"
+        },
+        {
+          "id": "caroline-shaw",
+          "display": "Caroline Shaw"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "I told, I told, ayy-ayy, I told you",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "pastor-t-l-barrett",
+          "display": "Pastor T. L. Barrett"
+        },
+        {
+          "id": "caroline-shaw",
+          "display": "Caroline Shaw"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Up in the mornin', miss you bad",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Sorry I ain't call you back, same problem my father had",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "All this time, all he had, all he had",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "And what he dreamed, all his cash",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Market crashed, hurt him bad",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "People get divorced for that",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Dropped some stacks, pops is good",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Mama passed in Hollywood",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "If you ask, lost my soul",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Drivin' fast, lost control",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Off the road, jaw was broke",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "'Member we all was broke",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "'Member I'm comin' back",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "I'll be takin' all the stacks, oh",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "I got broads in Atlanta",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Twistin' dope, lean, and the Fanta",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Stacks, oh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Credit cards and the scammers",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Hittin' off licks in the bando",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Takin' all the stacks, oh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Black X6, Phantom",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "White X6 looks like a panda",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Stacks, oh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Going out like I'm Montana",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Hundred killers, hundred hammers",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Black X6, Phantom",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "White X6, panda",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Pockets swole, Danny",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Sellin' bar, candy",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Man, I'm the macho like Randy",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "The chopper go Oscar for Grammy",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Bitch nigga, pull up ya panty",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Hope you killas understand me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "I just wanna feel liberated, I, I, I (Hey)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Desiigner]",
+        "artists": [
+          "Kanye West",
+          "Desiigner"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Desiigner)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Desiigner"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "I just wanna feel liberated, I, I, I (Panda, panda)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Desiigner]",
+        "artists": [
+          "Kanye West",
+          "Desiigner"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Desiigner)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Desiigner"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Panda, panda, panda, panda",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Desiigner]",
+        "artists": [
+          "Kanye West",
+          "Desiigner"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Desiigner)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Desiigner"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "Takin' all the stacks, oh",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Desiigner]",
+        "artists": [
+          "Kanye West",
+          "Desiigner"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Desiigner)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Desiigner"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "I got broads in Atlanta",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Twist the dope, lean and shit, sippin' Fanta",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Stacks, oh",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Credit cards and the scammers",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Wake up Versace, shit like Desiigner",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Takin' all the stacks, oh",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Whole bunch of lavish shit",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "They be askin' 'round town who be clappin' shit",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "I be pullin' up stuff in the Phantom ship",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "I got plenty of stuff of Bugatti, whip look how I try this shit",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "Black X6, Phantom",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "White X6, killin' on camera",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Desiigner & Kanye West]",
+        "artists": [
+          "Desiigner",
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Desiigner, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "desiigner",
+          "display": "Desiigner"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "desiigner",
+        "display": "Desiigner"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Desiigner",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "My joy",
+      "section": {
+        "type": "interlude",
+        "number": 1,
+        "originalText": "[Interlude: Pastor T. L. Barrett]",
+        "artists": [
+          "Pastor T. L. Barrett"
+        ],
+        "autoNumbered": true,
+        "label": "Interlude (Pastor T. L. Barrett)"
+      },
+      "voices": [
+        {
+          "id": "pastor-t-l-barrett",
+          "display": "Pastor T. L. Barrett"
+        }
+      ],
+      "voice": {
+        "id": "pastor-t-l-barrett",
+        "display": "Pastor T. L. Barrett"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pastor T. L. Barrett"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "How can I find you?",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Caroline Shaw]",
+        "artists": [
+          "Caroline Shaw"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Caroline Shaw)"
+      },
+      "voices": [
+        {
+          "id": "caroline-shaw",
+          "display": "Caroline Shaw"
+        }
+      ],
+      "voice": {
+        "id": "caroline-shaw",
+        "display": "Caroline Shaw"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Caroline Shaw"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "Who do you turn to?",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Caroline Shaw]",
+        "artists": [
+          "Caroline Shaw"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Caroline Shaw)"
+      },
+      "voices": [
+        {
+          "id": "caroline-shaw",
+          "display": "Caroline Shaw"
+        }
+      ],
+      "voice": {
+        "id": "caroline-shaw",
+        "display": "Caroline Shaw"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Caroline Shaw"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "How do I bind you?",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Caroline Shaw]",
+        "artists": [
+          "Caroline Shaw"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Caroline Shaw)"
+      },
+      "voices": [
+        {
+          "id": "caroline-shaw",
+          "display": "Caroline Shaw"
+        }
+      ],
+      "voice": {
+        "id": "caroline-shaw",
+        "display": "Caroline Shaw"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Caroline Shaw"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "If I don't turn to you",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Pastor T. L. Barrett]",
+        "artists": [
+          "Pastor T. L. Barrett"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Pastor T. L. Barrett)"
+      },
+      "voices": [
+        {
+          "id": "pastor-t-l-barrett",
+          "display": "Pastor T. L. Barrett"
+        }
+      ],
+      "voice": {
+        "id": "pastor-t-l-barrett",
+        "display": "Pastor T. L. Barrett"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pastor T. L. Barrett"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "No other help I know, I stretch my hands",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Pastor T. L. Barrett]",
+        "artists": [
+          "Pastor T. L. Barrett"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Pastor T. L. Barrett)"
+      },
+      "voices": [
+        {
+          "id": "pastor-t-l-barrett",
+          "display": "Pastor T. L. Barrett"
+        }
+      ],
+      "voice": {
+        "id": "pastor-t-l-barrett",
+        "display": "Pastor T. L. Barrett"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pastor T. L. Barrett"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1860 @@
+{
+  "title": "MR MIYAGI",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Future",
+    "Playboi Carti"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Donda 2",
+    "edition": "standard",
+    "year": 2025
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Hey, miss, I'm your Mr. Miyagi (Yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Future]",
+        "artists": [
+          "Kanye West",
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Future)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "I'ma come and kick it in the Balenciagi",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Future]",
+        "artists": [
+          "Kanye West",
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Future)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Don't text me in the mornin', bae, I'm groggy",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Future]",
+        "artists": [
+          "Kanye West",
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Future)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Text me, don't FaceTime, I'm too groggy (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Future]",
+        "artists": [
+          "Kanye West",
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Future)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "If I dig in my bag, it's an M (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Post-Chorus: Future & Playboi Carti]",
+        "artists": [
+          "Future",
+          "Playboi Carti"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Future, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Had to put a lil' **** on a film (Yeah, yeah, what?)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Post-Chorus: Future & Playboi Carti]",
+        "artists": [
+          "Future",
+          "Playboi Carti"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Future, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "I done took off in the air, I can't see 'em (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Post-Chorus: Future & Playboi Carti]",
+        "artists": [
+          "Future",
+          "Playboi Carti"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Future, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Gotta get it before it come in (Yeah, yeah, what?)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Post-Chorus: Future & Playboi Carti]",
+        "artists": [
+          "Future",
+          "Playboi Carti"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Future, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Told the chief I'm ahead of my time (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Post-Chorus: Future & Playboi Carti]",
+        "artists": [
+          "Future",
+          "Playboi Carti"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Future, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Got Chanel comin' in by the nine (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Post-Chorus: Future & Playboi Carti]",
+        "artists": [
+          "Future",
+          "Playboi Carti"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Future, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Keepin' up with me, one of a kind (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Post-Chorus: Future & Playboi Carti]",
+        "artists": [
+          "Future",
+          "Playboi Carti"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Future, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Keep it real with me, no need for lies",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Post-Chorus: Future & Playboi Carti]",
+        "artists": [
+          "Future",
+          "Playboi Carti"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Future, Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future",
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "She say I fuck too big, fuck it then, you gon' have to tuck it in",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Ain't no substitute for me, she say, \"It's the boots for me\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "I can't do the ankle joints, I wear them shits up to the knee",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "If I take you out to eat, won't find this on Uber Eats",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "Go dumb-dumb",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "Twenty-five hundred for a wagyu steak, it was undone",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "She wan' sip my soup, sip my soup, but it ain't wonton",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Yeezy ran it up, put away millions for my son-son",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Chiraq where I'm from, they gon' treat me like Kim Jong Un",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Fell in love for the night",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "'Fore you say how I'm wrong, what is you doin' right?",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "That sound, that's the night, April Fool, play the fool",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Nice house with a pool, needed room to improve",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Hey, miss, I'm your Mr. Miyagi (Miyagi)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West, Playboi Carti & Future]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti",
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, Playboi Carti, Future)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti",
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "I'ma come and kick it in the Balenciagi (Oh)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West, Playboi Carti & Future]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti",
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, Playboi Carti, Future)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti",
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Don't text me in the mornin', bae, I'm groggy (In the morning)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West, Playboi Carti & Future]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti",
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, Playboi Carti, Future)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti",
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Text me, don't FaceTime, I'm too groggy (Woah, yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West, Playboi Carti & Future]",
+        "artists": [
+          "Kanye West",
+          "Playboi Carti",
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, Playboi Carti, Future)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        },
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Playboi Carti",
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "If I dig in my bag, it's an M (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Post-Chorus: Future]",
+        "artists": [
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Future)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Had to put a lil' **** on a film (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Post-Chorus: Future]",
+        "artists": [
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Future)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "I done took off in the air, I can't see 'em (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Post-Chorus: Future]",
+        "artists": [
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Future)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Gotta get it before it come in (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Post-Chorus: Future]",
+        "artists": [
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Future)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Told the chief I'm ahead of my time (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Post-Chorus: Future]",
+        "artists": [
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Future)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Got Chanel comin' in by the nine (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Post-Chorus: Future]",
+        "artists": [
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Future)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "Keepin' up with me, one of a kind (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Post-Chorus: Future]",
+        "artists": [
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Future)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Keep it real with me, no need for lies",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Post-Chorus: Future]",
+        "artists": [
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Future)"
+      },
+      "voices": [
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "future",
+        "display": "Future"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Rockstar stones in every jean jacket",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Playboi Carti]",
+        "artists": [
+          "Playboi Carti"
+        ],
+        "label": "Verse 2 (Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "I might take a jet to Calabasas just to **** my old ****",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Playboi Carti]",
+        "artists": [
+          "Playboi Carti"
+        ],
+        "label": "Verse 2 (Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "Push up on an opp, Beno on that dumb ****",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Playboi Carti]",
+        "artists": [
+          "Playboi Carti"
+        ],
+        "label": "Verse 2 (Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Homixide in the box, yeah, they on dumb ****",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Playboi Carti]",
+        "artists": [
+          "Playboi Carti"
+        ],
+        "label": "Verse 2 (Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "I just **** up the function, I just **** it up (Woah)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Playboi Carti]",
+        "artists": [
+          "Playboi Carti"
+        ],
+        "label": "Verse 2 (Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "I just **** up the function, I just **** it up",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Playboi Carti]",
+        "artists": [
+          "Playboi Carti"
+        ],
+        "label": "Verse 2 (Playboi Carti)"
+      },
+      "voices": [
+        {
+          "id": "playboi-carti",
+          "display": "Playboi Carti"
+        }
+      ],
+      "voice": {
+        "id": "playboi-carti",
+        "display": "Playboi Carti"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Playboi Carti"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "(New number again)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Run the summer again (New number again)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Change my number again (Change the number again)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Switch the number again (Switch the number again)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "How much more can we win? (Number again)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Change my number again (Change the number 'gain)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "It's a number of them (It's a number of them)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "I move on, don't do me in",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "Hopped off on the mine, fell in love for the night",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "You don't say what you want, what is you doin' right?",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "Blast off on the mine, now I'm down for the moon",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "Now down for a move, blast off when you know",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "Hey, miss, I'm your Mr. Miyagi (Yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kanye West & Future]",
+        "artists": [
+          "Kanye West",
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kanye West, Future)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "I'ma come and kick it in the Balenciagi",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kanye West & Future]",
+        "artists": [
+          "Kanye West",
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kanye West, Future)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "Don't text me in the mornin', bae, I'm groggy",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kanye West & Future]",
+        "artists": [
+          "Kanye West",
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kanye West, Future)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Future"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "Text me, don't FaceTime, I'm too groggy (Yeah, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kanye West & Future]",
+        "artists": [
+          "Kanye West",
+          "Future"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kanye West, Future)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "future",
+          "display": "Future"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Future"
+        ]
+      }
+    }
+  ]
+}

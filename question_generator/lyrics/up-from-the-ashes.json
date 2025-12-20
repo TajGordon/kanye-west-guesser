@@ -1,0 +1,724 @@
+{
+  "title": "Up From The Ashes",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Sunday Service Choir"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Donda",
+    "edition": "deluxe",
+    "year": 2021
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Up from the ashes, into the sky",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Found a Redeemer, how I survive",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Boys hug their mothers, Mary and Christ",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Your light has healed me, blessed with new life",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "I could tell you, He could show you",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "God in Heaven, shinin' on you",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Through your message, now I know you",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "I come to You empty, free of my pride",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "(Ooh, ooh-ooh, ooh-ooh)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Praise You only, now and forever",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "All the glory, it belongs to You",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "By Christ's power, we're victorious",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Been set f—",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "I come to You empty, free of my pride",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Sunday Service Choir & Kanye West]",
+        "artists": [
+          "Sunday Service Choir",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sunday Service Choir, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "We walk by faith and not by our sight",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Sunday Service Choir & Kanye West]",
+        "artists": [
+          "Sunday Service Choir",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sunday Service Choir, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Declaring the vict'ry, one day at a time",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Sunday Service Choir & Kanye West]",
+        "artists": [
+          "Sunday Service Choir",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sunday Service Choir, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "God is our shepherd, light in the night",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Sunday Service Choir & Kanye West]",
+        "artists": [
+          "Sunday Service Choir",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sunday Service Choir, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "Cure for the sick, He's eyes for the blind",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Sunday Service Choir & Kanye West]",
+        "artists": [
+          "Sunday Service Choir",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Sunday Service Choir, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "I could tell you, He can show you",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "God in Heaven, shinin' on you",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Through your message, now I know You",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "I come to You empty, free of my pride",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "I come to You empty",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    }
+  ]
+}

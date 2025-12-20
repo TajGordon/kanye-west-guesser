@@ -1,0 +1,1296 @@
+{
+  "title": "Feedback",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [],
+  "producers": [
+    "Kanye West",
+    "Mike Dean",
+    "Plain Pat",
+    "Charlie Heat"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "The Life Of Pablo",
+    "edition": "standard",
+    "year": 2016
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Ayy, ya heard about the good news?",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Y'all sleeping on me, huh? Had a good snooze?",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Wake up, nigga, wake up",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "We 'bout to get this paper",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Money never made me",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Make me do something? Nah, can't make me",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Even if the money low, can't pay me",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Even if the money low, can't play me",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Ayy, ya heard about the good news?",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Y'all sleeping on me, huh? Had a good snooze?",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Wake up, nigga, wake up",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "We 'bout to get this paper",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Pablo bought a Rolie and a rottweiler",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Seem like the more fame, I only got wilder",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Hands up, we just doing what the cops taught us",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Hands up, we just doing what the cops taught us",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "I've been outta my mind a long time",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "I've been outta my mind a long time",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "I be saying how I feel at the wrong time",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Might not come when you want but I'm on time",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Ayy, ya heard about the good news?",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Y'all sleeping on me, huh? Had a good snooze?",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Wake up, nigga, wake up",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "We 'bout to get this paper",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "I can't let these people play me",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3]",
+        "artists": [],
+        "label": "Verse 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Name one genius that ain't crazy",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3]",
+        "artists": [],
+        "label": "Verse 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Follow our father",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3]",
+        "artists": [],
+        "label": "Verse 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "You borrow our motto",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3]",
+        "artists": [],
+        "label": "Verse 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "I'm a Chicago south sider",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3]",
+        "artists": [],
+        "label": "Verse 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "I'm a Chicago south sider",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3]",
+        "artists": [],
+        "label": "Verse 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Ayy, ya heard about the good news?",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Y'all sleeping on your boy, had a good snooze?",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Wake up, nigga, wake up",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "It's time to get the paper",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "I've been outta my mind a long time",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "I've been outta my mind a long time",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "I know, I know, I shouldn't even bother",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "With all these gossiping, no-pussy-getting bloggers",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "Fashion show in Gotham, I need another costume",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "PETA mad 'cause I made a jacket outta possum",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Awesome, Steve Jobs mixed with Steve Austin",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "Rich slave in the fabric store picking cotton",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "If Hov J then every Jordan need a Rodman",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Man, Jay, they don't really want no problems",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Driving in the same car that they killed Pac in",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Driving in the same urr that they killed Pac in",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Hands up, we just doing what the cops taught us",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Hands up, hands up, then the cops shot us",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Hold on, hold on, hold on",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Wait a second, everybody here, I'm the ghetto Oprah",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "You know what that mean? You get a fur! You get a fur!",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "You get a jet! You get a jet! Big booty bitch for you! Woo!",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    }
+  ]
+}

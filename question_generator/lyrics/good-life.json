@@ -1,0 +1,2829 @@
+{
+  "title": "Good Life",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "T-Pain",
+    "Both"
+  ],
+  "producers": [
+    "Kanye West",
+    "DJ Toomp",
+    "Mike Dean"
+  ],
+  "release": {
+    "formats": [
+      "album",
+      "single"
+    ],
+    "status": "official",
+    "project": "Graduation",
+    "edition": "standard",
+    "year": 2007
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Like we always do at this time",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, T-Pain & Both]",
+        "artists": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, T-Pain, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "I go for mine, I got to shine",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, T-Pain & Both]",
+        "artists": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, T-Pain, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "(Now throw yo' hands up in the sky)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, T-Pain & Both]",
+        "artists": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, T-Pain, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "I g-go for mine, I got to shine",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, T-Pain & Both]",
+        "artists": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, T-Pain, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "(Now throw yo' hands up in the sky)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, T-Pain & Both]",
+        "artists": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, T-Pain, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "I'ma get on this TV, mama, I'ma",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, T-Pain & Both]",
+        "artists": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, T-Pain, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "I'ma put shit down",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, T-Pain & Both]",
+        "artists": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, T-Pain, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Ayy, ayy, ayy, ayy",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, T-Pain & Both]",
+        "artists": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, T-Pain, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Ayy, ayy, ayy, I'm good",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, T-Pain & Both]",
+        "artists": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, T-Pain, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Welcome to the good life, where niggas that sell D",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Won't even get pulled over in they new V",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "The good life, let's go on a livin' spree",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Shit, they say the best things in life are free",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "The good life, it feel like Atlanta",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "It feel like L.A., it feel like Miami",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "It feel like NY, summertime Chi', ah",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "(Now throw yo' hands up in the sky)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "So I roll through good",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "Y'all pop the trunk, I pop the hood, Ferrari",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "And she got the goods",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "And she got that ass, I got to look, sorry",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Yo, it's got to be 'cause I'm seasoned",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Haters give me them salty looks, Lawry's",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "50 told me, \"Go 'head, switch the style up",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "And if they hate then let 'em hate and watch the money pile up\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "The good life",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Now I, I go for mine, I got to shine",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "(Now throw yo' hands up in the sky)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Now I, I go for mine, I got to shine",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "(Now throw yo' hands up in the sky) Ayy",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "I'ma get on this TV, mama, I'ma",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "I'ma put shit down",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Ayy, ayy, ayy, ayy",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Ayy, ayy, ayy, I'm good",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Welcome to the good life",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "Where we like the girls who ain't on TV",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "'Cause they got mo' ass than the models",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "The good life, so keep it comin' with the bottles",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "'Cause she feel booze like she bombed at Apollo",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "The good life, it feel like Houston",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "It feel like Philly, it feel like D.C.​",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "It feel like VA or the Bay or Yay",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Ayy, this is the good life",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "(Welcome to the good life)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Homie, tell me what's good",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Why I only got a problem when you in the hood",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "(Welcome to the good life)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Like I'm new in the hood",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "The only thing I wish, I wish a nigga would",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "(Welcome to the good life)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "He probably think he could",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "But, but, I don't think he should",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "(Oh, welcome to the good li-li-li-life, oh)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "50 told me, \"Go 'head, switch the style up",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "And if they hate then let 'em hate and watch the money pile up\"",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "The good life",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 2 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "Now I, I go for mine (Yeah), I got to shine",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "(Now throw yo' hands up in the sky)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "Now I, I go for mine, I got to shine",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "(Now throw yo' hands up in the sky) Ayy",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "I'ma get on the TV, mama, I'ma",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "I'ma put shit down",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "Ayy, ayy, ayy, ayy",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 64,
+      "content": "Ayy, ayy, ayy, I'm good",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 65,
+      "content": "Yeah, yeah",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 66,
+      "content": "Have you ever popped champagne on a plane, while gettin' some brain?",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 67,
+      "content": "Whipped it out, she said, \"I never seen Snakes on a Plane\"",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 68,
+      "content": "Whether you broke or rich, you gotta get this",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 69,
+      "content": "Havin' money's not everythin', not havin' it is",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 70,
+      "content": "I was splurgin' on trips",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 71,
+      "content": "But when I get my card back activated, I'm back to Vegas",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 72,
+      "content": "(Welcome to the good life)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 73,
+      "content": "'Cause I always had a passion for flashin'",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 74,
+      "content": "Before I had it, I closed my eyes and imagined the good life",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & T-Pain]",
+        "artists": [
+          "Kanye West",
+          "T-Pain"
+        ],
+        "label": "Verse 3 (Kanye West, T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 75,
+      "content": "Ayy, it's the good life, better than the life I lived",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: T-Pain]",
+        "artists": [
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "t-pain",
+        "display": "T-Pain"
+      },
+      "meta": {
+        "detectedVoices": [
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 76,
+      "content": "When I thought that I was gonna go crazy",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: T-Pain]",
+        "artists": [
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "t-pain",
+        "display": "T-Pain"
+      },
+      "meta": {
+        "detectedVoices": [
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 77,
+      "content": "And now my grandmama",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: T-Pain]",
+        "artists": [
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "t-pain",
+        "display": "T-Pain"
+      },
+      "meta": {
+        "detectedVoices": [
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 78,
+      "content": "Ain't the only girl callin' me baby",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: T-Pain]",
+        "artists": [
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "t-pain",
+        "display": "T-Pain"
+      },
+      "meta": {
+        "detectedVoices": [
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 79,
+      "content": "If you feelin' me now, then put yo' hands up in the sky",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: T-Pain]",
+        "artists": [
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "t-pain",
+        "display": "T-Pain"
+      },
+      "meta": {
+        "detectedVoices": [
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 80,
+      "content": "And let me hear you say, \"Hey, hey\" (Hey, hey, hey)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: T-Pain]",
+        "artists": [
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "t-pain",
+        "display": "T-Pain"
+      },
+      "meta": {
+        "detectedVoices": [
+          "T-Pain"
+        ]
+      }
+    },
+    {
+      "line_number": 81,
+      "content": "(Ooh) I'm good!",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: T-Pain]",
+        "artists": [
+          "T-Pain"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (T-Pain)"
+      },
+      "voices": [
+        {
+          "id": "t-pain",
+          "display": "T-Pain"
+        }
+      ],
+      "voice": {
+        "id": "t-pain",
+        "display": "T-Pain"
+      },
+      "meta": {
+        "detectedVoices": [
+          "T-Pain"
+        ]
+      }
+    }
+  ]
+}

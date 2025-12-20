@@ -1,0 +1,1135 @@
+{
+  "title": "530",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Swsh",
+    "Ye"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Donda 2",
+    "edition": "standard",
+    "year": 2025
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Baby, yeah",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Swsh]",
+        "artists": [
+          "Swsh"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Swsh)"
+      },
+      "voices": [
+        {
+          "id": "swsh",
+          "display": "Swsh"
+        }
+      ],
+      "voice": {
+        "id": "swsh",
+        "display": "Swsh"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Swsh"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Woah, baby",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Swsh]",
+        "artists": [
+          "Swsh"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Swsh)"
+      },
+      "voices": [
+        {
+          "id": "swsh",
+          "display": "Swsh"
+        }
+      ],
+      "voice": {
+        "id": "swsh",
+        "display": "Swsh"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Swsh"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Who pick up when you call?",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Swsh]",
+        "artists": [
+          "Swsh"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Swsh)"
+      },
+      "voices": [
+        {
+          "id": "swsh",
+          "display": "Swsh"
+        }
+      ],
+      "voice": {
+        "id": "swsh",
+        "display": "Swsh"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Swsh"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Yeah, yeah, yeah",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Swsh]",
+        "artists": [
+          "Swsh"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Swsh)"
+      },
+      "voices": [
+        {
+          "id": "swsh",
+          "display": "Swsh"
+        }
+      ],
+      "voice": {
+        "id": "swsh",
+        "display": "Swsh"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Swsh"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "5:30, the car missin'",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "No text backs or call misses, I feel like we all victims",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Nights been gettin' long",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Drunk textin', I should not do Patrón",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "I hop on the phone, turn the music up, got in my zone",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Drunk textin', I should probably sue Patrón",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Had to do wrong order to do you right, uh",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "You gotta go through it order to give advice",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "It's the price of the litty nights, I know the liquor hittin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Why when somebody break your heart? It help fix your vision",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "If you fall in love with a demon or a diva",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Pray your soulmate got a soul when you meet her",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "The crystal ball couldn't tell me if they'll leave again",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "Problems too extra large to share with a medium",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "We fight not for flesh and blood on this level",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "And devil's advocate is advocatin' for the devil",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "And love is all drainin', and stop, it's all fadin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "We used to be secretive, but now it's all blatant",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "It's all just lost, ain't it? Watchin' it all cave in",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "We the topic of conversation",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "5:30, the car missin'",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "No textin', just call missin'",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "We fight and you won't listen",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "You right, we both trippin'",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "It's game time, matter fact, it's Ye time",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "The past year been a strange time",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Visitations on FaceTime",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "And who gon' break who's heart first? Always just breaks mine",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Looking for blessings that God'll hand me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "I'm tryna just raise the family, somebody should raise the nanny",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "I'm tryna leave you alone",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "But that last text was courtesy of Patrón",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "label": "Verse 2 (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "5:30, the car missin'",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Emotions is all distant, no texts, just calls missin'",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "We fight and you won't listen, you right, we both trippin'​​​​​​​​​​​​​​​​​",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Ye]",
+        "artists": [
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Ye)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye"
+        ]
+      }
+    }
+  ]
+}

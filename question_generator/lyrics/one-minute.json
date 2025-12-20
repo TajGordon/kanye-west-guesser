@@ -1,0 +1,1738 @@
+{
+  "title": "One Minute",
+  "schemaVersion": 3,
+  "artists": [
+    "XXXTENTACION"
+  ],
+  "artist": "XXXTENTACION",
+  "features": [
+    "Kanye West"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "__custom__",
+    "edition": "standard",
+    "year": 2018
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "So much hate at the top, it's a lonely place",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "When you find out the opps ain't the only snakes",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "And your spouse only know what you don't erase",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "The world only know you by your worst mistakes",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "So spaz on they ass, that's the only way",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Smash on the gas down Stony, ayy",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Crash and come back with a swollen face",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "And when I'm on my way, X hold the gate",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Terrorize shit, we don't negotiate",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "If you bitch-made, we don't associate",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Show up at your birthday if you owe me cake",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "With a black mask, that's how we exfoliate",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "So pardon my way, my heart's in the way",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "I follow my thoughts, ain't no logic in Ye",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Said that's all I'ma say, if he caught him a case",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Then send him to jail, like a dog in a cage",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "I ain't feeling the age, no rottin' away",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "You're dark as the days, you caught in the way",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "'Cause coffins is laid under a tombstone",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "'Cause even when you die, they still throwin' rocks at your graves",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "So follow the wave, can't swallow the hate",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "My mind trumps anything that a scholar could say",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Don't know how to behave, we rage out of the raves",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Dislocate an arm, just pop it in place",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "'Cause the damned, they ain't it, all the pain and anguish",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Turned me into a man, so I ain't complainin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Now these things is changin', no more lames is hanging",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "No more fame in famous, ain't no shame in shamin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "She wanna give you the cookie, you Famous Amos",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "She gave you the pussy, but you ain't pay for the anus",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Now your name is tainted, by the claims they paintin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "The defendant is guilty, no one blames the plaintiff",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Gotta say it in Layman's terms, while you wait on arraignments",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "'Cause if the jury say you did it, the payment is heinous",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Give me one minute, my lady just fainted",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "My babies is crying, you understand what I'm sayin'?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "One minute, one minute, gone",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "One minute, and the next one's mine",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "One minute, one minute, gone",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "One minute, and the next one's mine",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "One minute, one minute, gone",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "One minute, and the next one's mine",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "One minute, one minute, gone",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "One minute and the next one's... mine!",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Ahaha",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Faith, I want more",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Faith, I want more",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Faith, I want more",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Faith, I want more",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Faith, I want more",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "Faith, I want more!",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "One minute, one minute, gone",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "One minute, and the next one's mine",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "One minute, one minute, gone",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "One minute, and the next one's mine",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "One minute, one minute, gone",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "One minute, and then the next one's mine",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "One minute, one minute, gone",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "One minute and the next one's—",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: XXXTENTACION]",
+        "artists": [
+          "XXXTENTACION"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (XXXTENTACION)"
+      },
+      "voices": [
+        {
+          "id": "xxxtentacion",
+          "display": "XXXTENTACION"
+        }
+      ],
+      "voice": {
+        "id": "xxxtentacion",
+        "display": "XXXTENTACION"
+      },
+      "meta": {
+        "detectedVoices": [
+          "XXXTENTACION"
+        ]
+      }
+    }
+  ]
+}

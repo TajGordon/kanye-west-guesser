@@ -1,0 +1,915 @@
+{
+  "title": "SLOW DANCING IN THE DARK",
+  "schemaVersion": 3,
+  "artists": [
+    "Joji"
+  ],
+  "artist": "Joji",
+  "features": [],
+  "producers": [
+    "Joji"
+  ],
+  "release": {
+    "formats": [
+      "single"
+    ],
+    "status": "official",
+    "project": "BALLADS 1",
+    "edition": "standard",
+    "year": 2018
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "I don't want a friend",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "I want my life in two (Please, one more night; my life in two)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Waiting to get there",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Waiting for you (I done fighted all night; waiting for you)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "(I done fighted all night)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "When I'm around slow dancing in the dark",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Don't follow me, you'll end up in my arms",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "You done made up your mind",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "I don't need no more signs",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Can you?",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Can you?",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Give me reasons we should be complete",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "You should be with him, I can't compete",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "You looked at me like I was someone else, oh well",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Can't you see? (Can't you see?)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "I don't wanna slow dance (I don't wanna slow dance)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "In the dark, dark",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "When you gotta run (Gotta run, gotta run)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "Just hear my voice in you (My voice in you)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Shutting me out, you (Shutting me out)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Doing so great (So great, so great)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Yeah",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Used to be the one (Used to be the one)",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "To hold you when you fall, yeah, yeah, yeah (When you fall, when you fall)",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "I don't fuck with your tone (I don't fuck with your tone)",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "I don't wanna go home (I don't wanna go home)",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Can it be one night?",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Can you?",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Can you?",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Give me reasons we should be complete",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "You should be with him, I can't compete",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "You looked at me like I was someone else, oh well",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Can't you see?",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "I don't wanna slow dance (I don't wanna slow dance)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "In the dark, dark",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "In the dark, dark",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    }
+  ]
+}

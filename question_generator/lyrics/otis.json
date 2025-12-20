@@ -1,0 +1,1826 @@
+{
+  "title": "Otis",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West",
+    "JAY-Z"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Otis Redding",
+    "Jay-Z",
+    "Both"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Watch the Throne",
+    "edition": "standard",
+    "year": 2011
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "It makes it easier, easier to bear",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Otis Redding & JAY-Z]",
+        "artists": [
+          "Otis Redding",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Otis Redding, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "otis-redding",
+          "display": "Otis Redding"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "otis-redding",
+        "display": "Otis Redding"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Otis Redding",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "You won't regret it, no, no, no",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Otis Redding & JAY-Z]",
+        "artists": [
+          "Otis Redding",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Otis Redding, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "otis-redding",
+          "display": "Otis Redding"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "otis-redding",
+        "display": "Otis Redding"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Otis Redding",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Some girls, they don't forget it",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Otis Redding & JAY-Z]",
+        "artists": [
+          "Otis Redding",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Otis Redding, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "otis-redding",
+          "display": "Otis Redding"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "otis-redding",
+        "display": "Otis Redding"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Otis Redding",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Love is their only happiness",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Otis Redding & JAY-Z]",
+        "artists": [
+          "Otis Redding",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Otis Redding, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "otis-redding",
+          "display": "Otis Redding"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "otis-redding",
+        "display": "Otis Redding"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Otis Redding",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Squee'— Squee'— Squee'—",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Otis Redding & JAY-Z]",
+        "artists": [
+          "Otis Redding",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Otis Redding, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "otis-redding",
+          "display": "Otis Redding"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "otis-redding",
+        "display": "Otis Redding"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Otis Redding",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "(Sounds so soulful, don't you agree?)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Otis Redding & JAY-Z]",
+        "artists": [
+          "Otis Redding",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Otis Redding, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "otis-redding",
+          "display": "Otis Redding"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "otis-redding",
+        "display": "Otis Redding"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Otis Redding",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Squeeze her, don't tease her, never leave her",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Otis Redding & JAY-Z]",
+        "artists": [
+          "Otis Redding",
+          "JAY-Z"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Otis Redding, JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "otis-redding",
+          "display": "Otis Redding"
+        },
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "otis-redding",
+        "display": "Otis Redding"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Otis Redding",
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Uh, I invented swag",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Poppin' bottles, puttin' supermodels in the cab",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Proof",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "I guess I got my swagger back, truth",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "New watch alert, Hublots",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Or the big-face Rollie, I got two of those",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Arm out the window, through the city, I maneuver slow",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Cock back, snapback, see my cut through the holes, Hov",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Damn, Yeezy and Hov, where the hell you been?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "Niggas talking real reckless, stuntmen",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "I adopted these niggas, Phillip Drummond them",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "Now I'm 'bout to make 'em tuck they whole summer in",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "They say I'm crazy, well, I'm 'bout to go dumb again",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "They ain't seen me 'cause I pulled up in my other Benz",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Last week, I was in my other, other Benz",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Throw your diamonds up 'cause we in this bitch another 'gain",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Photoshoot fresh, looking like wealth",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "I'm 'bout to call the paparazzi on myself",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Uh, live from the Mercer",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Run up on Yeezy the wrong way, I might murk ya",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Flee in the G450, I might surface",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Political refugee, asylum can be purchased",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Uh, everything's for sale",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "I got five passports, I'm never going to jail",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 3 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "I made \"Jesus Walks,\" I'm never going to hell",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Couture-level flow is never going on sale",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Luxury rap, the Hermès of verses",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Sophisticated ignorance, write my curses in cursive",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "I get it custom, you a customer",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "You ain't accustomed to going through customs, you ain't been nowhere, hah?",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "And all the ladies in the house got 'em showing off",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "I'm done, I'll hit you up maña— nah",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "Welcome to Havana",
+      "section": {
+        "type": "verse",
+        "number": 5,
+        "originalText": "[Verse 5: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 5 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Smoking Cubanos with Castro in cabanas",
+      "section": {
+        "type": "verse",
+        "number": 5,
+        "originalText": "[Verse 5: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 5 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "Viva México, Cubano",
+      "section": {
+        "type": "verse",
+        "number": 5,
+        "originalText": "[Verse 5: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 5 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Dominicano, all the plugs that I know",
+      "section": {
+        "type": "verse",
+        "number": 5,
+        "originalText": "[Verse 5: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 5 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Driving Benzes with no benefits",
+      "section": {
+        "type": "verse",
+        "number": 5,
+        "originalText": "[Verse 5: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 5 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Not bad, huh, for some immigrants?",
+      "section": {
+        "type": "verse",
+        "number": 5,
+        "originalText": "[Verse 5: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 5 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Build your fences, we diggin' tunnels",
+      "section": {
+        "type": "verse",
+        "number": 5,
+        "originalText": "[Verse 5: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 5 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Can't you see we gettin' money up under you?",
+      "section": {
+        "type": "verse",
+        "number": 5,
+        "originalText": "[Verse 5: JAY-Z]",
+        "artists": [
+          "JAY-Z"
+        ],
+        "label": "Verse 5 (JAY-Z)"
+      },
+      "voices": [
+        {
+          "id": "jay-z",
+          "display": "JAY-Z"
+        }
+      ],
+      "voice": {
+        "id": "jay-z",
+        "display": "JAY-Z"
+      },
+      "meta": {
+        "detectedVoices": [
+          "JAY-Z"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Can't you see the private jets flying over you?",
+      "section": {
+        "type": "verse",
+        "number": 6,
+        "originalText": "[Verse 6: Kanye West, Jay-Z & Both]",
+        "artists": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ],
+        "label": "Verse 6 (Kanye West, Jay-Z, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "Jay-Z"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Maybach bumper sticker read, \"What would Hova do?\"",
+      "section": {
+        "type": "verse",
+        "number": 6,
+        "originalText": "[Verse 6: Kanye West, Jay-Z & Both]",
+        "artists": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ],
+        "label": "Verse 6 (Kanye West, Jay-Z, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "Jay-Z"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Jay is chillin' (Uh), Ye is chillin' (Uh)",
+      "section": {
+        "type": "verse",
+        "number": 6,
+        "originalText": "[Verse 6: Kanye West, Jay-Z & Both]",
+        "artists": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ],
+        "label": "Verse 6 (Kanye West, Jay-Z, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "Jay-Z"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "What more can I say? We killin' 'em",
+      "section": {
+        "type": "verse",
+        "number": 6,
+        "originalText": "[Verse 6: Kanye West, Jay-Z & Both]",
+        "artists": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ],
+        "label": "Verse 6 (Kanye West, Jay-Z, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "Jay-Z"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "Hold up before we end this campaign",
+      "section": {
+        "type": "verse",
+        "number": 6,
+        "originalText": "[Verse 6: Kanye West, Jay-Z & Both]",
+        "artists": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ],
+        "label": "Verse 6 (Kanye West, Jay-Z, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "Jay-Z"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "As you can see, we done bodied the damn lames",
+      "section": {
+        "type": "verse",
+        "number": 6,
+        "originalText": "[Verse 6: Kanye West, Jay-Z & Both]",
+        "artists": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ],
+        "label": "Verse 6 (Kanye West, Jay-Z, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "Jay-Z"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "Lord, please let them accept the things they can't change",
+      "section": {
+        "type": "verse",
+        "number": 6,
+        "originalText": "[Verse 6: Kanye West, Jay-Z & Both]",
+        "artists": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ],
+        "label": "Verse 6 (Kanye West, Jay-Z, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "Jay-Z"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "And pray that all of they pain be champagne",
+      "section": {
+        "type": "verse",
+        "number": 6,
+        "originalText": "[Verse 6: Kanye West, Jay-Z & Both]",
+        "artists": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ],
+        "label": "Verse 6 (Kanye West, Jay-Z, Both)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jay-z",
+          "display": "Jay-Z"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Jay-Z",
+          "Both"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "Scream it",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "otis-redding",
+          "display": "Otis Redding"
+        },
+        {
+          "id": "jay-z",
+          "display": "Jay-Z"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "Give it",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "otis-redding",
+          "display": "Otis Redding"
+        },
+        {
+          "id": "jay-z",
+          "display": "Jay-Z"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "Scream it",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "otis-redding",
+          "display": "Otis Redding"
+        },
+        {
+          "id": "jay-z",
+          "display": "Jay-Z"
+        },
+        {
+          "id": "both",
+          "display": "Both"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    }
+  ]
+}

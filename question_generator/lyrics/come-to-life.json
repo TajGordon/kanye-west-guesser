@@ -1,0 +1,1524 @@
+{
+  "title": "Come to Life",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Donda",
+    "edition": "standard",
+    "year": 2021
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "My soul cries out Hallelujah and I thank God for saving me",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "I thank God for...",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Here go all your problems again (I thank God)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Three, two, one, you're pinned (I thank God)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Uncle now he back in the pen' (Hallelujah)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Auntie shut down again",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Did she finally come to life? (Thank you, Jesus)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Ever wish you had another life?",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Ever wish you had another life?",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Ever wish you had another life?",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Don't you wish the night would go numb?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "I've been feelin' low for so long",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "I ain't had a high in so long",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "I been in the dark for so long",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Night is always darkest 'fore the dawn",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Gotta make my mark 'fore I'm gone",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "I don't wanna die alone",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "I don't wanna die alone",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "I get mad when she gone",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Mad when she home",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Sad when she gone",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Mad when she home",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Sad when she gone (Loosen right now, the spirit that wants to run)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Floatin' on a silver lining (In the name of Jesus)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Yeah, you know where to find me, ridin' on a silver lining",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "And my God won't deny me, tell the Devil, \"Get behind me\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "And all the stars are aligned, lift me up every time",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "You know exactly where to find me",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Hallelujah (Thank you, Jesus)",
+      "section": {
+        "type": "interlude",
+        "number": 1,
+        "originalText": "[Interlude]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Interlude"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Hallelujah (Yes)",
+      "section": {
+        "type": "interlude",
+        "number": 1,
+        "originalText": "[Interlude]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Interlude"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Hallelujah...",
+      "section": {
+        "type": "interlude",
+        "number": 1,
+        "originalText": "[Interlude]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Interlude"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Did those ideas ever really come to life?",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Make it all come to life",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Make it all come to life",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Prayin' for a change in your life",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "Well, maybe it's gon' come tonight",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Pre-Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Sadness settin' in again",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Three, two, one, you're pinned",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "Uncle right back in the pen'",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "Tell me how auntie been",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Took your thoughts and penciled 'em in",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "Should've wrote 'em down in pen",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "And maybe they'll come to life",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "And maybe they'll come to life",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Sadness settin' in again",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Three, two, one, you're pinned",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Uncle right back to the pen'",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Tell me how auntie been",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Thoughts, you had penciled 'em in",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Probably should've wrote 'em in pen",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "And maybe they'll come to life",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "They could finally come to life",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "They could finally come to life",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "You know where to find me, they cannot define me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "So they crucify me, how so fazed when I leave?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "Come and purify me, come and sanctify me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "You the air that I breathe, the ultra-ultralight beam",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "Brought a gift to Northie, all she want was Nikes",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "This is not about me, God is still alive, so I'm free",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "Floatin' on a silver lining, floatin' on a silver lining",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "So when I'm free, I'm free",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    }
+  ]
+}

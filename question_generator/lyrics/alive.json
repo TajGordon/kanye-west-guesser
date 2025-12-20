@@ -1,0 +1,1798 @@
+{
+  "title": "ALIVE",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West",
+    "YoungBoy Never Broke Again"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "DJ Swamp Izzo",
+    "Ye",
+    "YoungBoy Never Broke Again"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "single"
+    ],
+    "status": "official",
+    "project": "",
+    "edition": "standard",
+    "year": 2025
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Wake up",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Alive (You are)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: DJ Swamp Izzo & Ye]",
+        "artists": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (DJ Swamp Izzo, Ye)"
+      },
+      "voices": [
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "dj-swamp-izzo",
+        "display": "DJ Swamp Izzo"
+      },
+      "meta": {
+        "detectedVoices": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Alive (You are)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: DJ Swamp Izzo & Ye]",
+        "artists": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (DJ Swamp Izzo, Ye)"
+      },
+      "voices": [
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "dj-swamp-izzo",
+        "display": "DJ Swamp Izzo"
+      },
+      "meta": {
+        "detectedVoices": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Alive (You are)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: DJ Swamp Izzo & Ye]",
+        "artists": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (DJ Swamp Izzo, Ye)"
+      },
+      "voices": [
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "dj-swamp-izzo",
+        "display": "DJ Swamp Izzo"
+      },
+      "meta": {
+        "detectedVoices": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Alive",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: DJ Swamp Izzo & Ye]",
+        "artists": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (DJ Swamp Izzo, Ye)"
+      },
+      "voices": [
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "dj-swamp-izzo",
+        "display": "DJ Swamp Izzo"
+      },
+      "meta": {
+        "detectedVoices": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "This that new season ten (This that new season ten)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye & YoungBoy Never Broke Again]",
+        "artists": [
+          "Ye",
+          "YoungBoy Never Broke Again"
+        ],
+        "label": "Verse (Ye, YoungBoy Never Broke Again)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye",
+          "YoungBoy Never Broke Again"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "This that fuck and leave it in",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye & YoungBoy Never Broke Again]",
+        "artists": [
+          "Ye",
+          "YoungBoy Never Broke Again"
+        ],
+        "label": "Verse (Ye, YoungBoy Never Broke Again)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye",
+          "YoungBoy Never Broke Again"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "This that pull up, blow, they thinkin' they hot, let five out the Gen",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye & YoungBoy Never Broke Again]",
+        "artists": [
+          "Ye",
+          "YoungBoy Never Broke Again"
+        ],
+        "label": "Verse (Ye, YoungBoy Never Broke Again)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye",
+          "YoungBoy Never Broke Again"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "This that niggas been stealin' the swag they know damn well they ain't invent",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye & YoungBoy Never Broke Again]",
+        "artists": [
+          "Ye",
+          "YoungBoy Never Broke Again"
+        ],
+        "label": "Verse (Ye, YoungBoy Never Broke Again)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye",
+          "YoungBoy Never Broke Again"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "This that niggas ain't rich, they broke, want a blessing and they ain't even repent",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Ye & YoungBoy Never Broke Again]",
+        "artists": [
+          "Ye",
+          "YoungBoy Never Broke Again"
+        ],
+        "label": "Verse (Ye, YoungBoy Never Broke Again)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye",
+          "YoungBoy Never Broke Again"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Okay, these niggas in trouble, it's fuck 'em, I'm finna expose 'еm, they too undercover",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: YoungBoy Never Broke Again & Ye]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye"
+        ],
+        "label": "Verse 2 (YoungBoy Never Broke Again, Ye)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "This for my mama, my daughtеr, my mistress, I clean up her dental, upgradin' her sucker",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: YoungBoy Never Broke Again & Ye]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye"
+        ],
+        "label": "Verse 2 (YoungBoy Never Broke Again, Ye)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "These niggas suckers, they with it, we pull up in Bentleys and beat the fuck out 'em in public",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: YoungBoy Never Broke Again & Ye]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye"
+        ],
+        "label": "Verse 2 (YoungBoy Never Broke Again, Ye)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Had to go crazy just for them to hear me, I had to stop walkin' on water to hover",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: YoungBoy Never Broke Again & Ye]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye"
+        ],
+        "label": "Verse 2 (YoungBoy Never Broke Again, Ye)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Hold on, I came back from the dead, now, nigga, I feel alive",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Ye, YoungBoy Never Broke Again & DJ Swamp Izzo]",
+        "artists": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ye, YoungBoy Never Broke Again, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Alive (You are)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Ye, YoungBoy Never Broke Again & DJ Swamp Izzo]",
+        "artists": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ye, YoungBoy Never Broke Again, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "Alive",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Ye, YoungBoy Never Broke Again & DJ Swamp Izzo]",
+        "artists": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ye, YoungBoy Never Broke Again, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "I came back from the dead, now, bitch, I feel alive",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Ye, YoungBoy Never Broke Again & DJ Swamp Izzo]",
+        "artists": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ye, YoungBoy Never Broke Again, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "Alive (You are)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Ye, YoungBoy Never Broke Again & DJ Swamp Izzo]",
+        "artists": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ye, YoungBoy Never Broke Again, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Alive (You are)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Ye, YoungBoy Never Broke Again & DJ Swamp Izzo]",
+        "artists": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ye, YoungBoy Never Broke Again, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Alive",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Ye, YoungBoy Never Broke Again & DJ Swamp Izzo]",
+        "artists": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ye, YoungBoy Never Broke Again, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "I'm liver than all of you niggas",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Ye, YoungBoy Never Broke Again & DJ Swamp Izzo]",
+        "artists": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ye, YoungBoy Never Broke Again, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "ye",
+        "display": "Ye"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ye",
+          "YoungBoy Never Broke Again",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "I'll put the bitch in a blicker, them youngins gon' load up and get 'em, they catch 'em and stretch 'em",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": ".223, it ain't missin' a beat, we gon' pray up to Heaven and step in eleven",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "I drive the Maybach like a Jeep, I been movin' discreet on a nigga now just cause I said it",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "I'm that nigga, I read it on Reddit, I'm chargin' you niggas until I get credit",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "I'm lovin' myself, I been havin' a fetish, I'm ready to eat, I been countin' up lettuce",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Oh, I got them hitters, they ready to go",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "That ain't a model, I bought her a bottle and fucked on her bottom until she was sore",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "I'm on the slab jumpin' out of a cab",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "On the Z like a Zoe in Givenchy peacoat",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "I am the realest, the illest, the richest, I break on a bitch, I can never go broke",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Nigga, oh (Oh), came back from the dead, now, nigga, I feel alive",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Come in the circle, they feelin' alive",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Man, these niggas too under disguise",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "Oh, oh, oh, oh, oh, fuck it, let's run it, I let go my pride",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "I go to war about my kids, my child",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "These niggas better just stay up inside",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: YoungBoy Never Broke Again, Ye & DJ Swamp Izzo]",
+        "artists": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ],
+        "label": "Verse 3 (YoungBoy Never Broke Again, Ye, DJ Swamp Izzo)"
+      },
+      "voices": [
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        }
+      ],
+      "voice": {
+        "id": "youngboy-never-broke-again",
+        "display": "YoungBoy Never Broke Again"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YoungBoy Never Broke Again",
+          "Ye",
+          "DJ Swamp Izzo"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "Woo",
+      "section": {
+        "type": "interlude",
+        "number": 1,
+        "originalText": "[Interlude]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Interlude"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        },
+        {
+          "id": "youngboy-never-broke-again",
+          "display": "YoungBoy Never Broke Again"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "Alive (You are)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: DJ Swamp Izzo & Ye]",
+        "artists": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (DJ Swamp Izzo, Ye)"
+      },
+      "voices": [
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "dj-swamp-izzo",
+        "display": "DJ Swamp Izzo"
+      },
+      "meta": {
+        "detectedVoices": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Alive (You are)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: DJ Swamp Izzo & Ye]",
+        "artists": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (DJ Swamp Izzo, Ye)"
+      },
+      "voices": [
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "dj-swamp-izzo",
+        "display": "DJ Swamp Izzo"
+      },
+      "meta": {
+        "detectedVoices": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "Alive (You are)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: DJ Swamp Izzo & Ye]",
+        "artists": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (DJ Swamp Izzo, Ye)"
+      },
+      "voices": [
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "dj-swamp-izzo",
+        "display": "DJ Swamp Izzo"
+      },
+      "meta": {
+        "detectedVoices": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Alive (You are)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: DJ Swamp Izzo & Ye]",
+        "artists": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (DJ Swamp Izzo, Ye)"
+      },
+      "voices": [
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "dj-swamp-izzo",
+        "display": "DJ Swamp Izzo"
+      },
+      "meta": {
+        "detectedVoices": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Alive (You are)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: DJ Swamp Izzo & Ye]",
+        "artists": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (DJ Swamp Izzo, Ye)"
+      },
+      "voices": [
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "dj-swamp-izzo",
+        "display": "DJ Swamp Izzo"
+      },
+      "meta": {
+        "detectedVoices": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Alive (You are)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: DJ Swamp Izzo & Ye]",
+        "artists": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (DJ Swamp Izzo, Ye)"
+      },
+      "voices": [
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "dj-swamp-izzo",
+        "display": "DJ Swamp Izzo"
+      },
+      "meta": {
+        "detectedVoices": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Alive (You are)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: DJ Swamp Izzo & Ye]",
+        "artists": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (DJ Swamp Izzo, Ye)"
+      },
+      "voices": [
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "dj-swamp-izzo",
+        "display": "DJ Swamp Izzo"
+      },
+      "meta": {
+        "detectedVoices": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Alive",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: DJ Swamp Izzo & Ye]",
+        "artists": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (DJ Swamp Izzo, Ye)"
+      },
+      "voices": [
+        {
+          "id": "dj-swamp-izzo",
+          "display": "DJ Swamp Izzo"
+        },
+        {
+          "id": "ye",
+          "display": "Ye"
+        }
+      ],
+      "voice": {
+        "id": "dj-swamp-izzo",
+        "display": "DJ Swamp Izzo"
+      },
+      "meta": {
+        "detectedVoices": [
+          "DJ Swamp Izzo",
+          "Ye"
+        ]
+      }
+    }
+  ]
+}

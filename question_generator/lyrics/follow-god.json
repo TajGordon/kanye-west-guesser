@@ -1,0 +1,950 @@
+{
+  "title": "Follow God",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "JESUS IS KING",
+    "edition": "standard",
+    "year": 2019
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Father, I stretch",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Stretch my hands to You",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Lifelike, this is what your life like, try to live your life right",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "People really know you, push your buttons like typewrite",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "This is like a movie, but it's really very lifelike",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Every single night, right, every single fight, right?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "I was looking at the 'Gram and I don't even like likes",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "I was screamin' at my dad, he told me, \"It ain't Christ-like\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "I was screamin' at the referee just like Mike",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Lookin' for a bright light, Sigel, what your life like",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Riding on a white bike, feeling like Excitebike (Stretch my hands to You)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Pressin' on the gas, supernova for a night light",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Screamin' at my dad and he told me, \"It ain't Christ-like\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "But nobody never tell you when you're being like Christ",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Only ever seein' me only when they needin' me",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Like if Tyler Perry made a movie for BET",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "Searchin' for a deity, now you wanna see it free",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "Now you wanna see if we, let's just see if three apiece",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "Tell me what your life like, turn it down, a bright light",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Drivin' with my dad, and he told me, \"It ain't Christ-like\" (Stretch my hands to You)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "I'm just tryna find, l've been lookin' for a new way",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "I'm just really tryin' not to really do the fool way",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "I don't have a cool way, bein' on my best, though",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Block 'em on the text though, nothin' else next though",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Not another word, letter, picture, or a decimal (Father, I stretch)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Wrestlin' with God, I don't really want to wrestle",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Man, it's really lifelike, everything in my life (Stretch my hands to You)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Arguing with my dad, and he said, \"It ain't Christ-like\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Man",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "You know, it's like",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Somebody only close who can get you, like, off your",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "I be on my",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "I woke up this morning, I said my prayers",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "I'm all doing good, I tried to talk to my dad (Stretch my hands to You)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Give him some advice, he starts spazzin' on me",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "I start spazzin' back, He said \"That ain't Christ-like\"",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "I said, \"Ahhh\"",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Outro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    }
+  ]
+}

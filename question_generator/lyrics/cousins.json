@@ -1,0 +1,1052 @@
+{
+  "title": "Cousins",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "single"
+    ],
+    "status": "official",
+    "project": "CUCK",
+    "edition": "standard",
+    "year": 2025
+  },
+  "ignoredMarkers": [
+    {
+      "id": "m1",
+      "content": "[Part I]",
+      "rawLineNumber": 1,
+      "insertAfterLineNumber": 0
+    },
+    {
+      "id": "m2",
+      "content": "[Part II]",
+      "rawLineNumber": 26,
+      "insertAfterLineNumber": 15
+    }
+  ],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "I saw you outside again",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Just hangin' out with your friends",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Hangin' with my cousin, readin' dirty magazines",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "We seen two niggas kissin', we ain't know what that shit mean",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Then we start re-enactin' everything that we had seen",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "That's when I gave my cousin head, gave my cousin head",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Gave my cousin head, I gave my cousin head",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "I gave my cousin head",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "I saw you outside again",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Just hangin' out with your friends",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "And I know these niggas 'bout to judge me now (And I know these niggas 'bout to judge me now)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Started off when we was hangin' out (Started off when we hangin')",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Told my cousin not to tell nobody (Please, no, don't tell nobody)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "People tell me take it to my grave (\"Truth will set you free someday\")",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "I don't think they understand, that I'm not attracted to a man (They thought I was gay)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Nitrous don't help me, it just put me in a trance",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "I'm talkin' about euphoria, I am not talkin' about a man",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "Told her, \"Don't leave me, 'cause I need you by my side\"",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "As long as you don't leave me, then I'll probably be alright",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "And that one time that you left me, I didn't get no sleep that night",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "And that one time that you left me, I took ten Percs to get high",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Ten Percs to get high, pray that I don't die",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "But if I die, I'll see you in the sky",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Two pints of the Qua'-Qua', don't leave, just stay, bae",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Let's go on a vacay, leave the world behind",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Leave the world behind",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Bridge"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Leave the world behind",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Bridge"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Nitrous don't help me, it just put me in a trance",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "I'm talkin' about euphoria, I am not talkin' about a man",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Told her, \"Don't leave me, 'cause I need you by my side\"",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "As long as you don't leave me, then I'll probably be alright",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Then I'll probably be alright",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Then I'll probably be alright",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Ten Percs to get high, pray that I don't die",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "But if I die, I'll see you in the sky",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "Two pints of the Qua'-Qua', don't leave, just stay, bae",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Let's go on a vacay, leave the world behind",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Ten Percs to get high, pray that I don't die",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "But if I die, I'll see you in the sky",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "Two pints of the Qua'-Qua', don't leave, just stay, bae",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Let's go on a vacay, leave the world behind",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    }
+  ]
+}

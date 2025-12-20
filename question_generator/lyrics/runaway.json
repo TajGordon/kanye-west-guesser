@@ -1,0 +1,2644 @@
+{
+  "title": "Runaway",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West",
+    "Kid Cudi",
+    "Raekwon"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Rick James",
+    "James Brown",
+    "Pusha T"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "My Beautiful Dark Twisted Fantasy",
+    "edition": "standard",
+    "year": 2010
+  },
+  "ignoredMarkers": [
+    {
+      "id": "m1",
+      "content": "[Non-Lyrical Vocals]",
+      "rawLineNumber": 108,
+      "insertAfterLineNumber": 87
+    }
+  ],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Look at ya, look at ya, look at ya, look at ya",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Rick James & James Brown]",
+        "artists": [
+          "Rick James",
+          "James Brown"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Rick James, James Brown)"
+      },
+      "voices": [
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        },
+        {
+          "id": "james-brown",
+          "display": "James Brown"
+        }
+      ],
+      "voice": {
+        "id": "rick-james",
+        "display": "Rick James"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Rick James",
+          "James Brown"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Look at ya, look at ya, look at ya, look at ya",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Rick James & James Brown]",
+        "artists": [
+          "Rick James",
+          "James Brown"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Rick James, James Brown)"
+      },
+      "voices": [
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        },
+        {
+          "id": "james-brown",
+          "display": "James Brown"
+        }
+      ],
+      "voice": {
+        "id": "rick-james",
+        "display": "Rick James"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Rick James",
+          "James Brown"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Look at ya, look at ya, look at ya, look at ya",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Rick James & James Brown]",
+        "artists": [
+          "Rick James",
+          "James Brown"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Rick James, James Brown)"
+      },
+      "voices": [
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        },
+        {
+          "id": "james-brown",
+          "display": "James Brown"
+        }
+      ],
+      "voice": {
+        "id": "rick-james",
+        "display": "Rick James"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Rick James",
+          "James Brown"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Look at ya, look at ya, look at ya, look at ya (Ladies and gentlemen, ladies, ladies and gentlemen)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Rick James & James Brown]",
+        "artists": [
+          "Rick James",
+          "James Brown"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Rick James, James Brown)"
+      },
+      "voices": [
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        },
+        {
+          "id": "james-brown",
+          "display": "James Brown"
+        }
+      ],
+      "voice": {
+        "id": "rick-james",
+        "display": "Rick James"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Rick James",
+          "James Brown"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "And I always find, yeah, I always find something wrong",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "You been puttin' up with my shit just way too long",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "I'm so gifted at finding what I don't like the most",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "So I think it's time for us to have a toast",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Let's have a toast for the douchebags",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Let's have a toast for the assholes",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Let's have a toast for the scumbags",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Every one of them that I know",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Let's have a toast for the jerk-offs",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "That'll never take work off",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Baby, I got a plan",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Run away fast as you can",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "She find pictures in my email",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "I sent this bitch a picture of my dick",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "I don't know what it is with females",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "But I'm not too good at that shit",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "See, I could have me a good girl",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "And still be addicted to them hoodrats",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "And I just blame everything on you",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "At least you know that's what I'm good at",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "And I always find, yeah, I always find",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Yeah, I always find something wrong",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "You been puttin' up with my shit just way too long",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "I'm so gifted at finding what I don't like the most",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "So I think it's time for us to have a toast",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Let's have a toast for the douchebags",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Let's have a toast for the assholes",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Let's have a toast for the scumbags",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Every one of them that I know",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Let's have a toast for the jerk-offs",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "That'll never take work off",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "Baby, I got a plan",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Run away fast as you can",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Run away from me, baby",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "Ah, run away",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "Run away from me, baby (Look at ya, look at ya, look at ya)",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Run away",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "When it starts to get crazy (Look at ya, look at ya, look at ya)",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Then run away",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Babe, I got a plan, run away as fast as you can",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Run away from me, baby",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Run away",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Run away from me, baby (Look at, look at, look at, look at, look at, look at, look at ya)",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Run away",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "When it starts to get crazy (Look at ya, look at ya, look at ya, look at ya)",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Why can't she just run away?",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "Baby, I got a plan",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "Run away as fast as you can (Look at ya, look at ya, look at ya)",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West & Rick James]",
+        "artists": [
+          "Kanye West",
+          "Rick James"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West, Rick James)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "rick-james",
+          "display": "Rick James"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Rick James"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "Twenty-four seven, three sixty-five, pussy stays on my mind",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "I-I-I-I did it, alright, alright, I admit it",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "Now pick your next move, you could leave or live with it",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "Ichabod Crane with that motherfuckin' top off",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "Split and go where? Back to wearing knockoffs?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "Haha, knock it off, Neimans, shop it off",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "Let's talk over mai tais, waitress, top it off",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "Hoes like vultures, wanna fly in your Freddy loafers",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "You can't blame 'em, they ain't never seen Versace sofas",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "Every bag, every blouse, every bracelet",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "Comes with a price tag, baby, face it",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 64,
+      "content": "You should leave if you can't accept the basics",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 65,
+      "content": "Plenty hoes in the baller-nigga matrix",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 66,
+      "content": "Invisibly set, the Rolex is faceless",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 67,
+      "content": "I'm just young, rich, and tasteless, P",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 68,
+      "content": "Never was much of a romantic",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 69,
+      "content": "I could never take the intimacy",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 70,
+      "content": "And I know I did damage",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 71,
+      "content": "'Cause the look in your eyes is killing me",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 72,
+      "content": "I guess you knew of that advantage",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 73,
+      "content": "'Cause you could blame me for everything",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 74,
+      "content": "And I don't know how I'ma manage",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 75,
+      "content": "If one day, you just up and leave",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 76,
+      "content": "And I always find, yeah, I always find something wrong",
+      "section": {
+        "type": "pre-chorus",
+        "number": 3,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 77,
+      "content": "You been puttin' up with my shit just way too long",
+      "section": {
+        "type": "pre-chorus",
+        "number": 3,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 78,
+      "content": "I'm so gifted at finding what I don't like the most",
+      "section": {
+        "type": "pre-chorus",
+        "number": 3,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 79,
+      "content": "So I think it's time for us to have a toast",
+      "section": {
+        "type": "pre-chorus",
+        "number": 3,
+        "originalText": "[Pre-Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 80,
+      "content": "Let's have a toast for the douchebags",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 81,
+      "content": "Let's have a toast for the assholes",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 82,
+      "content": "Let's have a toast for the scumbags",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 83,
+      "content": "Every one of them that I know",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 84,
+      "content": "Let's have a toast for the jerk-offs",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 85,
+      "content": "That'll never take work off",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 86,
+      "content": "Baby, I got a plan",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 87,
+      "content": "Run away fast as you can",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    }
+  ]
+}

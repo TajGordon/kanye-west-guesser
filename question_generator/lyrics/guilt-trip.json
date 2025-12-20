@@ -1,0 +1,1513 @@
+{
+  "title": "Guilt Trip",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Popcaan",
+    "Kid Cudi"
+  ],
+  "producers": [
+    "Kanye West",
+    "Mike Dean",
+    "S1",
+    "Travis Scott",
+    "Ackeejuice Rockers"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Yeezus",
+    "edition": "standard",
+    "year": 2013
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "I need to call it off",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "I need to, I need to make it known",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "'Nother one, something gone",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Capricorn",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Dancing out on the lawn",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Fancy like the things she likes",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "I'm losing my",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "I'm living mine",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "All dem a gwaan— dem a— dem a— dem a gwaan",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Popcaan & Kanye West]",
+        "artists": [
+          "Popcaan",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Popcaan, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Dem a gwaan, gwaan, gwa-gwa-gwaan, sof-sof-softer, sof-softer ('Nother one)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Popcaan & Kanye West]",
+        "artists": [
+          "Popcaan",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Popcaan, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "All dem a gwaan— dem a— dem a— dem a gwaan",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Popcaan & Kanye West]",
+        "artists": [
+          "Popcaan",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Popcaan, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Gwaan-gwaan-gwa-waan softer than clay",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Popcaan & Kanye West]",
+        "artists": [
+          "Popcaan",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Popcaan, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Maybe it's 'cause she into Leos and I was into trios",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Plus all the trips to Rio couldn't have helped",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "It's gettin' cold, better bring your ski clothes",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Peekin' through the keyhole, the door locked, by myself",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "And I'm feelin' it right now",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "'Cause it's the time when my heart got shot down",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "Blocka, blocka, blocka-blocka, blocka",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Pour a little champagne, cranberry vodka",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Feelin' lied to like parents never said you adopted",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Your feelings like Zulu, then nothing is a Shaka",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "I hit her with Jamaican dick, I'm the new Shabba",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "She lookin' for her daddy, call me Big Poppa",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "On to the next saga",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Focus on the future and let the crew knock her",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Star Wars fur, yeah, I'm rockin' Chewbacca",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "The one Chief Rocka, number-one Chief Rocka, oh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "All dem a gwaan— dem a— dem a— dem a gwaan",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Dem a gwaan, gwaan, gwa-gwa-gwaan, sof-sof-softer, sof-softer",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "All dem a gwaan— dem a— dem a— dem a gwaan",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Gwaan-gwaan-gwa-waan softer than clay",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "All dem a gwaan— dem a— dem a— dem a gwaan",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Dem a gwaan, gwaan, gwa-gwa-gwaan, sof-sof-softer, sof-softer",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "None ah dem have the guts to rise it and spray",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Post-Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "None ah dem have the guts to bust the SK",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Post-Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Oh, oh, oh",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "If you love me so much, then why'd you let me go?",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "If you love me so much, then why'd you let me go?",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "If you love me so much, then why'd you let me go?",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Let me go? Let me go? Let me go, hm?",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "If you love me so much, then why'd you let me go?",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Let me go, hm?",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "All dem a gwaan— dem a— dem a— dem a gwaan",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Dem a gwaan, gwaan, gwa-gwa-gwaan, sof-sof-softer, sof-softer",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "All dem a gwaan— dem a— dem a— dem a gwaan",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Gwaan-gwaan-gwa-waan softer than clay",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "All dem a gwaan— dem a— dem a— dem a gwaan",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Dem a gwaan, gwaan, gwa-gwa-gwaan, sof-sof-softer, sof-softer",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "None ah dem have the guts to rise it and spray",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Post-Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "None ah dem have the guts to bust the SK",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Post-Chorus: Popcaan]",
+        "artists": [
+          "Popcaan"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Popcaan)"
+      },
+      "voices": [
+        {
+          "id": "popcaan",
+          "display": "Popcaan"
+        }
+      ],
+      "voice": {
+        "id": "popcaan",
+        "display": "Popcaan"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Popcaan"
+        ]
+      }
+    }
+  ]
+}
