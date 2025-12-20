@@ -1,0 +1,93 @@
+.raw-text-editor-container {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.raw-text-editor {
+  height: 100%;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  --cm-bg: #1a1a1a;
+  --cm-color: #f5f5f5;
+  --cm-cursor: #f5f5f5;
+  --cm-selection-bg: rgba(0, 102, 204, 0.2);
+  --cm-line-height: 1.6;
+  --cm-gutterBg: #1a1a1a;
+  --cm-gutterForeground: #666;
+}
+
+/* CodeMirror theme customization */
+.raw-text-editor .cm-editor {
+  background: #1a1a1a !important;
+  color: #f5f5f5 !important;
+  height: 100% !important;
+  border: 1px solid #444;
+  border-radius: 8px;
+}
+
+.raw-text-editor .cm-content {
+  padding: 16px;
+  line-height: 1.6;
+  caret-color: #f5f5f5;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+}
+
+.raw-text-editor .cm-line {
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 1.6;
+}
+
+.raw-text-editor .cm-cursor,
+.raw-text-editor .cm-dropCursor {
+  border-left-color: #f5f5f5 !important;
+  border-left-width: 2px !important;
+}
+
+/* Selection styling */
+.raw-text-editor .cm-selection {
+  background: rgba(0, 102, 204, 0.25) !important;
+}
+
+.raw-text-editor .cm-selectionMatch {
+  background: rgba(0, 102, 204, 0.1) !important;
+}
+
+/* Remove gutters */
+.raw-text-editor .cm-gutters {
+  display: none;
+}
+
+/* Focus ring */
+.raw-text-editor .cm-editor.cm-focused {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2);
+}
+
+/* Scrollbar styling */
+.raw-text-editor .cm-scroller {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #444 #1a1a1a;
+}
+
+.raw-text-editor .cm-scroller::-webkit-scrollbar {
+  width: 8px;
+}
+
+.raw-text-editor .cm-scroller::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+.raw-text-editor .cm-scroller::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 4px;
+}
+
+.raw-text-editor .cm-scroller::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

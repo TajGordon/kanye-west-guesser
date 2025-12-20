@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import LyricsEditor from './components/LyricsEditor';
 import SongLoader from './components/SongLoader';
 import './App.css';
@@ -10,17 +10,36 @@ export default function App() {
   // Generate smart filename from song metadata
   const generateFilename = useCallback((songData) => {
     if (!songData) return '';
-    const base = (songData.title || 'song')
-      .toLowerCase()
-      .replace(/\s+/g, '_')
-      .replace(/[^a-z0-9_]/g, '');
     
-    if (songData.release?.status === 'leaked') {
-      // For leaked songs, add version suffix
-      return `${base}_leaked`;
-    }
-    return base;
+    // Convert title to safe filename: "Paranoid (CDQ)" → "paranoid-cdq"
+    const filename = (songData.title || 'song')
+      .toLowerCase()
+      .replace(/[^\w\s-]/g, '')  // Remove special chars except dash, keep alphanumeric and dash
+      .replace(/\s+/g, '-')       // Replace spaces with dashes
+      .replace(/-+/g, '-')        // Replace multiple dashes with single dash
+      .trim();
+    
+    return filename || 'song';
   }, []);
+
+  // Auto-update filename when song title changes (but only after initial load)
+  useEffect(() => {
+    if (!song) return;
+    
+    // Don't auto-update if it's the initial 'new-song' and title hasn't been customized
+    if (songName === 'new-song' && song.title === 'New Song') {
+      return;
+    }
+    
+    // Generate new filename from current title
+    const newFilename = generateFilename(song);
+    
+    // Only update if it's different and not just the default
+    if (newFilename && newFilename !== songName && song.title !== 'New Song') {
+      setSongName(newFilename);
+      console.log(`[App] Auto-updated filename: ${newFilename} (from title: "${song.title}")`);
+    }
+  }, [song?.title, generateFilename, songName, song]);
 
   const handleLoadSong = useCallback(async (name, preloadedData) => {
     try {

@@ -2,18 +2,32 @@ import React, { useState, useRef, useCallback } from 'react';
 import LineEditor from './LineEditor';
 import MetadataEditor from './MetadataEditor';
 import ContextMenu from './ContextMenu';
+import RawTextEditor from './RawTextEditor';
+import { linesToSections, getSectionColorKey } from '../utils/dataModel';
 import './LyricsEditor.css';
 
-// Artist color palette - maps artist IDs to colors
+// Artist color palette - maps artist IDs to colors (bright, vibrant)
 const ARTIST_COLORS = {
-  'kanye-west': '#4da6ff',      // Blue
-  'tyler-the-creator': '#ff6b6b', // Red
-  'kid-cudi': '#9d6dff',        // Purple
-  'pusha-t': '#ff9d4d',         // Orange
-  'ty-dolla-sign': '#4dffb8',   // Cyan
-  'mr-hudson': '#ffff4d',       // Yellow
-  'travis-scott': '#ff6b9d',    // Pink
-  'young-thug': '#4dffff'       // Light Cyan
+  'kanye-west': '#5eb3ff',      // Bright Blue
+  'tyler-the-creator': '#ff5252', // Bright Red
+  'kid-cudi': '#b47dff',        // Bright Purple
+  'pusha-t': '#ffb74d',         // Bright Orange
+  'ty-dolla-sign': '#52ffb8',   // Bright Cyan
+  'mr-hudson': '#ffff52',       // Bright Yellow
+  'travis-scott': '#ff52a1',    // Bright Pink
+  'young-thug': '#52ffff'       // Bright Light Cyan
+};
+
+// Section type color palette - maps section type to colors (matches RawTextEditor)
+const SECTION_TYPE_COLORS = {
+  'verse': '#5eb3ff',        // Bright Blue
+  'chorus': '#ffb74d',       // Bright Orange
+  'pre-chorus': '#b47dff',   // Bright Purple
+  'bridge': '#52ffb8',       // Bright Cyan/Green
+  'intro': '#ffff52',        // Bright Yellow
+  'outro': '#ff52a1',        // Bright Pink
+  'interlude': '#52ffff',    // Bright Light Cyan
+  'hook': '#ff7f7f'          // Light Red
 };
 
 /**
@@ -61,31 +75,82 @@ export default function LyricsEditor({ song, setSong }) {
   const rightPanelRef = useRef(null);
   const selectionStartRef = useRef(null);
 
+  // DEFENSIVE NORMALIZATION: Ensure all section data is in canonical format
+  // Canonical format: { type: "verse", number: 1 } NOT { type: "verse-1" }
+  const normalizeSectionInPlace = useCallback((section) => {
+    if (!section) return section;
+    
+    // If type contains a dash and the last part is a number, extract it
+    if (typeof section.type === 'string' && section.type.includes('-')) {
+      const parts = section.type.split('-');
+      const lastPart = parts[parts.length - 1];
+      
+      if (/^\d+$/.test(lastPart)) {
+        // Old format detected: "verse-2" → "verse", number 2
+        section.type = parts.slice(0, -1).join('-').toLowerCase();
+        section.number = parseInt(lastPart);
+        console.warn(`[LyricsEditor] Fixed corrupted section format: "${parts.join('-')}" → type="${section.type}", number=${section.number}`);
+      }
+    }
+    
+    // Ensure type is lowercase
+    if (section.type) {
+      section.type = section.type.toLowerCase();
+    }
+    
+    // Ensure number is always present and valid
+    if (!section.number || section.number < 1) {
+      section.number = 1;
+      console.warn(`[LyricsEditor] Fixed invalid section number, set to 1`);
+    }
+    
+    return section;
+  }, []);
+
+  // Helper: Format section names safely (handles both "verse" and corrupted formats)
+  const formatSectionName = useCallback((sectionType) => {
+    if (!sectionType) return '';
+    
+    // DEFENSIVE: Handle old format like "verse-2" by splitting only on first dash
+    let displayName = sectionType;
+    if (sectionType.includes('-')) {
+      const parts = sectionType.split('-');
+      // Only use the first part (the actual type name)
+      displayName = parts[0];
+    }
+    
+    return displayName
+      .split('-')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join('-');
+  }, []);
+
   // Build display text from lyrics array (reconstructed from data, not stored)
   const buildDisplayText = useCallback(() => {
     const lines = [];
     let lastSection = null;
 
-    (song?.lyrics || []).forEach(line => {
+    (song?.lyrics || []).forEach((line, idx) => {
       const section = line.section;
       const sectionChanged = !lastSection ||
         lastSection.type !== section.type ||
         lastSection.number !== section.number;
 
       if (sectionChanged) {
-        // Use lowercase format that parser expects: [verse 1], [chorus 1], etc.
-        const sectionName = section.type.includes('-') 
-          ? section.type.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join('-')
-          : section.type.charAt(0).toUpperCase() + section.type.slice(1);
+        // Add blank line before section header (except for first section)
+        if (lastSection !== null && lines.length > 0) {
+          lines.push('');
+        }
+        
+        // Format section name: "pre-chorus" → "Pre-Chorus", "verse" → "Verse", etc.
+        const sectionName = formatSectionName(section.type);
         const label = `[${sectionName} ${section.number}]`;
         lines.push(label);
         lastSection = section;
       }
 
-      // Skip blank lines in the display text reconstruction
-      if (line.content !== '' || !line.meta?.blank) {
-        lines.push(line.content);
-      }
+      // Always add the content (including blank lines)
+      lines.push(line.content);
     });
 
     return lines.join('\n');
@@ -110,11 +175,17 @@ export default function LyricsEditor({ song, setSong }) {
         if (!res.ok) throw new Error('Parse failed');
         const data = await res.json();
 
-        // Update only lyrics array (both panels derive from this)
+        // Validate response
+        if (!data.lines || !Array.isArray(data.lines)) {
+          throw new Error('Invalid response: missing lines array');
+        }
+
+        // Update with new array reference to trigger re-render
         setSong(prev => ({
           ...prev,
-          lyrics: data.lines || []
+          lyrics: [...data.lines]  // New array reference
         }));
+        console.log(`[Debounced Parse] Updated ${data.lines.length} lines`);
         setIsParsingDebounced(false);
       } catch (err) {
         console.error('Parse error:', err);
@@ -123,6 +194,54 @@ export default function LyricsEditor({ song, setSong }) {
       }
     }, 300);
   }, [setSong]);
+
+  // Manual re-process trigger - immediately parse without debounce
+  const handleReprocessRawText = useCallback(() => {
+    const textToParse = rawTextInput !== null ? rawTextInput : buildDisplayText();
+    debouncedParse(textToParse);
+    // Cancel any pending debounced parse and execute immediately
+    if (parseTimeoutRef.current) {
+      clearTimeout(parseTimeoutRef.current);
+    }
+    setIsParsingDebounced(true);
+    setParseError(null);
+    
+    // Parse immediately
+    try {
+      fetch('/api/parse', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text: textToParse })
+      }).then(res => {
+        if (!res.ok) throw new Error('Parse failed');
+        return res.json();
+      }).then(data => {
+        // Validate response
+        if (!data.lines || !Array.isArray(data.lines)) {
+          throw new Error('Invalid response: missing lines array');
+        }
+        
+        // Force new object reference to trigger re-render
+        setSong(prev => {
+          const newSong = {
+            ...prev,
+            lyrics: [...data.lines]  // New array reference
+          };
+          console.log(`[Re-process] Updated ${newSong.lyrics.length} lines`);
+          return newSong;
+        });
+        setIsParsingDebounced(false);
+      }).catch(err => {
+        console.error('Parse error:', err);
+        setParseError(err.message);
+        setIsParsingDebounced(false);
+      });
+    } catch (err) {
+      console.error('Parse error:', err);
+      setParseError(err.message);
+      setIsParsingDebounced(false);
+    }
+  }, [rawTextInput, buildDisplayText, setSong, parseTimeoutRef]);
 
   // Reset textarea local state when song is loaded (reload from data)
   React.useEffect(() => {
@@ -137,6 +256,75 @@ export default function LyricsEditor({ song, setSong }) {
     // Parse in background (debounced) - don't force textarea to update
     debouncedParse(newText);
   }, [debouncedParse]);
+
+  // Handle paste events in the raw text editor - trigger immediate parsing
+  const handleLeftPanelPaste = useCallback((e) => {
+    // Allow the paste to complete first
+    setTimeout(() => {
+      if (e.target && e.target.value) {
+        const pastedText = e.target.value;
+        setRawTextInput(pastedText);
+        // Trigger immediate parsing for pasted content
+        debouncedParse(pastedText);
+      }
+    }, 0);
+  }, [debouncedParse]);
+
+  // Left panel text selection handler
+  const handleLeftPanelSelection = useCallback((selection) => {
+    if (!selection || selection.ranges.length === 0) {
+      setSelectedIndices(new Set());
+      return;
+    }
+
+    // Get the text from the current display (rebuild from lyrics)
+    const displayText = buildDisplayText();
+    const selectedText = displayText.slice(selection.ranges[0].from, selection.ranges[0].to);
+    
+    // Map selected text back to lyrics indices
+    const newIndices = new Set();
+    let currentPos = 0;
+    let currentLyricIdx = 0;
+    let lastSection = null;
+
+    // Reconstruct the display and track positions
+    (song?.lyrics || []).forEach((line, idx) => {
+      const section = line.section;
+      const sectionChanged = !lastSection ||
+        lastSection.type !== section.type ||
+        lastSection.number !== section.number;
+
+      if (sectionChanged) {
+        // Add blank line before section header (except first section)
+        if (lastSection !== null && idx > 0) {
+          currentPos += 1; // blank line
+        }
+        
+        // Format section name
+        const sectionName = section.type.includes('-') 
+          ? section.type.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join('-')
+          : section.type.charAt(0).toUpperCase() + section.type.slice(1);
+        const label = `[${sectionName} ${section.number}]`;
+        currentPos += label.length + 1; // +1 for newline
+        lastSection = section;
+      }
+
+      // Skip blank lines
+      if (line.content !== '' || !line.meta?.blank) {
+        const lineStart = currentPos;
+        const lineEnd = currentPos + line.content.length;
+        
+        // Check if this line overlaps with selection
+        if (lineStart < selection.ranges[0].to && lineEnd > selection.ranges[0].from) {
+          newIndices.add(idx);
+        }
+        
+        currentPos = lineEnd + 1; // +1 for newline
+      }
+    });
+
+    setSelectedIndices(newIndices);
+  }, [song?.lyrics, buildDisplayText]);
 
   // Right panel bulk edit: update lyrics array
   const handleBulkEdit = useCallback((field, value) => {
@@ -299,8 +487,12 @@ export default function LyricsEditor({ song, setSong }) {
   }, [selectedIndices, handleBulkEdit, duplicateSelectedLines, deleteSelectedLines]);
 
   const handleLeftScroll = useCallback(() => {
+    // Sync right panel scroll
     if (!syncScroll || !leftPanelRef.current || !rightPanelRef.current) return;
-    rightPanelRef.current.scrollTop = leftPanelRef.current.scrollTop;
+    // Note: CodeMirror scroll sync handled by passing the viewport
+    if (rightPanelRef.current) {
+      rightPanelRef.current.scrollTop = leftPanelRef.current?.scrollTop || 0;
+    }
   }, [syncScroll]);
 
   const handleRightScroll = useCallback(() => {
@@ -308,50 +500,52 @@ export default function LyricsEditor({ song, setSong }) {
     leftPanelRef.current.scrollTop = rightPanelRef.current.scrollTop;
   }, [syncScroll]);
 
-  // Helper: Get color for a line based on current color mode
-  const getLineColor = useCallback((line) => {
+  const getLineColor = useCallback((section) => {
+    if (!section) return '#888';
+    
     if (colorMode === 'artist') {
-      return ARTIST_COLORS[line.voice?.id] || '#666';
+      // For artist mode, we need the voice info - not available here
+      // Return neutral color, actual coloring done per-line
+      return '#888';
     } else {
-      // Use existing section type colors from CSS
-      const sectionColors = {
-        'verse': '#4da6ff',
-        'chorus': '#ff9d4d',
-        'pre-chorus': '#9d6dff',
-        'bridge': '#4dffb8',
-        'intro': '#ffff4d',
-        'outro': '#ff6b9d',
-        'interlude': '#4dffff'
-      };
-      return sectionColors[line.section?.type] || '#666';
+      // Section-based coloring: color by type (verse, chorus, etc.)
+      const colorKey = getSectionColorKey(section);
+      return SECTION_TYPE_COLORS[colorKey] || '#888';
     }
   }, [colorMode]);
 
-  // Helper: Group lines by section with visual grouping
+  // Helper: Group lines by section using modern section-based model
   const groupLinesBySection = useCallback(() => {
     if (!song?.lyrics) return [];
     
-    const groups = [];
-    let currentGroup = null;
-
-    song.lyrics.forEach((line, idx) => {
-      const sectionKey = `${line.section?.type}-${line.section?.number}`;
-      
-      // Start a new group if section changed
-      if (!currentGroup || currentGroup.sectionKey !== sectionKey) {
-        currentGroup = {
-          sectionKey,
-          section: line.section,
-          lines: [],
-          startIndex: idx
-        };
-        groups.push(currentGroup);
-      }
-
-      currentGroup.lines.push({ line, index: idx });
+    // Convert line-based storage to section-based rendering format
+    // This automatically skips blank lines and groups by type + number
+    const sections = linesToSections(song.lyrics);
+    
+    console.log(`[groupLinesBySection] Total sections: ${sections.length}`);
+    sections.slice(0, 3).forEach(s => {
+      console.log(`  - ${s.type}-${s.number}: ${s.lines.length} lines`);
     });
-
-    return groups;
+    
+    // Convert to internal grouping format for backward compatibility with existing code
+    return sections.map((section) => ({
+      sectionKey: `${section.type}-${section.number}`,
+      section: {
+        type: section.type,
+        number: section.number
+      },
+      lines: section.lines.map((line, idx) => {
+        // Find original index in full lyrics array for reference
+        const originalIndex = song.lyrics.findIndex(
+          (l) => l.line_number === line.line_number && l.content === line.content
+        );
+        return {
+          line,
+          index: originalIndex >= 0 ? originalIndex : idx
+        };
+      }),
+      startIndex: section.lines[0]?.line_number || 0
+    }));
   }, [song?.lyrics]);
 
   return (
@@ -424,16 +618,24 @@ export default function LyricsEditor({ song, setSong }) {
 
       <div className="editor-main">
         <h2>{song?.title || 'Untitled'}</h2>
+        <div className="editor-controls">
+          <button onClick={handleReprocessRawText} className="reprocess-btn" title="Re-parse the raw text to auto-detect sections and formatting">
+            🔄 Re-process Raw Text
+          </button>
+        </div>
         <div className="split-panels">
           <div className="left-panel-container">
             <div className="panel-label">Raw Text View</div>
-            <textarea
+            <RawTextEditor
               ref={leftPanelRef}
-              className="left-panel-textarea"
               value={rawTextInput !== null ? rawTextInput : buildDisplayText()}
               onChange={handleLeftPanelChange}
-              placeholder="Edit or paste raw lyrics here (uses [Verse 1], [Chorus], etc. for section headers)"
+              onSelection={handleLeftPanelSelection}
+              onPaste={handleLeftPanelPaste}
+              song={song}
+              colorMode={colorMode}
               onScroll={handleLeftScroll}
+              syncScroll={syncScroll}
             />
             {isParsingDebounced && <div className="parse-indicator">Parsing...</div>}
             {parseError && <div className="parse-error">Error: {parseError}</div>}
@@ -454,6 +656,7 @@ export default function LyricsEditor({ song, setSong }) {
             <div className="lyrics-list">
               {groupLinesBySection().map((group) => {
                 const sectionColor = getLineColor(group.section);
+                console.log(`[Rendering] Section: ${group.section?.type}-${group.section?.number}, ${group.lines.length} lines`);
                 return (
                   <div key={group.sectionKey} className="section-group-container">
                     {/* Visual section header */}
@@ -462,7 +665,7 @@ export default function LyricsEditor({ song, setSong }) {
                       style={{ borderLeftColor: sectionColor, backgroundColor: `${sectionColor}20` }}
                     >
                       <div className="section-title">
-                        {group.section?.type.charAt(0).toUpperCase() + group.section?.type.slice(1)} {group.section?.number}
+                        {formatSectionName(group.section?.type)} {group.section?.number}
                       </div>
                     </div>
                     

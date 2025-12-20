@@ -44,11 +44,18 @@ export default function SongLoader({ onLoad }) {
     }
   };
 
+  const handleSelectChange = (e) => {
+    const songName = e.target.value;
+    // Reset select value to empty so same song can be selected again
+    e.target.value = '';
+    handleLoad(songName);
+  };
+
   return (
     <div className="song-loader">
       {error && <small style={{ color: '#ff6b6b' }}>Error: {error}</small>}
       <select 
-        onChange={(e) => handleLoad(e.target.value)} 
+        onChange={handleSelectChange}
         defaultValue=""
         disabled={loading}
       >

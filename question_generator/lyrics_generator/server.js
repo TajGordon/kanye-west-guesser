@@ -60,6 +60,77 @@ const rebuildProjectsFromSongs = () => {
   }
 };
 
+// Normalize section format: "verse-1" -> {type: "verse", number: 1}
+const normalizeSectionFormat = (lyrics) => {
+  if (!Array.isArray(lyrics)) return lyrics;
+  
+  return lyrics.map(line => {
+    if (!line.section) return line;
+    
+    const section = { ...line.section };
+    
+    // CRITICAL: Always ensure type is lowercase and doesn't contain numbers
+    if (typeof section.type === 'string') {
+      section.type = section.type.toLowerCase().trim();
+      
+      // Check if type contains a number (old format: "verse-1")
+      if (section.type.includes('-')) {
+        const parts = section.type.split('-');
+        const lastPart = parts[parts.length - 1];
+        
+        // If last part is a number, extract it
+        if (/^\d+$/.test(lastPart)) {
+          const typeWithoutNum = parts.slice(0, -1).join('-');
+          section.type = typeWithoutNum;
+          section.number = parseInt(lastPart);
+        }
+      }
+    }
+    
+    // CRITICAL: Ensure number is ALWAYS present and is an integer
+    if (!section.number || typeof section.number !== 'number') {
+      section.number = parseInt(section.number) || 1;
+    } else {
+      section.number = parseInt(section.number);
+    }
+    
+    return {
+      ...line,
+      section
+    };
+  });
+};
+
+// Validate section format - throws error if invalid
+const validateSectionFormat = (lyrics) => {
+  if (!Array.isArray(lyrics)) return;
+  
+  const validTypes = ['verse', 'chorus', 'pre-chorus', 'bridge', 'intro', 'outro', 'interlude', 'break'];
+  
+  lyrics.forEach((line, idx) => {
+    if (!line.section) {
+      throw new Error(`Line ${idx} missing section`);
+    }
+    
+    const { type, number } = line.section;
+    
+    // Check that type is valid
+    if (!validTypes.includes(type)) {
+      throw new Error(`Line ${idx} has invalid section type: "${type}". Must be one of: ${validTypes.join(', ')}`);
+    }
+    
+    // Check that number is valid
+    if (typeof number !== 'number' || number < 1 || !Number.isInteger(number)) {
+      throw new Error(`Line ${idx} has invalid section number: ${number}. Must be a positive integer.`);
+    }
+    
+    // Check that type does NOT contain a number
+    if (/\d/.test(type)) {
+      throw new Error(`Line ${idx} has number in type "${type}". Type must not contain numbers.`);
+    }
+  });
+};
+
 // List all song files
 app.get('/api/songs', (req, res) => {
   try {
@@ -82,7 +153,19 @@ app.get('/api/songs/:name', (req, res) => {
       return res.status(404).json({ error: 'Song not found' });
     }
     
-    const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    let data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    
+    // CRITICAL: Normalize section format (fixes old data format where type="verse-1")
+    if (data.lyrics) {
+      data.lyrics = normalizeSectionFormat(data.lyrics);
+      // Validate the normalized data
+      try {
+        validateSectionFormat(data.lyrics);
+      } catch (validationErr) {
+        console.error(`Validation error in ${req.params.name}:`, validationErr.message);
+        return res.status(500).json({ error: `Data validation failed: ${validationErr.message}` });
+      }
+    }
     
     // Load raw lyrics text if available
     if (fs.existsSync(txtPath)) {
@@ -99,9 +182,39 @@ app.get('/api/songs/:name', (req, res) => {
 // Save a song
 app.post('/api/songs/:name', (req, res) => {
   try {
-    const filePath = path.join(LYRICS_DIR, `${req.params.name}.json`);
-    fs.writeFileSync(filePath, JSON.stringify(req.body, null, 2));
-    res.json({ success: true, name: req.params.name });
+    // Sanitize filename to prevent path traversal and invalid characters
+    const sanitized = String(req.params.name)
+      .replace(/[^\w-]/g, '')  // Only allow alphanumeric and dash
+      .trim();
+    
+    if (!sanitized || sanitized.length === 0) {
+      return res.status(400).json({ error: 'Invalid filename - must contain alphanumeric characters' });
+    }
+    
+    const filePath = path.join(LYRICS_DIR, `${sanitized}.json`);
+    const data = req.body;
+    
+    // Normalize and validate section format before saving
+    if (data.lyrics) {
+      data.lyrics = normalizeSectionFormat(data.lyrics);
+      
+      // Validate that all sections have correct format
+      const validSectionTypes = ['verse', 'chorus', 'pre-chorus', 'bridge', 'intro', 'outro', 'interlude', 'break'];
+      data.lyrics.forEach((line, idx) => {
+        if (line.section) {
+          if (!validSectionTypes.includes(line.section.type)) {
+            console.warn(`Line ${idx}: Invalid section type "${line.section.type}"`);
+          }
+          if (!Number.isInteger(line.section.number)) {
+            console.warn(`Line ${idx}: Section number is not an integer: ${line.section.number}`);
+            line.section.number = parseInt(line.section.number) || 1;
+          }
+        }
+      });
+    }
+    
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+    res.json({ success: true, name: sanitized });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
@@ -128,82 +241,110 @@ app.post('/api/parse', (req, res) => {
 
     const isCreditLine = (line) => skipPatterns.some(pat => pat.test(line));
 
+    // Helper: Normalize section type string
+    const normalizeType = (typeStr) => {
+      return typeStr
+        .trim()
+        .toLowerCase()
+        .replace(/\s+/g, '-')
+        .replace(/prechorus/, 'pre-chorus');
+    };
+
+    // Helper: Extract and parse artist names from string
+    const parseArtists = (artistString) => {
+      if (!artistString) return [];
+      
+      // Split by comma or ampersand, clean up
+      const artists = artistString
+        .split(/[,&]+/)
+        .map(a => a.trim())
+        .filter(a => a.length > 0);
+      
+      return artists;
+    };
+
+    // Helper: Generate display label for a section
+    const generateSectionLabel = (section) => {
+      const typeLabel = section.type.charAt(0).toUpperCase() + section.type.slice(1);
+      
+      // Build artist part
+      const artistPart = section.artists && section.artists.length > 0
+        ? ` (${section.artists.join(', ')})`
+        : '';
+      
+      // Include number for clarity (skip if number is 1 and no artists)
+      const numberPart = section.number > 1 ? ` ${section.number}` : '';
+      
+      return `${typeLabel}${numberPart}${artistPart}`;
+    };
+
     // Parse section headers with complex formats
-    const parseSection = (headerLine) => {
-      // Try square bracket format: [Type Number: Artists] or [Type Number - Notes]
-      const squareMatch = headerLine.match(/^\[(\w+(?:\s+\w+)?)\s*(\d*)\s*(?:[-:](.+))?\]$/i);
+    const parseSection = (headerLine, previousSections = []) => {
+      const validTypes = ['verse', 'chorus', 'pre-chorus', 'bridge', 'intro', 'outro', 'interlude', 'break'];
+      
+      // Format 1: [Type Number: Artists] (existing - with explicit number)
+      const squareMatch = headerLine.match(/^\[([a-z](?:[a-z\s-]*[a-z])?)\s+(\d+)\s*(?:[-:](.+))?\]$/i);
       if (squareMatch) {
         const [, typeStr, num, extra] = squareMatch;
-        let type = typeStr.trim().toLowerCase().replace(/\s+/g, '-');
-        // Normalize "pre chorus" to "pre-chorus"
-        type = type === 'pre-chorus' || type === 'prechorus' ? 'pre-chorus' : type;
+        let type = normalizeType(typeStr);
         
-        const section = {
-          type: type,
-          number: num ? parseInt(num) : 1,
-          originalText: headerLine
-        };
-        
-        if (extra) {
-          const extraTrim = extra.trim();
-          // Simple heuristic: if it has commas or known artists, likely artists; otherwise notes
-          const hasComma = extraTrim.includes(',');
-          const hasAnd = extraTrim.includes('&');
-          const hasKnownArtist = /kanye|west|tyler|thug|cudi|hudson|pusha|scott|dolla|sign/i.test(extraTrim);
-          
-          if (hasComma || hasAnd || hasKnownArtist) {
-            section.artists = extraTrim.split(/,|&/).map(s => s.trim()).filter(Boolean);
-          } else {
-            section.notes = extraTrim;
-          }
-        }
-        
-        return section;
-      }
-      
-      // Try parentheses format: (Type Number)
-      const parenMatch = headerLine.match(/^\((\w+(?:\s+\w+)?)\s*(\d*)\)$/i);
-      if (parenMatch) {
-        const [, typeStr, num] = parenMatch;
-        let type = typeStr.trim().toLowerCase().replace(/\s+/g, '-');
-        type = type === 'pre-chorus' || type === 'prechorus' ? 'pre-chorus' : type;
-        
-        return {
-          type: type,
-          number: num ? parseInt(num) : 1,
-          originalText: headerLine
-        };
-      }
-      
-      // Try colon format: Type Number: or Type Number -
-      const colonMatch = headerLine.match(/^(\w+(?:\s+\w+)?)\s*(\d*)\s*(?:[-:](.+))?$/i);
-      if (colonMatch && (headerLine.includes(':') || headerLine.includes('-'))) {
-        const [, typeStr, num, extra] = colonMatch;
-        let type = typeStr.trim().toLowerCase().replace(/\s+/g, '-');
-        type = type === 'pre-chorus' || type === 'prechorus' ? 'pre-chorus' : type;
-        
-        // Only accept if type is recognized
-        const validTypes = ['verse', 'chorus', 'pre-chorus', 'bridge', 'intro', 'outro', 'interlude', 'break'];
         if (validTypes.includes(type)) {
           const section = {
             type: type,
-            number: num ? parseInt(num) : 1,
-            originalText: headerLine
+            number: parseInt(num) || 1,
+            originalText: headerLine,
+            artists: parseArtists(extra)
           };
           
-          if (extra) {
-            const extraTrim = extra.trim();
-            const hasComma = extraTrim.includes(',');
-            const hasAnd = extraTrim.includes('&');
-            const hasKnownArtist = /kanye|west|tyler|thug|cudi|hudson|pusha|scott|dolla|sign/i.test(extraTrim);
-            
-            if (hasComma || hasAnd || hasKnownArtist) {
-              section.artists = extraTrim.split(/,|&/).map(s => s.trim()).filter(Boolean);
-            } else {
-              section.notes = extraTrim;
-            }
-          }
+          // Add label combining type, number, and artists
+          section.label = generateSectionLabel(section);
+          return section;
+        }
+      }
+      
+      // Format 2: [Type: Artists] (NEW - no explicit number, auto-number)
+      const namedMatch = headerLine.match(/^\[([a-z](?:[a-z\s-]*[a-z])?)(?::\s*(.+))?\]$/i);
+      if (namedMatch) {
+        const [, typeStr, extra] = namedMatch;
+        let type = normalizeType(typeStr);
+        
+        if (validTypes.includes(type)) {
+          // Auto-number: count how many sections of this type exist
+          const sameTypeSections = previousSections.filter(s => s.type === type);
+          const nextNumber = sameTypeSections.length + 1;
           
+          const section = {
+            type: type,
+            number: nextNumber,
+            originalText: headerLine,
+            artists: parseArtists(extra),
+            autoNumbered: true  // Flag to indicate auto-numbered
+          };
+          
+          section.label = generateSectionLabel(section);
+          return section;
+        }
+      }
+      
+      // Format 3: Type: Artists (no brackets - bare format)
+      const bareMatch = headerLine.match(/^([a-z](?:[a-z\s-]*[a-z])?)(?::\s*(.+))?$/i);
+      if (bareMatch && !headerLine.startsWith('[') && (headerLine.includes(':') || !headerLine.match(/[a-z]/i))) {
+        const [, typeStr, extra] = bareMatch;
+        let type = normalizeType(typeStr);
+        
+        if (validTypes.includes(type)) {
+          const sameTypeSections = previousSections.filter(s => s.type === type);
+          const nextNumber = sameTypeSections.length + 1;
+          
+          const section = {
+            type: type,
+            number: nextNumber,
+            originalText: headerLine,
+            artists: parseArtists(extra),
+            autoNumbered: true
+          };
+          
+          section.label = generateSectionLabel(section);
           return section;
         }
       }
@@ -215,26 +356,20 @@ app.post('/api/parse', (req, res) => {
     let currentSection = { type: 'verse', number: 1, originalText: '[Verse 1]' };
     let lineNum = 0;
     const allLines = []; // Keep track of all lines for display
+    const collectedSections = [];  // Track sections for auto-numbering
 
     for (const line of lines) {
-      // Handle blank lines - preserve them for spacing
-      if (line === '') {
+      // Skip blank lines and whitespace-only lines - they're just visual separators, not lyric data
+      if (line.trim() === '') {
         allLines.push({ type: 'blank', content: '' });
-        // Still add blank lines to parsed output for structure preservation
-        parsed.push({
-          line_number: ++lineNum,
-          content: '',
-          section: { ...currentSection },
-          voice: { id: 'kanye-west', display: 'Kanye West' },
-          meta: { blank: true }
-        });
         continue;
       }
 
-      // Try to detect section headers
-      const section = parseSection(line);
+      // Try to detect section headers (pass collectedSections for auto-numbering)
+      const section = parseSection(line, collectedSections);
       if (section) {
         currentSection = section;
+        collectedSections.push(section);  // Track for next iteration
         allLines.push({ type: 'header', content: line, section: currentSection });
         continue;
       }
@@ -246,7 +381,7 @@ app.post('/api/parse', (req, res) => {
       if (!isCreditLine(line)) {
         parsed.push({
           line_number: ++lineNum,
-          content: line,
+          content: line.trim(),  // Trim whitespace from content
           section: { ...currentSection },
           voice: { id: 'kanye-west', display: 'Kanye West' },
           meta: {}
@@ -254,7 +389,18 @@ app.post('/api/parse', (req, res) => {
       }
     }
 
-    res.json({ lines: parsed, allLines });
+    // Normalize the parsed results before returning
+    const normalizedLines = normalizeSectionFormat(parsed);
+    
+    // CRITICAL: Validate the normalized data
+    try {
+      validateSectionFormat(normalizedLines);
+    } catch (validationErr) {
+      console.error('Parse validation error:', validationErr.message);
+      return res.status(400).json({ error: `Invalid lyrics format: ${validationErr.message}` });
+    }
+
+    res.json({ lines: normalizedLines, allLines });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

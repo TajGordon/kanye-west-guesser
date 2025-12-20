@@ -16,40 +16,40 @@
   box-shadow: 0 0 8px rgba(0, 102, 204, 0.3);
 }
 
-/* Section-based color coding */
+/* Section-based color coding - Bright colors */
 .line-editor[data-section-type="verse"] {
-  border-left-color: #4da6ff; /* Blue */
-  background: rgba(77, 166, 255, 0.08);
+  border-left-color: #5eb3ff; /* Bright Blue */
+  background: rgba(94, 179, 255, 0.15);
 }
 
 .line-editor[data-section-type="chorus"] {
-  border-left-color: #ff9d4d; /* Orange */
-  background: rgba(255, 157, 77, 0.08);
+  border-left-color: #ffb74d; /* Bright Orange */
+  background: rgba(255, 183, 77, 0.15);
 }
 
 .line-editor[data-section-type="pre-chorus"] {
-  border-left-color: #9d6dff; /* Purple */
-  background: rgba(157, 109, 255, 0.08);
+  border-left-color: #b47dff; /* Bright Purple */
+  background: rgba(180, 125, 255, 0.15);
 }
 
 .line-editor[data-section-type="bridge"] {
-  border-left-color: #4dffb8; /* Cyan */
-  background: rgba(77, 255, 184, 0.08);
+  border-left-color: #52ffb8; /* Bright Cyan */
+  background: rgba(82, 255, 184, 0.15);
 }
 
 .line-editor[data-section-type="intro"] {
-  border-left-color: #ffff4d; /* Yellow */
-  background: rgba(255, 255, 77, 0.08);
+  border-left-color: #ffff52; /* Bright Yellow */
+  background: rgba(255, 255, 82, 0.15);
 }
 
 .line-editor[data-section-type="outro"] {
-  border-left-color: #ff6b9d; /* Pink */
-  background: rgba(255, 107, 157, 0.08);
+  border-left-color: #ff52a1; /* Bright Pink */
+  background: rgba(255, 82, 161, 0.15);
 }
 
 .line-editor[data-section-type="interlude"] {
-  border-left-color: #4dffff; /* Light Cyan */
-  background: rgba(77, 255, 255, 0.08);
+  border-left-color: #52ffff; /* Bright Light Cyan */
+  background: rgba(82, 255, 255, 0.15);
 }
 
 .line-content {
