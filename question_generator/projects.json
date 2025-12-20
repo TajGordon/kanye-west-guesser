@@ -11,18 +11,17 @@
   },
   "Donda": {
     "name": "Donda",
-    "year": 2025,
+    "year": 2021,
     "formats": [
-      "single"
+      "album"
     ],
     "artists": [
-      "Kanye West",
-      "Vory"
+      "Kanye West"
     ]
   },
   "Late Registration": {
     "name": "Late Registration",
-    "year": 2025,
+    "year": 2005,
     "formats": [
       "album"
     ],
@@ -35,9 +34,9 @@
   },
   "My Beautiful Dark Twisted Fantasy": {
     "name": "My Beautiful Dark Twisted Fantasy",
-    "year": 2025,
+    "year": 2010,
     "formats": [
-      "single"
+      "album"
     ],
     "artists": [
       "Kanye West",
@@ -47,9 +46,19 @@
   },
   "Yeezus": {
     "name": "Yeezus",
-    "year": 2025,
+    "year": 2013,
     "formats": [
-      "single"
+      "album"
+    ],
+    "artists": [
+      "Kanye West"
+    ]
+  },
+  "The Life Of Pablo": {
+    "name": "The Life Of Pablo",
+    "year": 2016,
+    "formats": [
+      "album"
     ],
     "artists": [
       "Kanye West"

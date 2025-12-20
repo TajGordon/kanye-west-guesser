@@ -4,6 +4,8 @@ import './MetadataEditor.css';
 export default function MetadataEditor({ song, setSong }) {
   const [projects, setProjects] = useState([]);
   const [customProject, setCustomProject] = useState('');
+  const [customEdition, setCustomEdition] = useState('');
+  const [editionCreateMode, setEditionCreateMode] = useState(false);
   const [projectMetadata, setProjectMetadata] = useState({});
   const [yearOverride, setYearOverride] = useState(false);
   const [formatOverride, setFormatOverride] = useState(false);
@@ -32,6 +34,14 @@ export default function MetadataEditor({ song, setSong }) {
     }));
   }, [setSong]);
 
+  // Ensure edition always has a value
+  React.useEffect(() => {
+    if (!song?.release) return;
+    if (!song.release.edition) {
+      handleRelease('edition', 'standard');
+    }
+  }, [song?.release?.edition, song?.release, handleRelease]);
+
   // Handle project selection with auto-population
   const handleProjectChange = useCallback((projectName) => {
     if (projectName === '__custom__') {
@@ -47,14 +57,17 @@ export default function MetadataEditor({ song, setSong }) {
     handleRelease('project', projectName);
     setCustomProject('');
 
-    // Auto-populate year if not overridden
-    if (project && !yearOverride) {
+    // Selecting a known project should apply that project's defaults.
+    // Overrides are opt-in: user can change values after selection.
+    if (project) {
+      setYearOverride(false);
+      setFormatOverride(false);
       handleRelease('year', project.year || new Date().getFullYear());
-    }
-
-    // Auto-populate formats if not overridden
-    if (project && !formatOverride) {
       handleRelease('formats', project.formats || ['album']);
+      const editions = Array.isArray(project.editions) && project.editions.length > 0 ? project.editions : ['standard'];
+      handleRelease('edition', editions[0] || 'standard');
+      setCustomEdition('');
+      setEditionCreateMode(false);
     }
   }, [projectMetadata, yearOverride, formatOverride, handleRelease]);
 
@@ -94,6 +107,54 @@ export default function MetadataEditor({ song, setSong }) {
     }
   }, [projects, refreshProjects, song]);
 
+  const getEditionsForSelectedProject = useCallback(() => {
+    const projectName = song.release?.project;
+    const project = projectName ? projectMetadata[projectName] : null;
+    const editions = Array.isArray(project?.editions) && project.editions.length > 0 ? project.editions : ['standard'];
+    // Ensure standard is always present
+    const seen = new Set();
+    const merged = ['standard', ...editions]
+      .map(e => String(e).trim())
+      .filter(Boolean)
+      .filter(e => {
+        const k = e.toLowerCase();
+        if (seen.has(k)) return false;
+        seen.add(k);
+        return true;
+      });
+    return merged;
+  }, [projectMetadata, song.release?.project]);
+
+  const persistEditionIfNeeded = useCallback(async (editionNameRaw) => {
+    const editionName = String(editionNameRaw || '').trim();
+    if (!editionName) return;
+    const projectName = String(song.release?.project || '').trim();
+    if (!projectName || projectName === '__custom__') return;
+
+    const editions = getEditionsForSelectedProject();
+    const exists = editions.some(e => e.toLowerCase() === editionName.toLowerCase());
+    if (exists) return;
+
+    const payload = {
+      year: song.release?.year || new Date().getFullYear(),
+      formats: song.release?.formats || ['album'],
+      artists: Array.isArray(song.artists) ? song.artists : (song.artist ? [song.artist] : ['Kanye West']),
+      editions: [...editions, editionName]
+    };
+
+    const res = await fetch(`/api/projects/${encodeURIComponent(projectName)}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    if (!res.ok) {
+      const body = await res.json().catch(() => ({}));
+      throw new Error(body?.error || 'Failed to add edition');
+    }
+
+    await refreshProjects();
+  }, [getEditionsForSelectedProject, refreshProjects, song]);
+
   const isCreateMode = useCallback(() => {
     const current = song.release?.project || '';
     if (current === '__custom__') return true;
@@ -102,7 +163,12 @@ export default function MetadataEditor({ song, setSong }) {
   }, [projects, song.release?.project]);
 
   const handleYearChange = useCallback((value) => {
-    setYearOverride(value !== projectMetadata[song.release?.project]?.year);
+    const project = projectMetadata[song.release?.project];
+    if (!project) {
+      setYearOverride(false);
+    } else {
+      setYearOverride(value !== project.year);
+    }
     handleRelease('year', value);
   }, [song.release?.project, projectMetadata, handleRelease]);
 
@@ -112,8 +178,13 @@ export default function MetadataEditor({ song, setSong }) {
     const newFormats = Array.from(formats);
     
     // Check if this is different from project default
-    const projectFormats = projectMetadata[song.release?.project]?.formats || ['album'];
-    setFormatOverride(JSON.stringify(newFormats.sort()) !== JSON.stringify(projectFormats.sort()));
+    const project = projectMetadata[song.release?.project];
+    if (!project) {
+      setFormatOverride(false);
+    } else {
+      const projectFormats = project.formats || ['album'];
+      setFormatOverride(JSON.stringify(newFormats.sort()) !== JSON.stringify(projectFormats.sort()));
+    }
     
     handleRelease('formats', newFormats);
   }, [song.release, projectMetadata, handleRelease]);
@@ -224,6 +295,63 @@ export default function MetadataEditor({ song, setSong }) {
             }}
           />
         ) : null}
+      </div>
+
+      <div className="field">
+        <label>Edition</label>
+        <select
+          value={song.release?.edition || 'standard'}
+          onChange={(e) => {
+            const value = e.target.value;
+            if (value === '__custom__') {
+              setCustomEdition('');
+              setEditionCreateMode(true);
+              return;
+            }
+            setEditionCreateMode(false);
+            setCustomEdition('');
+            handleRelease('edition', value);
+          }}
+          disabled={!song.release?.project}
+        >
+          {customEdition && (
+            <option value={customEdition}>{customEdition} (new)</option>
+          )}
+          {getEditionsForSelectedProject().map((ed) => (
+            <option key={ed} value={ed}>{ed}</option>
+          ))}
+          <option value="__custom__">Create new...</option>
+        </select>
+        {/* Create new edition */}
+        {song.release?.project && editionCreateMode && (
+          <input
+            type="text"
+            placeholder="New edition name (e.g. deluxe)"
+            value={customEdition}
+            onChange={(e) => {
+              setCustomEdition(e.target.value);
+              if (e.target.value.trim()) {
+                handleRelease('edition', e.target.value.trim());
+              }
+            }}
+            onBlur={async () => {
+              try {
+                await persistEditionIfNeeded(customEdition);
+              } catch (err) {
+                console.error(err);
+              }
+            }}
+            onKeyDown={async (e) => {
+              if (e.key !== 'Enter') return;
+              e.preventDefault();
+              try {
+                await persistEditionIfNeeded(customEdition);
+              } catch (err) {
+                console.error(err);
+              }
+            }}
+          />
+        )}
       </div>
 
       <div className="field">

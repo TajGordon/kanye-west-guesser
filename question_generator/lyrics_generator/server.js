@@ -9,7 +9,19 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const LYRICS_DIR = path.join(__dirname, '../lyrics');
 const PROJECTS_FILE = path.join(__dirname, '../projects.json');
 
-const CURRENT_SCHEMA_VERSION = 2;
+const CURRENT_SCHEMA_VERSION = 3;
+
+const normalizeReleaseEdition = (song) => {
+  if (!song || typeof song !== 'object') return song;
+  if (!song.release || typeof song.release !== 'object') {
+    song.release = {};
+  }
+  if (!song.release.edition || typeof song.release.edition !== 'string') {
+    song.release.edition = 'standard';
+  }
+  song.release.edition = song.release.edition.trim() || 'standard';
+  return song;
+};
 
 const app = express();
 app.use(cors());
@@ -39,8 +51,9 @@ const normalizeSongArtists = (data) => {
       : (legacyArtistsList[0] ? String(legacyArtistsList[0]).trim() : 'Kanye West')
   );
 
-  // Migrate old meaning of artists (sometimes used as "all performers")
-  if (current < CURRENT_SCHEMA_VERSION) {
+  // Versioned migrations
+  // v2: introduce features (performers) and redefine artists as publisher
+  if (current < 2) {
     if (!Array.isArray(data.features)) {
       const inferred = legacyArtistsList
         .map(a => String(a).trim())
@@ -50,7 +63,11 @@ const normalizeSongArtists = (data) => {
     }
     data.artists = [primary];
     data.artist = primary;
-    data.schemaVersion = CURRENT_SCHEMA_VERSION;
+  }
+
+  // v3: introduce release.edition (default "standard")
+  if (current < 3) {
+    normalizeReleaseEdition(data);
   }
 
   // Normalize publisher artists
@@ -90,7 +107,7 @@ const normalizeSongArtists = (data) => {
       return true;
     });
 
-  if (!Number.isInteger(data.schemaVersion)) {
+  if (!Number.isInteger(data.schemaVersion) || data.schemaVersion < CURRENT_SCHEMA_VERSION) {
     data.schemaVersion = CURRENT_SCHEMA_VERSION;
   }
 
@@ -100,12 +117,19 @@ const normalizeSongArtists = (data) => {
 const normalizeSongProducers = (data) => {
   if (!data || typeof data !== 'object') return data;
 
+  const isLyricsEditorSong =
+    typeof data.title === 'string' ||
+    Array.isArray(data.lyrics) ||
+    typeof data.artist === 'string' ||
+    Array.isArray(data.artists);
+  if (!isLyricsEditorSong) return data;
+
   const input = Array.isArray(data.producers)
     ? data.producers
     : (typeof data.producers === 'string' ? [data.producers] : []);
 
   const seen = new Set();
-  data.producers = input
+  const normalized = input
     .flatMap(p => String(p).split(','))
     .map(p => p.trim())
     .filter(p => p.length > 0)
@@ -115,6 +139,9 @@ const normalizeSongProducers = (data) => {
       seen.add(key);
       return true;
     });
+
+  // Default producer
+  data.producers = normalized.length > 0 ? normalized : ['Kanye West'];
 
   return data;
 };
@@ -187,7 +214,11 @@ const rebuildProjectsFromSongs = () => {
     const files = fs.readdirSync(LYRICS_DIR).filter(f => f.endsWith('.json'));
     
     for (const file of files) {
-      const data = JSON.parse(fs.readFileSync(path.join(LYRICS_DIR, file), 'utf-8'));
+      let data = JSON.parse(fs.readFileSync(path.join(LYRICS_DIR, file), 'utf-8'));
+      data = normalizeSongArtists(data);
+      data = normalizeSongProducers(data);
+      data = normalizeReleaseEdition(data);
+
       if (data.release?.project) {
         const projName = data.release.project;
         if (!projects[projName]) {
@@ -195,9 +226,15 @@ const rebuildProjectsFromSongs = () => {
             name: projName,
             year: data.release?.year || new Date().getFullYear(),
             formats: data.release?.formats || ['album'],
-            artists: ['Kanye West']
+            artists: Array.isArray(data.artists) && data.artists.length > 0 ? data.artists : ['Kanye West'],
+            editions: []
           };
         }
+
+        const edition = (data.release?.edition || 'standard').trim() || 'standard';
+        const existing = new Set(projects[projName].editions || []);
+        existing.add(edition);
+        projects[projName].editions = Array.from(existing);
       }
     }
     
@@ -304,6 +341,7 @@ app.get('/api/songs/:name', (req, res) => {
     let data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
     data = normalizeSongArtists(data);
     data = normalizeSongProducers(data);
+    data = normalizeReleaseEdition(data);
     
     // CRITICAL: Normalize section format (fixes old data format where type="verse-1")
     if (data.lyrics) {
@@ -347,6 +385,7 @@ app.post('/api/songs/:name', (req, res) => {
     const filePath = path.join(LYRICS_DIR, `${sanitized}.json`);
     let data = normalizeSongArtists(req.body);
     data = normalizeSongProducers(data);
+    data = normalizeReleaseEdition(data);
     
     // Normalize and validate section format before saving
     if (data.lyrics) {
@@ -565,13 +604,14 @@ app.get('/api/projects/:name', (req, res) => {
 app.post('/api/projects/:name', (req, res) => {
   try {
     const projects = loadProjects();
-    const { year, formats, artists } = req.body;
+    const { year, formats, artists, editions } = req.body;
     
     projects[req.params.name] = {
       name: req.params.name,
       year: year || new Date().getFullYear(),
       formats: formats || ['album'],
-      artists: artists || ['Kanye West']
+      artists: artists || ['Kanye West'],
+      editions: Array.isArray(editions) && editions.length > 0 ? editions : (projects[req.params.name]?.editions || ['standard'])
     };
     
     saveProjects(projects);

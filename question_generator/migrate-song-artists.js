@@ -6,7 +6,7 @@ const path = require('path');
 
 const LYRICS_DIR = path.join(__dirname, 'lyrics');
 
-const CURRENT_SCHEMA_VERSION = 2;
+const CURRENT_SCHEMA_VERSION = 3;
 
 function normalizeSongArtists(data) {
   if (!data || typeof data !== 'object') return data;
@@ -114,14 +114,21 @@ function normalizeLineVoices(song) {
 
 function normalizeSongProducers(song) {
   if (!song || typeof song !== 'object') return song;
-  if (song.producers === undefined) return song;
+
+  // Only apply to lyrics-editor style songs
+  const looksLikeLyricsEditorSong =
+    typeof song.title === 'string' ||
+    Array.isArray(song.lyrics) ||
+    typeof song.artist === 'string' ||
+    Array.isArray(song.artists);
+  if (!looksLikeLyricsEditorSong) return song;
 
   const input = Array.isArray(song.producers)
     ? song.producers
     : (typeof song.producers === 'string' ? [song.producers] : []);
 
   const seen = new Set();
-  song.producers = input
+  const normalized = input
     .flatMap(p => String(p).split(','))
     .map(p => p.trim())
     .filter(p => p.length > 0)
@@ -131,6 +138,28 @@ function normalizeSongProducers(song) {
       seen.add(key);
       return true;
     });
+
+  song.producers = normalized.length > 0 ? normalized : ['Kanye West'];
+
+  return song;
+}
+
+function normalizeReleaseEdition(song) {
+  if (!song || typeof song !== 'object') return song;
+
+  // Only apply to lyrics-editor style songs
+  const looksLikeLyricsEditorSong =
+    typeof song.title === 'string' ||
+    Array.isArray(song.lyrics) ||
+    typeof song.artist === 'string' ||
+    Array.isArray(song.artists);
+  if (!looksLikeLyricsEditorSong) return song;
+
+  if (!song.release || typeof song.release !== 'object') song.release = {};
+  if (!song.release.edition || typeof song.release.edition !== 'string') {
+    song.release.edition = 'standard';
+  }
+  song.release.edition = song.release.edition.trim() || 'standard';
 
   return song;
 }
@@ -150,6 +179,7 @@ function main() {
     normalizeSongArtists(data);
     normalizeLineVoices(data);
     normalizeSongProducers(data);
+    normalizeReleaseEdition(data);
 
     const afterArtists = data.artists;
     const afterArtist = data.artist;

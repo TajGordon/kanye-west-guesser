@@ -1,0 +1,1973 @@
+{
+  "title": "Paranoid",
+  "artist": "Kanye West",
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "808s & Heartbreak",
+    "year": 2008
+  },
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "She really thought that? (Yeah)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Yeah, she's so paranoid (Yeah, that's good, paranoid)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Girls gonna love this song, haha",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Why are you so paranoid? (Hahahaha)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Don't be so paranoid, don't be so",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Baby, don't worry 'bout it",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Hey there, don't even think about it",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "You worry 'bout the wrong things, the wrong things",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "You worry 'bout the wrong things, the wrong things",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "You worry 'bout the wrong things, the wrong things",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "You worry 'bout the wrong things, the wrong things",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Tell me right now",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "You really wanna spend your whole life alone?",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "A little time out might do you good",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Might do us good 'fore we be done for good",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "'Cause I could make it good, I could make it hood",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "I can make you come, I can make you go",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "I can make you high, I can make you fly",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "Make you touch the sky, hey, maybe so",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "All of the time",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "You be up in mine checkin' through my cell phone, baby, no",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "You wanna kill the vibe on another night",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Here's another fight, oh, here we go (Oh, here we go)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Baby, don't worry 'bout it",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Kanye West, Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 2 (Kanye West, Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Lady, we'll go out to the floor",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Kanye West, Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 2 (Kanye West, Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Anyway, they don't know you (They don't know) like I do",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Kanye West, Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 2 (Kanye West, Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "They'll never know you (Never know)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Kanye West, Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 2 (Kanye West, Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Anyway, they don't know you (Never know) like I do",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Kanye West, Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 2 (Kanye West, Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "They'll never know you",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Kanye West, Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 2 (Kanye West, Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "All of the time",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "You wanna complain about the nights alone",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "So now you're here with me, show some gratitude",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Leave the attitude way back at home",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Yeah, you see 'em look",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Baby, let 'em look, give ya cold looks 'cause we look cold",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "Yeah, you heard about all the word of mouth",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Don't worry 'bout what we can't control",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "All the talk in the world lost in the world",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "'Til you finally let that thing go",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "You wanna check into the heartbreak hotel",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "But sorry, we're closed",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "Baby, don't worry about it",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus 3: Kanye West, Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 3 (Kanye West, Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Baby, we'll go out to the floor",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus 3: Kanye West, Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 3 (Kanye West, Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Anyway (Hey) they don't know you (To the floor) like I do (Hey)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus 3: Kanye West, Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 3 (Kanye West, Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "They'll never know you (Never know)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus 3: Kanye West, Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 3 (Kanye West, Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Anyway, they don't know you (They don't know) like I do",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus 3: Kanye West, Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 3 (Kanye West, Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "They'll never know you",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus 3: Kanye West, Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 3 (Kanye West, Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Baby, don't worry 'bout it",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Baby, don't even think about it",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "You worry 'bout the wrong things, the wrong things",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "You worry 'bout the wrong things, the wrong things",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "You worry 'bout the wrong things, the wrong things",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "You worry 'bout the wrong things",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "Anyway, they don't know you like I do",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus 5: Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 5 (Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "mr-hudson",
+        "display": "Mr. Hudson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "They'll never know you",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus 5: Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 5 (Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "mr-hudson",
+        "display": "Mr. Hudson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "Anyway, they don't know you like I do",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus 5: Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 5 (Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "mr-hudson",
+        "display": "Mr. Hudson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "They'll never know you",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus 5: Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 5 (Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "mr-hudson",
+        "display": "Mr. Hudson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "Anyway, they don't know you like I do",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Chorus 6: Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 6 (Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "mr-hudson",
+        "display": "Mr. Hudson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "They'll never know you",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Chorus 6: Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 6 (Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "mr-hudson",
+        "display": "Mr. Hudson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "Anyway, they don't know you like I do",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Chorus 6: Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 6 (Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "mr-hudson",
+        "display": "Mr. Hudson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "They'll never know you",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Chorus 6: Mr. Hudson, Kid Cudi]",
+        "artists": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ],
+        "label": "Chorus 6 (Mr. Hudson, Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "mr-hudson",
+          "display": "Mr. Hudson"
+        },
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "mr-hudson",
+        "display": "Mr. Hudson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mr. Hudson",
+          "Kid Cudi"
+        ]
+      }
+    }
+  ],
+  "artists": [
+    "Kanye West"
+  ],
+  "features": [
+    "Mr. Hudson",
+    "Kid Cudi"
+  ],
+  "schemaVersion": 2,
+  "producers": [
+    "Kanye West"
+  ]
+}

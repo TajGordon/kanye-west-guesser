@@ -1,0 +1,2787 @@
+{
+  "title": "Gorgeous",
+  "artists": [
+    "Kanye West",
+    "Kid Cudi",
+    "Raekwon"
+  ],
+  "artist": "Kanye West",
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "My Beautiful Dark Twisted Fantasy",
+    "year": 2011
+  },
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Ain't no question if I want it, I need it",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "I can feel it slowly drifting away from me",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "I'm on the edge, so why you playing? I'm saying",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "I will never ever let you live this down, down, down",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Not for nothing, I've foreseen it, I dreamed it",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "I can feel it slowly drifting away from me",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "No more chances, if you blow this, you bogus",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "I will never ever let you live this down, down, down",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Penitentiary chances, the devil dances",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "And eventually answers to the call of autumn",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "All them fallin' for the love of ballin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Got caught with thirty rocks, the cop look like Alec Baldwin",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Inter-century anthems based off inner-city tantrums",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Based off the way we was branded",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Face it, Jerome get more time than Brandon",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "And at the airport, they check all through my bag",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "And tell me that it's random",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "But we stay winning",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "This week has been a bad massage, I need a happy ending",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "And a new beginning and a new fitted",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "And some job opportunities that's lucrative",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "This the real world, homie, school finished",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "They done stole your dreams, you don't know who did it",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "I treat the cash the way the government treats AIDS",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "I won't be satisfied 'til all my niggas get it, get it?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Ain't no question if I want it, I need it",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "I can feel it slowly drifting away from me",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "I'm on the edge, so why you playing? I'm saying",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "I will never ever let you live this down, down, down",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Is hip-hop just a euphemism for a new religion?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "The soul music of the slaves that the youth is missing",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "But this is more than just my road to redemption",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Malcolm West had the whole nation standing at attention",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "As long as I'm in Polo smiling, they think they got me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "But they'd try to crack me if they ever see a Black me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "I thought I chose a field where they couldn't sack me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "If a nigga ain't shootin' a jumpshot, runnin' a track meet",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "But this pimp is at the top of Mount Olympus",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "Ready for the world's games, this is my Olympics",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "We make 'em say ho 'cause the game is so pimpish",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Choke a South Park writer with a fishstick",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "I insisted to get up off of this dick",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "And these drugs, niggas can't resist it",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Remind me when they tried to have Ali enlisted",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "If I ever wasn't the greatest, nigga, I must have missed it",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Ain't no question if I want it, I need it",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "I can feel it slowly drifting away from me",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "I'm on the edge, so why you playing? I'm saying",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "I will never ever let you live this down, down, down",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "I need more drinks and less lights",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "And that American Apparel girl in just tights",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "She told the director she tryna get in a school",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "He said, \"Take them glasses off and get in the pool\"",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "It's been a while since I watched the tube",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "'Cause like a Crip set, I got way too many blues for any more bad news",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "I was looking at my resume, feeling real fresh today",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "They rewrite history, I don't believe in yesterday",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "And what's a Black Beatle anyway, a fuckin' roach?",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "I guess that's why they got me sitting in fuckin' coach",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "My guy said I need a different approach",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "'Cause people is looking at me like I'm sniffin' coke",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "It's not funny anymore, try different jokes",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "Tell 'em hug and kiss my ass, X and O",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 64,
+      "content": "And kiss the ring while they at it, do my thing while I got it",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 65,
+      "content": "Play strings for the dramatic ending of that wack shit",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 66,
+      "content": "Act like I ain't had a belt in two classes",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 67,
+      "content": "I ain't got it, I'm coming after whoever who has it",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 68,
+      "content": "I'm coming after whoever, who has it?",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 69,
+      "content": "You blowin' up, that's good, fantastic",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 70,
+      "content": "That, y'all, it's like that, y'all",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 71,
+      "content": "I don't really give a fuck about it at all",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 72,
+      "content": "'Cause the same people that tried to blackball me",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 73,
+      "content": "Forgot about two things, my Black balls",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 74,
+      "content": "Ain't no question if I want it, I need it",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 75,
+      "content": "I can feel it slowly drifting away from me",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 76,
+      "content": "I'm on the edge, so why you playing? I'm saying",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 77,
+      "content": "I will never ever let you live this down, down, down",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 78,
+      "content": "Ayy, yo",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 79,
+      "content": "I done copped Timbs, lived in lenses, kid",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 80,
+      "content": "Armani suits, fresh fruits, Bally boots, and Benzes",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 81,
+      "content": "Counting up, smoking, one cuff",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 82,
+      "content": "Live as a red Jag', a Louis bag, grabbin' a blunt, fuck it",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 83,
+      "content": "Steam about a hundred and one L's",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 84,
+      "content": "Kites off to jails, buyin' sweats, running up in Stetson",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 85,
+      "content": "Nigga hat game was special",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 86,
+      "content": "It matched every black pair of Nikes, throwing dice for decimals",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 87,
+      "content": "The older head, bolder head, would train a soldier head",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 88,
+      "content": "Make sure he right in the field, not a soldier dead",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 89,
+      "content": "That meant code red, bent off the black skunk",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 90,
+      "content": "The black Dutch, back of the old shed",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 91,
+      "content": "If you can't live, you dying, you give or buy in",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 92,
+      "content": "Keep it real or keep it moving, keep grinding",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 93,
+      "content": "Keep shining, to every young man, this is a plan",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 94,
+      "content": "Learn from others like your brothers Rae and Kanye",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Raekwon]",
+        "artists": [
+          "Raekwon"
+        ],
+        "label": "Verse 4 (Raekwon)"
+      },
+      "voices": [
+        {
+          "id": "raekwon",
+          "display": "Raekwon"
+        }
+      ],
+      "voice": {
+        "id": "raekwon",
+        "display": "Raekwon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Raekwon"
+        ]
+      }
+    },
+    {
+      "line_number": 95,
+      "content": "Not for nothing, I've forseen it, I dreamed it",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 96,
+      "content": "I can feel it slowly drifting away from me",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 97,
+      "content": "No more chances, if you blow this, you bogus",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    },
+    {
+      "line_number": 98,
+      "content": "I will never ever let you live this down, down, down",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kid Cudi]",
+        "artists": [
+          "Kid Cudi"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kid Cudi)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi"
+        ]
+      }
+    }
+  ]
+}

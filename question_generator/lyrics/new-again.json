@@ -1,0 +1,1577 @@
+{
+  "title": "New Again",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Sunday Service Choir"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Donda",
+    "edition": "deluxe",
+    "year": 2021
+  },
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "If I hit you with a \"W-Y-D?\"",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "You better not hit me with a \"H-E-Y\"",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "It better be like \"Hiii\" with a bunch of I's",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Or \"Heyyy\" with a bunch of Y's",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "I, I lived a hundred lives, uh",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "So that mean I had a hundred wives",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "And I am just simply high off life for the hundredth time",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Never let nobody curve me that don't deserve me",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Should I really have bought the Burberry last Thursday?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Wear a different color jersey every Thursday",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "'Posed to meet in Malibu, you postin' pics in Jersey",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Is to lay me or play me a bigger flex, though?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "'Cause you know you'd never live up to my ex, though",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "If we dive, it's the deep end, baby, let's go",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "I'll be gone by the weekend, baby, XO",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "[Pre 1: Kanye West]",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "Most insane out-of-body experience",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "And I repent for everything I'ma do again (I accept Him)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "And I repent for everything I'ma do again",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Thank You, thank You, thank You for Your mercy, make me new",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Sunday Service Choir, Kanye West, Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus (Sunday Service Choir, Kanye West, Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Make me new again, make me new again",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Sunday Service Choir, Kanye West, Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus (Sunday Service Choir, Kanye West, Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Make me new again, make me new again",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Sunday Service Choir, Kanye West, Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus (Sunday Service Choir, Kanye West, Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "I repent for everything that I'ma do again",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Sunday Service Choir, Kanye West, Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus (Sunday Service Choir, Kanye West, Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Make me new again, make me new again",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Sunday Service Choir, Kanye West, Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus (Sunday Service Choir, Kanye West, Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Make me new again",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Sunday Service Choir, Kanye West, Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus (Sunday Service Choir, Kanye West, Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Last night don't count",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Sunday Service Choir, Kanye West, Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus (Sunday Service Choir, Kanye West, Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "This morning don't count",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Sunday Service Choir, Kanye West, Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus (Sunday Service Choir, Kanye West, Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir",
+          "Kanye West",
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "If you take the ride, please don't close your eyes, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "In a den of thieves, every man disguise, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Keep your mask on, keep it hand-itized, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "It's a rollercoaster, keep your hands inside, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Wanna bring your pain, 'member this advice, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "What they vandalize, He'll evangelize, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "He gon' part the tides, He gon' part the skies, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Did it for the fame, 'member this advice, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "What they vandalize, He'll evangelize, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "What they vandalize, He'll evangelize, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "He gon' part the tides, He gon' part the skies, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "When they start to lie, 'member this advice, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "What they vandalize, He'll evangelize, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "When they start to lie, 'member this advice, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "What they vandalize, He'll evangelize, uh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Make me new again, make me new again",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus 2 (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Make me new again, make me new again",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus 2 (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Make me new again, make me new again",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus 2 (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Make me new again, make me new again",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus 2 (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Make me new again, make me new again",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus 2 (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Make me new again, make me new again",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus 2 (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Make me new again, make me new again",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus 2 (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Make me new again, make me new again",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus 2 (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "Make me new again, make me new again",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus 2 (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "Make me new again, make me new again",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Sunday Service Choir]",
+        "artists": [
+          "Sunday Service Choir"
+        ],
+        "label": "Chorus 2 (Sunday Service Choir)"
+      },
+      "voices": [
+        {
+          "id": "sunday-service-choir",
+          "display": "Sunday Service Choir"
+        }
+      ],
+      "voice": {
+        "id": "sunday-service-choir",
+        "display": "Sunday Service Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Sunday Service Choir"
+        ]
+      }
+    }
+  ]
+}

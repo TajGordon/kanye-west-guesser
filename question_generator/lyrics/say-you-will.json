@@ -1,0 +1,614 @@
+{
+  "title": "Say You Will",
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "808s & Heartbreak",
+    "year": 2008
+  },
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Why would she make calls out the blue?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Now I'm awake, sleep (Less in June) or (Missing you)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1]",
+        "artists": [],
+        "label": "Verse"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Hey, hey, hey, hey",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Don't say you will, unless you will",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Hey, hey, hey, hey",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Don't say you will, then play you will, I pray you will",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Mrs. So Fly crash-lands in my room",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Can't waste no time, she might leave soon",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2]",
+        "artists": [],
+        "label": "Verse 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Hey, hey, hey, hey",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Don't say you will, you do",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Hey, hey, hey, hey",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Don't say you will, one day, you will, I pray you will",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "When I grab your neck, I touch your soul",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3]",
+        "artists": [],
+        "label": "Verse 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Take off your cool then lose control",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3]",
+        "artists": [],
+        "label": "Verse 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Hey, hey, hey, hey",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Don't say you will, you will, you will",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "Hey, hey, hey, hey",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "Don't say you will, if you will, I pray you will",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 3"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "I wish this song would really come true",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "I admit I still fantasize about you, about you",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4]",
+        "artists": [],
+        "label": "Verse 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Hey, hey, hey, hey",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Don't say you will, you will, you will",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Hey, hey, hey, hey",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Please say you will, for real, I pray you will",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Chorus 4"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    }
+  ],
+  "features": [],
+  "schemaVersion": 2,
+  "producers": [
+    "Kanye West"
+  ]
+}

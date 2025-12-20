@@ -48,7 +48,7 @@ export default function App() {
         throw new Error('No data provided');
       })();
       
-      const CURRENT_SCHEMA_VERSION = 2;
+      const CURRENT_SCHEMA_VERSION = 3;
 
       // Back-compat + versioned migration:
       // schemaVersion 2 means:
@@ -73,6 +73,13 @@ export default function App() {
         normalized.artist = primary;
         normalized.schemaVersion = CURRENT_SCHEMA_VERSION;
       }
+
+      // v3: release.edition
+      if (!normalized.release || typeof normalized.release !== 'object') normalized.release = {};
+      if (!normalized.release.edition || typeof normalized.release.edition !== 'string') {
+        normalized.release.edition = 'standard';
+      }
+      normalized.release.edition = normalized.release.edition.trim() || 'standard';
 
       if (!Array.isArray(normalized.artists) || normalized.artists.length === 0) {
         normalized.artists = [primary || 'Kanye West'];
@@ -108,12 +115,12 @@ export default function App() {
       }
 
       // Back-compat: normalize song-level producers
-      if (normalized.producers !== undefined) {
+      {
         const input = Array.isArray(normalized.producers)
           ? normalized.producers
           : (typeof normalized.producers === 'string' ? [normalized.producers] : []);
         const seen = new Set();
-        normalized.producers = input
+        const producers = input
           .flatMap(p => String(p).split(','))
           .map(p => p.trim())
           .filter(p => p.length > 0)
@@ -123,6 +130,7 @@ export default function App() {
             seen.add(key);
             return true;
           });
+        normalized.producers = producers.length > 0 ? producers : ['Kanye West'];
       }
 
       setSong(normalized);
@@ -161,15 +169,16 @@ export default function App() {
   const handleNewSong = useCallback(() => {
     setSong({
       title: 'New Song',
-      schemaVersion: 2,
+      schemaVersion: 3,
       artists: ['Kanye West'],
       artist: 'Kanye West',
       features: [],
-      producers: [],
+      producers: ['Kanye West'],
       release: {
         formats: ['single'],
         status: 'official',
         project: '',
+        edition: 'standard',
         year: new Date().getFullYear()
       },
       lyrics: []

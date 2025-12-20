@@ -1,0 +1,2076 @@
+{
+  "title": "New Slaves",
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Yeezus",
+    "year": 2013
+  },
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Chill, chill, chill, chill, chill, chill",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Swizz Beatz]",
+        "artists": [
+          "Swizz Beatz"
+        ],
+        "label": "Intro (Swizz Beatz)"
+      },
+      "voices": [
+        {
+          "id": "swizz-beatz",
+          "display": "Swizz Beatz"
+        }
+      ],
+      "voice": {
+        "id": "swizz-beatz",
+        "display": "Swizz Beatz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Swizz Beatz"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Chill, chill, chill, chill, chill, chill",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Swizz Beatz]",
+        "artists": [
+          "Swizz Beatz"
+        ],
+        "label": "Intro (Swizz Beatz)"
+      },
+      "voices": [
+        {
+          "id": "swizz-beatz",
+          "display": "Swizz Beatz"
+        }
+      ],
+      "voice": {
+        "id": "swizz-beatz",
+        "display": "Swizz Beatz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Swizz Beatz"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Chill, chill, chill, chill, chill, chill",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Swizz Beatz]",
+        "artists": [
+          "Swizz Beatz"
+        ],
+        "label": "Intro (Swizz Beatz)"
+      },
+      "voices": [
+        {
+          "id": "swizz-beatz",
+          "display": "Swizz Beatz"
+        }
+      ],
+      "voice": {
+        "id": "swizz-beatz",
+        "display": "Swizz Beatz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Swizz Beatz"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Chill, chill, chill, chill, chill, chill",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro 1: Swizz Beatz]",
+        "artists": [
+          "Swizz Beatz"
+        ],
+        "label": "Intro (Swizz Beatz)"
+      },
+      "voices": [
+        {
+          "id": "swizz-beatz",
+          "display": "Swizz Beatz"
+        }
+      ],
+      "voice": {
+        "id": "swizz-beatz",
+        "display": "Swizz Beatz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Swizz Beatz"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "My mama was raised in the era when",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Clean water was only served to the fairer skin",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Doin' clothes, you would've thought I had help",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "But they wasn't satisfied unless I picked the cotton myself",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "You see, it's broke nigga racism",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "That's that, \"Don't touch anything in the store\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "And it's rich nigga racism",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "That's that, \"Come in, please buy more\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "\"What you want, a Bentley? Fur coat? A diamond chain?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "All you blacks want all the same things\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Used to only be niggas, now everybody playin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Spendin' everything on Alexander Wang",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "New slaves",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "You see it's leaders and it's followers",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Bridge (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "But I'd rather be a dick than a swallower",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Bridge (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "You see it's leaders and it's followers",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Bridge (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "But I'd rather be a dick than a swallower",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Bridge (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "I throw these Maybach keys, I wear my heart on the sleeve",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "I know that we the new slaves, I see the blood on the leaves",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "I see the blood on the leaves, I see the blood on the leaves",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "I know that we the new slaves, I see the blood on the leaves",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "They throwin' hate at me, want me to stay at ease",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Fuck you and your corporation, y'all niggas can't control me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "I know that we the new slaves, I know that we the new slaves",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "I'm 'bout to wild the fuck out, I'm goin' Bobby Boucher",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "I know that pussy ain't free, you niggas pussy, ain't me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Y'all throwin' contracts at me, you know that niggas can't read",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Throw on some Maybach keys, fuck it, c'est la vie",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "I know that we the new slaves, y'all niggas can't fuck with me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Y'all niggas can't fuck with Ye, y'all niggas can't fuck with Ye",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "I'll move my family out the country, so you can't see where I stay",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "So go and grab the reporters, so I can smash their recorders",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "See, they'll confuse us with some bullshit, like the New World Order",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Meanwhile the DEA teamed up with the CCA",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "They tryna lock niggas up, they tryna make new slaves",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "See, that's that privately owned prison, get your peace today",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "They prolly all in the Hamptons braggin' 'bout what they made",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "Fuck you and your Hampton house, I'll fuck your Hampton spouse",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Came on her Hampton blouse and in her Hampton mouth",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Y'all 'bout to turn shit up, I'm 'bout to tear shit down",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "I'm 'bout to air shit out, now what the fuck they gon' say now?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Nothing bad, nothing bad, noth—",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge 2]",
+        "artists": [],
+        "label": "Bridge 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "swizz-beatz",
+          "display": "Swizz Beatz"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Noth-noth— 'ing bad, noth— (Noth-noth—)",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge 2]",
+        "artists": [],
+        "label": "Bridge 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "swizz-beatz",
+          "display": "Swizz Beatz"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Bad, nothing bad, nothing bad",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge 2]",
+        "artists": [],
+        "label": "Bridge 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "swizz-beatz",
+          "display": "Swizz Beatz"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Nothing—",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge 2]",
+        "artists": [],
+        "label": "Bridge 2"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "swizz-beatz",
+          "display": "Swizz Beatz"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "I won't end this fight, not this time again",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "So long, so long, so long, you cannot survive",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "And I'm not dyin', and I can't lose",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "I can't lose, no, I can't lose",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "'Cause I can't leave it to you",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "So let's get too high, get too high again",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "Too high again, too high",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "Ooh, ooh, ooh, o-ooh, ooh",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "Woo (Hey)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "Ooh, ooh-ooh, high, hi-high, high",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "High, high, hi-high (Yeah)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "High, high, ah, oh",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "Egyszer a Nap úgy elfáradt (Ah, ah, ah)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "Elaludt mély zöld tó ölén",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 64,
+      "content": "Az embereknek fájt a sötét",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    },
+    {
+      "line_number": 65,
+      "content": "Ő megsajnált, eljött közénk",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West, Frank Ocean, Kóbor János]",
+        "artists": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ],
+        "label": "Outro (Kanye West, Frank Ocean, Kóbor János)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "frank-ocean",
+          "display": "Frank Ocean"
+        },
+        {
+          "id": "k-bor-j-nos",
+          "display": "Kóbor János"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Frank Ocean",
+          "Kóbor János"
+        ]
+      }
+    }
+  ],
+  "producers": [
+    "Che Pope",
+    "Sham Joseph",
+    "Ben Bronfman",
+    "Noah Goldstein",
+    "Travis Scott",
+    "Mike Dean",
+    "Kanye West"
+  ],
+  "features": [
+    "Swizz Beatz",
+    "Frank Ocean",
+    "Kóbor János"
+  ],
+  "schemaVersion": 2
+}

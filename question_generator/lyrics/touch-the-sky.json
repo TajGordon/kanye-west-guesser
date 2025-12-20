@@ -1,0 +1,2545 @@
+{
+  "title": "Touch the Sky",
+  "schemaVersion": 2,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Lupe Fiasco"
+  ],
+  "producers": [
+    "Kanye West",
+    "Just Blaze"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Late Registration",
+    "year": 2005
+  },
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "I gotta testify",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Come up in the spot lookin' extra fly",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "'Fore the day I die, I'ma touch the sky",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Gotta testify",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Come up in the spot lookin' extra fly",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "'Fore the day I die, I'ma touch the sky",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Back when they thought pink Polos would hurt the Roc",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Before Cam got the shit to pop",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "The doors was closed",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "I felt like Bad Boy's street team: I couldn't work the locks",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Now let's go, take 'em back to the plan",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Me and my momma hopped in that U-Haul van",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Any pessimists, I ain't talk to them",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Plus I ain't have no phone in my apart-a-ment",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Let's take 'em back to the club",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Least about an hour I stand on line",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "I just wanted to dance, I went to Jacob an hour",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "After I got my advance, I just wanted to shine",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "Jay favorite line: \"Dawg, in due time!\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Now he look at me, like, \"Damn, dawg! You where I am!\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "A hip-hop legend",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "I think I died in that accident, ‘cause this must be Heaven",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "I gotta testify",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Come up in the spot lookin' extra fly",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "'Fore the day I die, I'ma touch the sky",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Gotta testify",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Come up in the spot lookin' extra fly",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "'Fore the day I die, I'ma touch the sky",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Now let's take them hi-ah-igh-igh-igh-ighhhh",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "(Top of the world, baby, top, top of the world!)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "A-la-la-la-lah-la-lahhhhh",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "(Top of the world, baby, on top of the world!)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Now let's take them hi-ah-igh-igh-igh-ighhhh",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "(Top of the world, baby, top, top of the world!)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "A-la-la-la-lah-la-lahhhhh",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "(Top of the world, baby, on top of the world!)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Back when Gucci was the shit to rock",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Back when Slick Rick got the shit to pop",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "I'd do anything to say I got it",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "Damn, them new loafers hurt my pocket",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Before anybody wanted K. West beats",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "Me and my girl split the buffet at KFC",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Dawg, I was havin' nervous breakdowns",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Like \"Man, these niggas that much better than me?\"",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Baby, I'm goin' on an aeroplane",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "And I don't know if I'll be back again",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Sure enough, I sent the plane tickets",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "But when she came to kick it, things became different",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Any girl I cheated on, sheets I skeeted on",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Couldn't keep it at home, thought I needed a Nia Long",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "I'm tryin' to right my wrongs",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "But it's funny them same wrongs helped me write this song, now",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "I gotta testify",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "Come up in the spot lookin' extra fly",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "'Fore the day you die, you gon' touch the sky",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "You gon' touch the sky, baby girl, testify",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "Come up in the spot lookin' extra fly",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "'Fore the day you die, you gon' touch the sky",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "Yes, yes, yes, guess who's on third?",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "Lupe steal like Lupin the 3rd",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "Here like ear 'til I'm beer on the curb",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "Peachfuzz buzz but beard on the verge",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "Let's slow it down like we're on the syrup",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 64,
+      "content": "Bottle-shaped body like Mrs. Butterworth",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 65,
+      "content": "But before you say another word",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 66,
+      "content": "I'm back on the block like I'm layin' on the street",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 67,
+      "content": "I'm tryna stop lyin' like I'm Mumm-Ra",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 68,
+      "content": "But I'm not lyin' when I'm layin' on the beat, en garde",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 69,
+      "content": "Or touché, Lupe cool as the unthawed",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 70,
+      "content": "But I still feel possessed as a gun charge",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 71,
+      "content": "Come as correct as a porn star",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 72,
+      "content": "In a fresh pair steps in my best foreign car",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 73,
+      "content": "So, I represent the first",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 74,
+      "content": "Now let me end my verse right where the horns are, like uh",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Lupe Fiasco]",
+        "artists": [
+          "Lupe Fiasco"
+        ],
+        "label": "Verse 3 (Lupe Fiasco)"
+      },
+      "voices": [
+        {
+          "id": "lupe-fiasco",
+          "display": "Lupe Fiasco"
+        }
+      ],
+      "voice": {
+        "id": "lupe-fiasco",
+        "display": "Lupe Fiasco"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Lupe Fiasco"
+        ]
+      }
+    },
+    {
+      "line_number": 75,
+      "content": "I gotta testify",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus 5: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 5 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 76,
+      "content": "Come up in the spot lookin' extra fly",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus 5: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 5 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 77,
+      "content": "'Fore the day you die, you gon' touch the sky",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus 5: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 5 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 78,
+      "content": "You gon' touch the sky, baby girl, testify",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus 5: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 5 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 79,
+      "content": "Come up in the spot lookin' extra fly",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus 5: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 5 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 80,
+      "content": "'Fore the day you die, you gon' touch the sky",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus 5: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Chorus 5 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 81,
+      "content": "We back at home, baby!",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 82,
+      "content": "Sky high, I’m, I’m sky high!",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 83,
+      "content": "I’m, I’m sky high!",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 84,
+      "content": "I’m, I’m sky high!",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 85,
+      "content": "I’m, I’m sky high!",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 86,
+      "content": "I’m, I’m sky high!",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 87,
+      "content": "Sky, sky high! I’m, I’m sky high!",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 88,
+      "content": "Yeah, keep it rollin'!",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 89,
+      "content": "Yeah, uh, feels good to be home, baby!",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 90,
+      "content": "Feels good to be home!",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    }
+  ]
+}
