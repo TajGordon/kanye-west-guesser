@@ -2,6 +2,7 @@ import React, { useCallback, useMemo, useEffect, useRef } from 'react';
 import CodeMirror from '@uiw/react-codemirror';
 import { EditorView, Decoration, WidgetType } from '@codemirror/view';
 import { StateField } from '@codemirror/state';
+import { parseSectionHeader } from '../../../shared/sectionHeader.js';
 import './RawTextEditor.css';
 
 /**
@@ -23,7 +24,11 @@ const SECTION_TYPE_COLORS = {
 
 // Get color for a section type (simple lookup, no complexity)
 const getColorForSectionType = (sectionType) => {
-  const type = (sectionType || '').toLowerCase().replace(/\s+/g, '-');
+  let type = (sectionType || '').toLowerCase().replace(/\s+/g, '-');
+  // Keep this aligned with server normalization for common synonyms.
+  if (type === 'refrain') type = 'chorus';
+  if (type === 'hook') type = 'chorus';
+  if (type === 'post-chorus') type = 'chorus';
   return SECTION_TYPE_COLORS[type] || '#888888'; // Default gray if unknown type
 };
 
@@ -64,14 +69,11 @@ const createDecorations = (text) => {
     const lineStart = pos;
     const lineEnd = pos + line.length;
 
-    // Detect section header: [Verse 1], [Chorus 1], etc.
-    const sectionMatch = line.match(/^\[(\w+(?:\s+\w+)?)\s+(\d+)\]$/i);
+    // Detect section header using the shared parser (loose mode).
+    const header = parseSectionHeader(line, [], { strictTypes: false, autoNumber: false });
 
-    if (sectionMatch) {
-      const [, typeStr, num] = sectionMatch;
-      // Normalize type: "Pre Chorus" → "pre-chorus"
-      currentSectionType = typeStr.toLowerCase().replace(/\s+/g, '-');
-      // Look up the color for this type
+    if (header) {
+      currentSectionType = header.type;
       currentColor = getColorForSectionType(currentSectionType);
       console.log(`[RawTextEditor] Section header: type="${currentSectionType}", color="${currentColor}"`);
 

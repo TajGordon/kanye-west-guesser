@@ -3,6 +3,7 @@ import cors from 'cors';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { parseSectionHeader, DEFAULT_VALID_TYPES } from './shared/sectionHeader.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const LYRICS_DIR = path.join(__dirname, '../lyrics');
@@ -11,6 +12,76 @@ const PROJECTS_FILE = path.join(__dirname, '../projects.json');
 const app = express();
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
+
+const normalizeSongArtists = (data) => {
+  if (!data || typeof data !== 'object') return data;
+  let artists = Array.isArray(data.artists) ? data.artists : null;
+
+  if (!artists || artists.length === 0) {
+    if (typeof data.artist === 'string' && data.artist.trim()) {
+      artists = [data.artist.trim()];
+    } else {
+      artists = [];
+    }
+  }
+
+  // De-dupe + normalize whitespace
+  const seen = new Set();
+  data.artists = artists
+    .map(a => String(a).trim())
+    .filter(a => a.length > 0)
+    .filter(a => {
+      const key = a.toLowerCase();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+
+  // Keep legacy field for compatibility (primary artist)
+  if (!data.artist && data.artists.length > 0) {
+    data.artist = data.artists[0];
+  }
+
+  return data;
+};
+
+const normalizeLineVoices = (song) => {
+  if (!song || typeof song !== 'object') return song;
+  if (!Array.isArray(song.lyrics)) return song;
+
+  const fallbackArtists = Array.isArray(song.artists) ? song.artists : (song.artist ? [song.artist] : []);
+
+  song.lyrics = song.lyrics.map((line) => {
+    if (!line || typeof line !== 'object') return line;
+
+    const fromSection = Array.isArray(line?.section?.artists) ? line.section.artists : [];
+    const preferred = fromSection.length > 0 ? fromSection : fallbackArtists;
+
+    // Back-compat: if voices missing, derive from voice or fallback lists
+    let voices = Array.isArray(line.voices) ? line.voices : null;
+    if (!voices || voices.length === 0) {
+      if (line.voice && typeof line.voice === 'object' && line.voice.id) {
+        voices = [line.voice];
+      } else {
+        voices = preferred.map((name) => ({
+          id: String(name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
+          display: String(name)
+        }));
+      }
+    }
+
+    // Ensure `voice` stays in sync (primary voice)
+    const primaryVoice = voices[0] || line.voice || { id: 'kanye-west', display: 'Kanye West' };
+
+    return {
+      ...line,
+      voices,
+      voice: primaryVoice
+    };
+  });
+
+  return song;
+};
 
 // Load or initialize projects database
 const loadProjects = () => {
@@ -154,6 +225,7 @@ app.get('/api/songs/:name', (req, res) => {
     }
     
     let data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    data = normalizeSongArtists(data);
     
     // CRITICAL: Normalize section format (fixes old data format where type="verse-1")
     if (data.lyrics) {
@@ -166,6 +238,9 @@ app.get('/api/songs/:name', (req, res) => {
         return res.status(500).json({ error: `Data validation failed: ${validationErr.message}` });
       }
     }
+
+    // Back-compat: ensure every line has voices[] (multi-voice candidates)
+    data = normalizeLineVoices(data);
     
     // Load raw lyrics text if available
     if (fs.existsSync(txtPath)) {
@@ -192,7 +267,7 @@ app.post('/api/songs/:name', (req, res) => {
     }
     
     const filePath = path.join(LYRICS_DIR, `${sanitized}.json`);
-    const data = req.body;
+    const data = normalizeSongArtists(req.body);
     
     // Normalize and validate section format before saving
     if (data.lyrics) {
@@ -241,119 +316,53 @@ app.post('/api/parse', (req, res) => {
 
     const isCreditLine = (line) => skipPatterns.some(pat => pat.test(line));
 
-    // Helper: Normalize section type string
-    const normalizeType = (typeStr) => {
-      return typeStr
-        .trim()
-        .toLowerCase()
-        .replace(/\s+/g, '-')
-        .replace(/prechorus/, 'pre-chorus');
-    };
-
-    // Helper: Extract and parse artist names from string
-    const parseArtists = (artistString) => {
-      if (!artistString) return [];
-      
-      // Split by comma or ampersand, clean up
-      const artists = artistString
-        .split(/[,&]+/)
-        .map(a => a.trim())
-        .filter(a => a.length > 0);
-      
-      return artists;
-    };
-
-    // Helper: Generate display label for a section
-    const generateSectionLabel = (section) => {
-      const typeLabel = section.type.charAt(0).toUpperCase() + section.type.slice(1);
-      
-      // Build artist part
-      const artistPart = section.artists && section.artists.length > 0
-        ? ` (${section.artists.join(', ')})`
-        : '';
-      
-      // Include number for clarity (skip if number is 1 and no artists)
-      const numberPart = section.number > 1 ? ` ${section.number}` : '';
-      
-      return `${typeLabel}${numberPart}${artistPart}`;
-    };
-
-    // Parse section headers with complex formats
+    // Shared header parser (strict mode for canonical section types)
     const parseSection = (headerLine, previousSections = []) => {
-      const validTypes = ['verse', 'chorus', 'pre-chorus', 'bridge', 'intro', 'outro', 'interlude', 'break'];
-      
-      // Format 1: [Type Number: Artists] (existing - with explicit number)
-      const squareMatch = headerLine.match(/^\[([a-z](?:[a-z\s-]*[a-z])?)\s+(\d+)\s*(?:[-:](.+))?\]$/i);
-      if (squareMatch) {
-        const [, typeStr, num, extra] = squareMatch;
-        let type = normalizeType(typeStr);
-        
-        if (validTypes.includes(type)) {
-          const section = {
-            type: type,
-            number: parseInt(num) || 1,
-            originalText: headerLine,
-            artists: parseArtists(extra)
-          };
-          
-          // Add label combining type, number, and artists
-          section.label = generateSectionLabel(section);
-          return section;
-        }
-      }
-      
-      // Format 2: [Type: Artists] (NEW - no explicit number, auto-number)
-      const namedMatch = headerLine.match(/^\[([a-z](?:[a-z\s-]*[a-z])?)(?::\s*(.+))?\]$/i);
-      if (namedMatch) {
-        const [, typeStr, extra] = namedMatch;
-        let type = normalizeType(typeStr);
-        
-        if (validTypes.includes(type)) {
-          // Auto-number: count how many sections of this type exist
-          const sameTypeSections = previousSections.filter(s => s.type === type);
-          const nextNumber = sameTypeSections.length + 1;
-          
-          const section = {
-            type: type,
-            number: nextNumber,
-            originalText: headerLine,
-            artists: parseArtists(extra),
-            autoNumbered: true  // Flag to indicate auto-numbered
-          };
-          
-          section.label = generateSectionLabel(section);
-          return section;
-        }
-      }
-      
-      // Format 3: Type: Artists (no brackets - bare format)
-      const bareMatch = headerLine.match(/^([a-z](?:[a-z\s-]*[a-z])?)(?::\s*(.+))?$/i);
-      if (bareMatch && !headerLine.startsWith('[') && (headerLine.includes(':') || !headerLine.match(/[a-z]/i))) {
-        const [, typeStr, extra] = bareMatch;
-        let type = normalizeType(typeStr);
-        
-        if (validTypes.includes(type)) {
-          const sameTypeSections = previousSections.filter(s => s.type === type);
-          const nextNumber = sameTypeSections.length + 1;
-          
-          const section = {
-            type: type,
-            number: nextNumber,
-            originalText: headerLine,
-            artists: parseArtists(extra),
-            autoNumbered: true
-          };
-          
-          section.label = generateSectionLabel(section);
-          return section;
-        }
-      }
-      
-      return null;
+      return parseSectionHeader(headerLine, previousSections, {
+        strictTypes: true,
+        validTypes: DEFAULT_VALID_TYPES,
+        autoNumber: true
+      });
     };
 
     const parsed = [];
     let currentSection = { type: 'verse', number: 1, originalText: '[Verse 1]' };
+    const artistNameToVoiceId = (name) => {
+      const n = String(name || '').trim().toLowerCase();
+      if (!n) return null;
+
+      const known = {
+        'kanye west': 'kanye-west',
+        'kid cudi': 'kid-cudi',
+        'mr. hudson': 'mr-hudson',
+        'mr hudson': 'mr-hudson',
+        'travis scott': 'travis-scott',
+        'pusha t': 'pusha-t',
+        'ty dolla $ign': 'ty-dolla-sign',
+        'ty dolla sign': 'ty-dolla-sign',
+        'young thug': 'young-thug'
+      };
+
+      return known[n] || n.replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    };
+
+    const defaultVoiceForSection = (section) => {
+      const artists = section && Array.isArray(section.artists) ? section.artists : [];
+      if (artists.length === 0) return { id: 'kanye-west', display: 'Kanye West' };
+
+      const primary = artists[0];
+      const id = artistNameToVoiceId(primary) || 'kanye-west';
+      return { id, display: String(primary) };
+    };
+
+    const voicesForSection = (section) => {
+      const artists = section && Array.isArray(section.artists) ? section.artists : [];
+      if (artists.length === 0) return [];
+      return artists.map((name) => ({
+        id: artistNameToVoiceId(name) || 'kanye-west',
+        display: String(name)
+      }));
+    };
     let lineNum = 0;
     const allLines = []; // Keep track of all lines for display
     const collectedSections = [];  // Track sections for auto-numbering
@@ -379,12 +388,16 @@ app.post('/api/parse', (req, res) => {
 
       // Skip credit lines from editable list
       if (!isCreditLine(line)) {
+        const voices = voicesForSection(currentSection);
         parsed.push({
           line_number: ++lineNum,
           content: line.trim(),  // Trim whitespace from content
           section: { ...currentSection },
-          voice: { id: 'kanye-west', display: 'Kanye West' },
-          meta: {}
+          voices,
+          voice: voices[0] || defaultVoiceForSection(currentSection),
+          meta: {
+            detectedVoices: Array.isArray(currentSection?.artists) ? [...currentSection.artists] : []
+          }
         });
       }
     }

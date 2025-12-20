@@ -141,3 +141,71 @@
   border-color: #0066cc;
   box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2);
 }
+
+.voices-details {
+  min-width: 160px;
+  border: 1px solid #444;
+  background: #1a1a1a;
+  color: #fff;
+  border-radius: 4px;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+.voices-summary {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.voices-summary-label {
+  opacity: 0.9;
+}
+
+.voices-summary-chips {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.voices-more {
+  opacity: 0.85;
+}
+
+.voices-panel {
+  margin-top: 8px;
+  display: grid;
+  gap: 8px;
+}
+
+.voices-selected {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.voice-chip {
+  border: 1px solid #444;
+  border-radius: 999px;
+  padding: 2px 8px;
+  background: #262626;
+}
+
+.voices-empty {
+  opacity: 0.8;
+}
+
+.voices-options {
+  display: grid;
+  gap: 6px;
+}
+
+.voice-option {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

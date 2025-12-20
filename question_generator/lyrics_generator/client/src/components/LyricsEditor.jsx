@@ -1,9 +1,9 @@
-import React, { useState, useRef, useCallback } from 'react';
+import React, { useState, useRef, useCallback, useMemo } from 'react';
 import LineEditor from './LineEditor';
 import MetadataEditor from './MetadataEditor';
 import ContextMenu from './ContextMenu';
 import RawTextEditor from './RawTextEditor';
-import { linesToSections, getSectionColorKey } from '../utils/dataModel';
+import { linesToSections, getSectionColorKey, validateLyricStructure } from '../utils/dataModel';
 import './LyricsEditor.css';
 
 // Artist color palette - maps artist IDs to colors (bright, vibrant)
@@ -68,6 +68,15 @@ export default function LyricsEditor({ song, setSong }) {
   const [isParsingDebounced, setIsParsingDebounced] = useState(false);
   const [rawTextInput, setRawTextInput] = useState(null); // Local state for textarea - null means use display text
   const [colorMode, setColorMode] = useState('section'); // 'section' or 'artist'
+
+  const structureIssues = useMemo(() => {
+    return validateLyricStructure(song?.lyrics || []);
+  }, [song?.lyrics]);
+
+  // Sync tracking (prevents stale parse responses from overwriting newer raw edits)
+  const [rawTextVersion, setRawTextVersion] = useState(0);
+  const [lastAppliedParseVersion, setLastAppliedParseVersion] = useState(0);
+  const latestRawTextVersionRef = useRef(0);
 
   // Refs
   const parseTimeoutRef = useRef(null);
@@ -144,7 +153,9 @@ export default function LyricsEditor({ song, setSong }) {
         
         // Format section name: "pre-chorus" → "Pre-Chorus", "verse" → "Verse", etc.
         const sectionName = formatSectionName(section.type);
-        const label = `[${sectionName} ${section.number}]`;
+        const artists = Array.isArray(section.artists) ? section.artists : [];
+        const artistPart = artists.length > 0 ? `: ${artists.join(', ')}` : '';
+        const label = `[${sectionName} ${section.number}${artistPart}]`;
         lines.push(label);
         lastSection = section;
       }
@@ -156,92 +167,135 @@ export default function LyricsEditor({ song, setSong }) {
     return lines.join('\n');
   }, [song?.lyrics]);
 
-  // Parse raw text and update lyrics array
-  const debouncedParse = useCallback((text) => {
-    setIsParsingDebounced(true);
-    setParseError(null);
+  const displayedRawText = useMemo(() => {
+    return rawTextInput !== null ? rawTextInput : buildDisplayText();
+  }, [rawTextInput, buildDisplayText]);
 
-    if (parseTimeoutRef.current) {
-      clearTimeout(parseTimeoutRef.current);
-    }
+  const isStructuredStale = useMemo(() => {
+    // When rawTextInput is non-null, user is editing a draft that may not yet be parsed into song.lyrics.
+    // We consider structured "stale" until the latest raw version has been applied.
+    return rawTextInput !== null && lastAppliedParseVersion !== rawTextVersion;
+  }, [rawTextInput, lastAppliedParseVersion, rawTextVersion]);
 
-    parseTimeoutRef.current = setTimeout(async () => {
-      try {
-        const res = await fetch('/api/parse', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ text })
-        });
-        if (!res.ok) throw new Error('Parse failed');
-        const data = await res.json();
+  const parseAndApply = useCallback(async (text, version) => {
+    try {
+      const res = await fetch('/api/parse', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text })
+      });
+      if (!res.ok) throw new Error('Parse failed');
+      const data = await res.json();
 
-        // Validate response
-        if (!data.lines || !Array.isArray(data.lines)) {
-          throw new Error('Invalid response: missing lines array');
+      if (!data.lines || !Array.isArray(data.lines)) {
+        throw new Error('Invalid response: missing lines array');
+      }
+
+      // Ignore stale responses (user typed more since this request was issued)
+      if (version !== latestRawTextVersionRef.current) {
+        console.log(`[Parse] Ignored stale response for v${version} (latest is v${latestRawTextVersionRef.current})`);
+        return;
+      }
+
+      setSong(prev => {
+        const existingArtists = Array.isArray(prev.artists) ? prev.artists : (prev.artist ? [prev.artist] : []);
+        const detectedArtists = new Set();
+        for (const line of data.lines) {
+          const artists = Array.isArray(line?.section?.artists) ? line.section.artists : [];
+          for (const a of artists) {
+            const s = String(a).trim();
+            if (s) detectedArtists.add(s);
+          }
         }
+        const merged = Array.from(new Map(
+          [...existingArtists, ...Array.from(detectedArtists)]
+            .map(a => String(a).trim())
+            .filter(a => a.length > 0)
+            .map(a => [a.toLowerCase(), a])
+        ).values());
 
-        // Update with new array reference to trigger re-render
-        setSong(prev => ({
+        const toVoiceId = (name) => {
+          const n = String(name || '').trim();
+          if (!n) return '';
+          return n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+        };
+
+        const withVoices = (data.lines || []).map((line) => {
+          const sectionArtists = Array.isArray(line?.section?.artists) ? line.section.artists : [];
+          const preferred = sectionArtists.length > 0 ? sectionArtists : merged;
+          const voices = (preferred || [])
+            .map((display) => ({ id: toVoiceId(display), display: String(display) }))
+            .filter(v => v.id);
+          const primary = voices[0] || line.voice || { id: 'kanye-west', display: 'Kanye West' };
+          return { ...line, voices, voice: primary };
+        });
+
+        const nextSong = {
           ...prev,
-          lyrics: [...data.lines]  // New array reference
-        }));
-        console.log(`[Debounced Parse] Updated ${data.lines.length} lines`);
-        setIsParsingDebounced(false);
-      } catch (err) {
-        console.error('Parse error:', err);
+          lyrics: withVoices
+        };
+
+        // Keep artists[] in sync (multi-artist songs)
+        nextSong.artists = merged;
+        if (!nextSong.artist && merged.length > 0) {
+          nextSong.artist = merged[0];
+        }
+        console.log(`[Parse] Applied v${version}: ${nextSong.lyrics.length} lines`);
+        return nextSong;
+      });
+      setLastAppliedParseVersion(version);
+      setIsParsingDebounced(false);
+      setParseError(null);
+    } catch (err) {
+      console.error('Parse error:', err);
+      // Only surface error if this parse is still the latest
+      if (version === latestRawTextVersionRef.current) {
         setParseError(err.message);
         setIsParsingDebounced(false);
       }
-    }, 300);
+    }
   }, [setSong]);
 
-  // Manual re-process trigger - immediately parse without debounce
-  const handleReprocessRawText = useCallback(() => {
-    const textToParse = rawTextInput !== null ? rawTextInput : buildDisplayText();
-    debouncedParse(textToParse);
-    // Cancel any pending debounced parse and execute immediately
+  // Debounced parse scheduling (for typing)
+  const scheduleParse = useCallback((text, version) => {
+    setIsParsingDebounced(true);
+    setParseError(null);
+
     if (parseTimeoutRef.current) {
       clearTimeout(parseTimeoutRef.current);
     }
+
+    parseTimeoutRef.current = setTimeout(() => {
+      parseAndApply(text, version);
+    }, 300);
+  }, [parseAndApply]);
+
+  // Manual refresh: parse the currently displayed raw text and overwrite structured lyrics
+  const handleRefreshStructuredFromRaw = useCallback(() => {
+    const textToParse = displayedRawText;
+
+    // Treat this as the latest version (even if rawTextInput is null, this refresh is explicit)
     setIsParsingDebounced(true);
     setParseError(null);
-    
-    // Parse immediately
-    try {
-      fetch('/api/parse', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text: textToParse })
-      }).then(res => {
-        if (!res.ok) throw new Error('Parse failed');
-        return res.json();
-      }).then(data => {
-        // Validate response
-        if (!data.lines || !Array.isArray(data.lines)) {
-          throw new Error('Invalid response: missing lines array');
-        }
-        
-        // Force new object reference to trigger re-render
-        setSong(prev => {
-          const newSong = {
-            ...prev,
-            lyrics: [...data.lines]  // New array reference
-          };
-          console.log(`[Re-process] Updated ${newSong.lyrics.length} lines`);
-          return newSong;
-        });
-        setIsParsingDebounced(false);
-      }).catch(err => {
-        console.error('Parse error:', err);
-        setParseError(err.message);
-        setIsParsingDebounced(false);
-      });
-    } catch (err) {
-      console.error('Parse error:', err);
-      setParseError(err.message);
-      setIsParsingDebounced(false);
+
+    if (parseTimeoutRef.current) {
+      clearTimeout(parseTimeoutRef.current);
     }
-  }, [rawTextInput, buildDisplayText, setSong, parseTimeoutRef]);
+
+    // If user isn't in raw draft mode, bump version so this response can be gated consistently
+    setRawTextVersion(prev => {
+      const next = prev + 1;
+      latestRawTextVersionRef.current = next;
+      parseAndApply(textToParse, next);
+      return next;
+    });
+  }, [displayedRawText, parseAndApply]);
+
+  const handleResetRawToStructured = useCallback(() => {
+    setRawTextInput(null);
+    // Consider it "in sync" because raw view is now derived from structured.
+    setLastAppliedParseVersion(rawTextVersion);
+  }, [rawTextVersion]);
 
   // Reset textarea local state when song is loaded (reload from data)
   React.useEffect(() => {
@@ -253,9 +307,14 @@ export default function LyricsEditor({ song, setSong }) {
     const newText = e.target.value;
     // Update local state immediately for responsive typing
     setRawTextInput(newText);
-    // Parse in background (debounced) - don't force textarea to update
-    debouncedParse(newText);
-  }, [debouncedParse]);
+    // Bump raw version and schedule parse; stale responses will be ignored
+    setRawTextVersion(prev => {
+      const next = prev + 1;
+      latestRawTextVersionRef.current = next;
+      scheduleParse(newText, next);
+      return next;
+    });
+  }, [scheduleParse]);
 
   // Handle paste events in the raw text editor - trigger immediate parsing
   const handleLeftPanelPaste = useCallback((e) => {
@@ -264,11 +323,16 @@ export default function LyricsEditor({ song, setSong }) {
       if (e.target && e.target.value) {
         const pastedText = e.target.value;
         setRawTextInput(pastedText);
-        // Trigger immediate parsing for pasted content
-        debouncedParse(pastedText);
+        // Treat paste as a raw edit (versioned) and parse promptly
+        setRawTextVersion(prev => {
+          const next = prev + 1;
+          latestRawTextVersionRef.current = next;
+          scheduleParse(pastedText, next);
+          return next;
+        });
       }
     }, 0);
-  }, [debouncedParse]);
+  }, [scheduleParse]);
 
   // Left panel text selection handler
   const handleLeftPanelSelection = useCallback((selection) => {
@@ -277,8 +341,8 @@ export default function LyricsEditor({ song, setSong }) {
       return;
     }
 
-    // Get the text from the current display (rebuild from lyrics)
-    const displayText = buildDisplayText();
+    // Get the text from the current display (raw draft if present, otherwise rebuilt from lyrics)
+    const displayText = displayedRawText;
     const selectedText = displayText.slice(selection.ranges[0].from, selection.ranges[0].to);
     
     // Map selected text back to lyrics indices
@@ -324,7 +388,7 @@ export default function LyricsEditor({ song, setSong }) {
     });
 
     setSelectedIndices(newIndices);
-  }, [song?.lyrics, buildDisplayText]);
+  }, [song?.lyrics, displayedRawText, buildDisplayText]);
 
   // Right panel bulk edit: update lyrics array
   const handleBulkEdit = useCallback((field, value) => {
@@ -460,6 +524,8 @@ export default function LyricsEditor({ song, setSong }) {
           { label: 'Pre-Chorus', onClick: () => handleBulkEdit('section', { type: 'pre-chorus', number: 1 }) },
           { label: 'Bridge', onClick: () => handleBulkEdit('section', { type: 'bridge', number: 1 }) },
           { label: 'Intro', onClick: () => handleBulkEdit('section', { type: 'intro', number: 1 }) },
+          { label: 'Interlude', onClick: () => handleBulkEdit('section', { type: 'interlude', number: 1 }) },
+          { label: 'Break', onClick: () => handleBulkEdit('section', { type: 'break', number: 1 }) },
           { label: 'Outro', onClick: () => handleBulkEdit('section', { type: 'outro', number: 1 }) }
         ]
       });
@@ -531,8 +597,7 @@ export default function LyricsEditor({ song, setSong }) {
     return sections.map((section) => ({
       sectionKey: `${section.type}-${section.number}`,
       section: {
-        type: section.type,
-        number: section.number
+        ...(section.lines?.[0]?.section || { type: section.type, number: section.number })
       },
       lines: section.lines.map((line, idx) => {
         // Find original index in full lyrics array for reference
@@ -552,6 +617,24 @@ export default function LyricsEditor({ song, setSong }) {
     <div className="lyrics-editor">
       <div className="editor-sidebar">
         <MetadataEditor song={song} setSong={setSong} />
+        {structureIssues.length > 0 && (
+          <div className="bulk-actions" role="status" aria-live="polite">
+            <h3>Validation</h3>
+            <div style={{ fontSize: 12, color: '#d32f2f', marginBottom: 8 }}>
+              {structureIssues.length} issue{structureIssues.length !== 1 ? 's' : ''} detected
+            </div>
+            <div style={{ fontSize: 11, color: '#ccc', lineHeight: 1.4 }}>
+              {structureIssues.slice(0, 6).map((msg, i) => (
+                <div key={i}>{msg}</div>
+              ))}
+              {structureIssues.length > 6 && (
+                <div style={{ opacity: 0.8, marginTop: 6 }}>
+                  (+{structureIssues.length - 6} more)
+                </div>
+              )}
+            </div>
+          </div>
+        )}
         {selectedIndices.size > 0 && (
           <div className="selection-info">
             <strong>{selectedIndices.size} line{selectedIndices.size !== 1 ? 's' : ''} selected</strong>
@@ -619,9 +702,21 @@ export default function LyricsEditor({ song, setSong }) {
       <div className="editor-main">
         <h2>{song?.title || 'Untitled'}</h2>
         <div className="editor-controls">
-          <button onClick={handleReprocessRawText} className="reprocess-btn" title="Re-parse the raw text to auto-detect sections and formatting">
-            🔄 Re-process Raw Text
+          <button onClick={handleRefreshStructuredFromRaw} className="reprocess-btn" title="Parse the Raw Text view and overwrite the Structured Data view">
+            🔄 Refresh Structured from Raw
           </button>
+          {rawTextInput !== null && (
+            <button onClick={handleResetRawToStructured} className="reprocess-btn" title="Discard the raw draft and rebuild Raw Text from Structured Data">
+              ↩ Reset Raw to Structured
+            </button>
+          )}
+          <div style={{ marginLeft: 12, fontSize: 12, opacity: 0.85 }}>
+            {isParsingDebounced
+              ? 'Parsing…'
+              : isStructuredStale
+                ? 'Structured view is stale (raw edits not applied)'
+                : 'Structured view is up-to-date'}
+          </div>
         </div>
         <div className="split-panels">
           <div className="left-panel-container">
@@ -665,8 +760,15 @@ export default function LyricsEditor({ song, setSong }) {
                       style={{ borderLeftColor: sectionColor, backgroundColor: `${sectionColor}20` }}
                     >
                       <div className="section-title">
-                        {formatSectionName(group.section?.type)} {group.section?.number}
+                        {group.section?.label
+                          ? group.section.label
+                          : `${formatSectionName(group.section?.type)} ${group.section?.number}`}
                       </div>
+                      {Array.isArray(group.section?.artists) && group.section.artists.length > 0 && (
+                        <div className="section-artists" style={{ fontSize: 12, opacity: 0.9, marginTop: 4 }}>
+                          {group.section.artists.join(' • ')}
+                        </div>
+                      )}
                     </div>
                     
                     {/* Lines in this section */}
@@ -690,6 +792,7 @@ export default function LyricsEditor({ song, setSong }) {
                             index={i}
                             line={line}
                             isSelected={selectedIndices.has(i)}
+                            songArtists={Array.isArray(song?.artists) ? song.artists : (song?.artist ? [song.artist] : [])}
                             onChange={(updated) => {
                               setSong(prev => {
                                 const updatedLyrics = (prev.lyrics || []).map((l, idx) => 

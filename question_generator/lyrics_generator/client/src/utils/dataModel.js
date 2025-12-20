@@ -53,6 +53,7 @@ export function linesToSections(lyrics) {
     currentSection.lines.push({
       line_number: line.line_number,
       content: line.content,
+      voices: line.voices,
       voice: line.voice,
       meta: line.meta,
       section: line.section,  // ← PRESERVE section property so form inputs work

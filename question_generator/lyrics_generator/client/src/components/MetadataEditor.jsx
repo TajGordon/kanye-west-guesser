@@ -90,11 +90,22 @@ export default function MetadataEditor({ song, setSong }) {
         />
       </div>
       <div className="field">
-        <label>Artist</label>
+        <label>Artists</label>
         <input
-          value={song.artist || ''}
-          onChange={(e) => setSong(prev => ({ ...prev, artist: e.target.value }))}
-          disabled
+          value={Array.isArray(song.artists) ? song.artists.join(', ') : (song.artist || '')}
+          onChange={(e) => {
+            const raw = e.target.value;
+            const artists = raw
+              .split(',')
+              .map(a => a.trim())
+              .filter(a => a.length > 0);
+            setSong(prev => ({
+              ...prev,
+              artists,
+              artist: artists[0] || prev.artist
+            }));
+          }}
+          placeholder="Kanye West, Kid Cudi"
         />
       </div>
       <h3>Release Info</h3>

@@ -48,7 +48,42 @@ export default function App() {
         throw new Error('No data provided');
       })();
       
-      setSong(data);
+      // Back-compat: normalize single-artist songs into artists[]
+      const normalized = { ...data };
+      if (!Array.isArray(normalized.artists) || normalized.artists.length === 0) {
+        const primary = (typeof normalized.artist === 'string' && normalized.artist.trim()) ? normalized.artist.trim() : '';
+        normalized.artists = primary ? [primary] : [];
+      }
+      if (!normalized.artist && normalized.artists.length > 0) {
+        normalized.artist = normalized.artists[0];
+      }
+
+      // Back-compat: normalize per-line voices (multi-voice candidates)
+      if (Array.isArray(normalized.lyrics)) {
+        normalized.lyrics = normalized.lyrics.map((line) => {
+          if (!line || typeof line !== 'object') return line;
+
+          const fromSection = Array.isArray(line?.section?.artists) ? line.section.artists : [];
+          const preferred = fromSection.length > 0 ? fromSection : normalized.artists;
+
+          let voices = Array.isArray(line.voices) ? line.voices : null;
+          if (!voices || voices.length === 0) {
+            if (line.voice && typeof line.voice === 'object' && line.voice.id) {
+              voices = [line.voice];
+            } else {
+              voices = (preferred || []).map((name) => ({
+                id: String(name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, ''),
+                display: String(name)
+              }));
+            }
+          }
+
+          const primary = voices[0] || line.voice || { id: 'kanye-west', display: 'Kanye West' };
+          return { ...line, voices, voice: primary };
+        });
+      }
+
+      setSong(normalized);
       setSongName(name);
       console.log(`Loaded song: ${name}`);
     } catch (err) {
@@ -84,6 +119,7 @@ export default function App() {
   const handleNewSong = useCallback(() => {
     setSong({
       title: 'New Song',
+      artists: ['Kanye West'],
       artist: 'Kanye West',
       release: {
         formats: ['single'],
