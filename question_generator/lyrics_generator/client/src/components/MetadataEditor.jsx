@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import './MetadataEditor.css';
 
 export default function MetadataEditor({ song, setSong }) {
@@ -9,6 +9,40 @@ export default function MetadataEditor({ song, setSong }) {
   const [projectMetadata, setProjectMetadata] = useState({});
   const [yearOverride, setYearOverride] = useState(false);
   const [formatOverride, setFormatOverride] = useState(false);
+
+  // Keep raw comma-separated text while typing so we don't fight the cursor
+  // by trimming/reformatting on every keystroke.
+  const activeTextFieldRef = useRef(null);
+  const [artistsText, setArtistsText] = useState('');
+  const [featuresText, setFeaturesText] = useState('');
+  const [producersText, setProducersText] = useState('');
+
+  const toCommaSeparated = useCallback((value) => {
+    if (Array.isArray(value)) return value.join(', ');
+    if (typeof value === 'string') return value;
+    return '';
+  }, []);
+
+  const parseCommaList = useCallback((raw) => {
+    return String(raw || '')
+      .split(',')
+      .map(s => s.trim())
+      .filter(Boolean);
+  }, []);
+
+  // Sync raw text when a different song loads, but don't overwrite while the user is typing.
+  useEffect(() => {
+    if (!song) return;
+    if (activeTextFieldRef.current !== 'artists') {
+      setArtistsText(toCommaSeparated(Array.isArray(song.artists) ? song.artists : (song.artist || 'Kanye West')));
+    }
+    if (activeTextFieldRef.current !== 'features') {
+      setFeaturesText(toCommaSeparated(song.features));
+    }
+    if (activeTextFieldRef.current !== 'producers') {
+      setProducersText(toCommaSeparated(song.producers));
+    }
+  }, [song, toCommaSeparated]);
 
   const refreshProjects = useCallback(async () => {
     const r = await fetch('/api/projects');
@@ -44,6 +78,13 @@ export default function MetadataEditor({ song, setSong }) {
 
   // Handle project selection with auto-population
   const handleProjectChange = useCallback((projectName) => {
+    // Clearing selection: only clear project, don't stomp other fields.
+    if (projectName === '') {
+      setCustomProject('');
+      handleRelease('project', '');
+      return;
+    }
+
     if (projectName === '__custom__') {
       // Enter "create new" mode
       setCustomProject('');
@@ -52,7 +93,7 @@ export default function MetadataEditor({ song, setSong }) {
     }
 
     const project = projectMetadata[projectName];
-    
+
     // Always set project
     handleRelease('project', projectName);
     setCustomProject('');
@@ -62,14 +103,29 @@ export default function MetadataEditor({ song, setSong }) {
     if (project) {
       setYearOverride(false);
       setFormatOverride(false);
-      handleRelease('year', project.year || new Date().getFullYear());
-      handleRelease('formats', project.formats || ['album']);
+
+      const year = project.year || new Date().getFullYear();
+      const formats = project.formats || ['album'];
       const editions = Array.isArray(project.editions) && project.editions.length > 0 ? project.editions : ['standard'];
-      handleRelease('edition', editions[0] || 'standard');
+      const edition = editions[0] || 'standard';
+
+      // Auto-populate publisher artists from the selected project.
+      const projectArtists = Array.isArray(project.artists) && project.artists.length > 0
+        ? project.artists
+        : ['Kanye West'];
+
       setCustomEdition('');
       setEditionCreateMode(false);
+
+      // Apply all project-derived defaults in one state update to avoid any batching/race issues.
+      setSong(prev => ({
+        ...prev,
+        release: { ...prev.release, project: projectName, year, formats, edition },
+        artists: projectArtists,
+        artist: String(projectArtists[0] || prev.artist || 'Kanye West')
+      }));
     }
-  }, [projectMetadata, yearOverride, formatOverride, handleRelease]);
+  }, [projectMetadata, handleRelease, setSong]);
 
   const handleCustomProjectChange = useCallback((value) => {
     setCustomProject(value);
@@ -202,18 +258,26 @@ export default function MetadataEditor({ song, setSong }) {
       <div className="field">
         <label>Artists (publisher)</label>
         <input
-          value={Array.isArray(song.artists) ? song.artists.join(', ') : (song.artist || 'Kanye West')}
+          value={artistsText}
+          onFocus={() => { activeTextFieldRef.current = 'artists'; }}
           onChange={(e) => {
             const raw = e.target.value;
-            const artists = raw
-              .split(',')
-              .map(a => a.trim())
-              .filter(a => a.length > 0);
+            setArtistsText(raw);
+            const artists = parseCommaList(raw);
             setSong(prev => ({
               ...prev,
               artists,
               artist: artists[0] || prev.artist || 'Kanye West'
             }));
+          }}
+          onBlur={() => {
+            const artists = parseCommaList(artistsText);
+            setSong(prev => ({
+              ...prev,
+              artists,
+              artist: artists[0] || prev.artist || 'Kanye West'
+            }));
+            if (activeTextFieldRef.current === 'artists') activeTextFieldRef.current = null;
           }}
           placeholder="Kanye West"
         />
@@ -221,17 +285,24 @@ export default function MetadataEditor({ song, setSong }) {
       <div className="field">
         <label>Features (performers)</label>
         <input
-          value={Array.isArray(song.features) ? song.features.join(', ') : (song.features || '')}
+          value={featuresText}
+          onFocus={() => { activeTextFieldRef.current = 'features'; }}
           onChange={(e) => {
             const raw = e.target.value;
-            const features = raw
-              .split(',')
-              .map(a => a.trim())
-              .filter(a => a.length > 0);
+            setFeaturesText(raw);
+            const features = parseCommaList(raw);
             setSong(prev => ({
               ...prev,
               features
             }));
+          }}
+          onBlur={() => {
+            const features = parseCommaList(featuresText);
+            setSong(prev => ({
+              ...prev,
+              features
+            }));
+            if (activeTextFieldRef.current === 'features') activeTextFieldRef.current = null;
           }}
           placeholder="Kid Cudi, Pusha T"
         />
@@ -239,17 +310,24 @@ export default function MetadataEditor({ song, setSong }) {
       <div className="field">
         <label>Producers (optional)</label>
         <input
-          value={Array.isArray(song.producers) ? song.producers.join(', ') : (song.producers || '')}
+          value={producersText}
+          onFocus={() => { activeTextFieldRef.current = 'producers'; }}
           onChange={(e) => {
             const raw = e.target.value;
-            const producers = raw
-              .split(',')
-              .map(p => p.trim())
-              .filter(p => p.length > 0);
+            setProducersText(raw);
+            const producers = parseCommaList(raw);
             setSong(prev => ({
               ...prev,
               producers
             }));
+          }}
+          onBlur={() => {
+            const producers = parseCommaList(producersText);
+            setSong(prev => ({
+              ...prev,
+              producers
+            }));
+            if (activeTextFieldRef.current === 'producers') activeTextFieldRef.current = null;
           }}
           placeholder="Mike Dean, Kanye West"
         />

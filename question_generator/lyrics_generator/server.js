@@ -416,7 +416,13 @@ app.post('/api/songs/:name', (req, res) => {
 // Parse raw lyrics text into lines (auto-detect sections, filter credits)
 app.post('/api/parse', (req, res) => {
   try {
-    const { text } = req.body;
+    const { text, options } = req.body;
+
+    const includeBracketLines = new Set(
+      (Array.isArray(options?.includeBracketLines) ? options.includeBracketLines : [])
+        .map(s => String(s).trim())
+        .filter(Boolean)
+    );
     // Split by newlines but keep blank lines - they're important for structure
     const allTextLines = text.split('\n');
     const lines = allTextLines.map(line => line.trim()); // Keep empty strings for blank lines
@@ -498,8 +504,12 @@ app.post('/api/parse', (req, res) => {
     let lineNum = 0;
     const allLines = []; // Keep track of all lines for display
     const collectedSections = [];  // Track sections for auto-numbering
+    const ignoredMarkers = [];
+    let markerIdCounter = 0;
 
-    for (const line of lines) {
+    for (let rawIdx = 0; rawIdx < lines.length; rawIdx++) {
+      const line = lines[rawIdx];
+      const rawLineNumber = rawIdx + 1;
       // Skip blank lines and whitespace-only lines - they're just visual separators, not lyric data
       if (line.trim() === '') {
         allLines.push({ type: 'blank', content: '' });
@@ -520,6 +530,22 @@ app.post('/api/parse', (req, res) => {
         currentSection = section;
         collectedSections.push(section);  // Track for next iteration
         allLines.push({ type: 'header', content: line, section: currentSection });
+        continue;
+      }
+
+      // Any bracketed line that is NOT a recognized section header (strict) and NOT a credit
+      // is treated as an ignored marker by default (e.g. [PART 1]).
+      const isBracketed = /^\[.*\]$/.test(line);
+      if (isBracketed && !isCreditLine(line) && !includeBracketLines.has(String(line).trim())) {
+        const marker = {
+          id: `m${++markerIdCounter}`,
+          content: line,
+          rawLineNumber,
+          // This marker appears between lyric line N and N+1 (0 means before first lyric line).
+          insertAfterLineNumber: lineNum
+        };
+        ignoredMarkers.push(marker);
+        allLines.push({ type: 'marker', content: line, marker });
         continue;
       }
 
@@ -557,7 +583,8 @@ app.post('/api/parse', (req, res) => {
       lines: normalizedLines,
       allLines,
       meta: {
-        producers: Array.from(producersSet)
+        producers: Array.from(producersSet),
+        ignoredMarkers
       }
     });
   } catch (err) {

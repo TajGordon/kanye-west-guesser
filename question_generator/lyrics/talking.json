@@ -1,0 +1,1502 @@
+{
+  "title": "TALKING",
+  "schemaVersion": 3,
+  "artists": [
+    "Y$",
+    "Kanye West",
+    "Ty Dolla $ign"
+  ],
+  "artist": "Y$",
+  "features": [
+    "James Blake",
+    "North West",
+    "Ty Dolla $ign"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Vultures",
+    "edition": "standard",
+    "year": 2024
+  },
+  "ignoredMarkers": [
+    {
+      "id": "m1",
+      "content": "[Part I: TALKING]",
+      "rawLineNumber": 1,
+      "insertAfterLineNumber": 0
+    },
+    {
+      "id": "m2",
+      "content": "[Part II: ONCE AGAIN]",
+      "rawLineNumber": 32,
+      "insertAfterLineNumber": 24
+    }
+  ],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "You don't want no problems, you just— (Talking)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: James Blake]",
+        "artists": [
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (James Blake)"
+      },
+      "voices": [
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "james-blake",
+        "display": "James Blake"
+      },
+      "meta": {
+        "detectedVoices": [
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "You don't want no problems, you just— (Talking)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: James Blake]",
+        "artists": [
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (James Blake)"
+      },
+      "voices": [
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "james-blake",
+        "display": "James Blake"
+      },
+      "meta": {
+        "detectedVoices": [
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "You don't want no problems, you just— (Talking)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: James Blake]",
+        "artists": [
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (James Blake)"
+      },
+      "voices": [
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "james-blake",
+        "display": "James Blake"
+      },
+      "meta": {
+        "detectedVoices": [
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "You don't want no problems, you just— (Talking)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: James Blake]",
+        "artists": [
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (James Blake)"
+      },
+      "voices": [
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "james-blake",
+        "display": "James Blake"
+      },
+      "meta": {
+        "detectedVoices": [
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "You don't want no problems, you just— (Talking)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: James Blake]",
+        "artists": [
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (James Blake)"
+      },
+      "voices": [
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "james-blake",
+        "display": "James Blake"
+      },
+      "meta": {
+        "detectedVoices": [
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "I love it here",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: North West, James Blake]",
+        "artists": [
+          "North West",
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (North West, James Blake)"
+      },
+      "voices": [
+        {
+          "id": "north-west",
+          "display": "North West"
+        },
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "north-west",
+        "display": "North West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "North West",
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "We gonna take over the year for another year",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: North West, James Blake]",
+        "artists": [
+          "North West",
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (North West, James Blake)"
+      },
+      "voices": [
+        {
+          "id": "north-west",
+          "display": "North West"
+        },
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "north-west",
+        "display": "North West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "North West",
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "It's your bestie, Miss, Miss Westie",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: North West, James Blake]",
+        "artists": [
+          "North West",
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (North West, James Blake)"
+      },
+      "voices": [
+        {
+          "id": "north-west",
+          "display": "North West"
+        },
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "north-west",
+        "display": "North West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "North West",
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Don't tryna test me",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: North West, James Blake]",
+        "artists": [
+          "North West",
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (North West, James Blake)"
+      },
+      "voices": [
+        {
+          "id": "north-west",
+          "display": "North West"
+        },
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "north-west",
+        "display": "North West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "North West",
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "It's gonna get messy",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: North West, James Blake]",
+        "artists": [
+          "North West",
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (North West, James Blake)"
+      },
+      "voices": [
+        {
+          "id": "north-west",
+          "display": "North West"
+        },
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "north-west",
+        "display": "North West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "North West",
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "It's gonna get messy",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: North West, James Blake]",
+        "artists": [
+          "North West",
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (North West, James Blake)"
+      },
+      "voices": [
+        {
+          "id": "north-west",
+          "display": "North West"
+        },
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "north-west",
+        "display": "North West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "North West",
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Just, just bless me",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: North West, James Blake]",
+        "artists": [
+          "North West",
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (North West, James Blake)"
+      },
+      "voices": [
+        {
+          "id": "north-west",
+          "display": "North West"
+        },
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "north-west",
+        "display": "North West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "North West",
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Bless me (Talking)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: North West, James Blake]",
+        "artists": [
+          "North West",
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (North West, James Blake)"
+      },
+      "voices": [
+        {
+          "id": "north-west",
+          "display": "North West"
+        },
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "north-west",
+        "display": "North West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "North West",
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "It's your bestie, Miss, Miss Westie (Talking)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: North West, James Blake]",
+        "artists": [
+          "North West",
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (North West, James Blake)"
+      },
+      "voices": [
+        {
+          "id": "north-west",
+          "display": "North West"
+        },
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "north-west",
+        "display": "North West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "North West",
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Just tryna bless me (Talking)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: North West, James Blake]",
+        "artists": [
+          "North West",
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (North West, James Blake)"
+      },
+      "voices": [
+        {
+          "id": "north-west",
+          "display": "North West"
+        },
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "north-west",
+        "display": "North West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "North West",
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Just bless me, bless me (Talking)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: North West, James Blake]",
+        "artists": [
+          "North West",
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (North West, James Blake)"
+      },
+      "voices": [
+        {
+          "id": "north-west",
+          "display": "North West"
+        },
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "north-west",
+        "display": "North West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "North West",
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "You don't want no problems, you just— (Talking)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: James Blake]",
+        "artists": [
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (James Blake)"
+      },
+      "voices": [
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "james-blake",
+        "display": "James Blake"
+      },
+      "meta": {
+        "detectedVoices": [
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "You don't want no problems, you just— (Talking)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: James Blake]",
+        "artists": [
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (James Blake)"
+      },
+      "voices": [
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "james-blake",
+        "display": "James Blake"
+      },
+      "meta": {
+        "detectedVoices": [
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "You don't want no problems, you just— (Talking)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: James Blake]",
+        "artists": [
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (James Blake)"
+      },
+      "voices": [
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "james-blake",
+        "display": "James Blake"
+      },
+      "meta": {
+        "detectedVoices": [
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "You don't want no problems, you just— (Talking)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: James Blake]",
+        "artists": [
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (James Blake)"
+      },
+      "voices": [
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "james-blake",
+        "display": "James Blake"
+      },
+      "meta": {
+        "detectedVoices": [
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "You don't want no problems, you just— (Talking)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: James Blake]",
+        "artists": [
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (James Blake)"
+      },
+      "voices": [
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "james-blake",
+        "display": "James Blake"
+      },
+      "meta": {
+        "detectedVoices": [
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "You don't want no problems, you just— (Talking)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: James Blake]",
+        "artists": [
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (James Blake)"
+      },
+      "voices": [
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "james-blake",
+        "display": "James Blake"
+      },
+      "meta": {
+        "detectedVoices": [
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "You don't want no problems, you just— (Talking)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: James Blake]",
+        "artists": [
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (James Blake)"
+      },
+      "voices": [
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "james-blake",
+        "display": "James Blake"
+      },
+      "meta": {
+        "detectedVoices": [
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "(Talk)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: James Blake]",
+        "artists": [
+          "James Blake"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (James Blake)"
+      },
+      "voices": [
+        {
+          "id": "james-blake",
+          "display": "James Blake"
+        }
+      ],
+      "voice": {
+        "id": "james-blake",
+        "display": "James Blake"
+      },
+      "meta": {
+        "detectedVoices": [
+          "James Blake"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Once again, the clouds are gatherin' to release what they held in (Ooh)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "What they held in (Held in)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "What they held in (Held in)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "What they held in (Held in)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Once again, the clouds are gatherin' to release what they held in (Again, once—, yeah)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Once again, the clouds are gatherin' to release what they held in",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "How much to stop the clock from speedin'? They might try to slow down",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "How much to stop my daughter from growin'? I just can't take it now",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "'Cause she just doing all the shit I did when I was her age",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "I don't know how I'm gonna tell her, but her dad's just afraid",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Of her choices, know that I've been through it",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "I just hope I haven't been the wrong influence",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Put her on game before the world put her through it",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Ooh-ooh, oh-oh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "That's why I gotta break the curses that were sent for me",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "This is hard work working, this ain't destiny",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "My motivation is just lookin' at my family tree",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "I'm tryna make sure I contribute for the legacy",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Verse 2 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Once again, the clouds are gatherin' to release what they held in (Again-again, once again)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Once again, the clouds are gatherin' to release what they held in",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: Ty Dolla $ign]",
+        "artists": [
+          "Ty Dolla $ign"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Once again, the clouds are gathering to release what they held in (Oh, oh-oh, oh, oh-oh, oh)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Once again, the clouds are gathering to release what they held in (Oh, oh-oh, oh, oh-oh, oh)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Once again, the clouds are gathering to release what they held in (Oh, oh-oh, oh, oh-oh, oh)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Once again, the clouds are gathering to release what they held in (Oh, oh-oh, oh, oh-oh, oh)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    }
+  ]
+}

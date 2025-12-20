@@ -1,0 +1,2273 @@
+{
+  "title": "Bound 2",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Ponderosa Twins Plus One",
+    "Brenda Lee",
+    "Charlie Wilson"
+  ],
+  "producers": [
+    "Kanye West",
+    "Che Pope with additional production from Eric Danchild",
+    "Noah Goldstein",
+    "No ID",
+    "Mike Dean"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Yeezus",
+    "edition": "standard",
+    "year": 2013
+  },
+  "ignoredMarkers": [
+    {
+      "id": "m1",
+      "content": "[Video directed by Nick Knight]",
+      "rawLineNumber": 84,
+      "insertAfterLineNumber": 67
+    }
+  ],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "B-b-b-b-bound to fall in love",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "ponderosa-twins-plus-one",
+        "display": "Ponderosa Twins Plus One"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Bound to fall in love",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "ponderosa-twins-plus-one",
+        "display": "Ponderosa Twins Plus One"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Uh-huh, honey",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "ponderosa-twins-plus-one",
+        "display": "Ponderosa Twins Plus One"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "All them other niggas lame, and you know it now",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "When a real nigga hold you down, you supposed to drown",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "(Bound to fall in love)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Bound",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "(B-b-b-b-bound to fall in love)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Bound",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Uh-huh, honey",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "What you doin' in the club on a Thursday?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "She say she only here for her girl birthday",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "They ordered champagne but still look thirsty",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Rock Forever 21, but just turned thirty",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "I know I got a bad reputation",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Walk-around-always-mad reputation",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "Leave-a-pretty-girl-sad reputation",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "Start a Fight Club, Brad reputation",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "I turnt the nightclub out of the basement",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "I'll turn the plane around, your ass keep complainin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "How you gon' be mad on vacation?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Dutty wining 'round all these Jamaicans",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Uh, this that prom shit",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "This that what-we-do-don't-tell-your-mom shit",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "This that red-cup-all-on-the-lawn shit",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Got a fresh cut, straight out the salon, bitch",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "I know you're tired of lovin', of lovin' (Ooh)",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Charlie Wilson & Brenda Lee]",
+        "artists": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Charlie Wilson, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "charlie-wilson",
+        "display": "Charlie Wilson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "With nobody to love, nobody, no—",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Charlie Wilson & Brenda Lee]",
+        "artists": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Charlie Wilson, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "charlie-wilson",
+        "display": "Charlie Wilson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Uh-huh, honey",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Charlie Wilson & Brenda Lee]",
+        "artists": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Charlie Wilson, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "charlie-wilson",
+        "display": "Charlie Wilson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Close your eyes and let the word paint a thousand pictures",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "One good girl is worth a thousand bitches",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "(Bound to fall in love)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Bound",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "(Bound to fall in love)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Bound",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "Uh-huh, honey",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "I wanna fuck you hard on the sink",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "After that, give you somethin' to drink",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "Step back, can't get spunk on the mink",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "I mean damn, what would Jeromey Romey Romey Rome think?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Hey, you remember where we first met?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "Okay, I don't remember where we first met",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "But hey, admittin' is the first step",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "And hey, you know ain't nobody perfect",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "And I know, with the hoes I got the worst rep",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "But hey, their backstroke I'm tryna perfect",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "And hey, ayo, we made it; Thanksgivin'",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "So hey, maybe we can make it to Christmas",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "She asked me what I wished for on my wishlist",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Have you ever asked your bitch for other bitches?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "Maybe we could still make it to the church steps",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "But first, you gon' remember how to forget",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "After all these long-ass verses",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "I'm tired, you tired, Jesus wept",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "I know you're tired (Tired) of lovin', of lovin' (Ooh)",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge: Charlie Wilson & Brenda Lee]",
+        "artists": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge 2 (Charlie Wilson, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "charlie-wilson",
+        "display": "Charlie Wilson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "With nobody to love, nobody, nobody",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge: Charlie Wilson & Brenda Lee]",
+        "artists": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge 2 (Charlie Wilson, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "charlie-wilson",
+        "display": "Charlie Wilson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "So just grab somebody, no leavin' this party (Woo)",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge: Charlie Wilson & Brenda Lee]",
+        "artists": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge 2 (Charlie Wilson, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "charlie-wilson",
+        "display": "Charlie Wilson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "With nobody to love, nobody, nobody",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge: Charlie Wilson & Brenda Lee]",
+        "artists": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge 2 (Charlie Wilson, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "charlie-wilson",
+        "display": "Charlie Wilson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "Ooh",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge: Charlie Wilson & Brenda Lee]",
+        "artists": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge 2 (Charlie Wilson, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "charlie-wilson",
+        "display": "Charlie Wilson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "Uh-huh, honey",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge: Charlie Wilson & Brenda Lee]",
+        "artists": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge 2 (Charlie Wilson, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "charlie-wilson",
+          "display": "Charlie Wilson"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "charlie-wilson",
+        "display": "Charlie Wilson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Charlie Wilson",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "Jerome's in the house, watch your mouth",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "Jerome's in the house, watch your mouth",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "(Bound to fall in love)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 64,
+      "content": "Bound",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 65,
+      "content": "(Bound to fall in love)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 66,
+      "content": "Bound",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 67,
+      "content": "Uh-huh, honey",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West, Ponderosa Twins Plus One & Brenda Lee]",
+        "artists": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, Ponderosa Twins Plus One, Brenda Lee)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ponderosa-twins-plus-one",
+          "display": "Ponderosa Twins Plus One"
+        },
+        {
+          "id": "brenda-lee",
+          "display": "Brenda Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ponderosa Twins Plus One",
+          "Brenda Lee"
+        ]
+      }
+    }
+  ]
+}

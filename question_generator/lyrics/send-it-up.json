@@ -1,0 +1,1509 @@
+{
+  "title": "Send it Up",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Beenie Man",
+    "King Louie"
+  ],
+  "producers": [
+    "Kanye West",
+    "Daft Punk",
+    "Gesaffelstein",
+    "Brodinski",
+    "Arca",
+    "Mike Dean"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Yeezus",
+    "edition": "standard",
+    "year": 2013
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Relivin' the past?",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Beenie Man]",
+        "artists": [
+          "Beenie Man"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Beenie Man)"
+      },
+      "voices": [
+        {
+          "id": "beenie-man",
+          "display": "Beenie Man"
+        }
+      ],
+      "voice": {
+        "id": "beenie-man",
+        "display": "Beenie Man"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Beenie Man"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Your loss",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Beenie Man]",
+        "artists": [
+          "Beenie Man"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Beenie Man)"
+      },
+      "voices": [
+        {
+          "id": "beenie-man",
+          "display": "Beenie Man"
+        }
+      ],
+      "voice": {
+        "id": "beenie-man",
+        "display": "Beenie Man"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Beenie Man"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Rockstar, bitch, call me Elvis",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "label": "Verse (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "M.O.B, she call me selfish",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "label": "Verse (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Success got 'em jealous",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "label": "Verse (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Shorty's killin', while I'm drillin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "label": "Verse (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Tattoos, how they break the news",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "label": "Verse (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "It was real if you made the news",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "label": "Verse (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Last night, my bitches came in twos",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "label": "Verse (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "And they both sucked like they came to lose",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "label": "Verse (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Dropped out first day of school",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "label": "Verse (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "'Cause niggas got cocaine to move",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "label": "Verse (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "I be goin' hard, I got a name to prove",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "label": "Verse (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Killin' 'em, honey, how I make the pain improve",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "label": "Verse (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "We can send this bitch up, it can't go down",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "We can send this bitch up, it can't go down",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "We can send this bitch up, it can't go down",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "We can send this bitch up, it can't go down",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "Woo, woo",
+      "section": {
+        "type": "interlude",
+        "number": 1,
+        "originalText": "[Interlude: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Interlude (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Woo, woo",
+      "section": {
+        "type": "interlude",
+        "number": 1,
+        "originalText": "[Interlude: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Interlude (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "We can send this bitch up, it can't go down",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: King Louie & Kanye West]",
+        "artists": [
+          "King Louie",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (King Louie, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "We can send this bitch up, it can't go down",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: King Louie & Kanye West]",
+        "artists": [
+          "King Louie",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (King Louie, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "We can send this bitch up, it can't go down",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: King Louie & Kanye West]",
+        "artists": [
+          "King Louie",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (King Louie, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "We can send this bitch up, it can't go down (Woo)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: King Louie & Kanye West]",
+        "artists": [
+          "King Louie",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (King Louie, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "This the craziest shit in the club (Woo)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "Since \"In Da Club\" (Woo)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "It's so packed, I might ride around on my bodyguard's back like Prince in the club",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "She say, \"Can you get my friends in the club?\"",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "I say, \"Can you get my Benz in the club?\"",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "If not, treat your friends like my Benz",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Park they ass outside 'til the evenin' end",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "When I go raw, I like to leave it in",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "When I wake up, I like to go again",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "When I go to work, she gotta call it in",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "She can't go to work, same clothes again",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "And her heart colder than the soles I'm in",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Louboutin on the toes again",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Tight dress dancin' close to him",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "Yeezus just rose again",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "We can send this bitch up, it can't go down",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "We can send this bitch up, it can't go down",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "We can send this bitch up, it can't go down",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "We can send this bitch up, it can't go down",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: King Louie]",
+        "artists": [
+          "King Louie"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (King Louie)"
+      },
+      "voices": [
+        {
+          "id": "king-louie",
+          "display": "King Louie"
+        }
+      ],
+      "voice": {
+        "id": "king-louie",
+        "display": "King Louie"
+      },
+      "meta": {
+        "detectedVoices": [
+          "King Louie"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Memories don't leave like people do",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Beenie Man]",
+        "artists": [
+          "Beenie Man"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Beenie Man)"
+      },
+      "voices": [
+        {
+          "id": "beenie-man",
+          "display": "Beenie Man"
+        }
+      ],
+      "voice": {
+        "id": "beenie-man",
+        "display": "Beenie Man"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Beenie Man"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "They always 'member you",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Beenie Man]",
+        "artists": [
+          "Beenie Man"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Beenie Man)"
+      },
+      "voices": [
+        {
+          "id": "beenie-man",
+          "display": "Beenie Man"
+        }
+      ],
+      "voice": {
+        "id": "beenie-man",
+        "display": "Beenie Man"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Beenie Man"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Whether things are good or bad",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Beenie Man]",
+        "artists": [
+          "Beenie Man"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Beenie Man)"
+      },
+      "voices": [
+        {
+          "id": "beenie-man",
+          "display": "Beenie Man"
+        }
+      ],
+      "voice": {
+        "id": "beenie-man",
+        "display": "Beenie Man"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Beenie Man"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "It's just the memories that you have",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Beenie Man]",
+        "artists": [
+          "Beenie Man"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Beenie Man)"
+      },
+      "voices": [
+        {
+          "id": "beenie-man",
+          "display": "Beenie Man"
+        }
+      ],
+      "voice": {
+        "id": "beenie-man",
+        "display": "Beenie Man"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Beenie Man"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Memories don't leave like people do",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Beenie Man]",
+        "artists": [
+          "Beenie Man"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Beenie Man)"
+      },
+      "voices": [
+        {
+          "id": "beenie-man",
+          "display": "Beenie Man"
+        }
+      ],
+      "voice": {
+        "id": "beenie-man",
+        "display": "Beenie Man"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Beenie Man"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "They always 'member you",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Beenie Man]",
+        "artists": [
+          "Beenie Man"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Beenie Man)"
+      },
+      "voices": [
+        {
+          "id": "beenie-man",
+          "display": "Beenie Man"
+        }
+      ],
+      "voice": {
+        "id": "beenie-man",
+        "display": "Beenie Man"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Beenie Man"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Whether things are good or bad",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Beenie Man]",
+        "artists": [
+          "Beenie Man"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Beenie Man)"
+      },
+      "voices": [
+        {
+          "id": "beenie-man",
+          "display": "Beenie Man"
+        }
+      ],
+      "voice": {
+        "id": "beenie-man",
+        "display": "Beenie Man"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Beenie Man"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "It's just the memories that you have",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Beenie Man]",
+        "artists": [
+          "Beenie Man"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Beenie Man)"
+      },
+      "voices": [
+        {
+          "id": "beenie-man",
+          "display": "Beenie Man"
+        }
+      ],
+      "voice": {
+        "id": "beenie-man",
+        "display": "Beenie Man"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Beenie Man"
+        ]
+      }
+    }
+  ]
+}

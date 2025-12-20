@@ -1,0 +1,1313 @@
+{
+  "title": "KING",
+  "schemaVersion": 3,
+  "artists": [
+    "Y$",
+    "Kanye West",
+    "Ty Dolla $ign"
+  ],
+  "artist": "Y$",
+  "features": [
+    "Ty Dolla $ign"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Vultures",
+    "edition": "standard",
+    "year": 2024
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "After everything said, huh",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Wait, wait",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "After everything said, huh",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Wait, wait",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "\"Crazy, bipolar, antisemite\"",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "And I'm still the king",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Still the king",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Still",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "They thought headlines was my kryptonite",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Still the king",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Still the king",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "This what y'all all been waitin' for, huh?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Guess a real nigga couldn't take no more, huh",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Niggas mad 'cause they can't talk to Ye no more, huh",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "It was fucks given, now it ain't no more, huh",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "If you ain't mean it, what you say it for, huh?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "She just wanna fuck at the Bottega store, huh",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "Way she suck me off, I should be payin' more, huh",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "Addicted to my bitch 'cause she actin' like a slut",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "Bring four sluts right now",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Shut the hell up 'fore you gеt exiled",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "And I'm still",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "\"Crazy, bipolar, antisemitе\"",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "And I'm still the king",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "They thought headlines was my kryptonite, bitch",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "I'm still the king",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "I'm still the king",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Paparazzi love me, they show up to everything",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "I can pay you double, let me put you on the team",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "White Castle to Italian castles, we did everything",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Sold out every stadium, bitch, we got every wing",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "I don't give a— uh-uh, ooh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Why— mmm, the king",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "All that word of mouth couldn't take me out, huh-huh",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "After all of that, your kids in the house goin' crazy",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse 2 (Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "'Cause I'm still the king",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "Still the king",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Still the king",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "Deadlines, I gave a shit, like",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "Still the king",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Still the king",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    }
+  ]
+}

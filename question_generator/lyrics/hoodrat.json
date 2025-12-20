@@ -1,0 +1,2272 @@
+{
+  "title": "HOODRAT",
+  "schemaVersion": 3,
+  "artists": [
+    "Y$",
+    "Kanye West",
+    "Ty Dolla $ign"
+  ],
+  "artist": "Y$",
+  "features": [
+    "Ty Dolla $ign",
+    "Mike Tyson",
+    "Jason Lee"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Vultures",
+    "edition": "standard",
+    "year": 2024
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat (Auntie)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Hoodrat, hoodrat, hood— (Nigga)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro]",
+        "artists": [],
+        "autoNumbered": true,
+        "label": "Intro"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": []
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat (Ahh, ma, what up?)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat (Ahh, ma, what up?)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat (Auntie)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat (Nigga)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "You look like a piece of hallelujah",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Wrapped up in— have mercy, Lord (Hoodrat, hoodrat)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "I know that I've got a nice whip",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "But I hope that me and you could be on one accord (Hoodrat, hoodrat)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "I shot, I scored (Ahh, ma, what up?)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "I take it off the board, headboard",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Ah, boom, nigga (Nigga, ahh, ma, what up?)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "She fell in love with the sword",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "I sliced, I diced, I hit it from the back",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Whore, whore (Ahh, ma, what up?)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "But I respect your feelings",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "When your toes tried to touch the ceiling",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Havin' safe sex (Auntie)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "Of course, unlock the door",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Bought all the things that you could dream of",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Had I bought a Chanеl, Gucci, Pucci creamer",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "But we all know thе outcome that fuck up the income",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "And then some, have mercy, Lord",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "And, nigga, eyes on dim sum, let the light dim some",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Catch me on your TV, heart broke GD",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West, Ty Dolla $ign, Kanye West & Ty Dolla $ign]",
+        "artists": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ],
+        "label": "Verse (Kanye West, Ty Dolla $ign, Kanye West, Ty Dolla $ign)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Ty Dolla $ign",
+          "Kanye West",
+          "Ty Dolla $ign"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "You look like a piece of hallelujah",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "Wrapped up in— have mercy, Lord",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "I know that I've got a nice whip",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "But I hope that me and you could be on one accord (Nigga)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Ty Dolla $ign & Kanye West]",
+        "artists": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Ty Dolla $ign, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "ty-dolla-ign",
+          "display": "Ty Dolla $ign"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "ty-dolla-ign",
+        "display": "Ty Dolla $ign"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Ty Dolla $ign",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "One maker, real breath taker, real rump shaker",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "Do that, whip what her mama gave her",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "9-1-1, let me call my savior",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "Jesus on the main line, brand new T-shirt (Ahh, ma what up?)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Don't make me stain mine",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Drank so much, she throwin' up my gang sign",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Throwin' up my gang sign (Auntie)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Throwin' up my gang sign (Nigga)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat (Ahh, ma, what up?)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "Hoodrat, hoodrat, hoodrat, hoodrat (Nigga)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "People are funny, they know Kanye's great too",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Mike Tyson & Jason Lee]",
+        "artists": [
+          "Mike Tyson",
+          "Jason Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Mike Tyson, Jason Lee)"
+      },
+      "voices": [
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "mike-tyson",
+        "display": "Mike Tyson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mike Tyson",
+          "Jason Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "But the way he conducts himself, they hate to believe it",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Mike Tyson & Jason Lee]",
+        "artists": [
+          "Mike Tyson",
+          "Jason Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Mike Tyson, Jason Lee)"
+      },
+      "voices": [
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "mike-tyson",
+        "display": "Mike Tyson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mike Tyson",
+          "Jason Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "But they can't help it, they know he's great (Right)",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Mike Tyson & Jason Lee]",
+        "artists": [
+          "Mike Tyson",
+          "Jason Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Mike Tyson, Jason Lee)"
+      },
+      "voices": [
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "mike-tyson",
+        "display": "Mike Tyson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mike Tyson",
+          "Jason Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "Why would— Listen",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Mike Tyson & Jason Lee]",
+        "artists": [
+          "Mike Tyson",
+          "Jason Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Mike Tyson, Jason Lee)"
+      },
+      "voices": [
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "mike-tyson",
+        "display": "Mike Tyson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mike Tyson",
+          "Jason Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "Shit Kanye say is basically affirmations what people say for success",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Mike Tyson & Jason Lee]",
+        "artists": [
+          "Mike Tyson",
+          "Jason Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Mike Tyson, Jason Lee)"
+      },
+      "voices": [
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "mike-tyson",
+        "display": "Mike Tyson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mike Tyson",
+          "Jason Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "And it sounds insane because that's what motherfuckers do",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Mike Tyson & Jason Lee]",
+        "artists": [
+          "Mike Tyson",
+          "Jason Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Mike Tyson, Jason Lee)"
+      },
+      "voices": [
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "mike-tyson",
+        "display": "Mike Tyson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mike Tyson",
+          "Jason Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "But he sounds insane and that's signs— sounds of a leader",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Mike Tyson & Jason Lee]",
+        "artists": [
+          "Mike Tyson",
+          "Jason Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Mike Tyson, Jason Lee)"
+      },
+      "voices": [
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "mike-tyson",
+        "display": "Mike Tyson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mike Tyson",
+          "Jason Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "No doubt he's got some mental fuckin' issues, most leaders do",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Mike Tyson & Jason Lee]",
+        "artists": [
+          "Mike Tyson",
+          "Jason Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Mike Tyson, Jason Lee)"
+      },
+      "voices": [
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "mike-tyson",
+        "display": "Mike Tyson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mike Tyson",
+          "Jason Lee"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "The delusional issue, \"I'm a God\"",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Mike Tyson & Jason Lee]",
+        "artists": [
+          "Mike Tyson",
+          "Jason Lee"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Mike Tyson, Jason Lee)"
+      },
+      "voices": [
+        {
+          "id": "mike-tyson",
+          "display": "Mike Tyson"
+        },
+        {
+          "id": "jason-lee",
+          "display": "Jason Lee"
+        }
+      ],
+      "voice": {
+        "id": "mike-tyson",
+        "display": "Mike Tyson"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Mike Tyson",
+          "Jason Lee"
+        ]
+      }
+    }
+  ]
+}

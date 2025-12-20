@@ -1,0 +1,1353 @@
+{
+  "title": "Father Stretch My Hands, Pt. 1",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Pastor T.L. Barrett / Choir",
+    "Kid Cudi",
+    "Kelly Price"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "The Life Of Pablo",
+    "edition": "standard",
+    "year": 2016
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "You're the only power (Power)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "pastor-t-l-barrett-choir",
+        "display": "Pastor T.L. Barrett / Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "You're the only power that can",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "pastor-t-l-barrett-choir",
+        "display": "Pastor T.L. Barrett / Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "You're the only power (Power)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "pastor-t-l-barrett-choir",
+        "display": "Pastor T.L. Barrett / Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "You're the only power that can",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "pastor-t-l-barrett-choir",
+        "display": "Pastor T.L. Barrett / Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Oh, oh, oh, Father",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "pastor-t-l-barrett-choir",
+        "display": "Pastor T.L. Barrett / Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "(If Young Metro don't trust you, I'm gon' shoot you)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "pastor-t-l-barrett-choir",
+        "display": "Pastor T.L. Barrett / Choir"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Beautiful mornin', you're the sun in my mornin', babe (Who can I turn to?)",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus: Kid Cudi & Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus (Kid Cudi, Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Nothin' unwanted (After all, who can I turn to?)",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus: Kid Cudi & Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus (Kid Cudi, Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Beautiful mornin', you're the sun in my mornin', babe (If I don't turn to You)",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus: Kid Cudi & Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus (Kid Cudi, Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Nothin' unwanted (No other help I know, I stretch my hands)",
+      "section": {
+        "type": "pre-chorus",
+        "number": 1,
+        "originalText": "[Pre-Chorus: Kid Cudi & Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus (Kid Cudi, Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "I just wanna feel liberated, I-I, na-na-na (Who can I turn to?)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "I just wanna feel liberated, I-I, na-na-na (After all, who can I turn to?)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "If I ever instigated, I am sorry (If I don't turn to You)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Tell me who in here could relate, I-I-I (No other help I know, I stretch my hands)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Now, if I fuck this model",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "And she just bleached her asshole",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "And I get bleach on my T-shirt",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "I'ma feel like an asshole",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "I was high when I met her",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "We was down in Tribeca",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "She'll get under your skin if you let her",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "She'll get under your skin if you— (Uh)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "I don't even wanna talk about it, I don't even wanna talk about it",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "I don't even wanna say nothin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Everybody gon' say somethin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "I'd be worried if they said nothin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Remind me where I know you from",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "She lookin' like she owe you somethin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "You know just what we want, I wanna wake up with you in my—",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse: Kanye West & Kelly Price]",
+        "artists": [
+          "Kanye West",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Verse (Kanye West, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Beautiful mornin', you're the sun in my mornin', babe (Who can I turn to?)",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus: Kid Cudi, Pastor T.L. Barrett / Choir & Kelly Price]",
+        "artists": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2 (Kid Cudi, Pastor T.L. Barrett / Choir, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "Beautiful mornin'",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus: Kid Cudi, Pastor T.L. Barrett / Choir & Kelly Price]",
+        "artists": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2 (Kid Cudi, Pastor T.L. Barrett / Choir, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Nothin' unwanted (After all, who can I turn to?)",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus: Kid Cudi, Pastor T.L. Barrett / Choir & Kelly Price]",
+        "artists": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2 (Kid Cudi, Pastor T.L. Barrett / Choir, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "Beautiful mornin', you're the sun in my mornin', babe (If I don't turn to You)",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus: Kid Cudi, Pastor T.L. Barrett / Choir & Kelly Price]",
+        "artists": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2 (Kid Cudi, Pastor T.L. Barrett / Choir, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "Nothin' unwanted (No other help I know)",
+      "section": {
+        "type": "pre-chorus",
+        "number": 2,
+        "originalText": "[Pre-Chorus: Kid Cudi, Pastor T.L. Barrett / Choir & Kelly Price]",
+        "artists": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir",
+          "Kelly Price"
+        ],
+        "autoNumbered": true,
+        "label": "Pre-Chorus 2 (Kid Cudi, Pastor T.L. Barrett / Choir, Kelly Price)"
+      },
+      "voices": [
+        {
+          "id": "kid-cudi",
+          "display": "Kid Cudi"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        },
+        {
+          "id": "kelly-price",
+          "display": "Kelly Price"
+        }
+      ],
+      "voice": {
+        "id": "kid-cudi",
+        "display": "Kid Cudi"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kid Cudi",
+          "Pastor T.L. Barrett / Choir",
+          "Kelly Price"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "I just wanna feel liberated, I-I, na-na-na (Who can I turn to?)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West & Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "I just wanna feel liberated, I-I, na-na-na (After all, who can I turn to?)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West & Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "If I ever instigated, I am sorry (If I don't turn to You)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West & Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Tell me who in here could relate, I-I-I (No other help I know, I stretch my hands)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Kanye West & Pastor T.L. Barrett / Choir]",
+        "artists": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, Pastor T.L. Barrett / Choir)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "pastor-t-l-barrett-choir",
+          "display": "Pastor T.L. Barrett / Choir"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Pastor T.L. Barrett / Choir"
+        ]
+      }
+    }
+  ]
+}

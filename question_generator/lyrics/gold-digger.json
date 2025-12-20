@@ -1,0 +1,2473 @@
+{
+  "title": "Gold Digger",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Jamie Foxx",
+    "(Jamie Foxx)"
+  ],
+  "producers": [
+    "Kanye West",
+    "Jon Brion"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Late Registration",
+    "edition": "standard",
+    "year": 2005
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "She take my money when I'm in need",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Jamie Foxx and Kanye West]",
+        "artists": [
+          "Jamie Foxx",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Jamie Foxx, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "jamie-foxx",
+          "display": "Jamie Foxx"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "jamie-foxx",
+        "display": "Jamie Foxx"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Jamie Foxx",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "Yeah, she's a triflin' friend indeed",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Jamie Foxx and Kanye West]",
+        "artists": [
+          "Jamie Foxx",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Jamie Foxx, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "jamie-foxx",
+          "display": "Jamie Foxx"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "jamie-foxx",
+        "display": "Jamie Foxx"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Jamie Foxx",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "Oh, she's a gold digger",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Jamie Foxx and Kanye West]",
+        "artists": [
+          "Jamie Foxx",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Jamie Foxx, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "jamie-foxx",
+          "display": "Jamie Foxx"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "jamie-foxx",
+        "display": "Jamie Foxx"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Jamie Foxx",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Way over town that digs on me",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Jamie Foxx and Kanye West]",
+        "artists": [
+          "Jamie Foxx",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Jamie Foxx, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "jamie-foxx",
+          "display": "Jamie Foxx"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "jamie-foxx",
+        "display": "Jamie Foxx"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Jamie Foxx",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "(Uh)",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Jamie Foxx and Kanye West]",
+        "artists": [
+          "Jamie Foxx",
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Jamie Foxx, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "jamie-foxx",
+          "display": "Jamie Foxx"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "jamie-foxx",
+        "display": "Jamie Foxx"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Jamie Foxx",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "(She give me money) Now, I ain't sayin' she a gold digger",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "(When I'm in need) But she ain't messin' with no broke niggas",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "(She give me money) Now, I ain't sayin' she a gold digger",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "(When I'm in need) But she ain't messin' with no broke niggas",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "(I gotta leave) Get down, girl, go 'head, get down",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "(I gotta leave) Get down, girl, go 'head, get down",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "(I gotta leave) Get down, girl, go 'head, get down",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "(I gotta leave) Get down, girl, go 'head",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Cutie the bomb, met her at a beauty salon",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "With a baby Louis Vuitton under her underarm",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "She said, \"I can tell you rock, I can tell by your charm",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "Far as girls, you got a flock",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "I can tell by your charm and your arm\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "But I'm lookin' for the one, have you seen her?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "My psychic told me she'll have a ass like Serena",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Trina, Jennifer Lopez, four kids",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "And I gotta take all they bad asses to ShowBiz?",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Okay, get your kids, but then they got their friends",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "I pulled up in the Benz, they all got up in",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "We all went to din' and then I had to pay",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "If you fuckin' with this girl, then you better be paid",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "You know why? It take too much to touch her",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "From what I heard, she got a baby by Busta",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "My best friend said she used to fuck with Usher",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "I don't care what none of y'all say, I still love her",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "(She give me money) Now, I ain't sayin' she a gold digger, uh",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "(When I'm in need) But she ain't messin' with no broke niggas, uh",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "(She give me money) Now, I ain't sayin' she a gold digger, uh",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "(When I'm in need) But she ain't messin' with no broke niggas, uh",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Chorus: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "(I gotta leave) Get down, girl, go 'head, get down",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "(I gotta leave) Get down, girl, go 'head, get down",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "(I gotta leave) Get down, girl, go 'head, get down",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "(I gotta leave) Get down, girl, go 'head",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "Eighteen years, eighteen years",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "She got one of your kids, got you for eighteen years",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "I know somebody payin' child support for one of his kids",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "His baby mama car and crib is bigger than his",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "You will see him on TV any given Sunday",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Win the Super Bowl and drive off in a Hyundai",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "She was supposed to buy your shorty Tyco with your money",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "She went to the doctor, got lipo with your money",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "She walkin' 'round lookin' like Michael with your money",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Shoulda got that insured, Geico for your money",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "If you ain't no punk",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Holla, \"We want prenup! We want prenup!\" (Yeah!)",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "It's somethin' that you need to have",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "‘Cause when she leave yo' ass, she gon' leave with half",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "Eighteen years, eighteen years",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "And on the eighteenth birthday, he found out it wasn't his?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 2 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "(She give me money) Now, I ain't sayin' she a gold digger, uh",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "(When I'm in need) But she ain't messin' with no broke niggas, uh",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "(She give me money) Now, I ain't sayin' she a gold digger, uh",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "(When I'm in need) But she ain't messin' with no broke niggas, uh",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Chorus: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "(I gotta leave) Get down, girl, go 'head, get down",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 6 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "(I gotta leave) Get down, girl, go 'head, get down",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 6 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "(I gotta leave) Get down, girl, go 'head, get down",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 6 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "(I gotta leave) Get down, girl, go 'head",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 6 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "Now, I ain't sayin' you a gold digger, you got needs",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 64,
+      "content": "You don't want a dude to smoke, but he can't buy weed",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 65,
+      "content": "You go out to eat, he can't pay, y'all can't leave",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 66,
+      "content": "There's dishes in the back, he gotta roll up his sleeves",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 67,
+      "content": "But while y'all washin', watch him",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 68,
+      "content": "He gon' make it to a Benz out of that Datsun",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 69,
+      "content": "He got that ambition, baby, look at his eyes",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 70,
+      "content": "This week, he moppin' floors, next week, it's the fries",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 71,
+      "content": "So stick by his side",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 72,
+      "content": "I know there's dudes ballin', and yeah, that's nice",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 73,
+      "content": "And they gon' keep callin' and tryin', but you stay right, girl",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 74,
+      "content": "And when he get on, he'll leave yo' ass for a white girl",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 75,
+      "content": "(I gotta leave) Get down, girl, go 'head, get down",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 76,
+      "content": "(I gotta leave) Get down, girl, go 'head, get down",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 77,
+      "content": "(I gotta leave) Get down, girl, go 'head, get down",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 78,
+      "content": "(I gotta leave) Get down, girl, go 'head",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Refrain: Kanye West & (Jamie Foxx)]",
+        "artists": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Kanye West, (Jamie Foxx))"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "jamie-foxx",
+          "display": "(Jamie Foxx)"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "(Jamie Foxx)"
+        ]
+      }
+    },
+    {
+      "line_number": 79,
+      "content": "Let me hear that back",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "autoNumbered": true,
+        "label": "Outro (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    }
+  ]
+}

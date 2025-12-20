@@ -81,6 +81,16 @@ export default function App() {
       }
       normalized.release.edition = normalized.release.edition.trim() || 'standard';
 
+      // v3: ignoredMarkers (bracketed non-section lines like [PART 1])
+      if (!Array.isArray(normalized.ignoredMarkers)) {
+        normalized.ignoredMarkers = [];
+      }
+
+      // User overrides: bracket lines to force-include as lyric lines
+      if (!Array.isArray(normalized.includeBracketLines)) {
+        normalized.includeBracketLines = [];
+      }
+
       if (!Array.isArray(normalized.artists) || normalized.artists.length === 0) {
         normalized.artists = [primary || 'Kanye West'];
       }
@@ -181,6 +191,8 @@ export default function App() {
         edition: 'standard',
         year: new Date().getFullYear()
       },
+      ignoredMarkers: [],
+      includeBracketLines: [],
       lyrics: []
     });
     setSongName('new-song');

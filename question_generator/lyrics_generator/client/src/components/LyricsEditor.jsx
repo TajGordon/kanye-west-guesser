@@ -139,6 +139,27 @@ export default function LyricsEditor({ song, setSong }) {
     const lines = [];
     let lastSection = null;
 
+    const markers = Array.isArray(song?.ignoredMarkers) ? song.ignoredMarkers : [];
+    const markersByInsertAfter = new Map();
+    for (const m of markers) {
+      const after = Number.isFinite(m?.insertAfterLineNumber) ? m.insertAfterLineNumber : 0;
+      if (!markersByInsertAfter.has(after)) markersByInsertAfter.set(after, []);
+      markersByInsertAfter.get(after).push(m);
+    }
+
+    const appendMarkersAfter = (afterLineNumber) => {
+      const bucket = markersByInsertAfter.get(afterLineNumber);
+      if (!bucket || bucket.length === 0) return;
+      for (const m of bucket) {
+        lines.push(String(m?.content || '').trim());
+      }
+    };
+
+    // Markers before the first lyric line
+    appendMarkersAfter(0);
+
+    let lyricCount = 0;
+
     (song?.lyrics || []).forEach((line, idx) => {
       const section = line.section;
       const sectionChanged = !lastSection ||
@@ -162,10 +183,16 @@ export default function LyricsEditor({ song, setSong }) {
 
       // Always add the content (including blank lines)
       lines.push(line.content);
+
+      lyricCount += 1;
+      appendMarkersAfter(lyricCount);
     });
 
+    // Markers after the last lyric line
+    appendMarkersAfter(lyricCount);
+
     return lines.join('\n');
-  }, [song?.lyrics]);
+  }, [song?.lyrics, song?.ignoredMarkers, formatSectionName]);
 
   const displayedRawText = useMemo(() => {
     return rawTextInput !== null ? rawTextInput : buildDisplayText();
@@ -182,7 +209,12 @@ export default function LyricsEditor({ song, setSong }) {
       const res = await fetch('/api/parse', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text })
+        body: JSON.stringify({
+          text,
+          options: {
+            includeBracketLines: Array.isArray(song?.includeBracketLines) ? song.includeBracketLines : []
+          }
+        })
       });
       if (!res.ok) throw new Error('Parse failed');
       const data = await res.json();
@@ -244,11 +276,16 @@ export default function LyricsEditor({ song, setSong }) {
           lyrics: withVoices
         };
 
+        // Persist ignored bracket markers (e.g. [PART 1]) separately from lyric lines.
+        nextSong.ignoredMarkers = Array.isArray(data?.meta?.ignoredMarkers)
+          ? data.meta.ignoredMarkers
+          : (Array.isArray(prev.ignoredMarkers) ? prev.ignoredMarkers : []);
+
         // Keep publisher artists stable; merge detected header artists into features (performers)
         nextSong.artists = publisherArtists;
         nextSong.artist = String(publisherArtists[0] || prev.artist || 'Kanye West');
         nextSong.features = mergedFeatures;
-        if (!Number.isInteger(nextSong.schemaVersion)) nextSong.schemaVersion = 2;
+        if (!Number.isInteger(nextSong.schemaVersion) || nextSong.schemaVersion < 3) nextSong.schemaVersion = 3;
 
         // Optional: producers[] extracted from credit lines like [Produced by ...]
         if (data?.meta?.producers && Array.isArray(data.meta.producers)) {
@@ -275,7 +312,7 @@ export default function LyricsEditor({ song, setSong }) {
         setIsParsingDebounced(false);
       }
     }
-  }, [setSong]);
+  }, [setSong, song?.includeBracketLines]);
 
   // Debounced parse scheduling (for typing)
   const scheduleParse = useCallback((text, version) => {
@@ -739,6 +776,117 @@ export default function LyricsEditor({ song, setSong }) {
                 : 'Structured view is up-to-date'}
           </div>
         </div>
+
+        {Array.isArray(song?.ignoredMarkers) && song.ignoredMarkers.length > 0 && (
+          <details style={{ margin: '8px 0 12px 0', opacity: 0.95 }}>
+            <summary style={{ cursor: 'pointer', fontSize: 12 }}>
+              Ignored markers ({song.ignoredMarkers.length})
+            </summary>
+            <div style={{ marginTop: 8, display: 'flex', flexDirection: 'column', gap: 6 }}>
+              {song.ignoredMarkers.map((m) => (
+                <div key={m.id} style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                  <div style={{ flex: 1, fontFamily: 'monospace', fontSize: 12, opacity: 0.9 }}>
+                    {m.content}
+                    {Number.isFinite(m?.rawLineNumber) && (
+                      <span style={{ marginLeft: 8, opacity: 0.6 }}>
+                        (raw line {m.rawLineNumber})
+                      </span>
+                    )}
+                  </div>
+                  <button
+                    className="reprocess-btn"
+                    title="Insert this marker as a real lyric line at its original position"
+                    onClick={() => {
+                      setSong(prev => {
+                        const markers = Array.isArray(prev?.ignoredMarkers) ? prev.ignoredMarkers : [];
+                        const marker = markers.find(x => x.id === m.id);
+                        if (!marker) return prev;
+
+                        const lyrics = Array.isArray(prev?.lyrics) ? [...prev.lyrics] : [];
+                        const insertAfter = Number.isFinite(marker?.insertAfterLineNumber)
+                          ? Math.max(0, Math.min(marker.insertAfterLineNumber, lyrics.length))
+                          : 0;
+                        const insertIndex = insertAfter; // 0-based splice index
+
+                        const sectionFallback = lyrics[insertIndex - 1]?.section
+                          || lyrics[0]?.section
+                          || { type: 'verse', number: 1, originalText: '[Verse 1]' };
+                        const section = { ...sectionFallback };
+
+                        const publisherArtists = Array.isArray(prev.artists)
+                          ? prev.artists
+                          : (prev.artist ? [prev.artist] : ['Kanye West']);
+                        const features = Array.isArray(prev.features) ? prev.features : [];
+                        const performers = Array.from(new Map(
+                          [...publisherArtists, ...features]
+                            .map(a => String(a).trim())
+                            .filter(Boolean)
+                            .map(a => [a.toLowerCase(), a])
+                        ).values());
+
+                        const toVoiceId = (name) => {
+                          const n = String(name || '').trim();
+                          if (!n) return '';
+                          return n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+                        };
+
+                        const fromSectionArtists = Array.isArray(section?.artists) ? section.artists : [];
+                        const preferred = fromSectionArtists.length > 0 ? fromSectionArtists : performers;
+                        const voices = (preferred || [])
+                          .map((display) => ({ id: toVoiceId(display), display: String(display) }))
+                          .filter(v => v.id);
+
+                        const newLine = {
+                          line_number: undefined,
+                          content: String(marker.content || ''),
+                          section,
+                          voices,
+                          voice: voices[0] || { id: 'kanye-west', display: 'Kanye West' },
+                          meta: {
+                            insertedFromMarkerId: marker.id
+                          }
+                        };
+
+                        lyrics.splice(insertIndex, 0, newLine);
+
+                        const remaining = markers
+                          .filter(x => x.id !== marker.id)
+                          .map(x => {
+                            const after = Number.isFinite(x?.insertAfterLineNumber) ? x.insertAfterLineNumber : 0;
+                            if (after > insertAfter) {
+                              return { ...x, insertAfterLineNumber: after + 1 };
+                            }
+                            return x;
+                          });
+
+                        const existingInclude = Array.isArray(prev?.includeBracketLines) ? prev.includeBracketLines : [];
+                        const includedLine = String(marker.content || '').trim();
+                        const includeBracketLines = includedLine
+                          ? Array.from(new Map(
+                              [...existingInclude, includedLine]
+                                .map(s => String(s).trim())
+                                .filter(Boolean)
+                                .map(s => [s.toLowerCase(), s])
+                            ).values())
+                          : existingInclude;
+
+                        return {
+                          ...prev,
+                          lyrics,
+                          ignoredMarkers: remaining
+                          ,
+                          includeBracketLines
+                        };
+                      });
+                    }}
+                  >
+                    Insert as line
+                  </button>
+                </div>
+              ))}
+            </div>
+          </details>
+        )}
         <div className="split-panels">
           <div className="left-panel-container">
             <div className="panel-label">Raw Text View</div>

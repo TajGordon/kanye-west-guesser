@@ -1,30 +1,42 @@
 {
-  "title": "God Breathed",
+  "title": "On Sight",
+  "schemaVersion": 3,
   "artists": [
     "Kanye West"
   ],
   "artist": "Kanye West",
+  "features": [
+    "Holy Name of Mary Choral Family"
+  ],
+  "producers": [
+    "Kanye West",
+    "Benji B",
+    "Daft Punk",
+    "Mike Dean"
+  ],
   "release": {
     "formats": [
       "album"
     ],
     "status": "official",
-    "project": "Donda",
-    "year": 2021
+    "project": "Yeezus",
+    "edition": "standard",
+    "year": 2013
   },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
   "lyrics": [
     {
       "line_number": 1,
-      "content": "I know God breathed on this",
+      "content": "Yeezy season approachin'",
       "section": {
-        "type": "chorus",
+        "type": "verse",
         "number": 1,
-        "originalText": "[Chorus: Kanye West]",
+        "originalText": "[Verse 1: Kanye West]",
         "artists": [
           "Kanye West"
         ],
-        "autoNumbered": true,
-        "label": "Chorus (Kanye West)"
+        "label": "Verse (Kanye West)"
       },
       "voices": [
         {
@@ -44,16 +56,15 @@
     },
     {
       "line_number": 2,
-      "content": "I know God breathed on this",
+      "content": "Fuck whatever y'all been hearin'",
       "section": {
-        "type": "chorus",
+        "type": "verse",
         "number": 1,
-        "originalText": "[Chorus: Kanye West]",
+        "originalText": "[Verse 1: Kanye West]",
         "artists": [
           "Kanye West"
         ],
-        "autoNumbered": true,
-        "label": "Chorus (Kanye West)"
+        "label": "Verse (Kanye West)"
       },
       "voices": [
         {
@@ -73,16 +84,15 @@
     },
     {
       "line_number": 3,
-      "content": "I know God breathed on this",
+      "content": "Fuck what, fuck whatever y'all been wearin'",
       "section": {
-        "type": "chorus",
+        "type": "verse",
         "number": 1,
-        "originalText": "[Chorus: Kanye West]",
+        "originalText": "[Verse 1: Kanye West]",
         "artists": [
           "Kanye West"
         ],
-        "autoNumbered": true,
-        "label": "Chorus (Kanye West)"
+        "label": "Verse (Kanye West)"
       },
       "voices": [
         {
@@ -102,11 +112,319 @@
     },
     {
       "line_number": 4,
-      "content": "I know God breathed on this",
+      "content": "A monster about to come alive again",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Soon as I pull up and park the Benz",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "We get this bitch shaking like Parkinson's",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Take my number and lock it in",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Indian hair, no moccasins",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "It's too many hoes in this house of sin",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Real nigga back in the house again",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Black Timbs all on your couch again",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "Black dick all in your spouse again",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "And I know she like chocolate men",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "She got more niggas off than Cochran, hah!",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "On sight",
       "section": {
         "type": "chorus",
         "number": 1,
-        "originalText": "[Chorus: Kanye West]",
+        "originalText": "[Refrain: Kanye West]",
         "artists": [
           "Kanye West"
         ],
@@ -130,376 +448,17 @@
       }
     },
     {
-      "line_number": 5,
-      "content": "I know He got His hands on this",
-      "section": {
-        "type": "verse",
-        "number": 1,
-        "originalText": "[Verse 1: Kanye West & Vory]",
-        "artists": [
-          "Kanye West",
-          "Vory"
-        ],
-        "label": "Verse (Kanye West, Vory)"
-      },
-      "voices": [
-        {
-          "id": "kanye-west",
-          "display": "Kanye West"
-        },
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "kanye-west",
-        "display": "Kanye West"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Kanye West",
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 6,
-      "content": "I know we got a chance on this",
-      "section": {
-        "type": "verse",
-        "number": 1,
-        "originalText": "[Verse 1: Kanye West & Vory]",
-        "artists": [
-          "Kanye West",
-          "Vory"
-        ],
-        "label": "Verse (Kanye West, Vory)"
-      },
-      "voices": [
-        {
-          "id": "kanye-west",
-          "display": "Kanye West"
-        },
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "kanye-west",
-        "display": "Kanye West"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Kanye West",
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 7,
-      "content": "No, I never planned on this",
-      "section": {
-        "type": "verse",
-        "number": 1,
-        "originalText": "[Verse 1: Kanye West & Vory]",
-        "artists": [
-          "Kanye West",
-          "Vory"
-        ],
-        "label": "Verse (Kanye West, Vory)"
-      },
-      "voices": [
-        {
-          "id": "kanye-west",
-          "display": "Kanye West"
-        },
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "kanye-west",
-        "display": "Kanye West"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Kanye West",
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 8,
-      "content": "I might need a band on this",
-      "section": {
-        "type": "verse",
-        "number": 1,
-        "originalText": "[Verse 1: Kanye West & Vory]",
-        "artists": [
-          "Kanye West",
-          "Vory"
-        ],
-        "label": "Verse (Kanye West, Vory)"
-      },
-      "voices": [
-        {
-          "id": "kanye-west",
-          "display": "Kanye West"
-        },
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "kanye-west",
-        "display": "Kanye West"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Kanye West",
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 9,
-      "content": "This might get banned off rip",
-      "section": {
-        "type": "verse",
-        "number": 1,
-        "originalText": "[Verse 1: Kanye West & Vory]",
-        "artists": [
-          "Kanye West",
-          "Vory"
-        ],
-        "label": "Verse (Kanye West, Vory)"
-      },
-      "voices": [
-        {
-          "id": "kanye-west",
-          "display": "Kanye West"
-        },
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "kanye-west",
-        "display": "Kanye West"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Kanye West",
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 10,
-      "content": "Gon' say somethin' for y'all quick",
-      "section": {
-        "type": "verse",
-        "number": 1,
-        "originalText": "[Verse 1: Kanye West & Vory]",
-        "artists": [
-          "Kanye West",
-          "Vory"
-        ],
-        "label": "Verse (Kanye West, Vory)"
-      },
-      "voices": [
-        {
-          "id": "kanye-west",
-          "display": "Kanye West"
-        },
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "kanye-west",
-        "display": "Kanye West"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Kanye West",
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 11,
-      "content": "Let me know something, who y'all with?",
-      "section": {
-        "type": "verse",
-        "number": 1,
-        "originalText": "[Verse 1: Kanye West & Vory]",
-        "artists": [
-          "Kanye West",
-          "Vory"
-        ],
-        "label": "Verse (Kanye West, Vory)"
-      },
-      "voices": [
-        {
-          "id": "kanye-west",
-          "display": "Kanye West"
-        },
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "kanye-west",
-        "display": "Kanye West"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Kanye West",
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 12,
-      "content": "Don't know nothing, I know this",
-      "section": {
-        "type": "verse",
-        "number": 1,
-        "originalText": "[Verse 1: Kanye West & Vory]",
-        "artists": [
-          "Kanye West",
-          "Vory"
-        ],
-        "label": "Verse (Kanye West, Vory)"
-      },
-      "voices": [
-        {
-          "id": "kanye-west",
-          "display": "Kanye West"
-        },
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "kanye-west",
-        "display": "Kanye West"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Kanye West",
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 13,
-      "content": "I know God breathed on this",
-      "section": {
-        "type": "chorus",
-        "number": 2,
-        "originalText": "[Chorus: Kanye West]",
-        "artists": [
-          "Kanye West"
-        ],
-        "autoNumbered": true,
-        "label": "Chorus 2 (Kanye West)"
-      },
-      "voices": [
-        {
-          "id": "kanye-west",
-          "display": "Kanye West"
-        }
-      ],
-      "voice": {
-        "id": "kanye-west",
-        "display": "Kanye West"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Kanye West"
-        ]
-      }
-    },
-    {
-      "line_number": 14,
-      "content": "I know God breathed on this",
-      "section": {
-        "type": "chorus",
-        "number": 2,
-        "originalText": "[Chorus: Kanye West]",
-        "artists": [
-          "Kanye West"
-        ],
-        "autoNumbered": true,
-        "label": "Chorus 2 (Kanye West)"
-      },
-      "voices": [
-        {
-          "id": "kanye-west",
-          "display": "Kanye West"
-        }
-      ],
-      "voice": {
-        "id": "kanye-west",
-        "display": "Kanye West"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Kanye West"
-        ]
-      }
-    },
-    {
-      "line_number": 15,
-      "content": "I know God breathed on this",
-      "section": {
-        "type": "chorus",
-        "number": 2,
-        "originalText": "[Chorus: Kanye West]",
-        "artists": [
-          "Kanye West"
-        ],
-        "autoNumbered": true,
-        "label": "Chorus 2 (Kanye West)"
-      },
-      "voices": [
-        {
-          "id": "kanye-west",
-          "display": "Kanye West"
-        }
-      ],
-      "voice": {
-        "id": "kanye-west",
-        "display": "Kanye West"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Kanye West"
-        ]
-      }
-    },
-    {
       "line_number": 16,
-      "content": "I know God breathed on this",
+      "content": "On sight",
       "section": {
         "type": "chorus",
-        "number": 2,
-        "originalText": "[Chorus: Kanye West]",
+        "number": 1,
+        "originalText": "[Refrain: Kanye West]",
         "artists": [
           "Kanye West"
         ],
         "autoNumbered": true,
-        "label": "Chorus 2 (Kanye West)"
+        "label": "Chorus (Kanye West)"
       },
       "voices": [
         {
@@ -519,73 +478,74 @@
     },
     {
       "line_number": 17,
-      "content": "Oh-oh, oh-oh",
+      "content": "How much do I not give a fuck?",
       "section": {
-        "type": "break",
+        "type": "bridge",
         "number": 1,
-        "originalText": "[Break: Vory]",
+        "originalText": "[Bridge: Kanye West]",
         "artists": [
-          "Vory"
+          "Kanye West"
         ],
         "autoNumbered": true,
-        "label": "Break (Vory)"
+        "label": "Bridge (Kanye West)"
       },
       "voices": [
         {
-          "id": "vory",
-          "display": "Vory"
+          "id": "kanye-west",
+          "display": "Kanye West"
         }
       ],
       "voice": {
-        "id": "vory",
-        "display": "Vory"
+        "id": "kanye-west",
+        "display": "Kanye West"
       },
       "meta": {
         "detectedVoices": [
-          "Vory"
+          "Kanye West"
         ]
       }
     },
     {
       "line_number": 18,
-      "content": "Breathed on this, breathed, breathed, oh, oh",
+      "content": "Let me show you right now 'fore you give it up",
       "section": {
-        "type": "break",
+        "type": "bridge",
         "number": 1,
-        "originalText": "[Break: Vory]",
+        "originalText": "[Bridge: Kanye West]",
         "artists": [
-          "Vory"
+          "Kanye West"
         ],
         "autoNumbered": true,
-        "label": "Break (Vory)"
+        "label": "Bridge (Kanye West)"
       },
       "voices": [
         {
-          "id": "vory",
-          "display": "Vory"
+          "id": "kanye-west",
+          "display": "Kanye West"
         }
       ],
       "voice": {
-        "id": "vory",
-        "display": "Vory"
+        "id": "kanye-west",
+        "display": "Kanye West"
       },
       "meta": {
         "detectedVoices": [
-          "Vory"
+          "Kanye West"
         ]
       }
     },
     {
       "line_number": 19,
-      "content": "More than I can say for you",
+      "content": "How much do I not give a fuck?",
       "section": {
-        "type": "verse",
-        "number": 2,
-        "originalText": "[Verse 2: Kanye West]",
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West]",
         "artists": [
           "Kanye West"
         ],
-        "label": "Verse 2 (Kanye West)"
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West)"
       },
       "voices": [
         {
@@ -605,15 +565,16 @@
     },
     {
       "line_number": 20,
-      "content": "Before the sons and the daughters",
+      "content": "Let me show you right now 'fore you give it up",
       "section": {
-        "type": "verse",
-        "number": 2,
-        "originalText": "[Verse 2: Kanye West]",
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Kanye West]",
         "artists": [
           "Kanye West"
         ],
-        "label": "Verse 2 (Kanye West)"
+        "autoNumbered": true,
+        "label": "Bridge (Kanye West)"
       },
       "voices": [
         {
@@ -633,63 +594,65 @@
     },
     {
       "line_number": 21,
-      "content": "Before the sun and the water",
+      "content": "Oh, He'll give us what we need",
       "section": {
-        "type": "verse",
-        "number": 2,
-        "originalText": "[Verse 2: Kanye West]",
+        "type": "interlude",
+        "number": 1,
+        "originalText": "[Interlude: Holy Name of Mary Choral Family]",
         "artists": [
-          "Kanye West"
+          "Holy Name of Mary Choral Family"
         ],
-        "label": "Verse 2 (Kanye West)"
+        "autoNumbered": true,
+        "label": "Interlude (Holy Name of Mary Choral Family)"
       },
       "voices": [
         {
-          "id": "kanye-west",
-          "display": "Kanye West"
+          "id": "holy-name-of-mary-choral-family",
+          "display": "Holy Name of Mary Choral Family"
         }
       ],
       "voice": {
-        "id": "kanye-west",
-        "display": "Kanye West"
+        "id": "holy-name-of-mary-choral-family",
+        "display": "Holy Name of Mary Choral Family"
       },
       "meta": {
         "detectedVoices": [
-          "Kanye West"
+          "Holy Name of Mary Choral Family"
         ]
       }
     },
     {
       "line_number": 22,
-      "content": "More than I can say for you",
+      "content": "It may not be what we want",
       "section": {
-        "type": "verse",
-        "number": 2,
-        "originalText": "[Verse 2: Kanye West]",
+        "type": "interlude",
+        "number": 1,
+        "originalText": "[Interlude: Holy Name of Mary Choral Family]",
         "artists": [
-          "Kanye West"
+          "Holy Name of Mary Choral Family"
         ],
-        "label": "Verse 2 (Kanye West)"
+        "autoNumbered": true,
+        "label": "Interlude (Holy Name of Mary Choral Family)"
       },
       "voices": [
         {
-          "id": "kanye-west",
-          "display": "Kanye West"
+          "id": "holy-name-of-mary-choral-family",
+          "display": "Holy Name of Mary Choral Family"
         }
       ],
       "voice": {
-        "id": "kanye-west",
-        "display": "Kanye West"
+        "id": "holy-name-of-mary-choral-family",
+        "display": "Holy Name of Mary Choral Family"
       },
       "meta": {
         "detectedVoices": [
-          "Kanye West"
+          "Holy Name of Mary Choral Family"
         ]
       }
     },
     {
       "line_number": 23,
-      "content": "But the truth still for you",
+      "content": "Baby girl tryna get a nut",
       "section": {
         "type": "verse",
         "number": 2,
@@ -717,7 +680,7 @@
     },
     {
       "line_number": 24,
-      "content": "Once I saw what the Lord do",
+      "content": "And her girl tryna give it up",
       "section": {
         "type": "verse",
         "number": 2,
@@ -745,7 +708,7 @@
     },
     {
       "line_number": 25,
-      "content": "God, the Son, all the glory",
+      "content": "Chopped 'em both down",
       "section": {
         "type": "verse",
         "number": 2,
@@ -773,7 +736,7 @@
     },
     {
       "line_number": 26,
-      "content": "God, the Father, like Maury",
+      "content": "Don't judge 'em, Joe Brown",
       "section": {
         "type": "verse",
         "number": 2,
@@ -801,7 +764,7 @@
     },
     {
       "line_number": 27,
-      "content": "Don't care what you say, nothin' on me",
+      "content": "One last announcement",
       "section": {
         "type": "verse",
         "number": 2,
@@ -829,7 +792,7 @@
     },
     {
       "line_number": 28,
-      "content": "I don't care 'bout the lawyer fees",
+      "content": "No sports bra, let's keep it bouncin'",
       "section": {
         "type": "verse",
         "number": 2,
@@ -857,7 +820,7 @@
     },
     {
       "line_number": 29,
-      "content": "I don't care 'bout your loyalties",
+      "content": "Everybody wanna live at the top of the mountain",
       "section": {
         "type": "verse",
         "number": 2,
@@ -885,7 +848,7 @@
     },
     {
       "line_number": 30,
-      "content": "God will solve it all for me",
+      "content": "Took her to the 'Bleau, she tried to sip the fountain",
       "section": {
         "type": "verse",
         "number": 2,
@@ -913,7 +876,7 @@
     },
     {
       "line_number": 31,
-      "content": "Trust man, he a failure",
+      "content": "That's when David Grutman kicked her out",
       "section": {
         "type": "verse",
         "number": 2,
@@ -941,7 +904,7 @@
     },
     {
       "line_number": 32,
-      "content": "Trust, and God'll heal ya'",
+      "content": "But I got her back in and put my dick in her mouth",
       "section": {
         "type": "verse",
         "number": 2,
@@ -969,15 +932,16 @@
     },
     {
       "line_number": 33,
-      "content": "Dustin, he a Hoffman",
+      "content": "On sight",
       "section": {
-        "type": "verse",
+        "type": "chorus",
         "number": 2,
-        "originalText": "[Verse 2: Kanye West]",
+        "originalText": "[Refrain: Kanye West]",
         "artists": [
           "Kanye West"
         ],
-        "label": "Verse 2 (Kanye West)"
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
       },
       "voices": [
         {
@@ -997,15 +961,16 @@
     },
     {
       "line_number": 34,
-      "content": "Don't fall what they offerin', uh",
+      "content": "On sight",
       "section": {
-        "type": "verse",
+        "type": "chorus",
         "number": 2,
-        "originalText": "[Verse 2: Kanye West]",
+        "originalText": "[Refrain: Kanye West]",
         "artists": [
           "Kanye West"
         ],
-        "label": "Verse 2 (Kanye West)"
+        "autoNumbered": true,
+        "label": "Chorus 2 (Kanye West)"
       },
       "voices": [
         {
@@ -1025,15 +990,16 @@
     },
     {
       "line_number": 35,
-      "content": "Fall far too often, yeah, call God but don't call enough",
+      "content": "Uh-huh",
       "section": {
-        "type": "verse",
+        "type": "bridge",
         "number": 2,
-        "originalText": "[Verse 2: Kanye West]",
+        "originalText": "[Bridge: Kanye West]",
         "artists": [
           "Kanye West"
         ],
-        "label": "Verse 2 (Kanye West)"
+        "autoNumbered": true,
+        "label": "Bridge 2 (Kanye West)"
       },
       "voices": [
         {
@@ -1053,15 +1019,16 @@
     },
     {
       "line_number": 36,
-      "content": "Fall down but don't fall in love, I know God is all in us",
+      "content": "Uh-huh",
       "section": {
-        "type": "verse",
+        "type": "bridge",
         "number": 2,
-        "originalText": "[Verse 2: Kanye West]",
+        "originalText": "[Bridge: Kanye West]",
         "artists": [
           "Kanye West"
         ],
-        "label": "Verse 2 (Kanye West)"
+        "autoNumbered": true,
+        "label": "Bridge 2 (Kanye West)"
       },
       "voices": [
         {
@@ -1081,16 +1048,16 @@
     },
     {
       "line_number": 37,
-      "content": "I know God breathed on this",
+      "content": "Uh-huh",
       "section": {
-        "type": "chorus",
-        "number": 3,
-        "originalText": "[Chorus: Kanye West]",
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge: Kanye West]",
         "artists": [
           "Kanye West"
         ],
         "autoNumbered": true,
-        "label": "Chorus 3 (Kanye West)"
+        "label": "Bridge 2 (Kanye West)"
       },
       "voices": [
         {
@@ -1110,16 +1077,16 @@
     },
     {
       "line_number": 38,
-      "content": "I know God breathed on this",
+      "content": "Uh-huh",
       "section": {
-        "type": "chorus",
-        "number": 3,
-        "originalText": "[Chorus: Kanye West]",
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge: Kanye West]",
         "artists": [
           "Kanye West"
         ],
         "autoNumbered": true,
-        "label": "Chorus 3 (Kanye West)"
+        "label": "Bridge 2 (Kanye West)"
       },
       "voices": [
         {
@@ -1139,16 +1106,16 @@
     },
     {
       "line_number": 39,
-      "content": "I know God breathed on this",
+      "content": "Right now",
       "section": {
-        "type": "chorus",
-        "number": 3,
-        "originalText": "[Chorus: Kanye West]",
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
         "artists": [
           "Kanye West"
         ],
         "autoNumbered": true,
-        "label": "Chorus 3 (Kanye West)"
+        "label": "Outro (Kanye West)"
       },
       "voices": [
         {
@@ -1168,16 +1135,16 @@
     },
     {
       "line_number": 40,
-      "content": "I know God breathed on this",
+      "content": "I need right now",
       "section": {
-        "type": "chorus",
-        "number": 3,
-        "originalText": "[Chorus: Kanye West]",
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
         "artists": [
           "Kanye West"
         ],
         "autoNumbered": true,
-        "label": "Chorus 3 (Kanye West)"
+        "label": "Outro (Kanye West)"
       },
       "voices": [
         {
@@ -1197,16 +1164,16 @@
     },
     {
       "line_number": 41,
-      "content": "I know God breathed on this",
+      "content": "Right now",
       "section": {
-        "type": "chorus",
-        "number": 3,
-        "originalText": "[Chorus: Kanye West]",
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
         "artists": [
           "Kanye West"
         ],
         "autoNumbered": true,
-        "label": "Chorus 3 (Kanye West)"
+        "label": "Outro (Kanye West)"
       },
       "voices": [
         {
@@ -1226,16 +1193,16 @@
     },
     {
       "line_number": 42,
-      "content": "I know God breathed on this",
+      "content": "I need, I need right now",
       "section": {
-        "type": "chorus",
-        "number": 3,
-        "originalText": "[Chorus: Kanye West]",
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
         "artists": [
           "Kanye West"
         ],
         "autoNumbered": true,
-        "label": "Chorus 3 (Kanye West)"
+        "label": "Outro (Kanye West)"
       },
       "voices": [
         {
@@ -1255,16 +1222,16 @@
     },
     {
       "line_number": 43,
-      "content": "I know God breathed on this",
+      "content": "Right now",
       "section": {
-        "type": "chorus",
-        "number": 3,
-        "originalText": "[Chorus: Kanye West]",
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
         "artists": [
           "Kanye West"
         ],
         "autoNumbered": true,
-        "label": "Chorus 3 (Kanye West)"
+        "label": "Outro (Kanye West)"
       },
       "voices": [
         {
@@ -1284,16 +1251,16 @@
     },
     {
       "line_number": 44,
-      "content": "I know God breathed on this",
+      "content": "I need, I need right now",
       "section": {
-        "type": "chorus",
-        "number": 3,
-        "originalText": "[Chorus: Kanye West]",
+        "type": "outro",
+        "number": 1,
+        "originalText": "[Outro: Kanye West]",
         "artists": [
           "Kanye West"
         ],
         "autoNumbered": true,
-        "label": "Chorus 3 (Kanye West)"
+        "label": "Outro (Kanye West)"
       },
       "voices": [
         {
@@ -1308,486 +1275,6 @@
       "meta": {
         "detectedVoices": [
           "Kanye West"
-        ]
-      }
-    },
-    {
-      "line_number": 45,
-      "content": "Devil on my shoulders, I can't let 'em breathe",
-      "section": {
-        "type": "verse",
-        "number": 3,
-        "originalText": "[Verse 3: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "label": "Verse 3 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 46,
-      "content": "Brush 'em off my sleeve, I'm filled with memories",
-      "section": {
-        "type": "verse",
-        "number": 3,
-        "originalText": "[Verse 3: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "label": "Verse 3 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 47,
-      "content": "Pray they remember me, oh, oh-oh",
-      "section": {
-        "type": "verse",
-        "number": 3,
-        "originalText": "[Verse 3: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "label": "Verse 3 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 48,
-      "content": "And I know there's an angel watchin' over me",
-      "section": {
-        "type": "verse",
-        "number": 3,
-        "originalText": "[Verse 3: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "label": "Verse 3 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 49,
-      "content": "(All times), I inhaled and breathed",
-      "section": {
-        "type": "verse",
-        "number": 3,
-        "originalText": "[Verse 3: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "label": "Verse 3 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 50,
-      "content": "They hearts are filled with greed",
-      "section": {
-        "type": "verse",
-        "number": 3,
-        "originalText": "[Verse 3: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "label": "Verse 3 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 51,
-      "content": "Okay, now they want the old me",
-      "section": {
-        "type": "verse",
-        "number": 3,
-        "originalText": "[Verse 3: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "label": "Verse 3 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 52,
-      "content": "Not too big on peoples talkin'",
-      "section": {
-        "type": "verse",
-        "number": 3,
-        "originalText": "[Verse 3: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "label": "Verse 3 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 53,
-      "content": "Okay, now they gotta show me",
-      "section": {
-        "type": "verse",
-        "number": 3,
-        "originalText": "[Verse 3: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "label": "Verse 3 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 54,
-      "content": "Okay, okay, Devil's talkin' to me, angel's talkin' to me",
-      "section": {
-        "type": "verse",
-        "number": 3,
-        "originalText": "[Verse 3: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "label": "Verse 3 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 55,
-      "content": "But Angels start to tell me, \"It's okay to not feel okay\"",
-      "section": {
-        "type": "verse",
-        "number": 3,
-        "originalText": "[Verse 3: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "label": "Verse 3 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 56,
-      "content": "I know that you'd be proud if you was here today",
-      "section": {
-        "type": "verse",
-        "number": 3,
-        "originalText": "[Verse 3: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "label": "Verse 3 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 57,
-      "content": "But it's okay 'cause I'm okay",
-      "section": {
-        "type": "verse",
-        "number": 3,
-        "originalText": "[Verse 3: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "label": "Verse 3 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 58,
-      "content": "I know God breathed on me",
-      "section": {
-        "type": "chorus",
-        "number": 4,
-        "originalText": "[Chorus: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "autoNumbered": true,
-        "label": "Chorus 4 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 59,
-      "content": "I know God breathed on me",
-      "section": {
-        "type": "chorus",
-        "number": 4,
-        "originalText": "[Chorus: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "autoNumbered": true,
-        "label": "Chorus 4 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 60,
-      "content": "I know God breathed on me",
-      "section": {
-        "type": "chorus",
-        "number": 4,
-        "originalText": "[Chorus: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "autoNumbered": true,
-        "label": "Chorus 4 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
-        ]
-      }
-    },
-    {
-      "line_number": 61,
-      "content": "I know God breathed on me",
-      "section": {
-        "type": "chorus",
-        "number": 4,
-        "originalText": "[Chorus: Vory]",
-        "artists": [
-          "Vory"
-        ],
-        "autoNumbered": true,
-        "label": "Chorus 4 (Vory)"
-      },
-      "voices": [
-        {
-          "id": "vory",
-          "display": "Vory"
-        }
-      ],
-      "voice": {
-        "id": "vory",
-        "display": "Vory"
-      },
-      "meta": {
-        "detectedVoices": [
-          "Vory"
         ]
       }
     }

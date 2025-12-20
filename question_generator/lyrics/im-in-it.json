@@ -1,0 +1,2439 @@
+{
+  "title": "Im In It",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Assassin",
+    "Justin Vernon"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "Yeezus",
+    "edition": "standard",
+    "year": 2013
+  },
+  "ignoredMarkers": [],
+  "includeBracketLines": [],
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Damn, your lips very soft",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "As I turn my Blackberry off",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "And I turn your bathwater on",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "And you turn off your iPhone",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "Careless whispers, eye fuckin', bitin' ass",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Neck, ears, hair, legs, eating ass",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "Your pussy's too good, I need to crash",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "Your titties, let 'em out, free at last",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "Thank God almighty, they free at last",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "We was up at the party but we was leavin' fast",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "Had to stop at 7-Eleven like I needed gas",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "I'm lyin', I needed condoms, don't look through the glass",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "Chasin' love, all the bittersweet hours lost",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Eatin' Asian pussy, all I need was sweet and sour sauce",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "Tell your boss you need an extra hour off",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "Get you super wet after we turn the shower off",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "That's all dem can do, say wah?",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "That's all dem can do",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "We deal with action ting",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "'Cause a badman ting a-dat man do",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Action ting, yo, a badman ting",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "I'm a badman if you know say",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "label": "Verse 2 (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Disrespect we no tek, no way José",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "label": "Verse 2 (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Try that 'pon February the 30th",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "label": "Verse 2 (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "That's right, couldn't try that no day",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "label": "Verse 2 (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "When we roll 'round 'pon your block",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "label": "Verse 2 (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Nuh badda feel seh we won't spray, like a aerosol can",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "label": "Verse 2 (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "When we roll 'round 'pon your block",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "label": "Verse 2 (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "Nuh badda feel seh we won't spray, like an aerosol can",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "label": "Verse 2 (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "We a gon' smile 'pon court day",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "label": "Verse 2 (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "'Cuh we beat murder charge like O.J",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Assassin]",
+        "artists": [
+          "Assassin"
+        ],
+        "label": "Verse 2 (Assassin)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "That's right, I'm in it (Should've known how to fall)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Justin Vernon]",
+        "artists": [
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "I'm in it (Steppin' on cracks on the floor)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Justin Vernon]",
+        "artists": [
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "That right (8 a.m., boy, set your tone)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Justin Vernon]",
+        "artists": [
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "That's right, I'm in it (Well, you need to fight when you're alone)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Justin Vernon]",
+        "artists": [
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "That's right, I'm in it (Then don't let me at your table)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Justin Vernon]",
+        "artists": [
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "I'm in it (If you just gonna lay with me)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Justin Vernon]",
+        "artists": [
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "Damn right, uh (Just jokes at the end of your little fables)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Justin Vernon]",
+        "artists": [
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "(I'll be gone long, grab that ass, shed your clothes)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: Kanye West & Justin Vernon]",
+        "artists": [
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "Uh, picked up where we left off",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "Uh, I need you home when I get off",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "Uh, you know I need that wet mouth",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "Uh, I know you need that reptile",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "Uh, she cut from a different textile",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "Uh, she love different kinds of sex now",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "Uh, black girl sippin' white wine",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Put my fist in her like a civil rights sign",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "And grabbed it with a slight grind",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "And held it 'til the right time",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Then she came like, \"Ah!\"",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 3 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "That's why I'm in it and I can't get out",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Assassin, Kanye West, & Justin Vernon]",
+        "artists": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Assassin, Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "That's all dem can do, say wah?",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Assassin, Kanye West, & Justin Vernon]",
+        "artists": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Assassin, Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "That's why I'm in it and I can't get out",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Assassin, Kanye West, & Justin Vernon]",
+        "artists": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Assassin, Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "That's all dem can do",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Assassin, Kanye West, & Justin Vernon]",
+        "artists": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Assassin, Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "We deal with action ting",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Assassin, Kanye West, & Justin Vernon]",
+        "artists": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Assassin, Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "'Cause a badman ting a-dat man do",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Assassin, Kanye West, & Justin Vernon]",
+        "artists": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Assassin, Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "That's right, I'm in it",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Assassin, Kanye West, & Justin Vernon]",
+        "artists": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Assassin, Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "I'll be gone long, grab that ass, shed your clothes",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: Assassin, Kanye West, & Justin Vernon]",
+        "artists": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (Assassin, Kanye West, Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "assassin",
+          "display": "Assassin"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "assassin",
+        "display": "Assassin"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Assassin",
+          "Kanye West",
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "Say you long for me, for you",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge: Justin Vernon]",
+        "artists": [
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge 2 (Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "Lay it off with all your rules",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge: Justin Vernon]",
+        "artists": [
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge 2 (Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "Star fucker",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge: Justin Vernon]",
+        "artists": [
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge 2 (Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "Star fucker",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge: Justin Vernon]",
+        "artists": [
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge 2 (Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "Star fucker",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge: Justin Vernon]",
+        "artists": [
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge 2 (Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 64,
+      "content": "Who, where?",
+      "section": {
+        "type": "bridge",
+        "number": 2,
+        "originalText": "[Bridge: Justin Vernon]",
+        "artists": [
+          "Justin Vernon"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge 2 (Justin Vernon)"
+      },
+      "voices": [
+        {
+          "id": "justin-vernon",
+          "display": "Justin Vernon"
+        }
+      ],
+      "voice": {
+        "id": "justin-vernon",
+        "display": "Justin Vernon"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Justin Vernon"
+        ]
+      }
+    },
+    {
+      "line_number": 65,
+      "content": "Time to take it too far now, uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 66,
+      "content": "Michael Douglas out the car now, uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 67,
+      "content": "Got the kids-and-the-wife life, uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 68,
+      "content": "But can't wake up from the nightlife, uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 69,
+      "content": "I'm so scared of my demons, uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 70,
+      "content": "I go to sleep with a nightlight, uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 71,
+      "content": "My mind move like a Tron bike, uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 72,
+      "content": "Pop a wheelie on the Zeitgeist, uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 73,
+      "content": "I'm finna start a new movement, uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 74,
+      "content": "Being led by the drums, uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 75,
+      "content": "I'm a rap-lic priest, uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 76,
+      "content": "Gettin' head by the nuns, uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 77,
+      "content": "They don't play what I'm playin', uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 78,
+      "content": "They don't see what I'm sayin', uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 79,
+      "content": "They be ballin' in the D-League, uh",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 80,
+      "content": "I be speakin' Swaghili",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: Kanye West]",
+        "artists": [
+          "Kanye West"
+        ],
+        "label": "Verse 4 (Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West"
+        ]
+      }
+    }
+  ]
+}

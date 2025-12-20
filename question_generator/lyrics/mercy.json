@@ -1,0 +1,5195 @@
+{
+  "title": "Mercy",
+  "schemaVersion": 3,
+  "artists": [
+    "Kanye West"
+  ],
+  "artist": "Kanye West",
+  "features": [
+    "Fuzzy Jones",
+    "YB",
+    "Big Sean",
+    "Pusha T",
+    "2 Chainz"
+  ],
+  "producers": [
+    "Kanye West"
+  ],
+  "release": {
+    "formats": [
+      "ep"
+    ],
+    "status": "official",
+    "project": "G.O.O.D",
+    "edition": "standard",
+    "year": 2012
+  },
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "Well, it is a weepin' and a moanin' and a gnashin' of teeth",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Fuzzy Jones]",
+        "artists": [
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 2,
+      "content": "It is a weepin' and a moanin' and a gnashin' of teeth",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Fuzzy Jones]",
+        "artists": [
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 3,
+      "content": "It is a—when it comes to my sound which is the champion sound",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Fuzzy Jones]",
+        "artists": [
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 4,
+      "content": "Believe, believe",
+      "section": {
+        "type": "intro",
+        "number": 1,
+        "originalText": "[Intro: Fuzzy Jones]",
+        "artists": [
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Intro (Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 5,
+      "content": "O-o-o-o-o-okay, Lamborghini Mercy",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 6,
+      "content": "Your chick, she so thirsty",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 7,
+      "content": "I-I-I-I-I'm in that two-seat Lambo",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 8,
+      "content": "With your girl, she tryna jerk me (Believe)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 9,
+      "content": "O-o-o-o-o-okay, Lamborghini Mercy",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 10,
+      "content": "Your chick, she so thirsty",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 11,
+      "content": "I-I-I-I-I'm in that two-seat Lambo",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 12,
+      "content": "With your girl, she tryna jerk me",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 13,
+      "content": "O-o-o-o-o-okay, Lamborghini Mercy (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 14,
+      "content": "Your chick, she so thirsty (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 15,
+      "content": "I-I-I-I-I'm in that two-seat Lambo",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 16,
+      "content": "With your girl, she tryna jerk me (Woah, believe)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 17,
+      "content": "O-o-o-o-o-okay, Lamborghini Mercy",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 18,
+      "content": "Your chick, she so thirsty (Boy)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 19,
+      "content": "I-I-I-I-I'm in that two-seat Lambo (Boy)",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 20,
+      "content": "With your girl, she tryna jerk me",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 21,
+      "content": "Okay, drop it to the floor, make that ass shake (Shake, shake)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Big Sean & Kanye West]",
+        "artists": [
+          "Big Sean",
+          "Kanye West"
+        ],
+        "label": "Verse (Big Sean, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "big-sean",
+        "display": "Big Sean"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Big Sean",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 22,
+      "content": "Woah, make the ground move: that's an ass quake",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Big Sean & Kanye West]",
+        "artists": [
+          "Big Sean",
+          "Kanye West"
+        ],
+        "label": "Verse (Big Sean, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "big-sean",
+        "display": "Big Sean"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Big Sean",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 23,
+      "content": "Built a house up on that ass: that's an ass-state",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Big Sean & Kanye West]",
+        "artists": [
+          "Big Sean",
+          "Kanye West"
+        ],
+        "label": "Verse (Big Sean, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "big-sean",
+        "display": "Big Sean"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Big Sean",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 24,
+      "content": "Roll–roll–roll my weed on it: that's an ass tray",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Big Sean & Kanye West]",
+        "artists": [
+          "Big Sean",
+          "Kanye West"
+        ],
+        "label": "Verse (Big Sean, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "big-sean",
+        "display": "Big Sean"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Big Sean",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 25,
+      "content": "Say, Ye, say, Ye, don't we do this every day–day? (Huh?)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Big Sean & Kanye West]",
+        "artists": [
+          "Big Sean",
+          "Kanye West"
+        ],
+        "label": "Verse (Big Sean, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "big-sean",
+        "display": "Big Sean"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Big Sean",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 26,
+      "content": "I work them long nights, long nights to get a payday (Huh?)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Big Sean & Kanye West]",
+        "artists": [
+          "Big Sean",
+          "Kanye West"
+        ],
+        "label": "Verse (Big Sean, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "big-sean",
+        "display": "Big Sean"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Big Sean",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 27,
+      "content": "Finally got paid, now I need shade and a vacay",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Big Sean & Kanye West]",
+        "artists": [
+          "Big Sean",
+          "Kanye West"
+        ],
+        "label": "Verse (Big Sean, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "big-sean",
+        "display": "Big Sean"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Big Sean",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 28,
+      "content": "And niggas still hatin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Big Sean & Kanye West]",
+        "artists": [
+          "Big Sean",
+          "Kanye West"
+        ],
+        "label": "Verse (Big Sean, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "big-sean",
+        "display": "Big Sean"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Big Sean",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 29,
+      "content": "So much hate, I need a AK (AK)",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Big Sean & Kanye West]",
+        "artists": [
+          "Big Sean",
+          "Kanye West"
+        ],
+        "label": "Verse (Big Sean, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "big-sean",
+        "display": "Big Sean"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Big Sean",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 30,
+      "content": "Now we out in Paris, yeah, I'm Perrierin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Big Sean & Kanye West]",
+        "artists": [
+          "Big Sean",
+          "Kanye West"
+        ],
+        "label": "Verse (Big Sean, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "big-sean",
+        "display": "Big Sean"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Big Sean",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 31,
+      "content": "White girls politickin', that's that Sarah Palin",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Big Sean & Kanye West]",
+        "artists": [
+          "Big Sean",
+          "Kanye West"
+        ],
+        "label": "Verse (Big Sean, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "big-sean",
+        "display": "Big Sean"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Big Sean",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 32,
+      "content": "Get–get–get–get–get–gettin' hot, Californicatin'",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Big Sean & Kanye West]",
+        "artists": [
+          "Big Sean",
+          "Kanye West"
+        ],
+        "label": "Verse (Big Sean, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "big-sean",
+        "display": "Big Sean"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Big Sean",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 33,
+      "content": "I give her that D, 'cause that's where I was born and raised in",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "originalText": "[Verse 1: Big Sean & Kanye West]",
+        "artists": [
+          "Big Sean",
+          "Kanye West"
+        ],
+        "label": "Verse (Big Sean, Kanye West)"
+      },
+      "voices": [
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        }
+      ],
+      "voice": {
+        "id": "big-sean",
+        "display": "Big Sean"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Big Sean",
+          "Kanye West"
+        ]
+      }
+    },
+    {
+      "line_number": 34,
+      "content": "O-o-o-o-o-okay, Lamborghini Mercy (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 35,
+      "content": "Your chick, she so thirsty (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 36,
+      "content": "I-I-I-I-I'm in that two-seat Lambo (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 37,
+      "content": "With your girl, she tryna jerk me (Swerve, believe)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 38,
+      "content": "O-o-o-o-o-okay, Lamborghini Mercy (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 39,
+      "content": "Your chick, she so thirsty (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 40,
+      "content": "I-I-I-I-I'm in that two-seat Lambo (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 41,
+      "content": "With your girl, she tryna jerk me (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 2,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 2 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 42,
+      "content": "Well, it is a weepin' and a moanin' (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 43,
+      "content": "And a gnashin' of teeth (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 44,
+      "content": "It is a weepin' and a mournin' (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 45,
+      "content": "And a gnashin' of teeth (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 46,
+      "content": "It is a—when it comes to my sound (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 47,
+      "content": "Which is the champion sound (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 48,
+      "content": "Believe, believe (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 49,
+      "content": "Believe, believe (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 3,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 3 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 50,
+      "content": "Yuugh! It's prime time, my top back, this pimp game, ho",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 51,
+      "content": "I'm red leather, this cocaine, I'm Rick James, ho",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 52,
+      "content": "I'm bill-droppin', Ms. Pac-Man, this pill-poppin' ass ho",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 53,
+      "content": "I'm poppin' too, these blue dolphins need two coffins",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 54,
+      "content": "All she want is some heel money",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 55,
+      "content": "All she need is some bill money",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 56,
+      "content": "He take his time, he counts it out",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 57,
+      "content": "I weighs it up, that's real money",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 58,
+      "content": "Check the neck, check the wrist",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 59,
+      "content": "Them heads turnin': that's exorcist",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 60,
+      "content": "My Audemars like Mardi Gras",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 61,
+      "content": "That's Swiss time, and that's excellence",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 62,
+      "content": "Two-door preference",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 63,
+      "content": "Roof gone, George Jefferson",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 64,
+      "content": "That white frost on that pound cake",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 65,
+      "content": "So your Duncan Hines is irrelevant, woo",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 66,
+      "content": "Lambo Murciélago",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 67,
+      "content": "She go wherever I go",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 68,
+      "content": "Wherever we go, we do it pronto, it's like—",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "originalText": "[Verse 2: Pusha T]",
+        "artists": [
+          "Pusha T"
+        ],
+        "label": "Verse 2 (Pusha T)"
+      },
+      "voices": [
+        {
+          "id": "pusha-t",
+          "display": "Pusha T"
+        }
+      ],
+      "voice": {
+        "id": "pusha-t",
+        "display": "Pusha T"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Pusha T"
+        ]
+      }
+    },
+    {
+      "line_number": 69,
+      "content": "O-o-o-o-o-okay, Lamborghini Mercy (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 70,
+      "content": "Your chick, she so thirsty (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 71,
+      "content": "I-I-I-I-I'm in that two-seat Lambo (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 72,
+      "content": "With your girl, she tryna jerk me (Swerve, believe)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 73,
+      "content": "O-o-o-o-o-okay, Lamborghini Mercy (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 74,
+      "content": "Your chick, she so thirsty (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 75,
+      "content": "I-I-I-I-I'm in that two-seat Lambo (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 76,
+      "content": "With your girl, she tryna jerk me (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 4,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 4 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 77,
+      "content": "Well, it is a weepin' and a moanin' (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 78,
+      "content": "And a gnashin' of teeth (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 79,
+      "content": "It is a weepin' and a mournin' (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 80,
+      "content": "And a gnashin' of teeth (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 81,
+      "content": "It is a—when it comes to my sound (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 82,
+      "content": "Which is the champion sound (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 83,
+      "content": "Believe, believe (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 84,
+      "content": "Believe (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 5,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 5 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 85,
+      "content": "Well, it is a weepin' and a moanin'",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Fuzzy Jones]",
+        "artists": [
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 86,
+      "content": "And a gnashin' of teeth in the dancehall",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Fuzzy Jones]",
+        "artists": [
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 87,
+      "content": "And who no have teeth gwan rub pon dem gums",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Fuzzy Jones]",
+        "artists": [
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 88,
+      "content": "Cuh when time it comes to my sound",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Fuzzy Jones]",
+        "artists": [
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 89,
+      "content": "Which is the champion sound",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Fuzzy Jones]",
+        "artists": [
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 90,
+      "content": "The bugle has blown fi many times",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Fuzzy Jones]",
+        "artists": [
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 91,
+      "content": "And it still have one more time left",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Fuzzy Jones]",
+        "artists": [
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 92,
+      "content": "Cuh the amount of stripe weh deh pon our shoulder",
+      "section": {
+        "type": "bridge",
+        "number": 1,
+        "originalText": "[Bridge: Fuzzy Jones]",
+        "artists": [
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Bridge (Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 93,
+      "content": "Let the suicide doors up",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 94,
+      "content": "I threw suicides on the tour bus",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 95,
+      "content": "I threw suicides on the private jet",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 96,
+      "content": "You know what that mean, I'm fly to death",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 97,
+      "content": "I step in Def Jam buildin' like I'm the shit",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 98,
+      "content": "Tell 'em gimme fifty million or I'ma quit",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 99,
+      "content": "Most rappers' taste level ain't at my waist level",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 100,
+      "content": "Turn up the bass 'til it's up-in-yo-face level",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 101,
+      "content": "Don't do no press but I get the most press, kid",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 102,
+      "content": "Plus, yo, my bitch make your bitch look like Precious",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 103,
+      "content": "Somethin' 'bout Mary, she gone off that molly",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 104,
+      "content": "Now the whole party is melting like Dalí",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 105,
+      "content": "Now everybody is movin' they body",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 106,
+      "content": "Don't sell me apartment, I'll move in the lobby (Yah)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 107,
+      "content": "Niggas is loiterin' just to feel important",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 108,
+      "content": "You gon' see lawyers and niggas in Jordans (2 Chainz)",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "originalText": "[Verse 3: Kanye West & 2 Chainz]",
+        "artists": [
+          "Kanye West",
+          "2 Chainz"
+        ],
+        "label": "Verse 3 (Kanye West, 2 Chainz)"
+      },
+      "voices": [
+        {
+          "id": "kanye-west",
+          "display": "Kanye West"
+        },
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        }
+      ],
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Kanye West",
+          "2 Chainz"
+        ]
+      }
+    },
+    {
+      "line_number": 109,
+      "content": "Okay, now catch up to my campaign",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 110,
+      "content": "Coupe the color of mayonnaise",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 111,
+      "content": "I'm drunk and high at the same time",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 112,
+      "content": "Drinkin' champagne on the airplane (Tell 'em)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 113,
+      "content": "Spit rounds like a gun range (Baow)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 114,
+      "content": "Beat it up like Rampage",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 115,
+      "content": "Hundred bands, cut your girl",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 116,
+      "content": "Now your girl need a Band-Aid (Damn)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 117,
+      "content": "Grade A, A1",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 118,
+      "content": "Chain the color of Akon",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 119,
+      "content": "Black diamonds, backpack rhymin'",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 120,
+      "content": "Co-signed by Louis Vuitton (Yep)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 121,
+      "content": "Horsepower, horsepower",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 122,
+      "content": "All this Polo on, I got horsepower",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 123,
+      "content": "Pound of this cost four thousand",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 124,
+      "content": "Now I make it rain, she want more showers",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 125,
+      "content": "Rain (Rain) pourin' (Pourin')",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 126,
+      "content": "All my cars is foreign (Foreign)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 127,
+      "content": "All my broads is foreign (Foreign)",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 128,
+      "content": "Money tall like Jordan",
+      "section": {
+        "type": "verse",
+        "number": 4,
+        "originalText": "[Verse 4: 2 Chainz & Big Sean]",
+        "artists": [
+          "2 Chainz",
+          "Big Sean"
+        ],
+        "label": "Verse 4 (2 Chainz, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "2-chainz",
+          "display": "2 Chainz"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "2-chainz",
+        "display": "2 Chainz"
+      },
+      "meta": {
+        "detectedVoices": [
+          "2 Chainz",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 129,
+      "content": "O-o-o-o-o-okay, Lamborghini Mercy (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 6 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 130,
+      "content": "Your chick, she so thirsty (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 6 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 131,
+      "content": "I-I-I-I-I'm in that two-seat Lambo (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 6 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 132,
+      "content": "With your girl, she tryna jerk me (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 6 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 133,
+      "content": "O-o-o-o-o-okay, Lamborghini Mercy (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 6 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 134,
+      "content": "Your chick, she so thirsty (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 6 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 135,
+      "content": "I-I-I-I-I'm in that two-seat Lambo (Swerve, believe)",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 6 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 136,
+      "content": "With your girl, she tryna jerk me (Swerve, believe)",
+      "section": {
+        "type": "chorus",
+        "number": 6,
+        "originalText": "[Chorus: YB, Big Sean & Fuzzy Jones]",
+        "artists": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 6 (YB, Big Sean, Fuzzy Jones)"
+      },
+      "voices": [
+        {
+          "id": "yb",
+          "display": "YB"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        },
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        }
+      ],
+      "voice": {
+        "id": "yb",
+        "display": "YB"
+      },
+      "meta": {
+        "detectedVoices": [
+          "YB",
+          "Big Sean",
+          "Fuzzy Jones"
+        ]
+      }
+    },
+    {
+      "line_number": 137,
+      "content": "Well, it is a weepin' and a moanin' (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 138,
+      "content": "And a gnashin' of teeth (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 139,
+      "content": "It is a weepin' and a moanin' (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 140,
+      "content": "And a gnashin' of teeth (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 141,
+      "content": "It is a—when it comes to my sound (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 142,
+      "content": "Which is the champion sound (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 143,
+      "content": "Believe, believe (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 144,
+      "content": "Believe, believe (Swerve)",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 145,
+      "content": "Well, it is a weepin' and a moanin' and a gnashin' of teeth",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 146,
+      "content": "It is a weepin' and a moanin' and a gnashin' of teeth",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 147,
+      "content": "It is a—when it comes to my sound which is the champion sound",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    },
+    {
+      "line_number": 148,
+      "content": "Believe, believe, believe, believe",
+      "section": {
+        "type": "chorus",
+        "number": 7,
+        "originalText": "[Post-Chorus: Fuzzy Jones & Big Sean]",
+        "artists": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ],
+        "autoNumbered": true,
+        "label": "Chorus 7 (Fuzzy Jones, Big Sean)"
+      },
+      "voices": [
+        {
+          "id": "fuzzy-jones",
+          "display": "Fuzzy Jones"
+        },
+        {
+          "id": "big-sean",
+          "display": "Big Sean"
+        }
+      ],
+      "voice": {
+        "id": "fuzzy-jones",
+        "display": "Fuzzy Jones"
+      },
+      "meta": {
+        "detectedVoices": [
+          "Fuzzy Jones",
+          "Big Sean"
+        ]
+      }
+    }
+  ]
+}
