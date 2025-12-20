@@ -1,0 +1,882 @@
+{
+  "title": "Love Lockdown",
+  "artist": "Kanye West",
+  "release": {
+    "formats": [
+      "album"
+    ],
+    "status": "official",
+    "project": "808s & Heartbreak",
+    "year": 2008
+  },
+  "lyrics": [
+    {
+      "line_number": 1,
+      "content": "I'm not loving you way I wanted to",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "label": "[Verse 1]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 2,
+      "content": "What I had to do, had to run from you",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "label": "[Verse 1]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 3,
+      "content": "I'm in love with you, but the vibe is wrong",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "label": "[Verse 1]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 4,
+      "content": "And that haunted me all the way home",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "label": "[Verse 1]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 5,
+      "content": "So you never know, never, never know",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "label": "[Verse 1]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 6,
+      "content": "Never know enough 'til it's over love",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "label": "[Verse 1]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 7,
+      "content": "'Til we lose control, system overload",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "label": "[Verse 1]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 8,
+      "content": "Screaming, \"No, no, no, n-no\"",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "label": "[Verse 1]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 9,
+      "content": "I'm not loving you way I wanted to",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "label": "[Verse 1]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 10,
+      "content": "See, I wanna move, but can't escape from you",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "label": "[Verse 1]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 11,
+      "content": "So I keep it low, keep a secret code",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "label": "[Verse 1]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 12,
+      "content": "So everybody else don't have to know",
+      "section": {
+        "type": "verse",
+        "number": 1,
+        "label": "[Verse 1]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 13,
+      "content": "So keep your love lockdown, your love lockdown",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "label": "[Chorus]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 14,
+      "content": "Keeping your love lockdown, your love lockdown",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "label": "[Chorus]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 15,
+      "content": "Now keep your love lockdown, your love lockdown",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "label": "[Chorus]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 16,
+      "content": "Now keep your love lockdown, you lose",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "label": "[Chorus]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 17,
+      "content": "I'm not loving you way I wanted to",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 18,
+      "content": "I can't keep my cool, so I keep it true",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 19,
+      "content": "I got somethin' to lose, so I gotta move",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 20,
+      "content": "I can't keep myself and still keep you too",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 21,
+      "content": "So I keep in mind, when I'm on my own",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 22,
+      "content": "Somewhere far from home, in the danger zone",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 23,
+      "content": "How many times did I tell you 'fore it finally got through?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 24,
+      "content": "You lose, you lose",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 25,
+      "content": "I'm not loving you way I wanted to",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 26,
+      "content": "See, I had to go, see, I had to move",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 27,
+      "content": "No more wasting time, you can't wait for life",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 28,
+      "content": "We're just racing time, where's the finish line?",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 29,
+      "content": "See Kanye West Live",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 30,
+      "content": "Get tickets as low as $158",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 31,
+      "content": "You might also like",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 32,
+      "content": "Heartless",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 33,
+      "content": "Kanye West",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 34,
+      "content": "Like That",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 35,
+      "content": "Future, Metro Boomin & Kendrick Lamar",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 36,
+      "content": "Say You Will",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 37,
+      "content": "Kanye West",
+      "section": {
+        "type": "verse",
+        "number": 2,
+        "label": "[Verse 2]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 38,
+      "content": "So keep your love lockdown, your love lockdown",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "label": "[Chorus]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 39,
+      "content": "Keeping your love lockdown, your love lockdown",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "label": "[Chorus]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 40,
+      "content": "Now keep your love lockdown, your love lockdown",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "label": "[Chorus]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 41,
+      "content": "Now keep your love lockdown, you lose",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "label": "[Chorus]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 42,
+      "content": "I'm not loving you way I wanted to",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "label": "[Verse 3]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 43,
+      "content": "I bet no one knew, I got no one new",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "label": "[Verse 3]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 44,
+      "content": "Know I said I'm through, but got love for you",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "label": "[Verse 3]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 45,
+      "content": "But I'm not loving you way I wanted to",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "label": "[Verse 3]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 46,
+      "content": "Gotta keep it going, keep the loving going",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "label": "[Verse 3]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 47,
+      "content": "Keep it on the roll, only God knows",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "label": "[Verse 3]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 48,
+      "content": "If I'll be with you, baby, I'm confused",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "label": "[Verse 3]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 49,
+      "content": "You choose, you choose",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "label": "[Verse 3]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 50,
+      "content": "I'm not loving you way I wanted to",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "label": "[Verse 3]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 51,
+      "content": "Where I wanna go, I don't need you",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "label": "[Verse 3]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 52,
+      "content": "I've been down this road too many times before",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "label": "[Verse 3]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 53,
+      "content": "I'm not loving you way I wanted to",
+      "section": {
+        "type": "verse",
+        "number": 3,
+        "label": "[Verse 3]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 54,
+      "content": "So keep your love lockdown, your love lockdown",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "label": "[Chorus]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 55,
+      "content": "Keeping your love lockdown, your love lockdown",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "label": "[Chorus]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 56,
+      "content": "Now keep your love lockdown, your love lockdown",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "label": "[Chorus]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 57,
+      "content": "Now keep your love lockdown, you lose",
+      "section": {
+        "type": "chorus",
+        "number": 1,
+        "label": "[Chorus]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 58,
+      "content": "You lose",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "label": "[Outro]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 59,
+      "content": "You lose",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "label": "[Outro]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 60,
+      "content": "You lose",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "label": "[Outro]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 61,
+      "content": "You lose",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "label": "[Outro]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    },
+    {
+      "line_number": 62,
+      "content": "[Produced by Kanye West & Jeff Bhasker]",
+      "section": {
+        "type": "outro",
+        "number": 1,
+        "label": "[Outro]"
+      },
+      "voice": {
+        "id": "kanye-west",
+        "display": "Kanye West"
+      },
+      "meta": {}
+    }
+  ]
+}
