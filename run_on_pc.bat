@@ -114,12 +114,24 @@ REM Check if tar is available (Windows 10 1803+)
 where tar >nul 2>nul
 if %ERRORLEVEL% EQU 0 (
     echo   Using tar to compress...
-    tar -czf %ARCHIVE_NAME% questions\
+    tar -czf %ARCHIVE_NAME% questions
+    if errorlevel 1 (
+        echo   ERROR: tar compression failed
+        cd ..\..
+        pause
+        exit /b 1
+    )
     echo   Created: server\data\%ARCHIVE_NAME%
 ) else (
     REM Fallback to PowerShell compression
     echo   Using PowerShell compression...
     powershell -command "Compress-Archive -Path 'questions' -DestinationPath 'questions-data.zip' -Force"
+    if errorlevel 1 (
+        echo   ERROR: PowerShell compression failed
+        cd ..\..
+        pause
+        exit /b 1
+    )
     set ARCHIVE_NAME=questions-data.zip
     echo   Created: server\data\%ARCHIVE_NAME%
 )
