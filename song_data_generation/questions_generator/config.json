@@ -1,0 +1,106 @@
+{
+  "inputPaths": {
+    "lyrics": "../lyrics",
+    "projects": "../projects.json",
+    "aliases": "./aliases.json"
+  },
+  "outputPath": "../../server/data/questions",
+  "generators": {
+    "fill-missing-word": {
+      "enabled": true,
+      "inputModeWeights": {
+        "free-text": 50,
+        "multiple-choice": 40,
+        "true-false": 10
+      },
+      "promptVariants": ["standard", "with-song-title"],
+      "minWordLength": 3,
+      "excludeCommonWords": true
+    },
+    "song-from-lyric": {
+      "enabled": true,
+      "inputModeWeights": {
+        "free-text": 50,
+        "multiple-choice": 40,
+        "true-false": 10
+      },
+      "promptVariants": ["standard"],
+      "wrongAnswerStrategy": "same-album-then-same-artist"
+    },
+    "album-from-song": {
+      "enabled": true,
+      "inputModeWeights": {
+        "free-text": 50,
+        "multiple-choice": 40,
+        "true-false": 10
+      },
+      "promptVariants": ["by-title", "by-lyric"],
+      "wrongAnswerStrategy": "same-artist"
+    },
+    "year-from-song": {
+      "enabled": true,
+      "inputModeWeights": {
+        "free-text": 30,
+        "multiple-choice": 40,
+        "true-false": 10,
+        "numeric": 20
+      },
+      "promptVariants": ["by-title", "by-lyric"],
+      "yearRange": { "min": 1990, "max": 2030 }
+    },
+    "year-from-album": {
+      "enabled": true,
+      "inputModeWeights": {
+        "free-text": 30,
+        "multiple-choice": 40,
+        "true-false": 10,
+        "numeric": 20
+      },
+      "yearRange": { "min": 1990, "max": 2030 },
+      "yearProximityRange": 5
+    },
+    "artist-from-lyric": {
+      "enabled": true,
+      "inputModeWeights": {
+        "free-text": 40,
+        "multiple-choice": 50,
+        "true-false": 10
+      },
+      "onlyFeaturedSongs": false,
+      "linesPerVoice": 5
+    },
+    "artist-from-song": {
+      "enabled": true,
+      "inputModeWeights": {
+        "free-text": 50,
+        "multiple-choice": 40,
+        "true-false": 10
+      },
+      "promptVariants": ["by-title", "by-lyric"],
+      "lyricPoolSize": 5
+    },
+    "next-line": {
+      "enabled": true,
+      "inputModeWeights": {
+        "free-text": 60,
+        "multiple-choice": 40
+      },
+      "promptVariants": ["standard", "with-song-title"],
+      "skipSectionBoundaries": true,
+      "linesPerSong": 10
+    },
+    "features-on-song": {
+      "enabled": true,
+      "promptVariants": ["by-title", "by-lyric"],
+      "minFeatures": 2,
+      "maxGuessesMultiplier": 2,
+      "baseMaxGuesses": 3
+    }
+  },
+  "defaults": {
+    "minWrongAnswers": 10,
+    "wrongAnswerCount": 3,
+    "trueFalseCorrectProbability": 0.5,
+    "lyricPoolSize": 5
+  }
+}

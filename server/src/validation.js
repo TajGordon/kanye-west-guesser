@@ -8,6 +8,7 @@
 import {
     QUESTION_TYPES,
     QUESTION_TYPE_CONFIG,
+    SCORING_MODES,
     isValidQuestionType,
     getQuestionTypeConfig,
     TRUE_FALSE_CHOICES
@@ -23,6 +24,9 @@ const MAX_QUESTION_TITLE_LENGTH = 500;
 const MAX_QUESTION_TEXT_LENGTH = 2000;
 const MAX_CHOICE_TEXT_LENGTH = 200;
 const MAX_CHOICES = 10;
+const MAX_MULTI_ENTRY_GUESSES = 20;
+const MIN_YEAR = 1900;
+const MAX_YEAR = 2100;
 
 // ============================================================================
 // Text Sanitization
@@ -134,25 +138,172 @@ export function getValidChoiceIds(question) {
 }
 
 /**
+ * Validate a multi-entry submission (one guess at a time, checking against multiple answers)
+ * @param {object} payload - { guess: string }
+ * @param {object} question - The question being answered
+ * @param {object} playerState - Player's current multi-entry state { foundAnswers: string[], guessCount: number }
+ * @returns {{ valid: boolean, error?: string, sanitized?: { guessText: string } }}
+ */
+export function validateMultiEntrySubmission(payload, question, playerState = null) {
+    if (!payload || typeof payload !== 'object') {
+        return { valid: false, error: 'Invalid submission payload' };
+    }
+
+    if (!question) {
+        return { valid: false, error: 'Question not found' };
+    }
+
+    const guessText = sanitizeText(payload.guess, MAX_ANSWER_LENGTH);
+    
+    if (!guessText) {
+        return { valid: false, error: 'Guess cannot be empty' };
+    }
+
+    // Check max guesses if player state is provided
+    if (playerState) {
+        const maxGuesses = question.maxGuesses || MAX_MULTI_ENTRY_GUESSES;
+        if (playerState.guessCount >= maxGuesses) {
+            return { valid: false, error: 'Maximum guesses reached' };
+        }
+    }
+
+    return {
+        valid: true,
+        sanitized: { guessText }
+    };
+}
+
+/**
+ * Validate a numeric submission
+ * @param {object} payload - { value: number }
+ * @param {object} question - The question being answered
+ * @returns {{ valid: boolean, error?: string, sanitized?: { numericValue: number } }}
+ */
+export function validateNumericSubmission(payload, question) {
+    if (!payload || typeof payload !== 'object') {
+        return { valid: false, error: 'Invalid submission payload' };
+    }
+
+    if (!question) {
+        return { valid: false, error: 'Question not found' };
+    }
+
+    const rawValue = payload.value;
+    
+    if (rawValue == null || rawValue === '') {
+        return { valid: false, error: 'Value cannot be empty' };
+    }
+
+    const numericValue = Number(rawValue);
+    
+    if (isNaN(numericValue) || !isFinite(numericValue)) {
+        return { valid: false, error: 'Value must be a valid number' };
+    }
+
+    // Check bounds if specified on question
+    const min = question.min ?? MIN_YEAR;
+    const max = question.max ?? MAX_YEAR;
+    
+    if (numericValue < min || numericValue > max) {
+        return { valid: false, error: `Value must be between ${min} and ${max}` };
+    }
+
+    return {
+        valid: true,
+        sanitized: { numericValue }
+    };
+}
+
+/**
+ * Validate an ordered-list submission
+ * @param {object} payload - { orderedIds: string[] }
+ * @param {object} question - The question being answered
+ * @returns {{ valid: boolean, error?: string, sanitized?: { orderedIds: string[] } }}
+ */
+export function validateOrderedListSubmission(payload, question) {
+    if (!payload || typeof payload !== 'object') {
+        return { valid: false, error: 'Invalid submission payload' };
+    }
+
+    if (!question) {
+        return { valid: false, error: 'Question not found' };
+    }
+
+    const orderedIds = payload.orderedIds;
+    
+    if (!Array.isArray(orderedIds)) {
+        return { valid: false, error: 'orderedIds must be an array' };
+    }
+
+    // Get expected items from question
+    const expectedItems = question.items || question.choices || [];
+    const expectedIds = expectedItems.map(item => item.id).filter(Boolean);
+    
+    if (orderedIds.length !== expectedIds.length) {
+        return { valid: false, error: 'Must order all items' };
+    }
+
+    // Validate each ID is valid and unique
+    const sanitizedIds = [];
+    const seen = new Set();
+    
+    for (const id of orderedIds) {
+        const sanitized = sanitizeText(id, MAX_CHOICE_ID_LENGTH);
+        
+        if (!expectedIds.includes(sanitized)) {
+            return { valid: false, error: `Invalid item ID: ${sanitized}` };
+        }
+        
+        if (seen.has(sanitized)) {
+            return { valid: false, error: 'Duplicate item in order' };
+        }
+        
+        seen.add(sanitized);
+        sanitizedIds.push(sanitized);
+    }
+
+    return {
+        valid: true,
+        sanitized: { orderedIds: sanitizedIds }
+    };
+}
+
+/**
  * Unified submission validation - routes to the correct validator based on question type
  * @param {string} questionType 
  * @param {object} payload 
  * @param {object} question 
+ * @param {object} playerState - Optional player-specific state (for multi-entry tracking)
  * @returns {{ valid: boolean, error?: string, sanitized?: object }}
  */
-export function validateSubmission(questionType, payload, question) {
+export function validateSubmission(questionType, payload, question, playerState = null) {
     if (!isValidQuestionType(questionType)) {
         return { valid: false, error: `Unknown question type: ${questionType}` };
     }
 
     const config = getQuestionTypeConfig(questionType);
     
-    if (questionType === QUESTION_TYPES.FREE_TEXT) {
-        return validateFreeTextSubmission(payload);
+    switch (questionType) {
+        case QUESTION_TYPES.FREE_TEXT:
+            return validateFreeTextSubmission(payload);
+            
+        case QUESTION_TYPES.MULTIPLE_CHOICE:
+        case QUESTION_TYPES.TRUE_FALSE:
+            return validateChoiceSubmission(payload, question);
+            
+        case QUESTION_TYPES.MULTI_ENTRY:
+            return validateMultiEntrySubmission(payload, question, playerState);
+            
+        case QUESTION_TYPES.NUMERIC:
+            return validateNumericSubmission(payload, question);
+            
+        case QUESTION_TYPES.ORDERED_LIST:
+            return validateOrderedListSubmission(payload, question);
+            
+        default:
+            // Fallback to free-text for unknown types
+            return validateFreeTextSubmission(payload);
     }
-
-    // Multiple choice and true/false both use choice-based submission
-    return validateChoiceSubmission(payload, question);
 }
 
 // ============================================================================
@@ -237,6 +388,67 @@ export function validateQuestionData(raw) {
             // Must have correctAnswer boolean
             if (typeof raw.correctAnswer !== 'boolean') {
                 errors.push(`Question ${raw.id || '?'}: true-false question requires correctAnswer boolean`);
+            }
+        }
+
+        if (type === QUESTION_TYPES.MULTI_ENTRY) {
+            // Must have answers array with multiple entries
+            if (!raw.answers || !Array.isArray(raw.answers) || raw.answers.length === 0) {
+                errors.push(`Question ${raw.id || '?'}: multi-entry question requires answers array`);
+            } else if (raw.answers.length < 2) {
+                warnings.push(`Question ${raw.id || '?'}: multi-entry question should have multiple answers`);
+            }
+            
+            // Optional: validate maxGuesses if specified
+            if (raw.maxGuesses != null && (typeof raw.maxGuesses !== 'number' || raw.maxGuesses < 1)) {
+                errors.push(`Question ${raw.id || '?'}: maxGuesses must be a positive number`);
+            }
+        }
+
+        if (type === QUESTION_TYPES.NUMERIC) {
+            // Must have correctAnswer as a number
+            if (raw.correctAnswer == null || typeof raw.correctAnswer !== 'number') {
+                errors.push(`Question ${raw.id || '?'}: numeric question requires correctAnswer number`);
+            }
+            
+            // Validate bounds if specified
+            if (raw.min != null && typeof raw.min !== 'number') {
+                errors.push(`Question ${raw.id || '?'}: min must be a number`);
+            }
+            if (raw.max != null && typeof raw.max !== 'number') {
+                errors.push(`Question ${raw.id || '?'}: max must be a number`);
+            }
+            if (raw.min != null && raw.max != null && raw.min >= raw.max) {
+                errors.push(`Question ${raw.id || '?'}: min must be less than max`);
+            }
+        }
+
+        if (type === QUESTION_TYPES.ORDERED_LIST) {
+            // Must have items array with correct order
+            if (!raw.items || !Array.isArray(raw.items) || raw.items.length < 2) {
+                errors.push(`Question ${raw.id || '?'}: ordered-list question requires items array with at least 2 items`);
+            } else {
+                // Each item must have id and text
+                for (let i = 0; i < raw.items.length; i++) {
+                    const item = raw.items[i];
+                    if (!item.id) {
+                        errors.push(`Question ${raw.id || '?'}: item ${i} missing id`);
+                    }
+                    if (!item.text) {
+                        warnings.push(`Question ${raw.id || '?'}: item ${i} missing text`);
+                    }
+                }
+                
+                // Check for duplicate item IDs
+                const itemIds = raw.items.map(item => item.id).filter(Boolean);
+                if (new Set(itemIds).size !== itemIds.length) {
+                    errors.push(`Question ${raw.id || '?'}: duplicate item IDs detected`);
+                }
+            }
+            
+            // Must have correctOrder array
+            if (!raw.correctOrder || !Array.isArray(raw.correctOrder)) {
+                errors.push(`Question ${raw.id || '?'}: ordered-list question requires correctOrder array`);
             }
         }
     }

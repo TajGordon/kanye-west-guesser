@@ -391,12 +391,15 @@ io.on('connection', (socket) => {
             return;
         }
 
-        // Support both free-text (answer) and choice-based (choiceId) submissions
+        // Support all question type submissions
         const submission = submitAnswerToRound({
             lobbyId: player.lobbyId,
             playerId: player.playerId,
             answerText: payload.answer,
-            choiceId: payload.choiceId
+            choiceId: payload.choiceId,
+            guess: payload.guess,                    // Multi-entry guess
+            numericValue: payload.numericValue,      // Numeric/slider value
+            orderedIds: payload.orderedIds           // Ordered list IDs
         });
 
         if (!submission) {
@@ -404,10 +407,10 @@ io.on('connection', (socket) => {
             return;
         }
 
-        const { status, entry, round, revealResult, _isCorrect } = submission;
+        const { status, entry, round, revealResult, _isCorrect, foundAnswer, remainingGuesses, foundCount, totalAnswers } = submission;
         let shouldBroadcastRoster = false;
 
-        // Determine if this was actually correct (unified for both question types)
+        // Determine if this was actually correct (unified for all question types)
         const isCorrect = status === 'correct' || _isCorrect === true;
 
         // Handle incorrect guess display (free-text only shows last guess)
@@ -418,10 +421,23 @@ io.on('connection', (socket) => {
             shouldBroadcastRoster = true;
         }
         
-        // Handle choice-based submission (don't reveal correct/incorrect yet)
+        // Handle multi-entry guess results
+        if (status === 'found' || status === 'not-found') {
+            lobbyPlayer.roundGuessStatus = status === 'found' ? 'found-partial' : 'guessing';
+            lobbyPlayer.lastGuessText = null;
+            lobbyPlayer.multiEntryProgress = { foundCount, totalAnswers };
+            shouldBroadcastRoster = true;
+            
+            // If all found, mark as correct
+            if (foundCount >= totalAnswers) {
+                lobbyPlayer.roundGuessStatus = 'correct';
+            }
+        }
+        
+        // Handle choice-based and numeric/slider submission (don't reveal correct/incorrect yet)
         if (status === 'submitted' && entry) {
             lobbyPlayer.roundGuessStatus = 'submitted';
-            lobbyPlayer.lastGuessText = null; // Don't show choice text to others
+            lobbyPlayer.lastGuessText = null; // Don't show to others
             lobbyPlayer.correctElapsedMs = null;
             shouldBroadcastRoster = true;
         }
@@ -467,6 +483,30 @@ io.on('connection', (socket) => {
         // Only include correctness info if result should be revealed
         if (revealResult) {
             answerResultPayload.result = isCorrect;
+        }
+        
+        // Multi-entry specific response data
+        if (status === 'found' || status === 'not-found') {
+            answerResultPayload.multiEntry = {
+                found: status === 'found',
+                foundAnswer: foundAnswer || null,
+                foundAnswers: entry?.foundAnswers || [],
+                wrongGuesses: entry?.wrongGuesses || [],
+                remainingGuesses,
+                foundCount,
+                totalAnswers,
+                isComplete: entry?.hasSubmitted || false
+            };
+        }
+        
+        // Numeric submission response (without revealing correctness)
+        if (entry?.numericValue != null) {
+            answerResultPayload.numericValue = entry.numericValue;
+        }
+        
+        // Ordered list submission response
+        if (entry?.orderedIds) {
+            answerResultPayload.orderedIds = entry.orderedIds;
         }
 
         socket.emit('answerResult', answerResultPayload);

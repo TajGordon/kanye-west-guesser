@@ -121,9 +121,12 @@ export function buildRoundPayload(round) {
  * @param {string} params.playerId
  * @param {string} [params.answerText] - For free-text questions
  * @param {string} [params.choiceId] - For choice-based questions
+ * @param {string} [params.guess] - For multi-entry questions (single guess)
+ * @param {number} [params.numericValue] - For numeric/slider questions
+ * @param {string[]} [params.orderedIds] - For ordered-list questions
  * @returns {object} Submission result
  */
-export function submitAnswerToRound({ lobbyId, playerId, answerText, choiceId }) {
+export function submitAnswerToRound({ lobbyId, playerId, answerText, choiceId, guess, numericValue, orderedIds }) {
     const round = roundsByLobbyId.get(lobbyId)
     if (!round) {
         return { status: 'no-round' }
@@ -136,17 +139,35 @@ export function submitAnswerToRound({ lobbyId, playerId, answerText, choiceId })
     const questionType = round.questionType || QUESTION_TYPES.FREE_TEXT
     const previousEntry = round.submissions.get(playerId)
     
-    // Check if player can submit
-    const canSubmit = canPlayerSubmit(round, playerId, previousEntry)
-    if (!canSubmit.allowed) {
-        return { status: canSubmit.reason, round }
+    // Check if player can submit (for most types)
+    // Multi-entry has special handling
+    if (questionType !== QUESTION_TYPES.MULTI_ENTRY) {
+        const canSubmit = canPlayerSubmit(round, playerId, previousEntry)
+        if (!canSubmit.allowed) {
+            return { status: canSubmit.reason, round }
+        }
     }
 
     // Route to appropriate submission handler
-    if (questionType === QUESTION_TYPES.FREE_TEXT) {
-        return submitFreeTextAnswer(round, playerId, answerText, previousEntry)
-    } else {
-        return submitChoiceAnswer(round, playerId, choiceId)
+    switch (questionType) {
+        case QUESTION_TYPES.FREE_TEXT:
+            return submitFreeTextAnswer(round, playerId, answerText, previousEntry)
+        
+        case QUESTION_TYPES.MULTIPLE_CHOICE:
+        case QUESTION_TYPES.TRUE_FALSE:
+            return submitChoiceAnswer(round, playerId, choiceId)
+        
+        case QUESTION_TYPES.MULTI_ENTRY:
+            return submitMultiEntryGuess(round, playerId, guess, previousEntry)
+        
+        case QUESTION_TYPES.NUMERIC:
+            return submitNumericAnswer(round, playerId, numericValue)
+        
+        case QUESTION_TYPES.ORDERED_LIST:
+            return submitOrderedListAnswer(round, playerId, orderedIds)
+        
+        default:
+            return submitFreeTextAnswer(round, playerId, answerText, previousEntry)
     }
 }
 
@@ -230,6 +251,193 @@ function submitChoiceAnswer(round, playerId, choiceId) {
         revealResult: false,
         // Include isCorrect for server-side scoring, but client shouldn't show it
         _isCorrect: isCorrect
+    }
+}
+
+/**
+ * Handle multi-entry guess submission (Wordle-style, multiple guesses allowed)
+ */
+function submitMultiEntryGuess(round, playerId, guess, previousEntry) {
+    if (!guess || typeof guess !== 'string') {
+        return { status: 'invalid-input', round }
+    }
+
+    const trimmed = guess.trim().toLowerCase()
+    if (!trimmed) {
+        return { status: 'empty-guess', round }
+    }
+
+    // Get or create multi-entry state for this player
+    const entry = previousEntry || {
+        playerId,
+        foundAnswers: [],
+        wrongGuesses: [],
+        guessCount: 0,
+        hasSubmitted: false,
+        isCorrect: false,
+        submittedAt: null
+    }
+
+    const maxGuesses = round.question.maxGuesses || 15
+    const totalAnswers = round.question.answers?.length || 0
+
+    // Check if already at max guesses
+    if (entry.guessCount >= maxGuesses) {
+        return { status: 'max-guesses-reached', round, entry }
+    }
+
+    // Check if this guess matches any remaining answers
+    const { isMatch, matchedAnswer } = evaluateMultiEntryGuess(round.question, trimmed, entry.foundAnswers)
+
+    entry.guessCount++
+    entry.submittedAt = Date.now()
+
+    if (isMatch && matchedAnswer) {
+        entry.foundAnswers.push(matchedAnswer.display || matchedAnswer)
+        
+        // Check if all answers found
+        if (entry.foundAnswers.length >= totalAnswers) {
+            entry.isCorrect = true
+            entry.hasSubmitted = true
+        }
+    } else {
+        // Check if already guessed (duplicate)
+        const normalizedGuess = trimmed
+        const alreadyGuessed = entry.wrongGuesses.some(g => g.toLowerCase() === normalizedGuess) ||
+                               entry.foundAnswers.some(f => f.toLowerCase() === normalizedGuess)
+        
+        if (!alreadyGuessed) {
+            entry.wrongGuesses.push(guess.trim()) // Keep original casing for display
+        }
+    }
+
+    // Mark as submitted if out of guesses
+    if (entry.guessCount >= maxGuesses) {
+        entry.hasSubmitted = true
+    }
+
+    round.submissions.set(playerId, entry)
+
+    return {
+        status: isMatch ? 'found' : 'not-found',
+        round,
+        entry,
+        revealResult: true,
+        foundAnswer: isMatch ? (matchedAnswer?.display || matchedAnswer) : null,
+        remainingGuesses: maxGuesses - entry.guessCount,
+        foundCount: entry.foundAnswers.length,
+        totalAnswers
+    }
+}
+
+/**
+ * Evaluate a single guess against remaining multi-entry answers
+ */
+function evaluateMultiEntryGuess(question, guess, alreadyFound) {
+    if (!question?.answers) return { isMatch: false }
+
+    const normalizedGuess = guess.toLowerCase().trim()
+    const foundNormalized = alreadyFound.map(f => f.toLowerCase())
+
+    for (const answer of question.answers) {
+        // Skip already found answers
+        const answerDisplay = answer.display || answer
+        if (foundNormalized.includes(answerDisplay.toLowerCase())) continue
+
+        // Check primary answer
+        const primaryNormalized = (answer.display || answer).toLowerCase()
+        if (primaryNormalized === normalizedGuess) {
+            return { isMatch: true, matchedAnswer: answer }
+        }
+
+        // Check aliases
+        const aliases = answer.aliases || question.aliases?.[answerDisplay] || []
+        for (const alias of aliases) {
+            if (alias.toLowerCase() === normalizedGuess) {
+                return { isMatch: true, matchedAnswer: answer }
+            }
+        }
+    }
+
+    return { isMatch: false }
+}
+
+/**
+ * Handle numeric/slider answer submission
+ */
+function submitNumericAnswer(round, playerId, numericValue) {
+    if (numericValue == null || typeof numericValue !== 'number' || isNaN(numericValue)) {
+        return { status: 'invalid-input', round }
+    }
+
+    const correctAnswer = round.question.correctAnswer
+    const isExact = numericValue === correctAnswer
+    const difference = Math.abs(numericValue - correctAnswer)
+
+    const entry = {
+        playerId,
+        numericValue,
+        isCorrect: isExact,
+        hasSubmitted: true,
+        submittedAt: Date.now(),
+        difference,
+        attemptCount: 1
+    }
+
+    round.submissions.set(playerId, entry)
+
+    // Don't reveal result until round ends (for proximity scoring fairness)
+    return {
+        status: 'submitted',
+        round,
+        entry,
+        revealResult: false,
+        _isCorrect: isExact,
+        _difference: difference
+    }
+}
+
+/**
+ * Handle ordered-list answer submission
+ */
+function submitOrderedListAnswer(round, playerId, orderedIds) {
+    if (!Array.isArray(orderedIds)) {
+        return { status: 'invalid-input', round }
+    }
+
+    const correctOrder = round.question.correctOrder || []
+    
+    // Calculate score (number of items in correct position)
+    let correctPositions = 0
+    for (let i = 0; i < Math.min(orderedIds.length, correctOrder.length); i++) {
+        if (orderedIds[i] === correctOrder[i]) {
+            correctPositions++
+        }
+    }
+
+    const isFullyCorrect = correctPositions === correctOrder.length && 
+                           orderedIds.length === correctOrder.length
+
+    const entry = {
+        playerId,
+        orderedIds,
+        isCorrect: isFullyCorrect,
+        hasSubmitted: true,
+        submittedAt: Date.now(),
+        correctPositions,
+        totalPositions: correctOrder.length,
+        attemptCount: 1
+    }
+
+    round.submissions.set(playerId, entry)
+
+    return {
+        status: 'submitted',
+        round,
+        entry,
+        revealResult: false,
+        _isCorrect: isFullyCorrect,
+        _correctPositions: correctPositions
     }
 }
 
@@ -341,12 +549,17 @@ function buildRoundSummary(round) {
             playerId: entry.playerId,
             answerText: entry.answerText || null,
             choiceId: entry.choiceId || null,
+            numericValue: entry.numericValue ?? null,
+            orderedIds: entry.orderedIds || null,
+            foundAnswers: entry.foundAnswers || null,
             submittedAt: entry.submittedAt,
             matchedAnswerDisplay: entry.matchedAnswerDisplay || entry.matchedChoice?.text || null,
             elapsedMs: typeof round.startedAt === 'number' ? entry.submittedAt - round.startedAt : null
         }))
 
-    const correctAnswer = round.question?.primaryAnswer || 'Unknown'
+    const correctAnswer = round.question?.primaryAnswer || 
+                          round.question?.correctAnswer ||
+                          'Unknown'
     
     // Use formatQuestionForReveal to include correct answer info
     const questionReveal = formatQuestionForReveal(round.question)
@@ -366,6 +579,24 @@ function buildRoundSummary(round) {
     // Add choice distribution for choice-based questions
     if (questionType === QUESTION_TYPES.MULTIPLE_CHOICE || questionType === QUESTION_TYPES.TRUE_FALSE) {
         summary.choiceDistribution = buildChoiceDistribution(round)
+    }
+    
+    // Add proximity ranking for numeric questions
+    if (questionType === QUESTION_TYPES.NUMERIC || questionType === QUESTION_TYPES.SLIDER) {
+        summary.proximityRanking = buildProximityRanking(round)
+        summary.correctAnswer = round.question.correctAnswer
+    }
+    
+    // Add multi-entry stats
+    if (questionType === QUESTION_TYPES.MULTI_ENTRY) {
+        summary.multiEntryStats = buildMultiEntryStats(round)
+        summary.allAnswers = round.question.answers?.map(a => a.display || a) || []
+    }
+    
+    // Add ordered list results
+    if (questionType === QUESTION_TYPES.ORDERED_LIST) {
+        summary.orderedListResults = buildOrderedListResults(round)
+        summary.correctOrder = round.question.correctOrder
     }
     
     // Legacy compatibility
@@ -402,4 +633,57 @@ function buildChoiceDistribution(round) {
     })
     
     return Object.values(distribution)
+}
+
+/**
+ * Build proximity ranking for numeric questions (closest wins)
+ */
+function buildProximityRanking(round) {
+    const submissions = Array.from(round.submissions.values())
+        .filter(s => s.numericValue != null)
+        .sort((a, b) => a.difference - b.difference)
+    
+    return submissions.map((entry, index) => ({
+        rank: index + 1,
+        playerId: entry.playerId,
+        value: entry.numericValue,
+        difference: entry.difference,
+        isExact: entry.difference === 0
+    }))
+}
+
+/**
+ * Build multi-entry stats for summary
+ */
+function buildMultiEntryStats(round) {
+    const submissions = Array.from(round.submissions.values())
+    const totalAnswers = round.question.answers?.length || 0
+    
+    return submissions.map(entry => ({
+        playerId: entry.playerId,
+        foundCount: entry.foundAnswers?.length || 0,
+        totalAnswers,
+        wrongGuessCount: entry.wrongGuesses?.length || 0,
+        totalGuesses: entry.guessCount || 0,
+        foundAnswers: entry.foundAnswers || [],
+        completedAll: (entry.foundAnswers?.length || 0) >= totalAnswers
+    })).sort((a, b) => b.foundCount - a.foundCount)
+}
+
+/**
+ * Build ordered list results for summary
+ */
+function buildOrderedListResults(round) {
+    const submissions = Array.from(round.submissions.values())
+        .filter(s => s.orderedIds != null)
+        .sort((a, b) => b.correctPositions - a.correctPositions)
+    
+    return submissions.map((entry, index) => ({
+        rank: index + 1,
+        playerId: entry.playerId,
+        orderedIds: entry.orderedIds,
+        correctPositions: entry.correctPositions,
+        totalPositions: entry.totalPositions,
+        isFullyCorrect: entry.isCorrect
+    }))
 }

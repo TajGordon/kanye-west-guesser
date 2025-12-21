@@ -1,0 +1,15 @@
+{
+  "name": "questions-generator",
+  "version": "1.0.0",
+  "description": "Question generator for KanyeGuesser trivia game",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node index.js",
+    "generate:fill-word": "node index.js --type=fill-missing-word",
+    "generate:song-from-lyric": "node index.js --type=song-from-lyric",
+    "generate:album-from-song": "node index.js --type=album-from-song",
+    "validate": "node utils/validate-output.js"
+  },
+  "dependencies": {}
+}

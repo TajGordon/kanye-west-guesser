@@ -10,10 +10,18 @@ import {
     TRUE_FALSE_CHOICES
 } from './questionTypes.js'
 import { validateQuestionData } from './validation.js'
+import {
+    MATCH_MODES,
+    DEFAULT_MATCH_MODE,
+    normalizeForComparison,
+    buildAliasMap,
+    getRecommendedMatchMode
+} from './answerNormalization.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const DEFAULT_DATA_PATH = path.join(__dirname, '../data/questions.json')
+const DEFAULT_QUESTIONS_DIR = path.join(__dirname, '../data/questions')
 const MEDIA_PUBLIC_BASE = '/media'
 const MEDIA_FS_BASE = path.join(__dirname, '../public/media')
 const QUESTION_MEDIA_SUBDIR = 'questions'
@@ -76,11 +84,14 @@ function setComplement(target = new Set()) {
     return result
 }
 
-function normalizeAnswerText(value = '') {
-    return value
-        .toString()
-        .trim()
-        .toLowerCase()
+/**
+ * Normalize answer text for comparison
+ * @param {string} value - The text to normalize
+ * @param {string} matchMode - Match mode (loose, normal, strict, exact)
+ * @returns {string}
+ */
+function normalizeAnswerText(value = '', matchMode = DEFAULT_MATCH_MODE) {
+    return normalizeForComparison(value, matchMode)
 }
 
 function ensureArray(value) {
@@ -146,7 +157,19 @@ function normalizeQuestion(raw) {
     const rawType = raw.type?.toString().trim().toLowerCase()
     const questionType = isValidQuestionType(rawType) ? rawType : getDefaultQuestionType()
     
-    // Normalize answers for free-text questions
+    // Determine match mode for answer comparison
+    // Priority: explicit matchMode > generator recommendation > default
+    let matchMode = DEFAULT_MATCH_MODE
+    if (raw.matchMode && Object.values(MATCH_MODES).includes(raw.matchMode)) {
+        matchMode = raw.matchMode
+    } else if (raw.generatorType) {
+        matchMode = getRecommendedMatchMode(raw.generatorType)
+    }
+    
+    // Check if this is a new template-style question
+    const isTemplateQuestion = !!(raw.wrongAnswerPool || raw.lyricPool || raw.titleTemplate || raw.contentTemplate || raw.answer?.entityRef)
+    
+    // Normalize answers for free-text questions (legacy format with 'answers' array)
     const answers = ensureArray(raw.answers).map((entry, index) => {
         const display = entry?.display?.toString().trim() || entry?.aliases?.[0] || `Answer ${index + 1}`
         const aliasSet = new Set()
@@ -155,24 +178,54 @@ function normalizeQuestion(raw) {
             if (alias) aliasSet.add(alias)
         })
         const normalizedAliases = Array.from(aliasSet)
-            .map(normalizeAnswerText)
+            .map(alias => normalizeAnswerText(alias, matchMode))
             .filter(Boolean)
         return {
             id: entry?.id || `${raw.id || 'unknown'}-answer-${index}`,
             display,
             aliases: Array.from(aliasSet),
-            normalizedAliases
+            normalizedAliases,
+            entityRef: entry?.entityRef || null
         }
     })
 
+    // Handle single 'answer' field (new template format)
+    let singleAnswer = null
+    if (raw.answer) {
+        const display = raw.answer.display?.toString().trim() || 'Unknown'
+        const aliasSet = new Set()
+        aliasSet.add(display)
+        ensureArray(raw.answer.aliases).forEach(alias => {
+            if (alias) aliasSet.add(alias)
+        })
+        const normalizedAliases = Array.from(aliasSet)
+            .map(alias => normalizeAnswerText(alias, matchMode))
+            .filter(Boolean)
+        singleAnswer = {
+            display,
+            aliases: Array.from(aliasSet),
+            normalizedAliases,
+            entityRef: raw.answer.entityRef || null
+        }
+    }
+
+    // Build acceptedAliasMap
     const acceptedAliasMap = new Map()
-    answers.forEach(answer => {
-        answer.normalizedAliases.forEach(alias => {
+    if (answers.length > 0) {
+        answers.forEach(answer => {
+            answer.normalizedAliases.forEach(alias => {
+                if (!acceptedAliasMap.has(alias)) {
+                    acceptedAliasMap.set(alias, answer)
+                }
+            })
+        })
+    } else if (singleAnswer) {
+        singleAnswer.normalizedAliases.forEach(alias => {
             if (!acceptedAliasMap.has(alias)) {
-                acceptedAliasMap.set(alias, answer)
+                acceptedAliasMap.set(alias, singleAnswer)
             }
         })
-    })
+    }
 
     const normalizedContent = normalizeContent(raw.content, raw.id)
     
@@ -183,23 +236,66 @@ function normalizeQuestion(raw) {
         title,
         content: normalizedContent || { type: 'text', text: title },
         tags,
-        meta: raw.meta || null
+        matchMode,  // Store match mode for answer evaluation
+        meta: raw.meta || null,
+        generatorType: raw.generatorType || null,
+        source: raw.source || null
+    }
+
+    // Add template-specific fields
+    if (isTemplateQuestion) {
+        if (singleAnswer) {
+            question.answer = singleAnswer
+        }
+        if (raw.wrongAnswerPool) {
+            question.wrongAnswerPool = raw.wrongAnswerPool
+            question.wrongAnswerCount = raw.wrongAnswerCount || 3
+        }
+        if (raw.lyricPool) {
+            question.lyricPool = raw.lyricPool
+        }
+        if (raw.titleTemplate) {
+            question.titleTemplate = raw.titleTemplate
+        }
+        if (raw.contentTemplate) {
+            question.contentTemplate = raw.contentTemplate
+        }
+        if (raw.trueFalseConfig) {
+            question.trueFalseConfig = raw.trueFalseConfig
+        }
+        if (raw.scoringMode) {
+            question.scoringMode = raw.scoringMode
+        }
     }
 
     // Add type-specific fields
     if (questionType === QUESTION_TYPES.FREE_TEXT) {
-        question.answers = answers
+        if (answers.length > 0) {
+            question.answers = answers
+        }
         question.acceptedAliasMap = acceptedAliasMap
-        question.primaryAnswer = answers[0]?.display || 'Unknown'
+        question.primaryAnswer = singleAnswer?.display || answers[0]?.display || 'Unknown'
     } else if (questionType === QUESTION_TYPES.MULTIPLE_CHOICE) {
-        question.choices = normalizeChoices(raw.choices, raw.id)
-        question.correctChoiceId = findCorrectChoiceId(question.choices)
-        question.primaryAnswer = question.choices.find(c => c.correct)?.text || 'Unknown'
+        // Legacy format: has 'choices' array
+        if (raw.choices) {
+            question.choices = normalizeChoices(raw.choices, raw.id)
+            question.correctChoiceId = findCorrectChoiceId(question.choices)
+            question.primaryAnswer = question.choices.find(c => c.correct)?.text || 'Unknown'
+        } else {
+            // Template format: choices built at runtime from wrongAnswerPool
+            question.primaryAnswer = singleAnswer?.display || 'Unknown'
+        }
     } else if (questionType === QUESTION_TYPES.TRUE_FALSE) {
-        question.choices = TRUE_FALSE_CHOICES
-        question.correctAnswer = raw.correctAnswer === true
-        question.correctChoiceId = raw.correctAnswer === true ? 'true' : 'false'
-        question.primaryAnswer = raw.correctAnswer === true ? 'True' : 'False'
+        // Legacy format: has 'correctAnswer' boolean
+        if (raw.correctAnswer !== undefined) {
+            question.choices = TRUE_FALSE_CHOICES
+            question.correctAnswer = raw.correctAnswer === true
+            question.correctChoiceId = raw.correctAnswer === true ? 'true' : 'false'
+            question.primaryAnswer = raw.correctAnswer === true ? 'True' : 'False'
+        } else {
+            // Template format: correctAnswer determined at runtime
+            question.primaryAnswer = singleAnswer?.display || 'Unknown'
+        }
     }
 
     return question
@@ -228,8 +324,116 @@ function findCorrectChoiceId(choices) {
     return correct?.id || null
 }
 
-export function initializeQuestionStore({ filePath } = {}) {
+export function initializeQuestionStore({ filePath, questionsDir } = {}) {
+    // Try loading from questions directory first (new format)
+    const resolvedDir = questionsDir || DEFAULT_QUESTIONS_DIR
+    
+    if (fs.existsSync(resolvedDir) && fs.statSync(resolvedDir).isDirectory()) {
+        return initializeFromDirectory(resolvedDir)
+    }
+    
+    // Fall back to single file (legacy format)
     const resolvedPath = filePath || DEFAULT_DATA_PATH
+    return initializeFromFile(resolvedPath)
+}
+
+/**
+ * Load questions from a directory of JSON files
+ */
+function initializeFromDirectory(dirPath) {
+    console.log(`[questionStore] Loading questions from directory: ${dirPath}`)
+    
+    // Check for manifest
+    const manifestPath = path.join(dirPath, '_manifest.json')
+    let manifest = null
+    let filesToLoad = []
+    
+    if (fs.existsSync(manifestPath)) {
+        try {
+            const raw = fs.readFileSync(manifestPath, 'utf-8')
+            manifest = JSON.parse(raw)
+            filesToLoad = manifest.loadOrder || []
+            console.log(`[questionStore] Using manifest with ${filesToLoad.length} files`)
+        } catch (err) {
+            console.warn(`[questionStore] Failed to parse manifest: ${err.message}`)
+        }
+    }
+    
+    // If no manifest, auto-discover JSON files
+    if (filesToLoad.length === 0) {
+        filesToLoad = fs.readdirSync(dirPath)
+            .filter(f => f.endsWith('.json') && f !== '_manifest.json')
+            .sort()
+        console.log(`[questionStore] Auto-discovered ${filesToLoad.length} question files`)
+    }
+    
+    // Filter out disabled files
+    const disabled = new Set(manifest?.disabled || [])
+    filesToLoad = filesToLoad.filter(f => !disabled.has(f))
+    
+    // Load all files
+    const allQuestions = []
+    const loadedFiles = []
+    
+    for (const file of filesToLoad) {
+        const filePath = path.join(dirPath, file)
+        
+        if (!fs.existsSync(filePath)) {
+            console.warn(`[questionStore] File not found: ${filePath}`)
+            continue
+        }
+        
+        try {
+            const raw = fs.readFileSync(filePath, 'utf-8')
+            const parsed = JSON.parse(raw)
+            
+            const questions = Array.isArray(parsed) ? parsed : parsed?.questions
+            if (!Array.isArray(questions)) {
+                console.warn(`[questionStore] No questions array in ${file}`)
+                continue
+            }
+            
+            const normalized = questions.map(normalizeQuestion)
+            allQuestions.push(...normalized)
+            
+            const meta = parsed.meta || {}
+            loadedFiles.push({
+                file,
+                count: normalized.length,
+                generatorType: meta.generatorType,
+                version: meta.generatorVersion
+            })
+            
+            console.log(`[questionStore] Loaded ${normalized.length} questions from ${file}`)
+        } catch (err) {
+            console.error(`[questionStore] Error loading ${file}: ${err.message}`)
+        }
+    }
+    
+    // Build indexes
+    questionList = allQuestions
+    questionMap = new Map(questionList.map(q => [q.id, q]))
+    allQuestionIds = new Set(questionList.map(q => q.id))
+    tagIndex = new Map()
+    
+    questionList.forEach((question) => {
+        question.tags.forEach((tag) => {
+            if (!tagIndex.has(tag)) {
+                tagIndex.set(tag, new Set())
+            }
+            tagIndex.get(tag).add(question.id)
+        })
+    })
+    
+    console.log(`[questionStore] Total: ${questionList.length} questions from ${loadedFiles.length} files`)
+    
+    return { questionCount: questionList.length, files: loadedFiles }
+}
+
+/**
+ * Load questions from a single JSON file (legacy format)
+ */
+function initializeFromFile(resolvedPath) {
     let rawJson
     try {
         rawJson = fs.readFileSync(resolvedPath, 'utf-8')
@@ -265,6 +469,8 @@ export function initializeQuestionStore({ filePath } = {}) {
     })
 
     console.log(`[questionStore] Loaded ${questionList.length} questions from ${resolvedPath}`)
+    
+    return { questionCount: questionList.length, files: [{ file: path.basename(resolvedPath), count: questionList.length }] }
 }
 
 export function getRandomQuestion() {
@@ -300,7 +506,9 @@ export function evaluateAnswer(question, answerText) {
     
     // Free-text: match against acceptedAliasMap
     if (questionType === QUESTION_TYPES.FREE_TEXT) {
-        const normalized = normalizeAnswerText(answerText)
+        // Use the question's matchMode for consistent normalization
+        const matchMode = question.matchMode || DEFAULT_MATCH_MODE
+        const normalized = normalizeAnswerText(answerText, matchMode)
         if (!normalized) {
             return { isCorrect: false }
         }

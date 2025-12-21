@@ -1,7 +1,16 @@
 import { forwardRef } from 'react';
-import { QUESTION_TYPES, isChoiceBasedQuestion } from '../../questionTypes';
+import { 
+  QUESTION_TYPES, 
+  isChoiceBasedQuestion, 
+  isMultiEntryQuestion,
+  isOrderedListQuestion,
+  getInputType
+} from '../../questionTypes';
 import FreeTextInput from './FreeTextInput';
 import ChoiceSelector from './ChoiceSelector';
+import MultiEntryInput from './MultiEntryInput';
+import NumericInput from './NumericInput';
+import OrderedListInput from './OrderedListInput';
 
 /**
  * Answer Input Renderer
@@ -10,19 +19,39 @@ import ChoiceSelector from './ChoiceSelector';
 const AnswerInputRenderer = forwardRef(function AnswerInputRenderer({
   questionType = QUESTION_TYPES.FREE_TEXT,
   question = null,
+  
   // Free-text props
   textValue = '',
   onTextChange,
   onTextSubmit,
   hasAnsweredCorrectly = false,
+  
   // Choice props
   selectedChoiceId = null,
   onSelectChoice,
   hasSubmitted = false,
+  
+  // Multi-entry props
+  foundAnswers = [],
+  wrongGuesses = [],
+  onSubmitGuess,
+  
+  // Numeric/slider props
+  numericValue = null,
+  onNumericSubmit,
+  submittedValue = null,
+  
+  // Ordered list props
+  orderedItems = null,
+  onOrderSubmit,
+  submittedOrder = null,
+  
   // Common props
   disabled = false,
   revealResults = false,
-  correctChoiceId = null
+  correctChoiceId = null,
+  correctAnswer = null,
+  correctOrder = null
 }, ref) {
   // If no question or not in round, show disabled free-text input
   if (!question) {
@@ -39,10 +68,76 @@ const AnswerInputRenderer = forwardRef(function AnswerInputRenderer({
     );
   }
 
-  const isChoiceBased = isChoiceBasedQuestion(questionType);
+  const inputType = getInputType(questionType);
 
-  if (isChoiceBased) {
-    // Choice-based input for MC and T/F questions
+  // Multi-entry input (Wordle-style)
+  if (isMultiEntryQuestion(questionType)) {
+    const totalAnswers = question.answers?.length || 0;
+    const maxGuesses = question.maxGuesses || 15;
+    const isComplete = foundAnswers.length >= totalAnswers || 
+                       (foundAnswers.length + wrongGuesses.length) >= maxGuesses;
+    
+    return (
+      <div className="answer-bar answer-bar-multi-entry">
+        <MultiEntryInput
+          ref={ref}
+          question={question}
+          foundAnswers={foundAnswers}
+          wrongGuesses={wrongGuesses}
+          totalAnswers={totalAnswers}
+          maxGuesses={maxGuesses}
+          onSubmitGuess={onSubmitGuess}
+          disabled={disabled}
+          isComplete={isComplete || revealResults}
+        />
+      </div>
+    );
+  }
+
+  // Numeric input (year guessing, etc.)
+  if (questionType === QUESTION_TYPES.NUMERIC) {
+    return (
+      <div className="answer-bar answer-bar-numeric">
+        <NumericInput
+          ref={ref}
+          question={question}
+          min={question.min ?? 1900}
+          max={question.max ?? 2100}
+          step={question.step ?? 1}
+          onSubmit={onNumericSubmit}
+          disabled={disabled}
+          hasSubmitted={hasSubmitted}
+          submittedValue={submittedValue}
+          revealResults={revealResults}
+          correctAnswer={correctAnswer}
+        />
+      </div>
+    );
+  }
+
+  // Ordered list input
+  if (isOrderedListQuestion(questionType)) {
+    const items = orderedItems || question.items || [];
+    
+    return (
+      <div className="answer-bar answer-bar-ordered">
+        <OrderedListInput
+          ref={ref}
+          question={question}
+          items={items}
+          onSubmit={onOrderSubmit}
+          disabled={disabled}
+          hasSubmitted={hasSubmitted}
+          submittedOrder={submittedOrder}
+          revealResults={revealResults}
+          correctOrder={correctOrder || question.correctOrder}
+        />
+      </div>
+    );
+  }
+
+  // Choice-based input for MC and T/F questions
+  if (isChoiceBasedQuestion(questionType)) {
     return (
       <div className="answer-bar answer-bar-choices">
         <ChoiceSelector
@@ -58,7 +153,7 @@ const AnswerInputRenderer = forwardRef(function AnswerInputRenderer({
     );
   }
 
-  // Free-text input for text-based questions
+  // Free-text input for text-based questions (default)
   return (
     <div className="answer-bar">
       <FreeTextInput

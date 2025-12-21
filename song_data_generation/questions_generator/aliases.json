@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "updatedAt": "2025-12-21T00:00:00.000Z",
+    "description": "Central alias dictionary for answer normalization"
+  },
+  "entities": {
+    "artist:kanye-west": {
+      "type": "artist",
+      "display": "Kanye West",
+      "aliases": ["kanye", "ye", "kanye west", "yeezy", "ye west"]
+    },
+    "artist:kid-cudi": {
+      "type": "artist",
+      "display": "Kid Cudi",
+      "aliases": ["kid cudi", "cudi", "scott mescudi"]
+    },
+    "artist:jay-z": {
+      "type": "artist",
+      "display": "Jay-Z",
+      "aliases": ["jay-z", "jay z", "jayz", "hov", "hova", "shawn carter"]
+    },
+    "artist:pusha-t": {
+      "type": "artist",
+      "display": "Pusha T",
+      "aliases": ["pusha t", "pusha", "push"]
+    },
+    "artist:nicki-minaj": {
+      "type": "artist",
+      "display": "Nicki Minaj",
+      "aliases": ["nicki minaj", "nicki", "minaj"]
+    },
+    "artist:rick-ross": {
+      "type": "artist",
+      "display": "Rick Ross",
+      "aliases": ["rick ross", "ross", "rozay"]
+    },
+    "artist:bon-iver": {
+      "type": "artist",
+      "display": "Bon Iver",
+      "aliases": ["bon iver", "justin vernon"]
+    },
+    "artist:ty-dolla-sign": {
+      "type": "artist",
+      "display": "Ty Dolla $ign",
+      "aliases": ["ty dolla sign", "ty dolla $ign", "ty$", "ty dolla"]
+    },
+    "artist:joji": {
+      "type": "artist",
+      "display": "Joji",
+      "aliases": ["joji", "george miller", "filthy frank"]
+    },
+    "artist:dwele": {
+      "type": "artist",
+      "display": "Dwele",
+      "aliases": ["dwele"]
+    },
+    "album:mbdtf": {
+      "type": "album",
+      "display": "My Beautiful Dark Twisted Fantasy",
+      "aliases": ["my beautiful dark twisted fantasy", "mbdtf", "dark twisted fantasy", "dark fantasy", "beautiful dark twisted fantasy"]
+    },
+    "album:808s": {
+      "type": "album",
+      "display": "808s & Heartbreak",
+      "aliases": ["808s & heartbreak", "808s and heartbreak", "808s", "heartbreak"]
+    },
+    "album:yeezus": {
+      "type": "album",
+      "display": "Yeezus",
+      "aliases": ["yeezus"]
+    },
+    "album:graduation": {
+      "type": "album",
+      "display": "Graduation",
+      "aliases": ["graduation", "grad"]
+    },
+    "album:late-registration": {
+      "type": "album",
+      "display": "Late Registration",
+      "aliases": ["late registration", "lr"]
+    },
+    "album:college-dropout": {
+      "type": "album",
+      "display": "The College Dropout",
+      "aliases": ["the college dropout", "college dropout", "tcd"]
+    },
+    "album:tlop": {
+      "type": "album",
+      "display": "The Life of Pablo",
+      "aliases": ["the life of pablo", "tlop", "life of pablo", "pablo"]
+    },
+    "album:donda": {
+      "type": "album",
+      "display": "Donda",
+      "aliases": ["donda"]
+    },
+    "album:donda-2": {
+      "type": "album",
+      "display": "Donda 2",
+      "aliases": ["donda 2", "donda two"]
+    },
+    "album:jesus-is-king": {
+      "type": "album",
+      "display": "JESUS IS KING",
+      "aliases": ["jesus is king", "jik"]
+    },
+    "album:watch-the-throne": {
+      "type": "album",
+      "display": "Watch the Throne",
+      "aliases": ["watch the throne", "wtt"]
+    },
+    "album:ballads-1": {
+      "type": "album",
+      "display": "BALLADS 1",
+      "aliases": ["ballads 1", "ballads", "ballads one"]
+    },
+    "album:smithereens": {
+      "type": "album",
+      "display": "SMITHEREENS",
+      "aliases": ["smithereens"]
+    }
+  }
+}
