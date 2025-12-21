@@ -341,6 +341,24 @@ Add to cron:
 
 ## Troubleshooting
 
+### "Process killed" or "Out of memory" during generation
+- **Cause**: Large question datasets (80k+ questions) exceed available memory
+- **Solution 1**: Scripts use `--max-old-space-size=768` (768MB limit)
+- **Solution 2**: If still failing, generate one type at a time:
+  ```bash
+  # Generate types individually (uses less memory)
+  node --max-old-space-size=512 index.js --type=fill-missing-word
+  node --max-old-space-size=512 index.js --type=song-from-lyric
+  node --max-old-space-size=512 index.js --type=album-from-song
+  node --max-old-space-size=512 index.js --type=year-from-song
+  node --max-old-space-size=512 index.js --type=year-from-album
+  node --max-old-space-size=512 index.js --type=artist-from-lyric
+  node --max-old-space-size=512 index.js --type=artist-from-song
+  node --max-old-space-size=512 index.js --type=next-line
+  node --max-old-space-size=512 index.js --type=features-on-song
+  ```
+- **Remember**: This is a dev/build step - production server doesn't run this!
+
 ### "No lyrics found"
 - Check `song_data_generation/lyrics/*.json` exists
 - Verify lyrics format matches expected schema
@@ -367,6 +385,31 @@ Add to cron:
 - Full regeneration: ~10-60 seconds (depends on lyrics count)
 - Single type: ~2-10 seconds
 - Alias application: ~1-5 seconds
+
+### Memory Requirements
+
+**⚠️ IMPORTANT: Question generation is a BUILD step for your DEVELOPMENT machine, NOT production server.**
+
+- **Generator memory usage**: ~500-800MB during generation
+  - Uses `--max-old-space-size=768` flag (768MB limit)
+  - Does NOT chunk - loads all questions into memory at once
+  - If you have <1GB RAM available, generate one type at a time:
+    ```bash
+    node --max-old-space-size=512 index.js --type=fill-missing-word
+    node --max-old-space-size=512 index.js --type=song-from-lyric
+    # etc.
+    ```
+
+- **Production server memory usage**: ~100-200MB
+  - Server only LOADS pre-generated JSON files
+  - Much lower memory requirement than generation
+  - 1GB server is sufficient for runtime
+
+**Workflow:**
+1. Generate questions on dev machine (requires 768MB+)
+2. Commit generated JSON files to git
+3. Deploy to production (1GB server is fine)
+4. Server loads pre-generated files (uses ~150MB)
 
 ### Output Size
 

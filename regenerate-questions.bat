@@ -49,8 +49,10 @@ if exist "server\data\questions" (
 REM Generate questions
 echo.
 echo 📝 Generating questions...
+echo   (This may take 1-2 minutes for large datasets)
+echo   Note: Run this on your development machine, not production server
 cd song_data_generation\questions_generator
-call node index.js --validate --strict
+call node --max-old-space-size=768 index.js --validate --strict
 if errorlevel 1 (
     cd ..\..
     echo ❌ Question generation failed!
