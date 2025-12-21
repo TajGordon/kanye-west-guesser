@@ -28,6 +28,7 @@ import {
     validateSubmission,
     canPlayerSubmit
 } from './validation.js'
+import { filterQuestionsByExpression } from './questionFilter.js'
 
 const roundsByLobbyId = new Map()
 
@@ -51,8 +52,26 @@ const FALLBACK_QUESTION = {
     tags: ['fallback']
 }
 
-function pickRandomQuestion() {
-    const rawQuestion = getRandomQuestion() || FALLBACK_QUESTION
+/**
+ * Pick a random question, optionally filtered by expression
+ * @param {string|null} filterExpression - Optional tag filter expression
+ * @returns {object} Question object
+ */
+function pickRandomQuestion(filterExpression = null) {
+    let allowedQuestionIds = null;
+    
+    // Apply filter if provided
+    if (filterExpression && filterExpression.trim() !== '' && filterExpression.trim() !== '*') {
+        try {
+            allowedQuestionIds = filterQuestionsByExpression(filterExpression);
+            console.log(`[gameManager] Filter "${filterExpression}" matched ${allowedQuestionIds.size} questions`);
+        } catch (error) {
+            console.error('[gameManager] Error applying question filter:', error);
+            // Continue without filter on error
+        }
+    }
+    
+    const rawQuestion = getRandomQuestion(allowedQuestionIds) || FALLBACK_QUESTION
     // Instantiate template questions (interpolates placeholders, builds choices, etc.)
     return instantiateQuestion(rawQuestion)
 }
@@ -61,8 +80,15 @@ function pickRandomQuestion() {
 // Round Lifecycle
 // ============================================================================
 
-export function startNewRound(lobbyId, durationMs = DEFAULT_ROUND_DURATION_MS) {
-    const question = pickRandomQuestion()
+/**
+ * Start a new round with a random question
+ * @param {string} lobbyId - The lobby ID
+ * @param {number} durationMs - Round duration in milliseconds
+ * @param {string|null} filterExpression - Optional question filter expression
+ * @returns {object} Round object
+ */
+export function startNewRound(lobbyId, durationMs = DEFAULT_ROUND_DURATION_MS, filterExpression = null) {
+    const question = pickRandomQuestion(filterExpression)
     const startedAt = Date.now()
     const questionType = question.type || QUESTION_TYPES.FREE_TEXT
     

@@ -29,8 +29,9 @@ import {
     clearRoundState,
     shouldRoundEnd 
 } from './gameManager.js'
-import { initializeQuestionStore, flagQuestion } from './questionStore.js'
+import { initializeQuestionStore, flagQuestion, getTagIndexSnapshot } from './questionStore.js'
 import { QUESTION_TYPES, typeRevealsOnSubmit } from './questionTypes.js'
+import { validateExpression, getFilterStatistics } from './questionFilter.js'
 
 const app = express();
 const server = http.createServer(app);
@@ -69,8 +70,28 @@ if (fs.existsSync(mediaAssetsPath)) {
 
 if (fs.existsSync(clientDistPath)) {
     app.use(express.static(clientDistPath));
+    
+    // API endpoint for getting available tags
+    app.get('/api/tags', (req, res) => {
+        const tagIndex = getTagIndexSnapshot();
+        const tags = Object.keys(tagIndex).sort();
+        res.json({ tags, count: tags.length });
+    });
+    
+    // API endpoint for validating filter expressions
+    app.get('/api/filter/validate', (req, res) => {
+        const expr = req.query.expr || '';
+        const validation = validateExpression(expr);
+        if (validation.valid) {
+            const stats = getFilterStatistics(expr);
+            res.json({ valid: true, matchCount: stats.total });
+        } else {
+            res.json({ valid: false, error: validation.error });
+        }
+    });
+    
     app.get(/.*/, (req, res, next) => {
-        if (req.path.startsWith('/socket.io')) {
+        if (req.path.startsWith('/socket.io') || req.path.startsWith('/api')) {
             return next();
         }
         res.sendFile(path.join(clientDistPath, 'index.html'));
@@ -465,7 +486,9 @@ function beginRoundForLobby(lobbyId, reason = 'manual') {
 
     const settings = lobby?.settings || getLobbySettings(lobbyId);
     const roundDurationMs = settings?.roundDurationMs;
-    const round = startNewRound(lobbyId, roundDurationMs);
+    const questionFilter = settings?.questionFilter || '*';
+    
+    const round = startNewRound(lobbyId, roundDurationMs, questionFilter);
     resetLobbyRoundGuesses(lobbyId);
     const payload = buildRoundPayload(round);
     console.log('[DEBUG] Round payload question:', JSON.stringify({
@@ -475,7 +498,8 @@ function beginRoundForLobby(lobbyId, reason = 'manual') {
         prompt: payload?.question?.prompt,
         content: payload?.question?.content,
         hasChoices: !!payload?.question?.choices,
-        choiceCount: payload?.question?.choices?.length
+        choiceCount: payload?.question?.choices?.length,
+        filter: questionFilter
     }, null, 2));
     if (payload) {
         setLobbyPhase(lobbyId, getLobbyPhases().ROUND, { round: payload, reason });

@@ -9,7 +9,8 @@ const lobbies = new Map();
 const DEFAULT_LOBBY_SETTINGS = {
     roundDurationMs: 20_000,
     questionPackId: 'kanye-classic',
-    pointsToWin: 50
+    pointsToWin: 50,
+    questionFilter: '*'
 };
 const MIN_ROUND_DURATION_MS = 1_000;
 const MAX_ROUND_DURATION_MS = 120_000;
@@ -188,6 +189,9 @@ function sanitizeSettingsPatch(patch = {}) {
     if (typeof patch.pointsToWin === 'number' && Number.isFinite(patch.pointsToWin)) {
         const clampedPoints = Math.max(MIN_POINTS_TO_WIN, Math.min(MAX_POINTS_TO_WIN, Math.round(patch.pointsToWin)));
         next.pointsToWin = clampedPoints;
+    }
+    if (typeof patch.questionFilter === 'string') {
+        next.questionFilter = patch.questionFilter.trim() || '*';
     }
     return next;
 }

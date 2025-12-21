@@ -508,10 +508,23 @@ const QUESTION_TYPE_WEIGHTS = {
 /**
  * Get a random question using weighted selection based on question type
  * Ensures proper distribution of question types according to QUESTION_TYPE_WEIGHTS
+ * 
+ * @param {Set|null} allowedQuestionIds - Optional set of question IDs to filter by (from expression)
+ * @returns {object|null} Random question or null if no questions available
  */
-export function getRandomQuestion() {
+export function getRandomQuestion(allowedQuestionIds = null) {
     if (!questionList.length) {
-        return null
+        return null;
+    }
+    
+    // Filter questions by allowed IDs if provided
+    let availableQuestions = questionList;
+    if (allowedQuestionIds && allowedQuestionIds.size > 0) {
+        availableQuestions = questionList.filter(q => allowedQuestionIds.has(q.id));
+        if (availableQuestions.length === 0) {
+            console.warn('[questionStore] No questions match the filter, falling back to all questions');
+            availableQuestions = questionList;
+        }
     }
     
     // Group questions by type
@@ -520,7 +533,7 @@ export function getRandomQuestion() {
         questionsByType[type] = [];
     }
     
-    for (const question of questionList) {
+    for (const question of availableQuestions) {
         const type = question.type || QUESTION_TYPES.FREE_TEXT;
         if (questionsByType[type]) {
             questionsByType[type].push(question);
@@ -540,8 +553,8 @@ export function getRandomQuestion() {
     
     // If no weighted types available (shouldn't happen), fall back to uniform random
     if (weightedTypes.length === 0) {
-        const idx = Math.floor(Math.random() * questionList.length);
-        return questionList[idx];
+        const idx = Math.floor(Math.random() * availableQuestions.length);
+        return availableQuestions[idx];
     }
     
     // Select random type based on weights
