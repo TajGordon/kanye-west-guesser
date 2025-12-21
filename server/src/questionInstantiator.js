@@ -166,40 +166,48 @@ export function instantiateQuestion(question) {
     }
     
     // Build acceptedAliasMap for free-text questions
+    // IMPORTANT: Aliases only apply to entity-based answers (answers with entityRef)
+    // For literal answers (lyrics, words), only the exact display value is accepted
     if (questionType === QUESTION_TYPES.FREE_TEXT) {
         const acceptedAliasMap = new Map();
         
         if (question.answers) {
             // Multi-answer question
             for (const answer of question.answers) {
-                // Add the primary display value first
+                // Add the primary display value first (always accepted)
                 if (answer.display) {
                     const normalizedDisplay = answer.display.toLowerCase().trim();
                     if (!acceptedAliasMap.has(normalizedDisplay)) {
                         acceptedAliasMap.set(normalizedDisplay, answer);
                     }
                 }
-                // Then add all aliases
-                for (const alias of answer.aliases || []) {
-                    const normalized = alias.toLowerCase().trim();
-                    if (!acceptedAliasMap.has(normalized)) {
-                        acceptedAliasMap.set(normalized, answer);
+                // Only add aliases if this is an entity-based answer
+                // entityRef indicates the answer refers to a named entity (artist, song, album)
+                // rather than a literal word/phrase from lyrics
+                if (answer.entityRef) {
+                    for (const alias of answer.aliases || []) {
+                        const normalized = alias.toLowerCase().trim();
+                        if (!acceptedAliasMap.has(normalized)) {
+                            acceptedAliasMap.set(normalized, answer);
+                        }
                     }
                 }
             }
         } else if (question.answer) {
-            // Single answer question - add primary display value first
+            // Single answer question - add primary display value first (always accepted)
             if (question.answer.display) {
                 const normalizedDisplay = question.answer.display.toLowerCase().trim();
                 if (!acceptedAliasMap.has(normalizedDisplay)) {
                     acceptedAliasMap.set(normalizedDisplay, question.answer);
                 }
             }
-            // Then add all aliases
-            for (const alias of question.answer.aliases || []) {
-                const normalized = alias.toLowerCase().trim();
-                if (!acceptedAliasMap.has(normalized)) {
-                    acceptedAliasMap.set(normalized, question.answer);
+            // Only add aliases if this is an entity-based answer
+            if (question.answer.entityRef) {
+                for (const alias of question.answer.aliases || []) {
+                    const normalized = alias.toLowerCase().trim();
+                    if (!acceptedAliasMap.has(normalized)) {
+                        acceptedAliasMap.set(normalized, question.answer);
+                    }
                 }
             }
         }

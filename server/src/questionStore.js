@@ -170,13 +170,24 @@ function normalizeQuestion(raw) {
     const isTemplateQuestion = !!(raw.wrongAnswerPool || raw.lyricPool || raw.titleTemplate || raw.contentTemplate || raw.answer?.entityRef)
     
     // Normalize answers for free-text questions (legacy format with 'answers' array)
+    // IMPORTANT: normalizedAliases determines what answers are accepted
+    // For entity-based answers (with entityRef): include display + all aliases
+    // For literal answers (no entityRef): only include display value
     const answers = ensureArray(raw.answers).map((entry, index) => {
         const display = entry?.display?.toString().trim() || entry?.aliases?.[0] || `Answer ${index + 1}`
+        const hasEntityRef = !!entry?.entityRef
+        
+        // Build alias set - always includes display
         const aliasSet = new Set()
         aliasSet.add(display)
-        ensureArray(entry?.aliases).forEach(alias => {
-            if (alias) aliasSet.add(alias)
-        })
+        
+        // Only add additional aliases if this is an entity-based answer
+        if (hasEntityRef) {
+            ensureArray(entry?.aliases).forEach(alias => {
+                if (alias) aliasSet.add(alias)
+            })
+        }
+        
         const normalizedAliases = Array.from(aliasSet)
             .map(alias => normalizeAnswerText(alias, matchMode))
             .filter(Boolean)
@@ -190,14 +201,22 @@ function normalizeQuestion(raw) {
     })
 
     // Handle single 'answer' field (new template format)
+    // Same logic: only include aliases if entityRef is present
     let singleAnswer = null
     if (raw.answer) {
         const display = raw.answer.display?.toString().trim() || 'Unknown'
+        const hasEntityRef = !!raw.answer.entityRef
+        
         const aliasSet = new Set()
         aliasSet.add(display)
-        ensureArray(raw.answer.aliases).forEach(alias => {
-            if (alias) aliasSet.add(alias)
-        })
+        
+        // Only add additional aliases if this is an entity-based answer
+        if (hasEntityRef) {
+            ensureArray(raw.answer.aliases).forEach(alias => {
+                if (alias) aliasSet.add(alias)
+            })
+        }
+        
         const normalizedAliases = Array.from(aliasSet)
             .map(alias => normalizeAnswerText(alias, matchMode))
             .filter(Boolean)
