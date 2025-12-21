@@ -426,6 +426,15 @@ function beginRoundForLobby(lobbyId, reason = 'manual') {
     const round = startNewRound(lobbyId, roundDurationMs);
     resetLobbyRoundGuesses(lobbyId);
     const payload = buildRoundPayload(round);
+    console.log('[DEBUG] Round payload question:', JSON.stringify({
+        id: payload?.question?.id,
+        type: payload?.question?.type,
+        title: payload?.question?.title,
+        prompt: payload?.question?.prompt,
+        content: payload?.question?.content,
+        hasChoices: !!payload?.question?.choices,
+        choiceCount: payload?.question?.choices?.length
+    }, null, 2));
     if (payload) {
         setLobbyPhase(lobbyId, getLobbyPhases().ROUND, { round: payload, reason });
         io.to(lobbyId).emit('roundStarted', payload);
