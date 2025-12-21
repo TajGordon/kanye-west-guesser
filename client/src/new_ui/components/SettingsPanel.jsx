@@ -1,9 +1,10 @@
 import React from 'react';
+import TagExpressionInput from './TagExpressionInput';
 
 const DEFAULT_SETTINGS = {
   roundDurationMs: 20000,
   pointsToWin: 50,
-  questionPackId: 'kanye-classic'
+  questionFilter: '*'
 };
 
 export default function SettingsPanel({ settings = {}, onUpdateSettings, isHost }) {
@@ -42,16 +43,11 @@ export default function SettingsPanel({ settings = {}, onUpdateSettings, isHost 
       </div>
 
       <div className="mb-6">
-        <label className="block mb-2 font-bold">Question Pack</label>
-        <select
-          value={mergedSettings.questionPackId || 'kanye-classic'}
-          onChange={(e) => handleChange('questionPackId', e.target.value)}
+        <TagExpressionInput
+          value={mergedSettings.questionFilter || '*'}
+          onChange={(value) => handleChange('questionFilter', value)}
           disabled={!isHost}
-          className="w-full p-2 border border-black mb-2"
-        >
-          <option value="kanye-classic">Kanye Classic</option>
-          <option value="kanye-advanced">Kanye Advanced</option>
-        </select>
+        />
       </div>
 
       {!isHost && (

@@ -20,8 +20,8 @@ export default function GameInterface() {
     lobbyData = { id: '—', isHost: false, players: [], settings: {} },
     phase = 'seating',
     roundState = { question: null, questionType: QUESTION_TYPES.FREE_TEXT },
-    answerState = { hasAnsweredCorrectly: false, hasSubmittedChoice: false, selectedChoiceId: null },
-    summaryState = { last: null },
+    answerState = { hasAnsweredCorrectly: false, hasSubmittedChoice: false, selectedChoiceId: null, lastResult: null },
+    summaryState = { last: null, current: null },
     emit,
     actions
   } = gameState || {};
@@ -30,7 +30,7 @@ export default function GameInterface() {
   const [inputValue, setInputValue] = useState('');
   const [timerProgress, setTimerProgress] = useState(0);
 
-  // Timer logic
+  // Timer logic - calculates progress from 1.0 down to 0.0
   useEffect(() => {
     let animationFrame;
     const updateTimer = () => {
@@ -40,7 +40,9 @@ export default function GameInterface() {
         const remaining = roundState.endsAt - now;
         const progress = Math.max(0, Math.min(1, remaining / total));
         setTimerProgress(progress);
-        animationFrame = requestAnimationFrame(updateTimer);
+        if (remaining > 0) {
+          animationFrame = requestAnimationFrame(updateTimer);
+        }
       } else {
         setTimerProgress(0);
       }
@@ -57,12 +59,9 @@ export default function GameInterface() {
   }, [phase, roundState?.question?.id]);
 
   const handleStartGame = () => {
-    console.log('[GameInterface] handleStartGame called, isConnected:', isConnected);
     if (isConnected && emit) {
-      console.log('[GameInterface] Emitting startGameRequest');
       emit('startGameRequest');
     } else if (actions?.requestStartGame) {
-      console.log('[GameInterface] Using actions.requestStartGame');
       actions.requestStartGame();
     }
   };
@@ -77,7 +76,6 @@ export default function GameInterface() {
 
   const handleSubmitAnswer = () => {
     if (!inputValue.trim()) return;
-    console.log('[GameInterface] Submitting answer:', inputValue);
     if (emit) {
       emit('submitAnswer', { answer: inputValue });
     } else if (actions?.submitTextAnswer) {
@@ -88,7 +86,6 @@ export default function GameInterface() {
 
   const handleSelectOption = (optionId) => {
     if (answerState?.hasSubmittedChoice) return;
-    console.log('[GameInterface] Selecting option:', optionId);
     if (emit) {
       emit('submitAnswer', { choiceId: optionId });
     } else if (actions?.submitChoice) {
@@ -104,6 +101,14 @@ export default function GameInterface() {
     }
   };
 
+  // Get summary data
+  const currentSummary = summaryState?.current || summaryState?.last;
+  
+  // Determine question type and if it's a typing mode
+  const questionType = roundState?.questionType || QUESTION_TYPES.FREE_TEXT;
+  const isTypingMode = [QUESTION_TYPES.FREE_TEXT, QUESTION_TYPES.MULTI_ENTRY, QUESTION_TYPES.NUMERIC]
+    .includes(questionType);
+  
   // Determine which screen to show
   let MainContent;
   
@@ -126,24 +131,32 @@ export default function GameInterface() {
     MainContent = (
       <QuestionActiveScreen
         question={roundState?.question}
-        questionType={roundState?.questionType || QUESTION_TYPES.FREE_TEXT}
+        questionType={questionType}
         onSelectOption={handleSelectOption}
         selectedOptionId={answerState?.selectedChoiceId}
+        hasSubmittedChoice={answerState?.hasSubmittedChoice}
       />
     );
   } else if (phase === 'summary') {
+    // Use the summary's question (which includes correct answers) or fall back to roundState
+    const summaryQuestion = currentSummary?.question || roundState?.question;
+    const summaryQuestionType = currentSummary?.questionType || questionType;
+    
     MainContent = (
       <QuestionAnswerScreen
-        question={summaryState?.last?.question || roundState?.question}
-        questionType={summaryState?.last?.questionType || roundState?.questionType}
-        correctAnswer={summaryState?.last?.answer || summaryState?.last?.primaryAnswer}
-        roundResults={summaryState?.last?.results}
+        question={summaryQuestion}
+        questionType={summaryQuestionType}
+        correctAnswer={currentSummary?.correctAnswer}
+        correctChoiceId={summaryQuestion?.correctChoiceId}
+        selectedOptionId={answerState?.selectedChoiceId}
+        roundSummary={currentSummary}
+        players={lobbyData?.players || []}
       />
     );
   } else if (phase === 'win') {
     const players = lobbyData?.players || [];
     const winner = players.length > 0 
-      ? players.reduce((prev, current) => (prev.score > current.score) ? prev : current, players[0])
+      ? players.reduce((prev, current) => ((prev.score || 0) > (current.score || 0)) ? prev : current, players[0])
       : null;
 
     MainContent = (
@@ -161,9 +174,6 @@ export default function GameInterface() {
       </div>
     );
   }
-
-  const isTypingMode = [QUESTION_TYPES.FREE_TEXT, QUESTION_TYPES.MULTI_ENTRY, QUESTION_TYPES.NUMERIC]
-    .includes(roundState?.questionType);
 
   return (
     <GameLayout
@@ -186,7 +196,9 @@ export default function GameInterface() {
       rightSidebar={
         <PlayerList 
           players={lobbyData?.players || []} 
-          isTypingMode={isTypingMode} 
+          isTypingMode={isTypingMode}
+          phase={phase}
+          correctResponders={currentSummary?.correctResponders || []}
         />
       }
       bottomBar={
@@ -196,6 +208,9 @@ export default function GameInterface() {
           onSubmit={handleSubmitAnswer}
           isEnabled={phase === 'round' && isTypingMode && !answerState?.hasAnsweredCorrectly}
           timerProgress={timerProgress}
+          lastResult={answerState?.lastResult}
+          hasAnsweredCorrectly={answerState?.hasAnsweredCorrectly}
+          shouldFocus={phase === 'round' && isTypingMode}
           placeholder={
             answerState?.hasAnsweredCorrectly ? "Correct! Waiting for others..." : 
             "Type your answer..."

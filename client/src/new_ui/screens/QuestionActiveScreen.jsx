@@ -5,7 +5,8 @@ export default function QuestionActiveScreen({
   question, 
   questionType, 
   onSelectOption, 
-  selectedOptionId 
+  selectedOptionId,
+  hasSubmittedChoice
 }) {
   return (
     <QuestionDisplay
@@ -13,6 +14,7 @@ export default function QuestionActiveScreen({
       questionType={questionType}
       onSelectOption={onSelectOption}
       selectedOptionId={selectedOptionId}
+      hasSubmittedChoice={hasSubmittedChoice}
       showAnswer={false}
     />
   );
