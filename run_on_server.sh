@@ -35,17 +35,6 @@ if [ ! -f "package.json" ]; then
     exit 1
 fi
 
-# Check if questions exist
-if [ ! -d "server/data/questions" ] || [ -z "$(ls -A server/data/questions/*.json 2>/dev/null)" ]; then
-    echo "❌ ERROR: No question files found!"
-    echo ""
-    echo "Questions must be generated on your PC first:"
-    echo "  1. On your PC (Windows), run: run_on_pc.bat"
-    echo "  2. Commit and push: git add server/data/questions/ && git push"
-    echo "  3. Then run this script on the server"
-    exit 1
-fi
-
 # Pull latest code
 echo "[1/6] Pulling latest code from git..."
 git pull origin main || {
