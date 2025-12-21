@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alias Editor</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --bg: #1a1a2e;
+            --bg-light: #16213e;
+            --bg-card: #0f3460;
+            --accent: #e94560;
+            --accent-hover: #ff6b6b;
+            --text: #eee;
+            --text-dim: #888;
+            --success: #4ade80;
+            --warning: #fbbf24;
+            --border: #333;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+        }
+        
+        /* Header */
+        header {
+            background: var(--bg-light);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        header h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        
+        .header-actions {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+        
+        .stats {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+        
+        .unsaved-badge {
+            background: var(--warning);
+            color: #000;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        /* Buttons */
+        button {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .btn-primary {
+            background: var(--accent);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: var(--accent-hover);
+        }
+        
+        .btn-secondary {
+            background: var(--bg-card);
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--bg-light);
+        }
+        
+        .btn-small {
+            padding: 0.25rem 0.5rem;
+            font-size: 0.8rem;
+        }
+        
+        .btn-danger {
+            background: #dc2626;
+        }
+        
+        .btn-danger:hover {
+            background: #ef4444;
+        }
+        
+        /* Layout */
+        .container {
+            display: flex;
+            height: calc(100vh - 60px);
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            width: 300px;
+            background: var(--bg-light);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .sidebar-header {
+            padding: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 0.75rem;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text);
+            font-size: 0.9rem;
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        
+        .type-tabs {
+            display: flex;
+            padding: 0.5rem;
+            gap: 0.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .type-tab {
+            flex: 1;
+            padding: 0.5rem;
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+        
+        .type-tab.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+        }
+        
+        .entity-list {
+            flex: 1;
+            overflow-y: auto;
+            padding: 0.5rem;
+        }
+        
+        .entity-item {
+            padding: 0.75rem;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-bottom: 0.25rem;
+            transition: background 0.2s;
+        }
+        
+        .entity-item:hover {
+            background: var(--bg-card);
+        }
+        
+        .entity-item.selected {
+            background: var(--bg-card);
+            border-left: 3px solid var(--accent);
+        }
+        
+        .entity-name {
+            font-weight: 500;
+            margin-bottom: 0.25rem;
+        }
+        
+        .entity-meta {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+        }
+        
+        .add-new-btn {
+            margin: 0.5rem;
+            width: calc(100% - 1rem);
+        }
+        
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+        
+        .empty-state {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: var(--text-dim);
+        }
+        
+        .empty-state h2 {
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Entity Editor */
+        .entity-editor {
+            max-width: 800px;
+        }
+        
+        .editor-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+        }
+        
+        .editor-title {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        
+        .editor-id {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-top: 0.25rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--text-dim);
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: 0.75rem;
+            background: var(--bg-light);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text);
+            font-size: 1rem;
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        
+        /* Aliases Section */
+        .aliases-section {
+            background: var(--bg-light);
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+        
+        .aliases-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .aliases-title {
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        
+        .alias-count {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+        
+        .aliases-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            min-height: 40px;
+        }
+        
+        .alias-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 0.75rem;
+            background: var(--bg-card);
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .alias-remove {
+            background: none;
+            border: none;
+            color: var(--text-dim);
+            cursor: pointer;
+            padding: 0;
+            font-size: 1.2rem;
+            line-height: 1;
+        }
+        
+        .alias-remove:hover {
+            color: var(--accent);
+        }
+        
+        .add-alias-form {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .add-alias-input {
+            flex: 1;
+            padding: 0.5rem 0.75rem;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text);
+        }
+        
+        .add-alias-input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        
+        /* Toast Notifications */
+        .toast-container {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            z-index: 1000;
+        }
+        
+        .toast {
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin-top: 0.5rem;
+            animation: slideIn 0.3s ease;
+        }
+        
+        .toast-success {
+            background: var(--success);
+            color: #000;
+        }
+        
+        .toast-error {
+            background: #dc2626;
+            color: white;
+        }
+        
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        
+        .modal {
+            background: var(--bg-light);
+            border-radius: 12px;
+            padding: 2rem;
+            width: 400px;
+            max-width: 90vw;
+        }
+        
+        .modal-title {
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .modal-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎤 Alias Editor</h1>
+        <div class="header-actions">
+            <span class="stats" id="stats"></span>
+            <span class="unsaved-badge hidden" id="unsaved-badge">Unsaved Changes</span>
+            <button class="btn-secondary" onclick="reload()">↻ Reload</button>
+            <button class="btn-primary" onclick="save()">💾 Save</button>
+        </div>
+    </header>
+    
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <input type="text" class="search-input" id="search" placeholder="Search entities..." oninput="filterEntities()">
+            </div>
+            <div class="type-tabs">
+                <button class="type-tab active" data-type="artists" onclick="switchType('artists')">Artists</button>
+                <button class="type-tab" data-type="albums" onclick="switchType('albums')">Albums</button>
+            </div>
+            <div class="entity-list" id="entity-list"></div>
+            <button class="btn-primary add-new-btn" onclick="showAddModal()">+ Add New</button>
+        </aside>
+        
+        <main class="main-content" id="main-content">
+            <div class="empty-state">
+                <h2>Select an entity</h2>
+                <p>Choose an artist or album from the sidebar to edit</p>
+            </div>
+        </main>
+    </div>
+    
+    <div class="toast-container" id="toast-container"></div>
+    
+    <!-- Add Modal -->
+    <div class="modal-overlay hidden" id="add-modal">
+        <div class="modal">
+            <h2 class="modal-title">Add New <span id="modal-type">Artist</span></h2>
+            <div class="form-group">
+                <label class="form-label">Display Name</label>
+                <input type="text" class="form-input" id="new-display" placeholder="e.g. Kanye West">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Initial Aliases (comma-separated)</label>
+                <input type="text" class="form-input" id="new-aliases" placeholder="e.g. kanye, ye, yeezy">
+            </div>
+            <div class="modal-actions">
+                <button class="btn-secondary" onclick="hideAddModal()">Cancel</button>
+                <button class="btn-primary" onclick="addEntity()">Add</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // State
+        let currentType = 'artists';
+        let entities = [];
+        let selectedId = null;
+        let hasUnsaved = false;
+        
+        // API calls
+        async function api(method, path, body = null) {
+            const options = {
+                method,
+                headers: { 'Content-Type': 'application/json' }
+            };
+            if (body) options.body = JSON.stringify(body);
+            
+            const res = await fetch('/api' + path, options);
+            const data = await res.json();
+            
+            if (!res.ok) throw new Error(data.error || 'API Error');
+            return data;
+        }
+        
+        // Load entities
+        async function loadEntities() {
+            try {
+                entities = await api('GET', `/entities/${currentType}`);
+                renderEntityList();
+            } catch (err) {
+                toast('Failed to load: ' + err.message, 'error');
+            }
+        }
+        
+        // Load stats
+        async function loadStats() {
+            try {
+                const stats = await api('GET', '/stats');
+                document.getElementById('stats').textContent = 
+                    `${stats.artists} artists • ${stats.albums} albums • ${stats.totalAliases} aliases`;
+                
+                hasUnsaved = stats.hasUnsavedChanges;
+                document.getElementById('unsaved-badge').classList.toggle('hidden', !hasUnsaved);
+            } catch (err) {
+                console.error(err);
+            }
+        }
+        
+        // Render entity list
+        function renderEntityList() {
+            const search = document.getElementById('search').value.toLowerCase();
+            const list = document.getElementById('entity-list');
+            
+            const filtered = entities.filter(e => 
+                e.display.toLowerCase().includes(search) ||
+                e.id.includes(search) ||
+                (e.aliases || []).some(a => a.toLowerCase().includes(search))
+            );
+            
+            list.innerHTML = filtered.map(e => `
+                <div class="entity-item ${e.id === selectedId ? 'selected' : ''}" 
+                     onclick="selectEntity('${e.id}')">
+                    <div class="entity-name">${escapeHtml(e.display)}</div>
+                    <div class="entity-meta">${(e.aliases || []).length} aliases</div>
+                </div>
+            `).join('');
+        }
+        
+        // Filter entities on search
+        function filterEntities() {
+            renderEntityList();
+        }
+        
+        // Switch type
+        function switchType(type) {
+            currentType = type;
+            selectedId = null;
+            
+            document.querySelectorAll('.type-tab').forEach(t => {
+                t.classList.toggle('active', t.dataset.type === type);
+            });
+            
+            loadEntities();
+            renderEmptyState();
+        }
+        
+        // Select entity
+        async function selectEntity(id) {
+            selectedId = id;
+            renderEntityList();
+            
+            try {
+                const entity = await api('GET', `/entities/${currentType}/${id}`);
+                renderEditor(entity);
+            } catch (err) {
+                toast('Failed to load entity: ' + err.message, 'error');
+            }
+        }
+        
+        // Render editor
+        function renderEditor(entity) {
+            const main = document.getElementById('main-content');
+            const typeLabel = currentType.slice(0, -1);
+            
+            main.innerHTML = `
+                <div class="entity-editor">
+                    <div class="editor-header">
+                        <div>
+                            <div class="editor-title">${escapeHtml(entity.display)}</div>
+                            <div class="editor-id">${typeLabel}:${entity.id}</div>
+                        </div>
+                        <button class="btn-danger btn-small" onclick="deleteEntity('${entity.id}')">
+                            Delete
+                        </button>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Display Name</label>
+                        <input type="text" class="form-input" id="edit-display" 
+                               value="${escapeHtml(entity.display)}"
+                               onchange="updateDisplay('${entity.id}')">
+                    </div>
+                    
+                    ${entity.year ? `
+                    <div class="form-group">
+                        <label class="form-label">Year</label>
+                        <input type="number" class="form-input" id="edit-year" 
+                               value="${entity.year}"
+                               onchange="updateYear('${entity.id}')">
+                    </div>
+                    ` : ''}
+                    
+                    <div class="aliases-section">
+                        <div class="aliases-header">
+                            <span class="aliases-title">Aliases</span>
+                            <span class="alias-count">${(entity.aliases || []).length} total</span>
+                        </div>
+                        <div class="aliases-list" id="aliases-list">
+                            ${(entity.aliases || []).map(alias => `
+                                <span class="alias-tag">
+                                    ${escapeHtml(alias)}
+                                    <button class="alias-remove" onclick="removeAlias('${entity.id}', '${escapeHtml(alias)}')">&times;</button>
+                                </span>
+                            `).join('')}
+                        </div>
+                        <div class="add-alias-form">
+                            <input type="text" class="add-alias-input" id="new-alias" 
+                                   placeholder="Add alias..." 
+                                   onkeydown="if(event.key==='Enter')addAlias('${entity.id}')">
+                            <button class="btn-primary btn-small" onclick="addAlias('${entity.id}')">Add</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        // Render empty state
+        function renderEmptyState() {
+            document.getElementById('main-content').innerHTML = `
+                <div class="empty-state">
+                    <h2>Select an entity</h2>
+                    <p>Choose an ${currentType.slice(0, -1)} from the sidebar to edit</p>
+                </div>
+            `;
+        }
+        
+        // Add alias
+        async function addAlias(entityId) {
+            const input = document.getElementById('new-alias');
+            const alias = input.value.trim();
+            
+            if (!alias) return;
+            
+            try {
+                await api('POST', `/entities/${currentType}/${entityId}/aliases`, { 
+                    aliases: [alias] 
+                });
+                input.value = '';
+                await selectEntity(entityId);
+                await loadStats();
+                toast('Alias added');
+            } catch (err) {
+                toast('Failed: ' + err.message, 'error');
+            }
+        }
+        
+        // Remove alias
+        async function removeAlias(entityId, alias) {
+            try {
+                await api('DELETE', `/entities/${currentType}/${entityId}/aliases/${encodeURIComponent(alias)}`);
+                await selectEntity(entityId);
+                await loadStats();
+                toast('Alias removed');
+            } catch (err) {
+                toast('Failed: ' + err.message, 'error');
+            }
+        }
+        
+        // Update display name
+        async function updateDisplay(entityId) {
+            const display = document.getElementById('edit-display').value.trim();
+            if (!display) return;
+            
+            try {
+                await api('PUT', `/entities/${currentType}/${entityId}`, { display });
+                await loadEntities();
+                await loadStats();
+                toast('Updated');
+            } catch (err) {
+                toast('Failed: ' + err.message, 'error');
+            }
+        }
+        
+        // Update year
+        async function updateYear(entityId) {
+            const year = parseInt(document.getElementById('edit-year').value);
+            if (!year) return;
+            
+            try {
+                await api('PUT', `/entities/${currentType}/${entityId}`, { year });
+                await loadStats();
+                toast('Updated');
+            } catch (err) {
+                toast('Failed: ' + err.message, 'error');
+            }
+        }
+        
+        // Delete entity
+        async function deleteEntity(entityId) {
+            if (!confirm('Delete this entity? This cannot be undone.')) return;
+            
+            try {
+                await api('DELETE', `/entities/${currentType}/${entityId}`);
+                selectedId = null;
+                await loadEntities();
+                await loadStats();
+                renderEmptyState();
+                toast('Deleted');
+            } catch (err) {
+                toast('Failed: ' + err.message, 'error');
+            }
+        }
+        
+        // Add modal
+        function showAddModal() {
+            document.getElementById('modal-type').textContent = currentType.slice(0, -1);
+            document.getElementById('new-display').value = '';
+            document.getElementById('new-aliases').value = '';
+            document.getElementById('add-modal').classList.remove('hidden');
+            document.getElementById('new-display').focus();
+        }
+        
+        function hideAddModal() {
+            document.getElementById('add-modal').classList.add('hidden');
+        }
+        
+        async function addEntity() {
+            const display = document.getElementById('new-display').value.trim();
+            const aliasesStr = document.getElementById('new-aliases').value.trim();
+            
+            if (!display) {
+                toast('Display name required', 'error');
+                return;
+            }
+            
+            const aliases = aliasesStr 
+                ? aliasesStr.split(',').map(a => a.trim()).filter(Boolean)
+                : [];
+            
+            try {
+                const result = await api('POST', `/entities/${currentType}`, { display, aliases });
+                hideAddModal();
+                await loadEntities();
+                await loadStats();
+                await selectEntity(result.id);
+                toast('Created: ' + display);
+            } catch (err) {
+                toast('Failed: ' + err.message, 'error');
+            }
+        }
+        
+        // Save
+        async function save() {
+            try {
+                await api('POST', '/save');
+                await loadStats();
+                toast('Saved!');
+            } catch (err) {
+                toast('Failed to save: ' + err.message, 'error');
+            }
+        }
+        
+        // Reload
+        async function reload() {
+            if (hasUnsaved && !confirm('Discard unsaved changes?')) return;
+            
+            try {
+                await api('POST', '/reload');
+                await loadEntities();
+                await loadStats();
+                if (selectedId) await selectEntity(selectedId);
+                toast('Reloaded');
+            } catch (err) {
+                toast('Failed: ' + err.message, 'error');
+            }
+        }
+        
+        // Toast
+        function toast(message, type = 'success') {
+            const container = document.getElementById('toast-container');
+            const toast = document.createElement('div');
+            toast.className = `toast toast-${type}`;
+            toast.textContent = message;
+            container.appendChild(toast);
+            
+            setTimeout(() => toast.remove(), 3000);
+        }
+        
+        // Escape HTML
+        function escapeHtml(str) {
+            return String(str)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;');
+        }
+        
+        // Handle keyboard shortcuts
+        document.addEventListener('keydown', e => {
+            if (e.ctrlKey && e.key === 's') {
+                e.preventDefault();
+                save();
+            }
+        });
+        
+        // Init
+        loadEntities();
+        loadStats();
+    </script>
+</body>
+</html>

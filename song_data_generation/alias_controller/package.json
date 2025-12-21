@@ -1,0 +1,20 @@
+{
+  "name": "alias-controller",
+  "version": "1.0.0",
+  "description": "Central alias database management and application",
+  "type": "module",
+  "main": "alias-db.js",
+  "scripts": {
+    "ui": "node ui-server.js",
+    "edit": "node cli.js",
+    "apply": "node apply-aliases.js",
+    "apply:dry": "node apply-aliases.js --dry-run",
+    "stats": "node apply-aliases.js --stats"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "keywords": ["alias", "trivia", "answer-matching"],
+  "author": "",
+  "license": "MIT"
+}

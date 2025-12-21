@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "version": "2.0.0",
+    "updatedAt": "2025-12-21T05:24:22.864Z",
+    "description": "Central alias database - single source of truth for all entity aliases"
+  },
+  "artists": {
+    "kanye-west": {
+      "display": "Kanye West",
+      "aliases": [
+        "kanye",
+        "ye",
+        "ye west",
+        "donda"
+      ],
+      "notes": "Primary artist - main subject of trivia"
+    },
+    "kid-cudi": {
+      "display": "Kid Cudi",
+      "aliases": [
+        "cudi",
+        "scott mescudi",
+        "mr rager",
+        "cudder"
+      ]
+    },
+    "jay-z": {
+      "display": "Jay-Z",
+      "aliases": [
+        "jay z",
+        "jayz",
+        "hov",
+        "hova",
+        "shawn carter",
+        "s dot",
+        "jigga"
+      ]
+    },
+    "pusha-t": {
+      "display": "Pusha T",
+      "aliases": [
+        "pusha",
+        "push",
+        "king push",
+        "terrence thornton"
+      ]
+    },
+    "nicki-minaj": {
+      "display": "Nicki Minaj",
+      "aliases": [
+        "nicki",
+        "minaj",
+        "onika maraj"
+      ]
+    },
+    "rick-ross": {
+      "display": "Rick Ross",
+      "aliases": [
+        "ross",
+        "rozay",
+        "ricky rozay",
+        "william roberts"
+      ]
+    },
+    "bon-iver": {
+      "display": "Bon Iver",
+      "aliases": [
+        "justin vernon",
+        "vernon"
+      ]
+    },
+    "ty-dolla-sign": {
+      "display": "Ty Dolla $ign",
+      "aliases": [
+        "ty dolla sign",
+        "ty$",
+        "ty dolla",
+        "tyrone william griffin",
+        "ty"
+      ]
+    },
+    "the-weeknd": {
+      "display": "The Weeknd",
+      "aliases": [
+        "weeknd",
+        "abel tesfaye",
+        "abel"
+      ]
+    },
+    "rihanna": {
+      "display": "Rihanna",
+      "aliases": [
+        "riri",
+        "robyn fenty"
+      ]
+    },
+    "frank-ocean": {
+      "display": "Frank Ocean",
+      "aliases": [
+        "frank",
+        "christopher breaux"
+      ]
+    },
+    "chance-the-rapper": {
+      "display": "Chance the Rapper",
+      "aliases": [
+        "chance",
+        "chancelor bennett",
+        "lil chano"
+      ]
+    },
+    "travis-scott": {
+      "display": "Travis Scott",
+      "aliases": [
+        "travis",
+        "la flame",
+        "cactus jack",
+        "jacques webster"
+      ]
+    },
+    "lil-wayne": {
+      "display": "Lil Wayne",
+      "aliases": [
+        "wayne",
+        "weezy",
+        "dwayne carter",
+        "tunechi"
+      ]
+    },
+    "2-chainz": {
+      "display": "2 Chainz",
+      "aliases": [
+        "two chainz",
+        "tity boi",
+        "tauheed epps"
+      ]
+    },
+    "big-sean": {
+      "display": "Big Sean",
+      "aliases": [
+        "sean",
+        "sean don",
+        "sean anderson"
+      ]
+    },
+    "john-legend": {
+      "display": "John Legend",
+      "aliases": [
+        "legend",
+        "john stephens"
+      ]
+    },
+    "common": {
+      "display": "Common",
+      "aliases": [
+        "common sense",
+        "lonnie lynn",
+        "lonnie rashid lynn"
+      ]
+    },
+    "daft-punk": {
+      "display": "Daft Punk",
+      "aliases": [
+        "thomas bangalter",
+        "guy-manuel de homem-christo"
+      ]
+    },
+    "charlie-wilson": {
+      "display": "Charlie Wilson",
+      "aliases": [
+        "charlie",
+        "uncle charlie"
+      ]
+    },
+    "sia": {
+      "display": "Sia",
+      "aliases": [
+        "sia furler"
+      ]
+    },
+    "post-malone": {
+      "display": "Post Malone",
+      "aliases": [
+        "posty",
+        "austin post"
+      ]
+    },
+    "kendrick-lamar": {
+      "display": "Kendrick Lamar",
+      "aliases": [
+        "kendrick",
+        "k dot",
+        "kdot"
+      ]
+    },
+    "young-thug": {
+      "display": "Young Thug",
+      "aliases": [
+        "thug",
+        "thugger",
+        "jeffery williams",
+        "sex"
+      ]
+    },
+    "future": {
+      "display": "Future",
+      "aliases": [
+        "future hendrix",
+        "nayvadius wilburn",
+        "pluto"
+      ]
+    }
+  },
+  "albums": {
+    "the-college-dropout": {
+      "display": "The College Dropout",
+      "aliases": [
+        "college dropout",
+        "tcd"
+      ],
+      "year": 2004
+    },
+    "late-registration": {
+      "display": "Late Registration",
+      "aliases": [
+        "lr",
+        "late reg"
+      ],
+      "year": 2005
+    },
+    "graduation": {
+      "display": "Graduation",
+      "aliases": [
+        "grad"
+      ],
+      "year": 2007
+    },
+    "808s-and-heartbreak": {
+      "display": "808s & Heartbreak",
+      "aliases": [
+        "808s and heartbreak",
+        "808s"
+      ],
+      "year": 2008
+    },
+    "my-beautiful-dark-twisted-fantasy": {
+      "display": "My Beautiful Dark Twisted Fantasy",
+      "aliases": [
+        "mbdtf",
+        "dark twisted fantasy",
+        "dark fantasy",
+        "beautiful dark twisted fantasy",
+        "fantasy"
+      ],
+      "year": 2010
+    },
+    "watch-the-throne": {
+      "display": "Watch the Throne",
+      "aliases": [
+        "wtt",
+        "throne"
+      ],
+      "year": 2011
+    },
+    "yeezus": {
+      "display": "Yeezus",
+      "aliases": [
+        "nigger cock",
+        "thank god for drugs"
+      ],
+      "year": 2013
+    },
+    "the-life-of-pablo": {
+      "display": "The Life of Pablo",
+      "aliases": [
+        "tlop",
+        "life of pablo",
+        "pablo",
+        "swish",
+        "waves",
+        "so help me god"
+      ],
+      "year": 2016
+    },
+    "ye": {
+      "display": "ye",
+      "aliases": [
+        "ye album",
+        "hitler"
+      ],
+      "year": 2018
+    },
+    "kids-see-ghosts": {
+      "display": "KIDS SEE GHOSTS",
+      "aliases": [
+        "kids see ghosts",
+        "ksg"
+      ],
+      "year": 2018
+    },
+    "jesus-is-king": {
+      "display": "JESUS IS KING",
+      "aliases": [
+        "jesus is king",
+        "jik",
+        "yandhi"
+      ],
+      "year": 2019
+    },
+    "donda": {
+      "display": "Donda",
+      "aliases": [],
+      "year": 2021
+    },
+    "donda-2": {
+      "display": "Donda 2",
+      "aliases": [
+        "donda two"
+      ],
+      "year": 2022
+    },
+    "vultures-1": {
+      "display": "VULTURES 1",
+      "aliases": [
+        "vultures 1",
+        "vultures one",
+        "vultures"
+      ],
+      "year": 2024
+    },
+    "vultures-2": {
+      "display": "VULTURES 2",
+      "aliases": [
+        "vultures 2",
+        "vultures two"
+      ],
+      "year": 2024
+    }
+  },
+  "songs": {
+    "_note": "Songs are auto-indexed from lyrics data. Add manual overrides here.",
+    "overrides": {}
+  },
+  "years": {
+    "_note": "Years typically don't need aliases, but can add decade shortcuts here",
+    "overrides": {}
+  }
+}
