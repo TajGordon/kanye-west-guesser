@@ -6,6 +6,7 @@
   "questions": [
     {
       "id": "artist-stronger",
+      "type": "free-text",
       "title": "Who is the artist of the following song?",
       "content": {
         "type": "text",
@@ -21,6 +22,7 @@
     },
     {
       "id": "finish-lyric-old-kanye",
+      "type": "free-text",
       "title": "Finish the lyric",
       "content": {
         "type": "text",
@@ -36,6 +38,7 @@
     },
     {
       "id": "cover-graduation",
+      "type": "free-text",
       "title": "Which album features this cover art?",
       "content": {
         "type": "image",
@@ -54,6 +57,71 @@
         }
       ],
       "tags": ["album", "art", "medium"]
+    },
+    {
+      "id": "mc-graduation-year",
+      "type": "multiple-choice",
+      "title": "What year was Graduation released?",
+      "content": {
+        "type": "text",
+        "text": ""
+      },
+      "choices": [
+        { "id": "a", "text": "2005", "correct": false },
+        { "id": "b", "text": "2007", "correct": true },
+        { "id": "c", "text": "2008", "correct": false },
+        { "id": "d", "text": "2010", "correct": false }
+      ],
+      "tags": ["album", "year", "medium", "multiple-choice"]
+    },
+    {
+      "id": "mc-sample-stronger",
+      "type": "multiple-choice",
+      "title": "Which artist did Kanye sample for 'Stronger'?",
+      "content": {
+        "type": "text",
+        "text": ""
+      },
+      "choices": [
+        { "id": "a", "text": "Daft Punk", "correct": true },
+        { "id": "b", "text": "Justice", "correct": false },
+        { "id": "c", "text": "Deadmau5", "correct": false },
+        { "id": "d", "text": "The Chemical Brothers", "correct": false }
+      ],
+      "tags": ["sample", "song", "medium", "multiple-choice"]
+    },
+    {
+      "id": "tf-grammy-count",
+      "type": "true-false",
+      "title": "Kanye West has won more than 20 Grammy Awards.",
+      "content": {
+        "type": "text",
+        "text": ""
+      },
+      "correctAnswer": true,
+      "tags": ["trivia", "awards", "easy", "true-false"]
+    },
+    {
+      "id": "tf-first-album",
+      "type": "true-false",
+      "title": "The College Dropout was Kanye's first studio album.",
+      "content": {
+        "type": "text",
+        "text": ""
+      },
+      "correctAnswer": true,
+      "tags": ["trivia", "album", "easy", "true-false"]
+    },
+    {
+      "id": "tf-chicago-born",
+      "type": "true-false",
+      "title": "Kanye West was born in Chicago, Illinois.",
+      "content": {
+        "type": "text",
+        "text": ""
+      },
+      "correctAnswer": false,
+      "tags": ["trivia", "personal", "medium", "true-false"]
     }
   ]
 }

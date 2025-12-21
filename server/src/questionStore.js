@@ -2,6 +2,14 @@ import fs from 'fs'
 import path from 'path'
 import crypto from 'crypto'
 import { fileURLToPath } from 'url'
+import {
+    QUESTION_TYPES,
+    isValidQuestionType,
+    getDefaultQuestionType,
+    getQuestionTypeConfig,
+    TRUE_FALSE_CHOICES
+} from './questionTypes.js'
+import { validateQuestionData } from './validation.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -131,6 +139,12 @@ function normalizeContent(rawContent = {}, questionId = 'unknown') {
 function normalizeQuestion(raw) {
     const title = raw.title?.toString().trim() || 'Untitled Question'
     const tags = Array.from(new Set(ensureArray(raw.tags).map(tag => tag.toString().trim().toLowerCase()).filter(Boolean)))
+    
+    // Determine and validate question type
+    const rawType = raw.type?.toString().trim().toLowerCase()
+    const questionType = isValidQuestionType(rawType) ? rawType : getDefaultQuestionType()
+    
+    // Normalize answers for free-text questions
     const answers = ensureArray(raw.answers).map((entry, index) => {
         const display = entry?.display?.toString().trim() || entry?.aliases?.[0] || `Answer ${index + 1}`
         const aliasSet = new Set()
@@ -159,17 +173,57 @@ function normalizeQuestion(raw) {
     })
 
     const normalizedContent = normalizeContent(raw.content, raw.id)
-
-    return {
+    
+    // Build base question object
+    const question = {
         id: raw.id?.toString() || crypto.randomUUID?.() || `question-${Date.now()}`,
+        type: questionType,
         title,
         content: normalizedContent || { type: 'text', text: title },
-        answers,
         tags,
-        acceptedAliasMap,
-        primaryAnswer: answers[0]?.display || 'Unknown',
         meta: raw.meta || null
     }
+
+    // Add type-specific fields
+    if (questionType === QUESTION_TYPES.FREE_TEXT) {
+        question.answers = answers
+        question.acceptedAliasMap = acceptedAliasMap
+        question.primaryAnswer = answers[0]?.display || 'Unknown'
+    } else if (questionType === QUESTION_TYPES.MULTIPLE_CHOICE) {
+        question.choices = normalizeChoices(raw.choices, raw.id)
+        question.correctChoiceId = findCorrectChoiceId(question.choices)
+        question.primaryAnswer = question.choices.find(c => c.correct)?.text || 'Unknown'
+    } else if (questionType === QUESTION_TYPES.TRUE_FALSE) {
+        question.choices = TRUE_FALSE_CHOICES
+        question.correctAnswer = raw.correctAnswer === true
+        question.correctChoiceId = raw.correctAnswer === true ? 'true' : 'false'
+        question.primaryAnswer = raw.correctAnswer === true ? 'True' : 'False'
+    }
+
+    return question
+}
+
+/**
+ * Normalize choices array for multiple-choice questions
+ */
+function normalizeChoices(rawChoices, questionId) {
+    if (!Array.isArray(rawChoices)) return []
+    
+    return rawChoices.map((choice, index) => {
+        const id = choice?.id?.toString().trim() || `${questionId}-choice-${index}`
+        const text = choice?.text?.toString().trim() || `Choice ${index + 1}`
+        const correct = choice?.correct === true
+        
+        return { id, text, correct }
+    })
+}
+
+/**
+ * Find the correct choice ID from a choices array
+ */
+function findCorrectChoiceId(choices) {
+    const correct = choices.find(c => c.correct === true)
+    return correct?.id || null
 }
 
 export function initializeQuestionStore({ filePath } = {}) {
@@ -239,14 +293,54 @@ export function evaluateAnswer(question, answerText) {
     if (!question || !answerText) {
         return { isCorrect: false }
     }
-    const normalized = normalizeAnswerText(answerText)
-    if (!normalized) {
+    
+    const questionType = question.type || QUESTION_TYPES.FREE_TEXT
+    
+    // Free-text: match against acceptedAliasMap
+    if (questionType === QUESTION_TYPES.FREE_TEXT) {
+        const normalized = normalizeAnswerText(answerText)
+        if (!normalized) {
+            return { isCorrect: false }
+        }
+        const matchedAnswer = question.acceptedAliasMap?.get(normalized)
+        if (matchedAnswer) {
+            return { isCorrect: true, matchedAnswer }
+        }
         return { isCorrect: false }
     }
-    const matchedAnswer = question.acceptedAliasMap.get(normalized)
-    if (matchedAnswer) {
-        return { isCorrect: true, matchedAnswer }
+    
+    // For choice-based questions, answerText is actually the choiceId
+    return evaluateChoiceAnswer(question, answerText)
+}
+
+/**
+ * Evaluate a choice-based answer (multiple choice or true/false)
+ * @param {object} question 
+ * @param {string} choiceId 
+ * @returns {{ isCorrect: boolean, matchedChoice?: object }}
+ */
+export function evaluateChoiceAnswer(question, choiceId) {
+    if (!question || !choiceId) {
+        return { isCorrect: false }
     }
+    
+    const questionType = question.type || QUESTION_TYPES.FREE_TEXT
+    
+    if (questionType === QUESTION_TYPES.TRUE_FALSE) {
+        const isCorrect = choiceId === question.correctChoiceId
+        const matchedChoice = TRUE_FALSE_CHOICES.find(c => c.id === choiceId)
+        return { isCorrect, matchedChoice }
+    }
+    
+    if (questionType === QUESTION_TYPES.MULTIPLE_CHOICE) {
+        const selectedChoice = question.choices?.find(c => c.id === choiceId)
+        if (!selectedChoice) {
+            return { isCorrect: false }
+        }
+        const isCorrect = selectedChoice.correct === true
+        return { isCorrect, matchedChoice: selectedChoice }
+    }
+    
     return { isCorrect: false }
 }
 
@@ -271,11 +365,70 @@ export const questionSetOps = {
 
 export function formatQuestionForClient(question) {
     if (!question) return null
-    return {
+    
+    const questionType = question.type || QUESTION_TYPES.FREE_TEXT
+    
+    const clientQuestion = {
         id: question.id,
+        type: questionType,
         title: question.title,
         prompt: question.title,
         content: question.content,
         tags: question.tags
     }
+    
+    // Add choices for choice-based questions (without correct answer flags!)
+    if (questionType === QUESTION_TYPES.MULTIPLE_CHOICE && question.choices) {
+        clientQuestion.choices = question.choices.map(c => ({
+            id: c.id,
+            text: c.text
+            // NOTE: We intentionally omit 'correct' field to prevent cheating
+        }))
+    }
+    
+    if (questionType === QUESTION_TYPES.TRUE_FALSE) {
+        clientQuestion.choices = TRUE_FALSE_CHOICES.map(c => ({
+            id: c.id,
+            text: c.text
+        }))
+    }
+    
+    return clientQuestion
+}
+
+/**
+ * Format question for round-end reveal (includes correct answer info)
+ */
+export function formatQuestionForReveal(question) {
+    if (!question) return null
+    
+    const questionType = question.type || QUESTION_TYPES.FREE_TEXT
+    
+    const revealQuestion = {
+        id: question.id,
+        type: questionType,
+        title: question.title,
+        content: question.content,
+        primaryAnswer: question.primaryAnswer
+    }
+    
+    if (questionType === QUESTION_TYPES.MULTIPLE_CHOICE && question.choices) {
+        revealQuestion.choices = question.choices.map(c => ({
+            id: c.id,
+            text: c.text,
+            correct: c.correct === true
+        }))
+        revealQuestion.correctChoiceId = question.correctChoiceId
+    }
+    
+    if (questionType === QUESTION_TYPES.TRUE_FALSE) {
+        revealQuestion.correctChoiceId = question.correctChoiceId
+        revealQuestion.correctAnswer = question.correctAnswer
+    }
+    
+    if (questionType === QUESTION_TYPES.FREE_TEXT && question.answers) {
+        revealQuestion.answers = question.answers.map(a => a.display)
+    }
+    
+    return revealQuestion
 }

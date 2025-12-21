@@ -20,8 +20,17 @@ import {
     resetLobbyGameState
 } from './lobbyManager.js'
 import { connectPlayer, disconnectSocket, getPlayerBySocket, listPlayers } from "./playerManager.js"
-import { startNewRound, getActiveRound, submitAnswerToRound, buildRoundPayload, finalizeRound, clearRoundState } from './gameManager.js'
+import { 
+    startNewRound, 
+    getActiveRound, 
+    submitAnswerToRound, 
+    buildRoundPayload, 
+    finalizeRound, 
+    clearRoundState,
+    shouldRoundEnd 
+} from './gameManager.js'
 import { initializeQuestionStore } from './questionStore.js'
+import { QUESTION_TYPES, typeRevealsOnSubmit } from './questionTypes.js'
 
 const app = express();
 const server = http.createServer(app);
@@ -139,10 +148,23 @@ function didAllPlayersAnswerCorrect(lobbyId) {
     if (!lobby || !round) return false;
     if (!lobby.players.length) return false;
 
-    return lobby.players.every(player => {
-        const entry = round.answers.get(player.playerId);
-        return entry?.isCorrect;
-    });
+    // Use the new shouldRoundEnd logic which handles all question types
+    const playerIds = lobby.players.map(p => p.playerId);
+    const endCheck = shouldRoundEnd(round, playerIds);
+    return endCheck.shouldEnd;
+}
+
+/**
+ * Get the reason why round should end (for logging/events)
+ */
+function getRoundEndReason(lobbyId) {
+    const lobby = getLobby(lobbyId);
+    const round = getActiveRound(lobbyId);
+    if (!lobby || !round) return null;
+    
+    const playerIds = lobby.players.map(p => p.playerId);
+    const endCheck = shouldRoundEnd(round, playerIds);
+    return endCheck.reason || null;
 }
 
 function scheduleRoundTimer(lobbyId, round) {
@@ -369,10 +391,12 @@ io.on('connection', (socket) => {
             return;
         }
 
+        // Support both free-text (answer) and choice-based (choiceId) submissions
         const submission = submitAnswerToRound({
             lobbyId: player.lobbyId,
             playerId: player.playerId,
-            answerText: payload.answer
+            answerText: payload.answer,
+            choiceId: payload.choiceId
         });
 
         if (!submission) {
@@ -380,25 +404,42 @@ io.on('connection', (socket) => {
             return;
         }
 
-        const { status, entry, round } = submission;
+        const { status, entry, round, revealResult, _isCorrect } = submission;
         let shouldBroadcastRoster = false;
 
+        // Determine if this was actually correct (unified for both question types)
+        const isCorrect = status === 'correct' || _isCorrect === true;
+
+        // Handle incorrect guess display (free-text only shows last guess)
         if (status === 'incorrect' && entry) {
             lobbyPlayer.roundGuessStatus = 'incorrect';
             lobbyPlayer.lastGuessText = sanitizeGuessPreview(entry.answerText);
             lobbyPlayer.correctElapsedMs = null;
             shouldBroadcastRoster = true;
         }
+        
+        // Handle choice-based submission (don't reveal correct/incorrect yet)
+        if (status === 'submitted' && entry) {
+            lobbyPlayer.roundGuessStatus = 'submitted';
+            lobbyPlayer.lastGuessText = null; // Don't show choice text to others
+            lobbyPlayer.correctElapsedMs = null;
+            shouldBroadcastRoster = true;
+        }
 
         let winTriggered = false;
 
-        if (status === 'correct') {
-            lobbyPlayer.roundGuessStatus = 'correct';
-            lobbyPlayer.lastGuessText = null;
-            const elapsedMs = entry && round ? Math.max(0, entry.submittedAt - round.startedAt) : null;
-            lobbyPlayer.correctElapsedMs = elapsedMs;
+        // Handle correct answer (both revealed and deferred)
+        if (isCorrect) {
+            // For free-text (revealResult=true), update status immediately
+            if (revealResult) {
+                lobbyPlayer.roundGuessStatus = 'correct';
+                lobbyPlayer.lastGuessText = null;
+                const elapsedMs = entry && round ? Math.max(0, entry.submittedAt - round.startedAt) : null;
+                lobbyPlayer.correctElapsedMs = elapsedMs;
+            }
+            // For choice-based, keep status as 'submitted' until round ends
 
-            const correctCount = Array.from(round.answers.values()).filter((answer) => answer.isCorrect).length;
+            const correctCount = Array.from(round.submissions.values()).filter((answer) => answer.isCorrect).length;
             const pointsAwarded = Math.max(
                 MIN_CORRECT_POINTS,
                 MAX_CORRECT_POINTS - (correctCount - 1)
@@ -416,14 +457,24 @@ io.on('connection', (socket) => {
             broadcastLobbyRoster(player.lobbyId);
         }
 
-        socket.emit('answerResult', {
-            result: status === 'correct',
+        // Build response based on whether result should be revealed
+        const answerResultPayload = {
             score: lobbyPlayer.score,
-            status
-        });
+            status,
+            submitted: entry?.hasSubmitted || false
+        };
+        
+        // Only include correctness info if result should be revealed
+        if (revealResult) {
+            answerResultPayload.result = isCorrect;
+        }
 
-        if (status === 'correct' && !winTriggered && didAllPlayersAnswerCorrect(player.lobbyId)) {
-            finalizeRoundAndBroadcast(player.lobbyId, 'all-correct');
+        socket.emit('answerResult', answerResultPayload);
+
+        // Check if round should end (works for all question types now)
+        if (!winTriggered && didAllPlayersAnswerCorrect(player.lobbyId)) {
+            const endReason = getRoundEndReason(player.lobbyId) || 'all-correct';
+            finalizeRoundAndBroadcast(player.lobbyId, endReason);
         }
     });
 

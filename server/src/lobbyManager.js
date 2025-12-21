@@ -21,6 +21,8 @@ function ensurePlayerGuessState(player) {
     if (!player.roundGuessStatus) {
         player.roundGuessStatus = 'idle';
     }
+    // Valid states: 'idle', 'incorrect', 'submitted', 'correct'
+    // 'submitted' = choice-based question, waiting for reveal
     if (typeof player.lastGuessText === 'undefined') {
         player.lastGuessText = null;
     }

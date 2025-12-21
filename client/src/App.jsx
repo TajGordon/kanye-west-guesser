@@ -1,7 +1,13 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { io } from 'socket.io-client';
+import { QUESTION_TYPES, isChoiceBasedQuestion, showsResultImmediately } from './questionTypes';
+import { AnswerInputRenderer } from './components/answers';
+import SummaryDisplay from './components/SummaryDisplay';
+
 
 const MAX_LOG_LINES = 80;
+
+// Initial UI state only - authoritative values come from server via lobbySettingsUpdate
 const DEFAULT_LOBBY_SETTINGS = {
   roundDurationMs: 20000,
   questionPackId: 'kanye-classic',
@@ -81,6 +87,7 @@ export default function App() {
   const [roundActive, setRoundActive] = useState(false);
   const [hasRoundRun, setHasRoundRun] = useState(false);
   const [question, setQuestion] = useState(null);
+  const [questionType, setQuestionType] = useState(QUESTION_TYPES.FREE_TEXT);
   const [roundStatus, setRoundStatus] = useState('Round idle');
   const [roundResults, setRoundResults] = useState(null);
   const [countdownText, setCountdownText] = useState('--');
@@ -92,6 +99,8 @@ export default function App() {
   const [roundTiming, setRoundTiming] = useState({ startedAt: null, durationMs: null });
   const [progressKey, setProgressKey] = useState(0);
   const [hasAnsweredCorrectly, setHasAnsweredCorrectly] = useState(false);
+  const [hasSubmittedChoice, setHasSubmittedChoice] = useState(false);
+  const [selectedChoiceId, setSelectedChoiceId] = useState(null);
   const [lobbySettings, setLobbySettings] = useState(DEFAULT_LOBBY_SETTINGS);
   const [roundDurationInput, setRoundDurationInput] = useState(String(DEFAULT_LOBBY_SETTINGS.roundDurationMs / 1000));
   const [isEditingRoundDuration, setIsEditingRoundDuration] = useState(false);
@@ -136,8 +145,13 @@ export default function App() {
       if (typeof payload.score === 'number') {
         setScore(payload.score);
       }
+      // For free-text: result is revealed immediately
       if (payload.status === 'correct' || payload.result === true) {
         setHasAnsweredCorrectly(true);
+      }
+      // For choice-based: mark as submitted (result revealed at round end)
+      if (payload.submitted === true || payload.status === 'submitted') {
+        setHasSubmittedChoice(true);
       }
     });
 
@@ -235,12 +249,18 @@ export default function App() {
       pushLog('Round started', payload.question?.title || payload.question?.prompt);
       setWinDetails(null);
       setQuestion(payload.question || null);
+      // Track question type for appropriate input rendering
+      const qType = payload.question?.type || payload.questionType || QUESTION_TYPES.FREE_TEXT;
+      setQuestionType(qType);
       setRoundStatus('Round in progress');
       setRoundActive(true);
       setHasRoundRun(true);
       setRoundResults(null);
+      // Reset all input state
       setAnswer('');
       setHasAnsweredCorrectly(false);
+      setSelectedChoiceId(null);
+      setHasSubmittedChoice(false);
       setSummaryEndsAt(null);
       setSummaryCountdownText('--');
       const endsAt = payload.endsAt ?? (payload.startedAt + (payload.durationMs || 0));
@@ -248,9 +268,12 @@ export default function App() {
       setRoundTiming({ startedAt: payload.startedAt || Date.now(), durationMs: payload.durationMs || null });
       setProgressKey((key) => key + 1);
       setPhase('round');
-      requestAnimationFrame(() => {
-        answerInputRef.current?.focus();
-      });
+      // Only focus text input for free-text questions
+      if (!isChoiceBasedQuestion(qType)) {
+        requestAnimationFrame(() => {
+          answerInputRef.current?.focus();
+        });
+      }
     });
 
     socket.on('roundEnded', (payload) => {
@@ -379,6 +402,19 @@ export default function App() {
     setAnswer('');
   }
 
+  function handleTextAnswerSubmit(text) {
+    if (!text.trim() || hasAnsweredCorrectly) return;
+    emit('submitAnswer', { answer: text.trim() });
+    setAnswer('');
+  }
+
+  function handleChoiceSelect(choiceId) {
+    if (hasSubmittedChoice || !roundActive) return;
+    setSelectedChoiceId(choiceId);
+    // Immediately submit the choice
+    emit('submitAnswer', { choiceId });
+  }
+
   function handleStartGame() {
     if (!isHost || phase !== 'seating') return;
     emit('startGameRequest');
@@ -403,7 +439,13 @@ export default function App() {
   const showHeroHostButton = isHost && (phase === 'seating' || isWinPhase);
   const heroHostButtonLabel = phase === 'seating' ? 'Start Game' : 'Return to Lobby';
   const heroHostButtonAction = phase === 'seating' ? handleStartGame : handleResetGame;
-  const canAcceptAnswer = isRoundPhase && !hasAnsweredCorrectly && !isWinPhase;
+  
+  // Unified "can accept input" logic for all question types
+  const isChoiceBased = isChoiceBasedQuestion(questionType);
+  const canAcceptFreeText = isRoundPhase && !hasAnsweredCorrectly && !isWinPhase;
+  const canAcceptChoice = isRoundPhase && !hasSubmittedChoice && !isWinPhase;
+  const canAcceptAnswer = isChoiceBased ? canAcceptChoice : canAcceptFreeText;
+  
   const summaryToDisplay = !isRoundPhase && !isWinPhase ? (roundResults || lastRoundSummary) : null;
   const roomUrl = useMemo(() => {
     return routeLobbyId ? `${window.location.origin}/room/${routeLobbyId}` : window.location.origin;
@@ -454,12 +496,7 @@ export default function App() {
   if (!heroSupportingText && !isWinPhase) {
     heroSupportingText = waitingMessage;
   }
-  const answerInputDisplayValue = hasAnsweredCorrectly ? 'You got the answer correct!' : answer;
-  const answerPlaceholder = hasAnsweredCorrectly ? 'You got the answer correct!' : (canAcceptAnswer ? 'Type your guess...' : waitingMessage);
-  const answerFormClass = ['answer-bar-form'];
-  if (hasAnsweredCorrectly) {
-    answerFormClass.push('answered');
-  }
+  
   const progressAnimationDelay = useMemo(() => {
     if (!roundTiming.startedAt || !roundTiming.durationMs) return '0ms';
     const elapsed = Date.now() - roundTiming.startedAt;
@@ -487,7 +524,9 @@ export default function App() {
   }, [lobbySettings.pointsToWin, isEditingPointsToWin]);
 
   useEffect(() => {
-    if (!canAcceptAnswer) return undefined;
+    // Only enable global keyboard capture for free-text questions
+    if (!canAcceptAnswer || isChoiceBased) return undefined;
+    
     const handleGlobalTyping = (event) => {
       if (event.metaKey || event.ctrlKey || event.altKey) return;
       const target = event.target;
@@ -498,7 +537,7 @@ export default function App() {
         }
       }
       const input = answerInputRef.current;
-      if (!input) return;
+      if (!input || !input.focus) return;
       if (event.key.length === 1) {
         event.preventDefault();
         input.focus();
@@ -518,7 +557,7 @@ export default function App() {
 
     window.addEventListener('keydown', handleGlobalTyping);
     return () => window.removeEventListener('keydown', handleGlobalTyping);
-  }, [canAcceptAnswer]);
+  }, [canAcceptAnswer, isChoiceBased]);
 
   const isSettingsEditable = isHost;
 
@@ -526,7 +565,7 @@ export default function App() {
     const value = Number(seconds);
     if (!Number.isFinite(value) || value < 1) return;
     const ms = Math.round(value * 1000);
-    setLobbySettings((prev) => ({ ...prev, roundDurationMs: ms }));
+    // Only emit to server - state updates via lobbySettingsUpdate broadcast
     if (isSettingsEditable) {
       emit('updateLobbySettings', { roundDurationMs: ms });
     }
@@ -546,7 +585,7 @@ export default function App() {
     const value = Number(points);
     if (!Number.isFinite(value) || value < 1) return;
     const normalized = Math.max(1, Math.round(value));
-    setLobbySettings((prev) => ({ ...prev, pointsToWin: normalized }));
+    // Only emit to server - state updates via lobbySettingsUpdate broadcast
     if (isSettingsEditable) {
       emit('updateLobbySettings', { pointsToWin: normalized });
     }
@@ -564,7 +603,7 @@ export default function App() {
   };
 
   const handleQuestionPackChange = (nextId) => {
-    setLobbySettings((prev) => ({ ...prev, questionPackId: nextId }));
+    // Only emit to server - state updates via lobbySettingsUpdate broadcast
     if (isSettingsEditable) {
       emit('updateLobbySettings', { questionPackId: nextId });
     }
@@ -592,6 +631,14 @@ export default function App() {
       return {
         text: elapsed || 'Solved',
         status: 'correct'
+      };
+    }
+
+    // For choice-based questions: show "Locked in" when submitted
+    if (player.roundGuessStatus === 'submitted') {
+      return {
+        text: 'Locked in',
+        status: 'submitted'
       };
     }
 
@@ -845,7 +892,10 @@ export default function App() {
                   <span>{heroSupportingText}</span>
                   {heroMetaRight && <span>{heroMetaRight}</span>}
                 </div>
-                {summaryToDisplay && summaryCorrectResponders.length > 0 && (
+                {summaryToDisplay && isChoiceBasedQuestion(summaryToDisplay.questionType || summaryToDisplay.question?.type) && (
+                  <SummaryDisplay summary={summaryToDisplay} />
+                )}
+                {summaryToDisplay && !isChoiceBasedQuestion(summaryToDisplay.questionType || summaryToDisplay.question?.type) && summaryCorrectResponders.length > 0 && (
                   <div className="summary-correct-card">
                     <div className="summary-correct-header">
                       <span>Correct answers</span>
@@ -920,20 +970,24 @@ export default function App() {
         </aside>
       </div>
 
-      <div className="answer-bar">
-        <form className={answerFormClass.join(' ')} onSubmit={handleAnswerSubmit}>
-          <input
-            ref={answerInputRef}
-            value={answerInputDisplayValue}
-            onChange={(e) => setAnswer(e.target.value)}
-            placeholder={answerPlaceholder}
-            disabled={!canAcceptAnswer}
-          />
-          <button className="secondary-btn" type="submit" disabled={!canAcceptAnswer || !answer.trim()}>
-            Submit
-          </button>
-        </form>
-      </div>
+      <AnswerInputRenderer
+        ref={answerInputRef}
+        questionType={questionType}
+        question={isRoundPhase ? question : null}
+        // Free-text props
+        textValue={answer}
+        onTextChange={setAnswer}
+        onTextSubmit={handleTextAnswerSubmit}
+        hasAnsweredCorrectly={hasAnsweredCorrectly}
+        // Choice props
+        selectedChoiceId={selectedChoiceId}
+        onSelectChoice={handleChoiceSelect}
+        hasSubmitted={hasSubmittedChoice}
+        // Common props
+        disabled={!canAcceptAnswer}
+        revealResults={isSummaryPhase}
+        correctChoiceId={summaryToDisplay?.question?.correctChoiceId}
+      />
 
     </div>
   );
