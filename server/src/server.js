@@ -2,6 +2,11 @@ import express from 'express'
 import http from 'http'
 import { Server as SocketIOServer } from 'socket.io'
 import fs from 'fs'
+import helmet from 'helmet'
+import compression from 'compression'
+import rateLimit from 'express-rate-limit'
+import cors from 'cors'
+import { config, validateConfig, logConfig } from './config.js'
 
 import {
     joinLobby,
@@ -33,12 +38,62 @@ import { initializeQuestionStore, flagQuestion, getTagIndexSnapshot } from './qu
 import { QUESTION_TYPES, typeRevealsOnSubmit } from './questionTypes.js'
 import { validateExpression, getFilterStatistics } from './questionFilter.js'
 
+// Validate configuration
+if (!validateConfig()) {
+    console.error('Invalid configuration. Exiting...');
+    process.exit(1);
+}
+
+logConfig();
+
 const app = express();
 const server = http.createServer(app);
-const io = new SocketIOServer(server, {
-    cors: { origin: '*' } // for local dev
+
+// Trust proxy in production (for proper IP addresses behind reverse proxy)
+if (config.trustProxy) {
+    app.set('trust proxy', 1);
+}
+
+// Security middleware
+app.use(helmet({
+    contentSecurityPolicy: config.isDevelopment ? false : undefined,
+    crossOriginEmbedderPolicy: false
+}));
+
+// Compression
+app.use(compression());
+
+// CORS
+const corsOptions = {
+    origin: config.corsOrigin,
+    credentials: true,
+    methods: ['GET', 'POST'],
+    allowedHeaders: ['Content-Type']
+};
+
+if (config.isDevelopment) {
+    app.use(cors(corsOptions));
+}
+
+// Rate limiting for API endpoints
+const apiLimiter = rateLimit({
+    windowMs: config.rateLimitWindowMs,
+    max: config.rateLimitMaxRequests,
+    standardHeaders: true,
+    legacyHeaders: false,
+    skip: (req) => config.isDevelopment // Skip in development
 });
 
+// Socket.IO with production-ready configuration
+const io = new SocketIOServer(server, {
+    cors: corsOptions,
+    pingTimeout: config.socketPingTimeout,
+    pingInterval: config.socketPingInterval,
+    transports: ['websocket', 'polling'],
+    allowEIO3: true
+});
+
+// Initialize question store
 try {
     initializeQuestionStore()
 } catch (error) {
@@ -46,11 +101,10 @@ try {
     process.exit(1)
 }
 
-const PORT = 3000;
 const roundTimers = new Map();
 const summaryTimers = new Map();
-const LOBBY_DESTROY_GRACE_MS = 60_000;
-const LOBBY_CLEANUP_INTERVAL_MS = 30_000;
+const LOBBY_DESTROY_GRACE_MS = config.lobbyDestroyGraceMs;
+const LOBBY_CLEANUP_INTERVAL_MS = config.lobbyCleanupIntervalMs;
 const MAX_GUESS_PREVIEW_LENGTH = 40;
 const MAX_CORRECT_POINTS = 10;
 const MIN_CORRECT_POINTS = 1;
@@ -72,22 +126,43 @@ if (fs.existsSync(clientDistPath)) {
     app.use(express.static(clientDistPath));
     
     // API endpoint for getting available tags
-    app.get('/api/tags', (req, res) => {
-        const tagIndex = getTagIndexSnapshot();
-        const tags = Object.keys(tagIndex).sort();
-        res.json({ tags, count: tags.length });
+    app.get('/api/tags', apiLimiter, (req, res) => {
+        try {
+            const tagIndex = getTagIndexSnapshot();
+            const tags = Object.keys(tagIndex).sort();
+            res.json({ tags, count: tags.length });
+        } catch (error) {
+            console.error('Error getting tags:', error);
+            res.status(500).json({ error: 'Failed to get tags' });
+        }
     });
     
     // API endpoint for validating filter expressions
-    app.get('/api/filter/validate', (req, res) => {
-        const expr = req.query.expr || '';
-        const validation = validateExpression(expr);
-        if (validation.valid) {
-            const stats = getFilterStatistics(expr);
-            res.json({ valid: true, matchCount: stats.total });
-        } else {
-            res.json({ valid: false, error: validation.error });
+    app.get('/api/filter/validate', apiLimiter, (req, res) => {
+        try {
+            const expr = req.query.expr || '';
+            const validation = validateExpression(expr);
+            if (validation.valid) {
+                const stats = getFilterStatistics(expr);
+                res.json({ valid: true, matchCount: stats.total });
+            } else {
+                res.json({ valid: false, error: validation.error });
+            }
+        } catch (error) {
+            console.error('Error validating filter:', error);
+            res.status(500).json({ error: 'Failed to validate filter' });
         }
+    });
+    
+    // Health check endpoint
+    app.get('/api/health', (req, res) => {
+        res.json({ 
+            status: 'ok', 
+            timestamp: Date.now(),
+            env: config.env,
+            lobbies: listLobbies().length,
+            players: listPlayers().length
+        });
     });
     
     app.get(/.*/, (req, res, next) => {
@@ -101,6 +176,14 @@ if (fs.existsSync(clientDistPath)) {
         res.send('client build not found yet');
     });
 }
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+    console.error('Express error:', err);
+    res.status(err.status || 500).json({
+        error: config.isDevelopment ? err.message : 'Internal server error'
+    });
+});
 
 function sanitizeGuessPreview(value = '') {
     const text = (value ?? '').toString().trim();
@@ -840,6 +923,44 @@ function cleanupStaleLobbies() {
 
 setInterval(cleanupStaleLobbies, LOBBY_CLEANUP_INTERVAL_MS);
 
-server.listen(PORT, () => {
-    console.log(`server listening on http://localhost:${PORT}`);
+// Graceful shutdown
+process.on('SIGTERM', () => {
+    console.log('SIGTERM received. Shutting down gracefully...');
+    server.close(() => {
+        console.log('Server closed');
+        process.exit(0);
+    });
+});
+
+process.on('SIGINT', () => {
+    console.log('SIGINT received. Shutting down gracefully...');
+    server.close(() => {
+        console.log('Server closed');
+        process.exit(0);
+    });
+});
+
+// Handle uncaught errors
+process.on('uncaughtException', (error) => {
+    console.error('Uncaught Exception:', error);
+    if (config.isProduction) {
+        // In production, exit and let process manager restart
+        process.exit(1);
+    }
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+    console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+    if (config.isProduction) {
+        // In production, exit and let process manager restart
+        process.exit(1);
+    }
+});
+
+server.listen(config.port, config.host, () => {
+    console.log(`✓ Server listening on ${config.host}:${config.port}`);
+    console.log(`✓ Environment: ${config.env}`);
+    if (config.isDevelopment) {
+        console.log(`✓ Local: http://localhost:${config.port}`);
+    }
 });

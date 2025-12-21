@@ -7,11 +7,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start:prod": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "questions:generate": "cd ../song_data_generation/questions_generator && node index.js",
+    "questions:validate": "cd ../song_data_generation/questions_generator && node index.js --validate --strict",
+    "questions:generate:type": "cd ../song_data_generation/questions_generator && node index.js --type",
+    "aliases:apply": "cd ../song_data_generation/alias_controller && node apply-aliases.js",
+    "aliases:ui": "cd ../song_data_generation/alias_controller && node ui-server.js",
+    "data:regenerate": "npm run questions:validate && npm run aliases:apply && echo ✅ Questions and aliases updated!"
   },
   "author": "taj",
   "dependencies": {
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
     "express": "^5.1.0",
+    "express-rate-limit": "^7.5.1",
+    "helmet": "^8.1.0",
     "path": "^0.12.7",
     "socket.io": "^4.8.1"
   },

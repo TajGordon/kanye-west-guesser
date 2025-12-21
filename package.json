@@ -1,0 +1,37 @@
+{
+  "name": "kanye-guesser",
+  "version": "1.0.0",
+  "description": "A multiplayer trivia game about Kanye West's discography",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "start": "cd server && npm start",
+    "build:client": "cd client && npm run build",
+    "questions:generate": "cd song_data_generation/questions_generator && node index.js",
+    "questions:validate": "cd song_data_generation/questions_generator && node index.js --validate --strict",
+    "aliases:apply": "cd song_data_generation/alias_controller && node apply-aliases.js",
+    "aliases:ui": "cd song_data_generation/alias_controller && node ui-server.js",
+    "data:regenerate": "npm run questions:validate && npm run aliases:apply",
+    "setup:all": "npm run setup:server && npm run setup:client && npm run setup:questions && npm run setup:aliases",
+    "setup:server": "cd server && npm install",
+    "setup:client": "cd client && npm install",
+    "setup:questions": "cd song_data_generation/questions_generator && npm install",
+    "setup:aliases": "cd song_data_generation/alias_controller && npm install",
+    "deploy:prod": "npm run data:regenerate && npm run build:client && cd server && pm2 restart kanye-guesser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/kanye-guesser.git"
+  },
+  "keywords": [
+    "kanye-west",
+    "trivia",
+    "game",
+    "multiplayer",
+    "music"
+  ],
+  "author": "",
+  "license": "MIT"
+}
