@@ -492,12 +492,65 @@ function initializeFromFile(resolvedPath) {
     return { questionCount: questionList.length, files: [{ file: path.basename(resolvedPath), count: questionList.length }] }
 }
 
+/**
+ * Question type weights for selection
+ * Total should add up to 100 for percentage-based selection
+ */
+const QUESTION_TYPE_WEIGHTS = {
+    [QUESTION_TYPES.TRUE_FALSE]: 5,      // 5% of the time
+    [QUESTION_TYPES.NUMERIC]: 5,         // 5% of the time
+    [QUESTION_TYPES.FREE_TEXT]: 25,      // 25% of the time (part of 50% typing)
+    [QUESTION_TYPES.MULTI_ENTRY]: 25,    // 25% of the time (part of 50% typing)
+    [QUESTION_TYPES.MULTIPLE_CHOICE]: 20, // 20% of the time
+    [QUESTION_TYPES.ORDERED_LIST]: 20    // 20% of the time
+};
+
+/**
+ * Get a random question using weighted selection based on question type
+ * Ensures proper distribution of question types according to QUESTION_TYPE_WEIGHTS
+ */
 export function getRandomQuestion() {
     if (!questionList.length) {
         return null
     }
-    const idx = Math.floor(Math.random() * questionList.length)
-    return questionList[idx]
+    
+    // Group questions by type
+    const questionsByType = {};
+    for (const type of Object.values(QUESTION_TYPES)) {
+        questionsByType[type] = [];
+    }
+    
+    for (const question of questionList) {
+        const type = question.type || QUESTION_TYPES.FREE_TEXT;
+        if (questionsByType[type]) {
+            questionsByType[type].push(question);
+        }
+    }
+    
+    // Build weighted selection array
+    const weightedTypes = [];
+    for (const [type, weight] of Object.entries(QUESTION_TYPE_WEIGHTS)) {
+        // Only include types that have questions available
+        if (questionsByType[type] && questionsByType[type].length > 0) {
+            for (let i = 0; i < weight; i++) {
+                weightedTypes.push(type);
+            }
+        }
+    }
+    
+    // If no weighted types available (shouldn't happen), fall back to uniform random
+    if (weightedTypes.length === 0) {
+        const idx = Math.floor(Math.random() * questionList.length);
+        return questionList[idx];
+    }
+    
+    // Select random type based on weights
+    const selectedType = weightedTypes[Math.floor(Math.random() * weightedTypes.length)];
+    
+    // Select random question of that type
+    const questionsOfType = questionsByType[selectedType];
+    const idx = Math.floor(Math.random() * questionsOfType.length);
+    return questionsOfType[idx];
 }
 
 export function getQuestionById(id) {

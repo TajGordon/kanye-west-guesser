@@ -239,36 +239,78 @@ function finalizeRoundAndBroadcast(lobbyId, reason = 'manual') {
     const shouldDeferPoints = !typeRevealsOnSubmit(questionType);
     
     if (shouldDeferPoints && round?.submissions && lobby) {
-        const correctSubmissions = Array.from(round.submissions.values())
-            .filter(s => s.isCorrect)
-            .sort((a, b) => a.submittedAt - b.submittedAt);
-        
-        correctSubmissions.forEach((submission, index) => {
-            const lobbyPlayer = lobby.players.find(p => p.playerId === submission.playerId);
-            if (lobbyPlayer) {
-                const pointsAwarded = Math.max(
-                    MIN_CORRECT_POINTS,
-                    MAX_CORRECT_POINTS - index
-                );
-                lobbyPlayer.score = (lobbyPlayer.score || 0) + pointsAwarded;
-                lobby.scoreByPlayerId?.set(lobbyPlayer.playerId, lobbyPlayer.score);
-                
-                // Also update status for reveal
-                lobbyPlayer.roundGuessStatus = 'correct';
-                const elapsedMs = typeof round.startedAt === 'number' ? submission.submittedAt - round.startedAt : null;
-                lobbyPlayer.correctElapsedMs = elapsedMs;
-            }
-        });
-        
-        // Mark incorrect submissions
-        Array.from(round.submissions.values())
-            .filter(s => !s.isCorrect && s.hasSubmitted)
-            .forEach(submission => {
+        // Special handling for multi-entry: award partial credit based on percentage found
+        if (questionType === QUESTION_TYPES.MULTI_ENTRY) {
+            const totalAnswers = round.question.answers?.length || 1;
+            const allSubmissions = Array.from(round.submissions.values())
+                .map(s => ({
+                    ...s,
+                    percentCorrect: Math.min(100, ((s.foundAnswers?.length || 0) / totalAnswers) * 100)
+                }))
+                .sort((a, b) => {
+                    // Sort by percentage correct first, then by time
+                    if (b.percentCorrect !== a.percentCorrect) {
+                        return b.percentCorrect - a.percentCorrect;
+                    }
+                    return a.submittedAt - b.submittedAt;
+                });
+            
+            allSubmissions.forEach((submission, index) => {
                 const lobbyPlayer = lobby.players.find(p => p.playerId === submission.playerId);
-                if (lobbyPlayer && lobbyPlayer.roundGuessStatus === 'submitted') {
-                    lobbyPlayer.roundGuessStatus = 'incorrect';
+                if (lobbyPlayer) {
+                    // Calculate base points (what they would have gotten for fully correct)
+                    const basePoints = Math.max(MIN_CORRECT_POINTS, MAX_CORRECT_POINTS - index);
+                    // Apply percentage multiplier and round up
+                    const pointsAwarded = Math.ceil(basePoints * (submission.percentCorrect / 100));
+                    
+                    lobbyPlayer.score = (lobbyPlayer.score || 0) + pointsAwarded;
+                    lobby.scoreByPlayerId?.set(lobbyPlayer.playerId, lobbyPlayer.score);
+                    
+                    // Update status for reveal
+                    if (submission.percentCorrect === 100) {
+                        lobbyPlayer.roundGuessStatus = 'correct';
+                    } else if (submission.percentCorrect > 0) {
+                        lobbyPlayer.roundGuessStatus = 'partial';
+                    } else {
+                        lobbyPlayer.roundGuessStatus = 'incorrect';
+                    }
+                    const elapsedMs = typeof round.startedAt === 'number' ? submission.submittedAt - round.startedAt : null;
+                    lobbyPlayer.correctElapsedMs = elapsedMs;
                 }
             });
+        } else {
+            // Standard deferred scoring for other question types
+            const correctSubmissions = Array.from(round.submissions.values())
+                .filter(s => s.isCorrect)
+                .sort((a, b) => a.submittedAt - b.submittedAt);
+            
+            correctSubmissions.forEach((submission, index) => {
+                const lobbyPlayer = lobby.players.find(p => p.playerId === submission.playerId);
+                if (lobbyPlayer) {
+                    const pointsAwarded = Math.max(
+                        MIN_CORRECT_POINTS,
+                        MAX_CORRECT_POINTS - index
+                    );
+                    lobbyPlayer.score = (lobbyPlayer.score || 0) + pointsAwarded;
+                    lobby.scoreByPlayerId?.set(lobbyPlayer.playerId, lobbyPlayer.score);
+                    
+                    // Also update status for reveal
+                    lobbyPlayer.roundGuessStatus = 'correct';
+                    const elapsedMs = typeof round.startedAt === 'number' ? submission.submittedAt - round.startedAt : null;
+                    lobbyPlayer.correctElapsedMs = elapsedMs;
+                }
+            });
+            
+            // Mark incorrect submissions
+            Array.from(round.submissions.values())
+                .filter(s => !s.isCorrect && s.hasSubmitted)
+                .forEach(submission => {
+                    const lobbyPlayer = lobby.players.find(p => p.playerId === submission.playerId);
+                    if (lobbyPlayer && lobbyPlayer.roundGuessStatus === 'submitted') {
+                        lobbyPlayer.roundGuessStatus = 'incorrect';
+                    }
+                });
+        }
     }
 
     const payload = buildRoundEndPayload(summary, reason);
