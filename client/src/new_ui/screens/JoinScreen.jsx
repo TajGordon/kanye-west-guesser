@@ -1,43 +1,25 @@
 import React, { useState } from 'react';
-import { theme } from '../theme';
 
 export default function JoinScreen({ onJoin, initialName, initialLobby }) {
   const [name, setName] = useState(initialName || '');
   const [lobbyCode, setLobbyCode] = useState(initialLobby || '');
 
-  const containerStyle = {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: '100vh',
-    backgroundColor: theme.colors.background,
-    color: theme.colors.text,
+  const generateLobbyCode = () => {
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let result = '';
+    for (let i = 0; i < 4; i++) {
+      result += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+    return result;
   };
 
-  const formStyle = {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: theme.spacing.md,
-    width: '300px',
-    padding: theme.spacing.xl,
-    border: theme.borders.thick,
-    backgroundColor: theme.colors.surface,
-  };
-
-  const inputStyle = {
-    padding: theme.spacing.md,
-    border: theme.borders.thin,
-    fontSize: theme.typography.fontSize.base,
-  };
-
-  const buttonStyle = {
-    padding: theme.spacing.md,
-    backgroundColor: theme.colors.primary,
-    color: '#fff',
-    border: 'none',
-    cursor: 'pointer',
-    fontWeight: 'bold',
+  const handleCreateLobby = () => {
+    if (!name) {
+      alert('Please enter your name first');
+      return;
+    }
+    const newCode = generateLobbyCode();
+    onJoin(name, newCode);
   };
 
   const handleSubmit = (e) => {
@@ -47,30 +29,56 @@ export default function JoinScreen({ onJoin, initialName, initialLobby }) {
     }
   };
 
+  const handleLobbyCodeChange = (e) => {
+    const val = e.target.value.toUpperCase().replace(/[^A-Z]/g, '').slice(0, 4);
+    setLobbyCode(val);
+  };
+
   return (
-    <div style={containerStyle}>
-      <h1 style={{ marginBottom: theme.spacing.xl }}>Kanye West Guesser</h1>
-      <form style={formStyle} onSubmit={handleSubmit}>
+    <div className="flex flex-col items-center justify-center h-screen w-screen bg-background text-black">
+      <h1 className="text-4xl mb-8 font-bold">Kanye West Guesser</h1>
+      <div className="flex flex-col gap-4 w-[300px] p-8 border-2 border-black bg-surface">
         <input
           type="text"
           placeholder="Enter your name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          style={inputStyle}
+          className="p-3 border border-black text-base w-full"
           required
         />
-        <input
-          type="text"
-          placeholder="Lobby Code"
-          value={lobbyCode}
-          onChange={(e) => setLobbyCode(e.target.value.toUpperCase())}
-          style={inputStyle}
-          required
-        />
-        <button type="submit" style={buttonStyle}>
-          Join Game
-        </button>
-      </form>
+        
+        <div className="flex flex-col gap-2 border-t border-black pt-4 mt-2">
+          <span className="text-sm font-bold text-center">Join Existing</span>
+          <form onSubmit={handleSubmit} className="flex flex-col gap-2">
+            <input
+              type="text"
+              placeholder="Lobby Code (4 Letters)"
+              value={lobbyCode}
+              onChange={handleLobbyCodeChange}
+              className="p-3 border border-black text-base w-full text-center tracking-[2px]"
+              required
+              maxLength={4}
+            />
+            <button 
+              type="submit" 
+              className="p-3 bg-primary text-white border-none cursor-pointer font-bold hover:opacity-90"
+            >
+              Join Game
+            </button>
+          </form>
+        </div>
+
+        <div className="flex flex-col gap-2 border-t border-black pt-4">
+           <span className="text-sm font-bold text-center">Or Create New</span>
+           <button 
+             type="button" 
+             onClick={handleCreateLobby} 
+             className="p-3 bg-secondary text-black border border-black cursor-pointer font-bold hover:bg-gray-200"
+           >
+            Create Lobby
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

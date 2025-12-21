@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import './layout.css';
-import { theme } from '../theme';
+import React from 'react';
 
 export default function GameLayout({ 
   topBar, 
@@ -10,32 +8,40 @@ export default function GameLayout({
   children,
   isSettingsOpen
 }) {
-  const style = {
-    '--bg-color': theme.colors.background,
-    '--text-color': theme.colors.text,
-    '--border-color': theme.colors.border,
-    '--font-family': theme.typography.fontFamily,
-  };
-
   return (
-    <div className="game-layout" style={style}>
-      <div className="layout-top">
+    <div className="flex flex-col h-screen w-screen overflow-hidden bg-background text-black font-sans">
+      {/* Top Bar */}
+      <div className="z-10 shrink-0">
         {topBar}
       </div>
       
-      <div className={`layout-left ${isSettingsOpen ? 'open' : ''}`}>
-        {leftSidebar}
+      {/* Middle Section */}
+      <div className="flex flex-1 overflow-hidden relative">
+        {/* Left Sidebar */}
+        <div 
+          className={`
+            border-r border-black overflow-hidden transition-[width] duration-300 ease-in-out
+            ${isSettingsOpen ? 'w-[300px]' : 'w-0'}
+          `}
+        >
+          <div className="w-[300px] h-full">
+            {leftSidebar}
+          </div>
+        </div>
+        
+        {/* Main Content */}
+        <main className="flex-1 flex flex-col justify-center items-center overflow-y-auto relative p-4">
+          {children}
+        </main>
+        
+        {/* Right Sidebar */}
+        <div className="w-[300px] border-l border-black overflow-y-auto shrink-0">
+          {rightSidebar}
+        </div>
       </div>
       
-      <main className="layout-main">
-        {children}
-      </main>
-      
-      <div className="layout-right">
-        {rightSidebar}
-      </div>
-      
-      <div className="layout-bottom">
+      {/* Bottom Bar */}
+      <div className="z-10 shrink-0">
         {bottomBar}
       </div>
     </div>

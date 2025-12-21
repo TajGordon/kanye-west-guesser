@@ -1,33 +1,19 @@
 import React from 'react';
-import { theme } from '../theme';
 
 export default function TopBar({ lobbyCode, onToggleSettings, isSettingsOpen, phase }) {
-  const style = {
-    height: '60px',
-    borderBottom: theme.borders.thick,
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    padding: `0 ${theme.spacing.md}`,
-    backgroundColor: theme.colors.surface,
-  };
-
-  const buttonStyle = {
-    padding: `${theme.spacing.sm} ${theme.spacing.md}`,
-    backgroundColor: isSettingsOpen ? theme.colors.secondary : 'transparent',
-    color: theme.colors.text,
-    border: theme.borders.thin,
-    cursor: 'pointer',
-    fontWeight: theme.typography.fontWeight.bold,
-  };
-
   return (
-    <div style={style}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: theme.spacing.md }}>
-        <button style={buttonStyle} onClick={onToggleSettings}>
+    <div className="h-[60px] border-b-2 border-black flex items-center justify-between px-4 bg-surface">
+      <div className="flex items-center gap-4">
+        <button 
+          onClick={onToggleSettings}
+          className={`
+            px-4 py-2 border border-black cursor-pointer font-bold
+            ${isSettingsOpen ? 'bg-secondary' : 'bg-transparent'}
+          `}
+        >
           {isSettingsOpen ? 'Close Settings' : 'Settings'}
         </button>
-        <span style={{ fontWeight: theme.typography.fontWeight.bold }}>
+        <span className="font-bold">
           Lobby: {lobbyCode}
         </span>
       </div>

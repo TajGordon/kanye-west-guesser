@@ -12,16 +12,19 @@ import WinScreen from './screens/WinScreen';
 import { QUESTION_TYPES } from '../questionTypes';
 
 export default function GameInterface() {
+  const gameState = useGame();
+  
+  // Destructure with defaults for safety
   const {
-    isConnected,
-    lobbyData,
-    phase,
-    roundState,
-    answerState,
-    summaryState,
+    isConnected = false,
+    lobbyData = { id: '—', isHost: false, players: [], settings: {} },
+    phase = 'seating',
+    roundState = { question: null, questionType: QUESTION_TYPES.FREE_TEXT },
+    answerState = { hasAnsweredCorrectly: false, hasSubmittedChoice: false, selectedChoiceId: null },
+    summaryState = { last: null },
     emit,
-    resetAnswerState
-  } = useGame();
+    actions
+  } = gameState || {};
 
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [inputValue, setInputValue] = useState('');
@@ -31,9 +34,9 @@ export default function GameInterface() {
   useEffect(() => {
     let animationFrame;
     const updateTimer = () => {
-      if (phase === 'round-active' && roundState.endsAt) {
+      if (phase === 'round' && roundState?.endsAt) {
         const now = Date.now();
-        const total = roundState.durationMs;
+        const total = roundState.durationMs || 20000;
         const remaining = roundState.endsAt - now;
         const progress = Math.max(0, Math.min(1, remaining / total));
         setTimerProgress(progress);
@@ -44,103 +47,130 @@ export default function GameInterface() {
     };
     updateTimer();
     return () => cancelAnimationFrame(animationFrame);
-  }, [phase, roundState]);
+  }, [phase, roundState?.endsAt, roundState?.durationMs]);
 
   // Reset input on new round
   useEffect(() => {
-    if (phase === 'round-active') {
+    if (phase === 'round') {
       setInputValue('');
     }
-  }, [phase, roundState.question?.id]);
+  }, [phase, roundState?.question?.id]);
 
   const handleStartGame = () => {
-    if (isConnected) {
+    console.log('[GameInterface] handleStartGame called, isConnected:', isConnected);
+    if (isConnected && emit) {
+      console.log('[GameInterface] Emitting startGameRequest');
       emit('startGameRequest');
+    } else if (actions?.requestStartGame) {
+      console.log('[GameInterface] Using actions.requestStartGame');
+      actions.requestStartGame();
     }
   };
 
   const handleUpdateSettings = (newSettings) => {
-    if (isConnected) {
+    if (isConnected && emit) {
       emit('updateLobbySettings', newSettings);
+    } else if (actions?.updateSettings) {
+      actions.updateSettings(newSettings);
     }
   };
 
   const handleSubmitAnswer = () => {
-    if (!inputValue.trim() || !isConnected) return;
-    emit('submitAnswer', { answer: inputValue });
-    setInputValue(''); // Clear immediately? Or wait for feedback?
-    // For now clear immediately as per typical UX, but maybe keep if retry allowed?
-    // The user said "shows all their incorrect guesses", so maybe we keep it or clear it.
-    // Usually clear it so they can type again.
+    if (!inputValue.trim()) return;
+    console.log('[GameInterface] Submitting answer:', inputValue);
+    if (emit) {
+      emit('submitAnswer', { answer: inputValue });
+    } else if (actions?.submitTextAnswer) {
+      actions.submitTextAnswer(inputValue);
+    }
+    setInputValue('');
   };
 
   const handleSelectOption = (optionId) => {
-    if (answerState.hasSubmittedChoice || !isConnected) return;
-    emit('submitAnswer', { answer: optionId });
+    if (answerState?.hasSubmittedChoice) return;
+    console.log('[GameInterface] Selecting option:', optionId);
+    if (emit) {
+      emit('submitAnswer', { choiceId: optionId });
+    } else if (actions?.submitChoice) {
+      actions.submitChoice(optionId);
+    }
   };
 
   const handleReturnToLobby = () => {
-    if (isConnected) {
+    if (emit) {
       emit('resetGameRequest');
+    } else if (actions?.requestResetGame) {
+      actions.requestResetGame();
     }
   };
 
   // Determine which screen to show
   let MainContent;
-  if (phase === 'seating') {
+  
+  if (!isConnected) {
+    MainContent = (
+      <div className="text-center p-8">
+        <div className="text-2xl text-gray-400 mb-4">Connecting to server...</div>
+        <div className="text-sm text-gray-500">Please wait</div>
+      </div>
+    );
+  } else if (phase === 'seating') {
     MainContent = (
       <PregameScreen 
-        isHost={lobbyData.isHost} 
+        isHost={lobbyData?.isHost || false} 
         onStartGame={handleStartGame} 
-        playerCount={lobbyData.players.length} 
+        playerCount={lobbyData?.players?.length || 0} 
       />
     );
-  } else if (phase === 'round-active') {
+  } else if (phase === 'round') {
     MainContent = (
       <QuestionActiveScreen
-        question={roundState.question}
-        questionType={roundState.questionType}
+        question={roundState?.question}
+        questionType={roundState?.questionType || QUESTION_TYPES.FREE_TEXT}
         onSelectOption={handleSelectOption}
-        selectedOptionId={answerState.selectedChoiceId}
+        selectedOptionId={answerState?.selectedChoiceId}
       />
     );
-  } else if (phase === 'round-summary') {
+  } else if (phase === 'summary') {
     MainContent = (
       <QuestionAnswerScreen
-        question={summaryState.last?.question || roundState.question}
-        questionType={summaryState.last?.questionType || roundState.questionType}
-        correctAnswer={summaryState.last?.answer}
-        roundResults={summaryState.last?.results} // Need to verify structure
+        question={summaryState?.last?.question || roundState?.question}
+        questionType={summaryState?.last?.questionType || roundState?.questionType}
+        correctAnswer={summaryState?.last?.answer || summaryState?.last?.primaryAnswer}
+        roundResults={summaryState?.last?.results}
       />
     );
-  } else if (phase === 'game-summary') {
-    // Win screen
-    // Need to find winner from players or winDetails
-    const winner = lobbyData.players.reduce((prev, current) => 
-      (prev.score > current.score) ? prev : current
-    , lobbyData.players[0]);
+  } else if (phase === 'win') {
+    const players = lobbyData?.players || [];
+    const winner = players.length > 0 
+      ? players.reduce((prev, current) => (prev.score > current.score) ? prev : current, players[0])
+      : null;
 
     MainContent = (
       <WinScreen 
         winner={winner} 
         onReturnToLobby={handleReturnToLobby}
-        isHost={lobbyData.isHost}
+        isHost={lobbyData?.isHost || false}
       />
     );
   } else {
-    MainContent = <div>Loading...</div>;
+    MainContent = (
+      <div className="text-center p-8">
+        <div className="text-2xl text-gray-400">Loading...</div>
+        <div className="text-sm text-gray-500 mt-2">Phase: {phase}</div>
+      </div>
+    );
   }
 
-  const isTypingMode = roundState.questionType === QUESTION_TYPES.FREE_TEXT || 
-                       roundState.questionType === QUESTION_TYPES.MULTI_ENTRY ||
-                       roundState.questionType === QUESTION_TYPES.NUMERIC;
+  const isTypingMode = [QUESTION_TYPES.FREE_TEXT, QUESTION_TYPES.MULTI_ENTRY, QUESTION_TYPES.NUMERIC]
+    .includes(roundState?.questionType);
 
   return (
     <GameLayout
       isSettingsOpen={isSettingsOpen}
       topBar={
         <TopBar 
-          lobbyCode={lobbyData.id} 
+          lobbyCode={lobbyData?.id || '—'} 
           onToggleSettings={() => setIsSettingsOpen(!isSettingsOpen)} 
           isSettingsOpen={isSettingsOpen}
           phase={phase}
@@ -148,14 +178,14 @@ export default function GameInterface() {
       }
       leftSidebar={
         <SettingsPanel 
-          settings={lobbyData.settings} 
+          settings={lobbyData?.settings || {}} 
           onUpdateSettings={handleUpdateSettings} 
-          isHost={lobbyData.isHost} 
+          isHost={lobbyData?.isHost || false} 
         />
       }
       rightSidebar={
         <PlayerList 
-          players={lobbyData.players} 
+          players={lobbyData?.players || []} 
           isTypingMode={isTypingMode} 
         />
       }
@@ -164,10 +194,10 @@ export default function GameInterface() {
           inputValue={inputValue}
           onInputChange={setInputValue}
           onSubmit={handleSubmitAnswer}
-          isEnabled={phase === 'round-active' && isTypingMode && !answerState.hasAnsweredCorrectly}
+          isEnabled={phase === 'round' && isTypingMode && !answerState?.hasAnsweredCorrectly}
           timerProgress={timerProgress}
           placeholder={
-            answerState.hasAnsweredCorrectly ? "Correct! Waiting for others..." : 
+            answerState?.hasAnsweredCorrectly ? "Correct! Waiting for others..." : 
             "Type your answer..."
           }
         />

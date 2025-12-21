@@ -1,90 +1,69 @@
 import React from 'react';
-import { theme } from '../theme';
 
 function PlayerCard({ player, isTypingMode }) {
-  const isCorrect = player.roundStatus === 'correct';
-  const hasGuessed = player.roundStatus === 'guessed' || isCorrect;
+  // Handle different property names from server
+  const roundStatus = player.roundStatus || player.roundGuessStatus || 'idle';
+  const isCorrect = roundStatus === 'correct';
+  const hasGuessed = roundStatus === 'guessed' || roundStatus === 'submitted' || roundStatus === 'incorrect' || isCorrect;
+  const playerName = player.name || player.displayName || 'Unknown';
+  const playerScore = player.score || 0;
+  const timeTaken = player.timeTaken || player.correctElapsedMs ? (player.correctElapsedMs / 1000) : null;
+  const incorrectGuesses = player.incorrectGuesses || [];
   
-  const cardStyle = {
-    padding: theme.spacing.md,
-    borderBottom: theme.borders.thin,
-    backgroundColor: isCorrect ? theme.colors.success : theme.colors.surface,
-    color: isCorrect ? '#fff' : theme.colors.text,
-    transition: 'background-color 0.3s ease',
-  };
-
-  const nameStyle = {
-    fontWeight: theme.typography.fontWeight.bold,
-    fontSize: theme.typography.fontSize.base,
-    display: 'flex',
-    justifyContent: 'space-between',
-  };
-
-  const statsStyle = {
-    fontSize: theme.typography.fontSize.sm,
-    marginTop: theme.spacing.xs,
-    opacity: 0.9,
-  };
-
-  const incorrectGuessesStyle = {
-    marginTop: theme.spacing.sm,
-    fontSize: theme.typography.fontSize.sm,
-    color: isCorrect ? '#eee' : theme.colors.error,
-    fontStyle: 'italic',
-  };
-
   return (
-    <div style={cardStyle}>
-      <div style={nameStyle}>
-        <span>{player.name}</span>
-        <span>{player.score} pts</span>
+    <div 
+      className={`
+        p-4 border-b border-black transition-colors duration-300
+        ${isCorrect ? 'bg-success text-white' : 'bg-surface text-black'}
+      `}
+    >
+      <div className="flex justify-between font-bold text-base">
+        <span>{playerName}</span>
+        <span>{playerScore} pts</span>
       </div>
       
       {hasGuessed && (
-        <div style={statsStyle}>
+        <div className="text-sm mt-1 opacity-90">
           {isCorrect ? 'Correct!' : 'Guessed'} 
-          {player.timeTaken && ` (${player.timeTaken.toFixed(2)}s)`}
+          {timeTaken && ` (${timeTaken.toFixed(2)}s)`}
         </div>
       )}
 
-      {isTypingMode && player.incorrectGuesses && player.incorrectGuesses.length > 0 && (
-        <div style={incorrectGuessesStyle}>
-          {player.incorrectGuesses.join(', ')}
+      {isTypingMode && incorrectGuesses.length > 0 && (
+        <div 
+          className={`
+            mt-2 text-sm italic
+            ${isCorrect ? 'text-gray-200' : 'text-error'}
+          `}
+        >
+          {incorrectGuesses.join(', ')}
         </div>
       )}
     </div>
   );
 }
 
-export default function PlayerList({ players, isTypingMode }) {
-  const style = {
-    height: '100%',
-    display: 'flex',
-    flexDirection: 'column',
-  };
-
-  const headerStyle = {
-    padding: theme.spacing.md,
-    borderBottom: theme.borders.thick,
-    fontWeight: theme.typography.fontWeight.bold,
-    backgroundColor: theme.colors.secondary,
-  };
-
+export default function PlayerList({ players = [], isTypingMode }) {
+  // Sort by score descending
+  const sortedPlayers = [...players].sort((a, b) => (b.score || 0) - (a.score || 0));
+  
   return (
-    <div style={style}>
-      <div style={headerStyle}>
+    <div className="h-full flex flex-col">
+      <div className="p-4 border-b-2 border-black font-bold bg-secondary">
         Players ({players.length})
       </div>
-      <div style={{ flex: 1, overflowY: 'auto' }}>
-        {players
-          .sort((a, b) => b.score - a.score)
-          .map(player => (
+      <div className="flex-1 overflow-y-auto">
+        {sortedPlayers.length > 0 ? (
+          sortedPlayers.map(player => (
             <PlayerCard 
-              key={player.id} 
+              key={player.id || player.playerId} 
               player={player} 
               isTypingMode={isTypingMode} 
             />
-        ))}
+          ))
+        ) : (
+          <div className="p-4 text-gray-500 italic">No players yet</div>
+        )}
       </div>
     </div>
   );

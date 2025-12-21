@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { theme } from '../theme';
+import React from 'react';
 import TimerBar from './TimerBar';
 
 export default function BottomBar({ 
@@ -10,32 +9,6 @@ export default function BottomBar({
   placeholder,
   timerProgress 
 }) {
-  const containerStyle = {
-    width: '100%',
-    borderTop: theme.borders.thick,
-    backgroundColor: theme.colors.surface,
-    display: 'flex',
-    flexDirection: 'column',
-  };
-
-  const inputContainerStyle = {
-    padding: theme.spacing.md,
-    display: 'flex',
-    justifyContent: 'center',
-  };
-
-  const inputStyle = {
-    width: '100%',
-    maxWidth: '600px',
-    padding: theme.spacing.md,
-    fontSize: theme.typography.fontSize.lg,
-    border: theme.borders.thin,
-    textAlign: 'center',
-    outline: 'none',
-    backgroundColor: isEnabled ? '#fff' : theme.colors.secondary,
-    cursor: isEnabled ? 'text' : 'not-allowed',
-  };
-
   const handleKeyDown = (e) => {
     if (e.key === 'Enter' && isEnabled) {
       onSubmit();
@@ -43,9 +16,9 @@ export default function BottomBar({
   };
 
   return (
-    <div style={containerStyle}>
+    <div className="w-full border-t-2 border-black bg-surface flex flex-col">
       {timerProgress !== null && <TimerBar progress={timerProgress} />}
-      <div style={inputContainerStyle}>
+      <div className="p-4 flex justify-center">
         <input
           type="text"
           value={inputValue}
@@ -53,7 +26,10 @@ export default function BottomBar({
           onKeyDown={handleKeyDown}
           placeholder={placeholder || "Type your answer..."}
           disabled={!isEnabled}
-          style={inputStyle}
+          className={`
+            w-full max-w-[600px] p-4 text-lg border border-black text-center outline-none
+            ${isEnabled ? 'bg-white cursor-text' : 'bg-secondary cursor-not-allowed'}
+          `}
           autoFocus={isEnabled}
         />
       </div>

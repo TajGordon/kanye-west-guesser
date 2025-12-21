@@ -1,78 +1,61 @@
 import React from 'react';
-import { theme } from '../theme';
 
-export default function SettingsPanel({ settings, onUpdateSettings, isHost }) {
-  const style = {
-    padding: theme.spacing.md,
-    height: '100%',
-    overflowY: 'auto',
-    backgroundColor: theme.colors.surface,
-  };
+const DEFAULT_SETTINGS = {
+  roundDurationMs: 20000,
+  pointsToWin: 50,
+  questionPackId: 'kanye-classic'
+};
 
-  const sectionStyle = {
-    marginBottom: theme.spacing.lg,
-  };
-
-  const labelStyle = {
-    display: 'block',
-    marginBottom: theme.spacing.sm,
-    fontWeight: theme.typography.fontWeight.bold,
-  };
-
-  const inputStyle = {
-    width: '100%',
-    padding: theme.spacing.sm,
-    border: theme.borders.thin,
-    marginBottom: theme.spacing.sm,
-  };
-
+export default function SettingsPanel({ settings = {}, onUpdateSettings, isHost }) {
+  // Merge with defaults
+  const mergedSettings = { ...DEFAULT_SETTINGS, ...settings };
+  
   const handleChange = (key, value) => {
     if (!isHost) return;
-    onUpdateSettings({ ...settings, [key]: value });
+    onUpdateSettings({ ...mergedSettings, [key]: value });
   };
 
   return (
-    <div style={style}>
-      <h2 style={{ marginBottom: theme.spacing.lg }}>Lobby Settings</h2>
+    <div className="p-4 h-full overflow-y-auto bg-surface">
+      <h2 className="mb-6 text-xl font-bold">Lobby Settings</h2>
       
-      <div style={sectionStyle}>
-        <label style={labelStyle}>Round Duration (seconds)</label>
+      <div className="mb-6">
+        <label className="block mb-2 font-bold">Round Duration (seconds)</label>
         <input
           type="number"
-          value={settings.roundDurationMs / 1000}
+          value={(mergedSettings.roundDurationMs || 20000) / 1000}
           onChange={(e) => handleChange('roundDurationMs', parseInt(e.target.value) * 1000)}
           disabled={!isHost}
-          style={inputStyle}
+          className="w-full p-2 border border-black mb-2"
         />
       </div>
 
-      <div style={sectionStyle}>
-        <label style={labelStyle}>Points to Win</label>
+      <div className="mb-6">
+        <label className="block mb-2 font-bold">Points to Win</label>
         <input
           type="number"
-          value={settings.pointsToWin}
+          value={mergedSettings.pointsToWin || 50}
           onChange={(e) => handleChange('pointsToWin', parseInt(e.target.value))}
           disabled={!isHost}
-          style={inputStyle}
+          className="w-full p-2 border border-black mb-2"
         />
       </div>
 
-      <div style={sectionStyle}>
-        <label style={labelStyle}>Question Pack</label>
+      <div className="mb-6">
+        <label className="block mb-2 font-bold">Question Pack</label>
         <select
-          value={settings.questionPackId}
+          value={mergedSettings.questionPackId || 'kanye-classic'}
           onChange={(e) => handleChange('questionPackId', e.target.value)}
           disabled={!isHost}
-          style={inputStyle}
+          className="w-full p-2 border border-black mb-2"
         >
           <option value="kanye-classic">Kanye Classic</option>
           <option value="kanye-advanced">Kanye Advanced</option>
-          {/* Add more packs dynamically if available */}
         </select>
       </div>
 
       {!isHost && (
-        <div style={{ color: theme.colors.secondary, fontStyle: 'italic' }}>
+        <div className="text-gray-500 italic">
           Only the host can change settings.
         </div>
       )}
