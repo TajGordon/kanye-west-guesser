@@ -5,3 +5,6 @@ make a program that lets me edit the album information, especially since the alb
 
 
 do the stuff about how input can or cant be sanitised to like not have the punctuation required for answers, unless its on like strict
+
+
+aliases should only apply for like asking "who said this" and should not apply for like "fill in the lyric"!!! whether aliases are allowed should depend on the strictness of the answer type. 
