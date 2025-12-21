@@ -19,11 +19,13 @@ const MEDIA_FS_BASE = path.join(__dirname, '../public/media')
 const QUESTION_MEDIA_SUBDIR = 'questions'
 const QUESTION_MEDIA_FS_BASE = path.join(MEDIA_FS_BASE, QUESTION_MEDIA_SUBDIR)
 const QUESTION_MEDIA_URL_BASE = `${MEDIA_PUBLIC_BASE}/${QUESTION_MEDIA_SUBDIR}`
+const FLAGS_DATA_PATH = path.join(__dirname, '../data/flagged-questions.json')
 
 let questionList = []
 let questionMap = new Map()
 let tagIndex = new Map()
 let allQuestionIds = new Set()
+let flaggedQuestions = new Map() // questionId -> { flags: [{ playerId, playerName, reason, timestamp, lobbyId }] }
 
 function cloneSet(input) {
     if (!input) return new Set()
@@ -432,3 +434,101 @@ export function formatQuestionForReveal(question) {
     
     return revealQuestion
 }
+
+// ============================================================================
+// Question Flagging
+// ============================================================================
+
+/**
+ * Load flagged questions from disk
+ */
+function loadFlaggedQuestions() {
+    try {
+        if (fs.existsSync(FLAGS_DATA_PATH)) {
+            const raw = fs.readFileSync(FLAGS_DATA_PATH, 'utf-8')
+            const data = JSON.parse(raw)
+            flaggedQuestions = new Map(Object.entries(data))
+            console.log(`Loaded ${flaggedQuestions.size} flagged questions`)
+        }
+    } catch (error) {
+        console.error('Failed to load flagged questions:', error.message)
+    }
+}
+
+/**
+ * Save flagged questions to disk
+ */
+function saveFlaggedQuestions() {
+    try {
+        const data = Object.fromEntries(flaggedQuestions)
+        fs.writeFileSync(FLAGS_DATA_PATH, JSON.stringify(data, null, 2), 'utf-8')
+    } catch (error) {
+        console.error('Failed to save flagged questions:', error.message)
+    }
+}
+
+/**
+ * Flag a question for review
+ * @param {string} questionId 
+ * @param {object} flagInfo - { playerId, playerName, reason, lobbyId }
+ * @returns {{ success: boolean, flagCount: number, error?: string }}
+ */
+export function flagQuestion(questionId, flagInfo = {}) {
+    if (!questionId || typeof questionId !== 'string') {
+        return { success: false, flagCount: 0, error: 'Invalid question ID' }
+    }
+
+    const question = questionMap.get(questionId)
+    if (!question) {
+        return { success: false, flagCount: 0, error: 'Question not found' }
+    }
+
+    const existing = flaggedQuestions.get(questionId) || { flags: [], question: { id: question.id, title: question.title } }
+    
+    // Check if this player already flagged this question
+    const alreadyFlagged = existing.flags.some(f => f.playerId === flagInfo.playerId)
+    if (alreadyFlagged) {
+        return { success: false, flagCount: existing.flags.length, error: 'Already flagged by this player' }
+    }
+
+    existing.flags.push({
+        playerId: flagInfo.playerId || 'unknown',
+        playerName: flagInfo.playerName || 'Unknown',
+        reason: flagInfo.reason || 'No reason provided',
+        lobbyId: flagInfo.lobbyId || null,
+        timestamp: Date.now()
+    })
+
+    flaggedQuestions.set(questionId, existing)
+    saveFlaggedQuestions()
+
+    console.log(`Question "${question.title}" flagged (total: ${existing.flags.length} flags)`)
+    return { success: true, flagCount: existing.flags.length }
+}
+
+/**
+ * Get all flagged questions
+ * @returns {Array} Array of flagged question records
+ */
+export function getFlaggedQuestions() {
+    return Array.from(flaggedQuestions.entries()).map(([id, data]) => ({
+        questionId: id,
+        ...data
+    }))
+}
+
+/**
+ * Clear flags for a question (after manual review)
+ * @param {string} questionId 
+ */
+export function clearQuestionFlags(questionId) {
+    if (flaggedQuestions.has(questionId)) {
+        flaggedQuestions.delete(questionId)
+        saveFlaggedQuestions()
+        return true
+    }
+    return false
+}
+
+// Load flags on module init
+loadFlaggedQuestions()

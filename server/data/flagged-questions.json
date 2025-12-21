@@ -1,0 +1,17 @@
+{
+  "tf-chicago-born": {
+    "flags": [
+      {
+        "playerId": "6f7cfd80-33c9-4825-98d9-51825bd07c91",
+        "playerName": "anon",
+        "reason": "Flagged in-game",
+        "lobbyId": "ASDF",
+        "timestamp": 1766285193948
+      }
+    ],
+    "question": {
+      "id": "tf-chicago-born",
+      "title": "Kanye West was born in Chicago, Illinois."
+    }
+  }
+}

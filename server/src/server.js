@@ -29,7 +29,7 @@ import {
     clearRoundState,
     shouldRoundEnd 
 } from './gameManager.js'
-import { initializeQuestionStore } from './questionStore.js'
+import { initializeQuestionStore, flagQuestion } from './questionStore.js'
 import { QUESTION_TYPES, typeRevealsOnSubmit } from './questionTypes.js'
 
 const app = express();
@@ -568,6 +568,33 @@ io.on('connection', (socket) => {
         broadcastLobbyRoster(lobbyId);
         emitLobbyPhase(lobbyId);
         broadcastLobbySettings(lobbyId);
+    });
+
+    socket.on('flagQuestion', (payload = {}) => {
+        const player = getPlayerBySocket(socket);
+        if (!player) return;
+
+        const { questionId, reason } = payload;
+        if (!questionId) {
+            socket.emit('flagQuestionResult', { success: false, error: 'No question ID provided' });
+            return;
+        }
+
+        const lobbyPlayer = getLobbyPlayer(player.lobbyId, player.playerId);
+        const playerName = lobbyPlayer?.name || player.name || 'Unknown';
+
+        const result = flagQuestion(questionId, {
+            playerId: player.playerId,
+            playerName,
+            reason: reason || 'Flagged in-game',
+            lobbyId: player.lobbyId
+        });
+
+        socket.emit('flagQuestionResult', result);
+        
+        if (result.success) {
+            console.log(`Player ${playerName} flagged question ${questionId}`);
+        }
     });
 
     socket.on('disconnect', () => {

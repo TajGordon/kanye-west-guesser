@@ -109,6 +109,7 @@ export default function App() {
   const [winDetails, setWinDetails] = useState(null);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isLogOpen, setIsLogOpen] = useState(false);
+  const [hasFlaggedQuestion, setHasFlaggedQuestion] = useState(false);
 
   const nameRef = useRef(displayName);
   const answerInputRef = useRef(null);
@@ -261,6 +262,7 @@ export default function App() {
       setHasAnsweredCorrectly(false);
       setSelectedChoiceId(null);
       setHasSubmittedChoice(false);
+      setHasFlaggedQuestion(false);
       setSummaryEndsAt(null);
       setSummaryCountdownText('--');
       const endsAt = payload.endsAt ?? (payload.startedAt + (payload.durationMs || 0));
@@ -303,6 +305,15 @@ export default function App() {
 
     socket.on('roundStartDenied', (payload) => {
       pushLog('Round start denied', payload?.reason);
+    });
+
+    socket.on('flagQuestionResult', (payload) => {
+      if (payload.success) {
+        pushLog('Question flagged', `${payload.flagCount} total flags`);
+        setHasFlaggedQuestion(true);
+      } else {
+        pushLog('Flag failed', payload.error);
+      }
     });
 
     socket.on('lobbyWin', (payload) => {
@@ -410,8 +421,10 @@ export default function App() {
 
   function handleChoiceSelect(choiceId) {
     if (hasSubmittedChoice || !roundActive) return;
+    // Immediately lock to prevent double-submission before server response
+    setHasSubmittedChoice(true);
     setSelectedChoiceId(choiceId);
-    // Immediately submit the choice
+    // Submit the choice
     emit('submitAnswer', { choiceId });
   }
 
@@ -431,6 +444,12 @@ export default function App() {
 
   function handleResetGame() {
     emit('resetGameRequest');
+  }
+
+  function handleFlagQuestion() {
+    const questionId = question?.id || summaryToDisplay?.question?.id;
+    if (!questionId || hasFlaggedQuestion) return;
+    emit('flagQuestion', { questionId, reason: 'Flagged in-game' });
   }
 
   const isRoundPhase = phase === 'round';
@@ -847,15 +866,28 @@ export default function App() {
           <section className={`question-hero ${isWinPhase ? 'win' : ''}`}>
             <div className="hero-ribbon">
               <span>{isWinPhase ? 'Winner' : roundStatus}</span>
-              {showHeroHostButton && (
-                <button
-                  className="host-button"
-                  type="button"
-                  onClick={heroHostButtonAction}
-                >
-                  {heroHostButtonLabel}
-                </button>
-              )}
+              <div className="hero-ribbon-actions">
+                {(isRoundPhase || isSummaryPhase) && (
+                  <button
+                    className={`flag-button ${hasFlaggedQuestion ? 'flagged' : ''}`}
+                    type="button"
+                    onClick={handleFlagQuestion}
+                    disabled={hasFlaggedQuestion}
+                    title={hasFlaggedQuestion ? 'Question flagged' : 'Flag this question for review'}
+                  >
+                    {hasFlaggedQuestion ? '⚑ Flagged' : '⚐ Flag'}
+                  </button>
+                )}
+                {showHeroHostButton && (
+                  <button
+                    className="host-button"
+                    type="button"
+                    onClick={heroHostButtonAction}
+                  >
+                    {heroHostButtonLabel}
+                  </button>
+                )}
+              </div>
             </div>
             {isRoundPhase && roundTiming.durationMs && !hasAnsweredCorrectly && (
               <div className="hero-progress">
