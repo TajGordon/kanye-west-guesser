@@ -13,6 +13,10 @@ import {
     formatQuestionForReveal 
 } from './questionStore.js'
 import {
+    instantiateQuestion,
+    isTemplateQuestion
+} from './questionInstantiator.js'
+import {
     QUESTION_TYPES,
     getQuestionTypeConfig,
     typeAllowsRetry,
@@ -48,7 +52,9 @@ const FALLBACK_QUESTION = {
 }
 
 function pickRandomQuestion() {
-    return getRandomQuestion() || FALLBACK_QUESTION
+    const rawQuestion = getRandomQuestion() || FALLBACK_QUESTION
+    // Instantiate template questions (interpolates placeholders, builds choices, etc.)
+    return instantiateQuestion(rawQuestion)
 }
 
 // ============================================================================

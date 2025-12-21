@@ -126,6 +126,9 @@ export function instantiateQuestion(question) {
             
             instance.choices = shuffle([correctChoice, ...wrongChoices]);
             instance.correctChoiceId = 'correct';
+            
+            // Set shownAnswer for MC questions (used in title interpolation)
+            context.shownAnswer = question.answer?.display || 'Unknown';
         }
         
         if (questionType === QUESTION_TYPES.TRUE_FALSE) {
@@ -149,12 +152,17 @@ export function instantiateQuestion(question) {
             context.shownAnswer = shownAnswer;
             instance._shownAnswer = shownAnswer;
             instance.choices = TRUE_FALSE_CHOICES;
-            
-            // Interpolate title with shown answer
-            if (question.titleTemplate) {
-                instance.title = interpolate(question.titleTemplate, context);
-            }
         }
+    }
+    
+    // Set shownAnswer for FREE_TEXT questions (the correct answer)
+    if (questionType === QUESTION_TYPES.FREE_TEXT) {
+        context.shownAnswer = question.answer?.display || question.answers?.[0]?.display || 'Unknown';
+    }
+    
+    // Interpolate title template for ALL question types
+    if (question.titleTemplate) {
+        instance.title = interpolate(question.titleTemplate, context);
     }
     
     // Build acceptedAliasMap for free-text questions
@@ -164,6 +172,14 @@ export function instantiateQuestion(question) {
         if (question.answers) {
             // Multi-answer question
             for (const answer of question.answers) {
+                // Add the primary display value first
+                if (answer.display) {
+                    const normalizedDisplay = answer.display.toLowerCase().trim();
+                    if (!acceptedAliasMap.has(normalizedDisplay)) {
+                        acceptedAliasMap.set(normalizedDisplay, answer);
+                    }
+                }
+                // Then add all aliases
                 for (const alias of answer.aliases || []) {
                     const normalized = alias.toLowerCase().trim();
                     if (!acceptedAliasMap.has(normalized)) {
@@ -172,7 +188,14 @@ export function instantiateQuestion(question) {
                 }
             }
         } else if (question.answer) {
-            // Single answer question
+            // Single answer question - add primary display value first
+            if (question.answer.display) {
+                const normalizedDisplay = question.answer.display.toLowerCase().trim();
+                if (!acceptedAliasMap.has(normalizedDisplay)) {
+                    acceptedAliasMap.set(normalizedDisplay, question.answer);
+                }
+            }
+            // Then add all aliases
             for (const alias of question.answer.aliases || []) {
                 const normalized = alias.toLowerCase().trim();
                 if (!acceptedAliasMap.has(normalized)) {

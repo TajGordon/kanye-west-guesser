@@ -177,6 +177,11 @@ export default function App() {
         setSummaryEndsAt(null);
         setSummaryCountdownText('--');
       }
+      // Always reset answer state on join - server will send current round state if needed
+      setHasAnsweredCorrectly(false);
+      setHasSubmittedChoice(false);
+      setSelectedChoiceId(null);
+      setAnswer('');
       if (joinedPhase === 'round') {
         setRoundStatus('Round in progress');
         setRoundActive(true);
@@ -188,7 +193,6 @@ export default function App() {
         setRoundActive(false);
         setRoundResults(null);
         setCountdownText('--');
-        setHasAnsweredCorrectly(false);
       } else {
         setRoundStatus('Waiting for host');
         setRoundActive(false);
@@ -226,6 +230,8 @@ export default function App() {
         setRoundStatus('Waiting for host');
         setRoundActive(false);
         setHasAnsweredCorrectly(false);
+        setHasSubmittedChoice(false);
+        setSelectedChoiceId(null);
         setHasRoundRun(false);
         setRoundEndsAt(null);
         setCountdownText('--');
@@ -237,6 +243,9 @@ export default function App() {
         setRoundActive(false);
         setRoundResults(null);
         setCountdownText('--');
+        setHasAnsweredCorrectly(false);
+        setHasSubmittedChoice(false);
+        setSelectedChoiceId(null);
       }
     });
 
