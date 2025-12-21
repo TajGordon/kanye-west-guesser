@@ -215,6 +215,10 @@ function scheduleSummaryAdvance(lobbyId) {
         ensureLobbyRuntimeDefaults(latestLobby);
         if (!latestLobby?.isAutoPlayActive) return;
         if (latestLobby.phase !== getLobbyPhases().SUMMARY) return;
+        // Safety check: don't start new round if we're in win state
+        if (latestLobby.phase === getLobbyPhases().WIN) return;
+        // Double-check win condition before starting new round
+        if (checkForWinAfterRound(lobbyId)) return;
         beginRoundForLobby(lobbyId, 'auto');
     }, duration);
     summaryTimers.set(lobbyId, timer);
@@ -225,10 +229,49 @@ function finalizeRoundAndBroadcast(lobbyId, reason = 'manual') {
     const result = finalizeRound(lobbyId, reason);
     if (!result) return null;
 
-    const { summary } = result;
-    const payload = buildRoundEndPayload(summary, reason);
+    const { round, summary } = result;
     const lobby = getLobby(lobbyId);
     ensureLobbyRuntimeDefaults(lobby);
+    
+    // Award deferred points for choice-based questions (where revealResult=false)
+    // These points were not awarded during submission to avoid revealing correctness
+    const questionType = round?.questionType || QUESTION_TYPES.FREE_TEXT;
+    const shouldDeferPoints = !typeRevealsOnSubmit(questionType);
+    
+    if (shouldDeferPoints && round?.submissions && lobby) {
+        const correctSubmissions = Array.from(round.submissions.values())
+            .filter(s => s.isCorrect)
+            .sort((a, b) => a.submittedAt - b.submittedAt);
+        
+        correctSubmissions.forEach((submission, index) => {
+            const lobbyPlayer = lobby.players.find(p => p.playerId === submission.playerId);
+            if (lobbyPlayer) {
+                const pointsAwarded = Math.max(
+                    MIN_CORRECT_POINTS,
+                    MAX_CORRECT_POINTS - index
+                );
+                lobbyPlayer.score = (lobbyPlayer.score || 0) + pointsAwarded;
+                lobby.scoreByPlayerId?.set(lobbyPlayer.playerId, lobbyPlayer.score);
+                
+                // Also update status for reveal
+                lobbyPlayer.roundGuessStatus = 'correct';
+                const elapsedMs = typeof round.startedAt === 'number' ? submission.submittedAt - round.startedAt : null;
+                lobbyPlayer.correctElapsedMs = elapsedMs;
+            }
+        });
+        
+        // Mark incorrect submissions
+        Array.from(round.submissions.values())
+            .filter(s => !s.isCorrect && s.hasSubmitted)
+            .forEach(submission => {
+                const lobbyPlayer = lobby.players.find(p => p.playerId === submission.playerId);
+                if (lobbyPlayer && lobbyPlayer.roundGuessStatus === 'submitted') {
+                    lobbyPlayer.roundGuessStatus = 'incorrect';
+                }
+            });
+    }
+
+    const payload = buildRoundEndPayload(summary, reason);
     const revealDurationMs = getRevealDurationMs(lobbyId);
     const revealEndsAt = Date.now() + revealDurationMs;
     const autoAdvanceEnabled = Boolean(lobby?.isAutoPlayActive);
@@ -243,7 +286,13 @@ function finalizeRoundAndBroadcast(lobbyId, reason = 'manual') {
     io.to(lobbyId).emit('roundEnded', payload);
     broadcastLobbyRoster(lobbyId);
     emitLobbyPhase(lobbyId);
-    scheduleSummaryAdvance(lobbyId);
+    
+    // Check for win after deferred points are awarded
+    // If someone won, don't schedule the next round
+    const winTriggered = checkForWinAfterRound(lobbyId);
+    if (!winTriggered) {
+        scheduleSummaryAdvance(lobbyId);
+    }
     return payload;
 }
 
@@ -309,7 +358,56 @@ function maybeHandleWin(lobbyId, lobbyPlayer) {
     if ((lobbyPlayer.score || 0) < targetScore) {
         return false;
     }
+    
+    // Check for ties - if there's a tie at or above target, don't trigger win yet
+    const playersAtOrAboveTarget = lobby.players.filter(p => (p.score || 0) >= targetScore);
+    if (playersAtOrAboveTarget.length > 1) {
+        // Check if there's a clear winner (one player with more points than all others)
+        const maxScore = Math.max(...playersAtOrAboveTarget.map(p => p.score || 0));
+        const playersWithMaxScore = playersAtOrAboveTarget.filter(p => (p.score || 0) === maxScore);
+        if (playersWithMaxScore.length > 1) {
+            // Tie! Continue playing
+            return false;
+        }
+        // Clear winner with highest score
+        const winner = playersWithMaxScore[0];
+        return handleLobbyWin(lobby, winner);
+    }
+    
     return handleLobbyWin(lobby, lobbyPlayer);
+}
+
+/**
+ * Check for win condition after round ends (for deferred point awards)
+ */
+function checkForWinAfterRound(lobbyId) {
+    const lobby = getLobby(lobbyId);
+    if (!lobby) return false;
+    if (lobby.phase === getLobbyPhases().WIN) return true;
+    
+    const targetScore = lobby.settings?.pointsToWin || getLobbySettings(lobbyId).pointsToWin;
+    const playersAtOrAboveTarget = lobby.players.filter(p => (p.score || 0) >= targetScore);
+    
+    if (playersAtOrAboveTarget.length === 0) {
+        return false; // No one has reached target
+    }
+    
+    if (playersAtOrAboveTarget.length === 1) {
+        // Single winner
+        return handleLobbyWin(lobby, playersAtOrAboveTarget[0]);
+    }
+    
+    // Multiple players at or above target - check for clear winner
+    const maxScore = Math.max(...playersAtOrAboveTarget.map(p => p.score || 0));
+    const playersWithMaxScore = playersAtOrAboveTarget.filter(p => (p.score || 0) === maxScore);
+    
+    if (playersWithMaxScore.length === 1) {
+        // Clear winner
+        return handleLobbyWin(lobby, playersWithMaxScore[0]);
+    }
+    
+    // Tie at max score - continue playing (sudden death)
+    return false;
 }
 
 function beginRoundForLobby(lobbyId, reason = 'manual') {
@@ -455,27 +553,28 @@ io.on('connection', (socket) => {
 
         // Handle correct answer (both revealed and deferred)
         if (isCorrect) {
-            // For free-text (revealResult=true), update status immediately
+            // For free-text (revealResult=true), update status and award points immediately
             if (revealResult) {
                 lobbyPlayer.roundGuessStatus = 'correct';
                 lobbyPlayer.lastGuessText = null;
                 const elapsedMs = entry && round ? Math.max(0, entry.submittedAt - round.startedAt) : null;
                 lobbyPlayer.correctElapsedMs = elapsedMs;
+
+                // Award points immediately for revealed results
+                const correctCount = Array.from(round.submissions.values()).filter((answer) => answer.isCorrect).length;
+                const pointsAwarded = Math.max(
+                    MIN_CORRECT_POINTS,
+                    MAX_CORRECT_POINTS - (correctCount - 1)
+                );
+
+                lobbyPlayer.score = (lobbyPlayer.score || 0) + pointsAwarded;
+                const lobby = getLobby(player.lobbyId);
+                lobby?.scoreByPlayerId?.set(lobbyPlayer.playerId, lobbyPlayer.score);
+                shouldBroadcastRoster = true;
+
+                winTriggered = maybeHandleWin(player.lobbyId, lobbyPlayer);
             }
-            // For choice-based, keep status as 'submitted' until round ends
-
-            const correctCount = Array.from(round.submissions.values()).filter((answer) => answer.isCorrect).length;
-            const pointsAwarded = Math.max(
-                MIN_CORRECT_POINTS,
-                MAX_CORRECT_POINTS - (correctCount - 1)
-            );
-
-            lobbyPlayer.score = (lobbyPlayer.score || 0) + pointsAwarded;
-            const lobby = getLobby(player.lobbyId);
-            lobby?.scoreByPlayerId?.set(lobbyPlayer.playerId, lobbyPlayer.score);
-            shouldBroadcastRoster = true;
-
-            winTriggered = maybeHandleWin(player.lobbyId, lobbyPlayer);
+            // For choice-based (revealResult=false), keep status as 'submitted' and defer points until round ends
         }
 
         if (shouldBroadcastRoster) {
