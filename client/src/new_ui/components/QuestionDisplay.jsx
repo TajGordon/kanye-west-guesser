@@ -78,7 +78,7 @@ export default function QuestionDisplay({
 
       {/* Question Content Body */}
       {contentText && (
-        <div className="text-xl mb-6 p-4 bg-secondary rounded border border-black">
+        <div className="text-xl mb-6 p-4 bg-secondary rounded border border-black text-black">
           {contentText}
         </div>
       )}

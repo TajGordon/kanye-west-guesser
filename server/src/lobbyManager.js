@@ -10,7 +10,8 @@ const DEFAULT_LOBBY_SETTINGS = {
     roundDurationMs: 20_000,
     questionPackId: 'kanye-classic',
     pointsToWin: 50,
-    questionFilter: '*'
+    // Only use fill-in-lyrics and song-from-lyric questions for now
+    questionFilter: 'gen:fill-missing-word | gen:song-from-lyric'
 };
 const MIN_ROUND_DURATION_MS = 1_000;
 const MAX_ROUND_DURATION_MS = 120_000;
@@ -51,7 +52,8 @@ export function createLobbyIfMissing(lobbyId) {
             hostReleaseAt: null,
             scoreByPlayerId: new Map(),
             settings: { ...DEFAULT_LOBBY_SETTINGS },
-            isAutoPlayActive: false
+            isAutoPlayActive: false,
+            usedQuestionIds: new Set()  // Track questions that have been asked this game
         });
     }
 
@@ -225,6 +227,24 @@ export function resetLobbyRoundGuesses(lobbyId) {
     return lobby;
 }
 
+export function getUsedQuestionIds(lobbyId) {
+    const lobby = getLobby(lobbyId);
+    if (!lobby) return new Set();
+    if (!lobby.usedQuestionIds) {
+        lobby.usedQuestionIds = new Set();
+    }
+    return lobby.usedQuestionIds;
+}
+
+export function markQuestionUsed(lobbyId, questionId) {
+    const lobby = getLobby(lobbyId);
+    if (!lobby) return;
+    if (!lobby.usedQuestionIds) {
+        lobby.usedQuestionIds = new Set();
+    }
+    lobby.usedQuestionIds.add(questionId);
+}
+
 function refreshHostAssignment(lobby) {
     if (!lobby) return;
     if (lobby.hostPlayerId) return;
@@ -251,6 +271,7 @@ export function resetLobbyGameState(lobbyId) {
         player.correctElapsedMs = null;
     });
     lobby.scoreByPlayerId?.clear();
+    lobby.usedQuestionIds = new Set();  // Reset used questions for new game
     lobby.phase = LOBBY_PHASES.SEATING;
     lobby.phaseData = null;
     lobby.lastRoundSummary = null;

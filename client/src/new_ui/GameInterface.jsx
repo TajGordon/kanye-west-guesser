@@ -75,18 +75,35 @@ export default function GameInterface() {
   };
 
   const handleSubmitAnswer = () => {
-    if (!inputValue.trim()) return;
+    const trimmedValue = (inputValue || '').trim();
+    if (!trimmedValue) {
+      console.log('[GameInterface] handleSubmitAnswer: empty input, skipping');
+      return;
+    }
+    
+    console.log('[GameInterface] handleSubmitAnswer: questionType =', questionType, 
+      'isNumeric =', isNumeric, 'isMultiEntry =', isMultiEntry, 'value =', trimmedValue);
     
     // For numeric questions, send numericValue
     if (isNumeric) {
-      const numVal = parseFloat(inputValue);
+      const numVal = parseFloat(trimmedValue);
       if (!isNaN(numVal) && emit) {
+        console.log('[GameInterface] submitting numeric:', numVal);
         emit('submitAnswer', { numericValue: numVal });
+      } else {
+        console.log('[GameInterface] invalid numeric value:', trimmedValue);
+      }
+    } else if (isMultiEntry) {
+      // Multi-entry uses 'guess' field on server
+      if (emit) {
+        console.log('[GameInterface] submitting multi-entry guess:', trimmedValue);
+        emit('submitAnswer', { guess: trimmedValue });
       }
     } else if (emit) {
-      emit('submitAnswer', { answer: inputValue });
+      console.log('[GameInterface] submitting free-text answer:', trimmedValue);
+      emit('submitAnswer', { answer: trimmedValue });
     } else if (actions?.submitTextAnswer) {
-      actions.submitTextAnswer(inputValue);
+      actions.submitTextAnswer(trimmedValue);
     }
     setInputValue('');
   };

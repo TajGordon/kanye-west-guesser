@@ -271,7 +271,14 @@ export function useGameSocket({ playerId, lobbyId, playerName }) {
     });
 
     socket.on('answerResult', (payload) => {
+      console.log('[useGameSocket] answerResult received:', JSON.stringify(payload));
       pushLog('Answer result', payload.status ?? (payload.result ? 'correct' : 'incorrect'));
+      
+      // Handle error responses
+      if (payload.status === 'error') {
+        console.error('[useGameSocket] answerResult error:', payload.message);
+        return;
+      }
       
       if (typeof payload.score === 'number') {
         setScore(payload.score);
@@ -282,6 +289,7 @@ export function useGameSocket({ playerId, lobbyId, playerName }) {
         
         // For free-text: result is revealed immediately
         if (payload.status === 'correct' || payload.result === true) {
+          console.log('[useGameSocket] marking hasAnsweredCorrectly = true');
           updated.hasAnsweredCorrectly = true;
         }
         
@@ -292,6 +300,7 @@ export function useGameSocket({ playerId, lobbyId, playerName }) {
         
         // For multi-entry: update found answers and wrong guesses
         if (payload.multiEntry) {
+          console.log('[useGameSocket] multi-entry result:', payload.multiEntry);
           updated.foundAnswers = payload.multiEntry.foundAnswers || [];
           updated.wrongGuesses = payload.multiEntry.wrongGuesses || [];
           updated.remainingGuesses = payload.multiEntry.remainingGuesses;
@@ -317,6 +326,7 @@ export function useGameSocket({ playerId, lobbyId, playerName }) {
           updated.hasSubmittedChoice = true; // Use same flag for "submitted" state
         }
         
+        console.log('[useGameSocket] updated answerState:', updated);
         return updated;
       });
     });

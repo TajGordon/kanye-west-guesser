@@ -33,6 +33,7 @@ import {
     MATCH_MODES
 } from './answerNormalization.js'
 import { filterQuestionsByExpression } from './questionFilter.js'
+import { getUsedQuestionIds, markQuestionUsed } from './lobbyManager.js'
 
 const roundsByLobbyId = new Map()
 
@@ -58,10 +59,12 @@ const FALLBACK_QUESTION = {
 
 /**
  * Pick a random question, optionally filtered by expression
+ * Excludes questions that have already been used in this game session
+ * @param {string} lobbyId - The lobby ID (for tracking used questions)
  * @param {string|null} filterExpression - Optional tag filter expression
  * @returns {object} Question object
  */
-function pickRandomQuestion(filterExpression = null) {
+function pickRandomQuestion(lobbyId, filterExpression = null) {
     let allowedQuestionIds = null;
     
     // Apply filter if provided
@@ -75,7 +78,16 @@ function pickRandomQuestion(filterExpression = null) {
         }
     }
     
-    const rawQuestion = getRandomQuestion(allowedQuestionIds) || FALLBACK_QUESTION
+    // Get used questions for this lobby
+    const usedQuestionIds = getUsedQuestionIds(lobbyId);
+    
+    const rawQuestion = getRandomQuestion(allowedQuestionIds, usedQuestionIds) || FALLBACK_QUESTION
+    
+    // Mark this question as used (if it has an ID)
+    if (rawQuestion && rawQuestion.id) {
+        markQuestionUsed(lobbyId, rawQuestion.id);
+    }
+    
     // Instantiate template questions (interpolates placeholders, builds choices, etc.)
     return instantiateQuestion(rawQuestion)
 }
@@ -92,7 +104,7 @@ function pickRandomQuestion(filterExpression = null) {
  * @returns {object} Round object
  */
 export function startNewRound(lobbyId, durationMs = DEFAULT_ROUND_DURATION_MS, filterExpression = null) {
-    const question = pickRandomQuestion(filterExpression)
+    const question = pickRandomQuestion(lobbyId, filterExpression)
     const startedAt = Date.now()
     const questionType = question.type || QUESTION_TYPES.FREE_TEXT
     
@@ -163,16 +175,32 @@ export function buildRoundPayload(round) {
  * @returns {object} Submission result
  */
 export function submitAnswerToRound({ lobbyId, playerId, answerText, choiceId, guess, numericValue, orderedIds }) {
+    // Defensive: validate lobbyId and playerId
+    if (!lobbyId || typeof lobbyId !== 'string') {
+        console.error('[gameManager] submitAnswerToRound: invalid lobbyId:', lobbyId)
+        return { status: 'invalid-lobby' }
+    }
+    if (!playerId || typeof playerId !== 'string') {
+        console.error('[gameManager] submitAnswerToRound: invalid playerId:', playerId)
+        return { status: 'invalid-player' }
+    }
+
     const round = roundsByLobbyId.get(lobbyId)
     if (!round) {
+        console.log('[gameManager] submitAnswerToRound: no round for lobby:', lobbyId)
         return { status: 'no-round' }
     }
 
     if (!round.isActive) {
+        console.log('[gameManager] submitAnswerToRound: round not active for lobby:', lobbyId)
         return { status: 'round-ended', round }
     }
 
     const questionType = round.questionType || QUESTION_TYPES.FREE_TEXT
+    console.log('[gameManager] submitAnswerToRound: questionType =', questionType, 
+        'answerText =', answerText, 'guess =', guess, 'choiceId =', choiceId,
+        'numericValue =', numericValue, 'orderedIds =', orderedIds)
+    
     const previousEntry = round.submissions.get(playerId)
     
     // Check if player can submit (for most types)
@@ -180,30 +208,44 @@ export function submitAnswerToRound({ lobbyId, playerId, answerText, choiceId, g
     if (questionType !== QUESTION_TYPES.MULTI_ENTRY) {
         const canSubmit = canPlayerSubmit(round, playerId, previousEntry)
         if (!canSubmit.allowed) {
+            console.log('[gameManager] submitAnswerToRound: player cannot submit:', canSubmit.reason)
             return { status: canSubmit.reason, round }
         }
     }
 
     // Route to appropriate submission handler
-    switch (questionType) {
-        case QUESTION_TYPES.FREE_TEXT:
-            return submitFreeTextAnswer(round, playerId, answerText, previousEntry)
-        
-        case QUESTION_TYPES.MULTIPLE_CHOICE:
-        case QUESTION_TYPES.TRUE_FALSE:
-            return submitChoiceAnswer(round, playerId, choiceId)
-        
-        case QUESTION_TYPES.MULTI_ENTRY:
-            return submitMultiEntryGuess(round, playerId, guess, previousEntry)
-        
-        case QUESTION_TYPES.NUMERIC:
-            return submitNumericAnswer(round, playerId, numericValue)
-        
-        case QUESTION_TYPES.ORDERED_LIST:
-            return submitOrderedListAnswer(round, playerId, orderedIds)
-        
-        default:
-            return submitFreeTextAnswer(round, playerId, answerText, previousEntry)
+    try {
+        let result
+        switch (questionType) {
+            case QUESTION_TYPES.FREE_TEXT:
+                result = submitFreeTextAnswer(round, playerId, answerText, previousEntry)
+                break
+            
+            case QUESTION_TYPES.MULTIPLE_CHOICE:
+            case QUESTION_TYPES.TRUE_FALSE:
+                result = submitChoiceAnswer(round, playerId, choiceId)
+                break
+            
+            case QUESTION_TYPES.MULTI_ENTRY:
+                result = submitMultiEntryGuess(round, playerId, guess, previousEntry)
+                break
+            
+            case QUESTION_TYPES.NUMERIC:
+                result = submitNumericAnswer(round, playerId, numericValue)
+                break
+            
+            case QUESTION_TYPES.ORDERED_LIST:
+                result = submitOrderedListAnswer(round, playerId, orderedIds)
+                break
+            
+            default:
+                result = submitFreeTextAnswer(round, playerId, answerText, previousEntry)
+        }
+        console.log('[gameManager] submitAnswerToRound: result status =', result?.status)
+        return result
+    } catch (error) {
+        console.error('[gameManager] submitAnswerToRound: error during submission:', error)
+        return { status: 'error', round, error: error.message }
     }
 }
 
@@ -294,13 +336,32 @@ function submitChoiceAnswer(round, playerId, choiceId) {
  * Handle multi-entry guess submission (Wordle-style, multiple guesses allowed)
  */
 function submitMultiEntryGuess(round, playerId, guess, previousEntry) {
-    if (!guess || typeof guess !== 'string') {
+    console.log('[gameManager] submitMultiEntryGuess: guess =', guess, 'playerId =', playerId)
+    
+    // Validate guess input
+    if (guess === undefined || guess === null) {
+        console.log('[gameManager] submitMultiEntryGuess: guess is undefined/null')
+        return { status: 'invalid-input', round }
+    }
+    if (typeof guess !== 'string') {
+        console.log('[gameManager] submitMultiEntryGuess: guess is not string, type =', typeof guess)
         return { status: 'invalid-input', round }
     }
 
     const trimmed = guess.trim().toLowerCase()
     if (!trimmed) {
+        console.log('[gameManager] submitMultiEntryGuess: guess is empty after trim')
         return { status: 'empty-guess', round }
+    }
+
+    // Validate round has question with answers
+    if (!round.question) {
+        console.error('[gameManager] submitMultiEntryGuess: round has no question')
+        return { status: 'invalid-round', round }
+    }
+    if (!round.question.answers || !Array.isArray(round.question.answers)) {
+        console.error('[gameManager] submitMultiEntryGuess: question has no answers array')
+        return { status: 'invalid-question', round }
     }
 
     // Get or create multi-entry state for this player
@@ -315,26 +376,33 @@ function submitMultiEntryGuess(round, playerId, guess, previousEntry) {
     }
 
     const maxGuesses = round.question.maxGuesses || 15
-    const totalAnswers = round.question.answers?.length || 0
+    const totalAnswers = round.question.answers.length
+
+    console.log('[gameManager] submitMultiEntryGuess: maxGuesses =', maxGuesses, 
+        'totalAnswers =', totalAnswers, 'current guessCount =', entry.guessCount)
 
     // Check if already at max guesses
     if (entry.guessCount >= maxGuesses) {
+        console.log('[gameManager] submitMultiEntryGuess: max guesses reached')
         return { status: 'max-guesses-reached', round, entry }
     }
 
     // Check if this guess matches any remaining answers
     const { isMatch, matchedAnswer } = evaluateMultiEntryGuess(round.question, trimmed, entry.foundAnswers)
+    console.log('[gameManager] submitMultiEntryGuess: isMatch =', isMatch, 'matchedAnswer =', matchedAnswer?.display)
 
     entry.guessCount++
     entry.submittedAt = Date.now()
 
     if (isMatch && matchedAnswer) {
         entry.foundAnswers.push(matchedAnswer.display || matchedAnswer)
+        console.log('[gameManager] submitMultiEntryGuess: found! foundAnswers =', entry.foundAnswers)
         
         // Check if all answers found
         if (entry.foundAnswers.length >= totalAnswers) {
             entry.isCorrect = true
             entry.hasSubmitted = true
+            console.log('[gameManager] submitMultiEntryGuess: all answers found!')
         }
     } else {
         // Check if already guessed (duplicate)
@@ -345,6 +413,7 @@ function submitMultiEntryGuess(round, playerId, guess, previousEntry) {
         if (!alreadyGuessed) {
             entry.wrongGuesses.push(guess.trim()) // Keep original casing for display
         }
+        console.log('[gameManager] submitMultiEntryGuess: not found, wrongGuesses =', entry.wrongGuesses)
     }
 
     // Mark as submitted if out of guesses

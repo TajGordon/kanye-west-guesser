@@ -698,34 +698,49 @@ io.on('connection', (socket) => {
     });
 
     socket.on('submitAnswer', (payload) => {
-        const player = getPlayerBySocket(socket);
-        if (!player) return;
+        try {
+            const player = getPlayerBySocket(socket);
+            if (!player) {
+                console.log('[server] submitAnswer: no player found for socket');
+                socket.emit('answerResult', { status: 'error', message: 'Player not found' });
+                return;
+            }
 
-        console.log('submitAnswer', payload, 'by', (getPlayerBySocket(socket)).name);
+            console.log('submitAnswer', JSON.stringify(payload), 'by', player.name);
 
-        const lobbyPlayer = getLobbyPlayer(player.lobbyId, player.playerId);
-        if (!lobbyPlayer) {
-            console.log('no lobby player found for', player.playerId);
-            return;
-        }
+            // Validate payload
+            if (!payload || typeof payload !== 'object') {
+                console.log('[server] submitAnswer: invalid payload');
+                socket.emit('answerResult', { status: 'error', message: 'Invalid payload' });
+                return;
+            }
 
-        // Support all question type submissions
-        const submission = submitAnswerToRound({
-            lobbyId: player.lobbyId,
-            playerId: player.playerId,
-            answerText: payload.answer,
-            choiceId: payload.choiceId,
-            guess: payload.guess,                    // Multi-entry guess
-            numericValue: payload.numericValue,      // Numeric/slider value
-            orderedIds: payload.orderedIds           // Ordered list IDs
-        });
+            const lobbyPlayer = getLobbyPlayer(player.lobbyId, player.playerId);
+            if (!lobbyPlayer) {
+                console.log('no lobby player found for', player.playerId);
+                socket.emit('answerResult', { status: 'error', message: 'Player not in lobby' });
+                return;
+            }
 
-        if (!submission) {
-            socket.emit('answerResult', { result: false, score: lobbyPlayer.score, status: 'error' });
-            return;
-        }
+            // Support all question type submissions
+            const submission = submitAnswerToRound({
+                lobbyId: player.lobbyId,
+                playerId: player.playerId,
+                answerText: payload.answer,
+                choiceId: payload.choiceId,
+                guess: payload.guess,                    // Multi-entry guess
+                numericValue: payload.numericValue,      // Numeric/slider value
+                orderedIds: payload.orderedIds           // Ordered list IDs
+            });
 
-        const { status, entry, round, revealResult, _isCorrect, foundAnswer, remainingGuesses, foundCount, totalAnswers } = submission;
+            if (!submission) {
+                console.log('[server] submitAnswer: no submission returned');
+                socket.emit('answerResult', { result: false, score: lobbyPlayer.score, status: 'error' });
+                return;
+            }
+
+            console.log('[server] submitAnswer: submission status =', submission.status);
+            const { status, entry, round, revealResult, _isCorrect, foundAnswer, remainingGuesses, foundCount, totalAnswers } = submission;
         let shouldBroadcastRoster = false;
 
         // Determine if this was actually correct (unified for all question types)
@@ -834,6 +849,10 @@ io.on('connection', (socket) => {
         if (!winTriggered && didAllPlayersAnswerCorrect(player.lobbyId)) {
             const endReason = getRoundEndReason(player.lobbyId) || 'all-correct';
             finalizeRoundAndBroadcast(player.lobbyId, endReason);
+        }
+        } catch (error) {
+            console.error('[server] submitAnswer error:', error);
+            socket.emit('answerResult', { status: 'error', message: error.message });
         }
     });
 

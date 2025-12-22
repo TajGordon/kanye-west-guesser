@@ -660,9 +660,10 @@ const QUESTION_TYPE_WEIGHTS = {
  * Ensures proper distribution of question types according to QUESTION_TYPE_WEIGHTS
  * 
  * @param {Set|null} allowedQuestionIds - Optional set of question IDs to filter by (from expression)
+ * @param {Set|null} excludeQuestionIds - Optional set of question IDs to exclude (already used)
  * @returns {object|null} Random question or null if no questions available
  */
-export function getRandomQuestion(allowedQuestionIds = null) {
+export function getRandomQuestion(allowedQuestionIds = null, excludeQuestionIds = null) {
     if (!questionList.length) {
         return null;
     }
@@ -674,6 +675,21 @@ export function getRandomQuestion(allowedQuestionIds = null) {
         if (availableQuestions.length === 0) {
             console.warn('[questionStore] No questions match the filter, falling back to all questions');
             availableQuestions = questionList;
+        }
+    }
+    
+    // Exclude already-used questions
+    if (excludeQuestionIds && excludeQuestionIds.size > 0) {
+        const beforeCount = availableQuestions.length;
+        availableQuestions = availableQuestions.filter(q => !excludeQuestionIds.has(q.id));
+        console.log(`[questionStore] Excluded ${beforeCount - availableQuestions.length} used questions, ${availableQuestions.length} remaining`);
+        
+        // If all questions have been used, reset and allow all
+        if (availableQuestions.length === 0) {
+            console.warn('[questionStore] All questions have been used, resetting to allow all');
+            availableQuestions = allowedQuestionIds && allowedQuestionIds.size > 0
+                ? questionList.filter(q => allowedQuestionIds.has(q.id))
+                : questionList;
         }
     }
     
