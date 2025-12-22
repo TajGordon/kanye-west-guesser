@@ -51,7 +51,18 @@ export function useGameSocket({ playerId, lobbyId, playerName }) {
     hasAnsweredCorrectly: false,
     hasSubmittedChoice: false,
     selectedChoiceId: null,
-    lastResult: null
+    lastResult: null,
+    // Multi-entry state
+    foundAnswers: [],
+    wrongGuesses: [],
+    remainingGuesses: null,
+    multiEntryComplete: false,
+    // Ordered-list state
+    submittedOrder: null,
+    hasSubmittedOrder: false,
+    // Numeric state
+    hasSubmittedNumeric: false,
+    submittedNumericValue: null
   });
   
   // Summary state
@@ -92,7 +103,15 @@ export function useGameSocket({ playerId, lobbyId, playerName }) {
       hasAnsweredCorrectly: false,
       hasSubmittedChoice: false,
       selectedChoiceId: null,
-      lastResult: null
+      lastResult: null,
+      foundAnswers: [],
+      wrongGuesses: [],
+      remainingGuesses: null,
+      multiEntryComplete: false,
+      submittedOrder: null,
+      hasSubmittedOrder: false,
+      hasSubmittedNumeric: false,
+      submittedNumericValue: null
     });
   }, []);
 
@@ -269,6 +288,33 @@ export function useGameSocket({ playerId, lobbyId, playerName }) {
         // For choice-based: mark as submitted
         if (payload.submitted === true || payload.status === 'submitted') {
           updated.hasSubmittedChoice = true;
+        }
+        
+        // For multi-entry: update found answers and wrong guesses
+        if (payload.multiEntry) {
+          updated.foundAnswers = payload.multiEntry.foundAnswers || [];
+          updated.wrongGuesses = payload.multiEntry.wrongGuesses || [];
+          updated.remainingGuesses = payload.multiEntry.remainingGuesses;
+          updated.multiEntryComplete = payload.multiEntry.isComplete || false;
+          
+          // Mark as correct if all answers found
+          if (payload.multiEntry.foundCount >= payload.multiEntry.totalAnswers) {
+            updated.hasAnsweredCorrectly = true;
+          }
+        }
+        
+        // For ordered-list: mark as submitted
+        if (payload.orderedIds) {
+          updated.submittedOrder = payload.orderedIds;
+          updated.hasSubmittedOrder = true;
+          updated.hasSubmittedChoice = true; // Use same flag for "submitted" state
+        }
+        
+        // For numeric: mark as submitted
+        if (payload.numericValue != null) {
+          updated.submittedNumericValue = payload.numericValue;
+          updated.hasSubmittedNumeric = true;
+          updated.hasSubmittedChoice = true; // Use same flag for "submitted" state
         }
         
         return updated;

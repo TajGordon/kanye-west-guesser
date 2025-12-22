@@ -72,7 +72,8 @@ const AnswerInputRenderer = forwardRef(function AnswerInputRenderer({
 
   // Multi-entry input (Wordle-style)
   if (isMultiEntryQuestion(questionType)) {
-    const totalAnswers = question.answers?.length || 0;
+    // Use question.totalAnswers (answers array not sent to client for security)
+    const totalAnswers = question.totalAnswers || 0;
     const maxGuesses = question.maxGuesses || 15;
     const isComplete = foundAnswers.length >= totalAnswers || 
                        (foundAnswers.length + wrongGuesses.length) >= maxGuesses;

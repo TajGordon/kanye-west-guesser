@@ -100,7 +100,12 @@ function ensureArray(value) {
     return [value]
 }
 
-function normalizeContent(rawContent = {}, questionId = 'unknown') {
+function normalizeContent(rawContent = {}, questionId = 'unknown', legacyText = null) {
+    // Handle legacy format where 'text' is a top-level field
+    if ((!rawContent || typeof rawContent !== 'object' || Object.keys(rawContent).length === 0) && legacyText) {
+        return { type: 'text', text: legacyText.toString() }
+    }
+    
     if (!rawContent || typeof rawContent !== 'object') {
         return { type: 'text', text: '' }
     }
@@ -167,19 +172,31 @@ function normalizeQuestion(raw) {
     }
     
     // Check if this is a new template-style question
-    const isTemplateQuestion = !!(raw.wrongAnswerPool || raw.lyricPool || raw.titleTemplate || raw.contentTemplate || raw.answer?.entityRef)
+    // Template questions have 'answer' object (possibly with entityRef) or wrongAnswerPool/lyricPool
+    const isTemplateQuestion = !!(raw.wrongAnswerPool || raw.lyricPool || raw.titleTemplate || raw.contentTemplate || raw.answer)
     
     // Normalize answers for free-text questions (legacy format with 'answers' array)
     // IMPORTANT: normalizedAliases determines what answers are accepted
     // For entity-based answers (with entityRef): include display + all aliases
     // For literal answers (no entityRef): only include display value
     const answers = ensureArray(raw.answers).map((entry, index) => {
-        const display = entry?.display?.toString().trim() || entry?.aliases?.[0] || `Answer ${index + 1}`
-        const hasEntityRef = !!entry?.entityRef
+        // Handle both string answers and object answers
+        const isString = typeof entry === 'string'
+        const display = isString 
+            ? entry.trim() 
+            : (entry?.display?.toString().trim() || entry?.aliases?.[0] || `Answer ${index + 1}`)
+        const hasEntityRef = !isString && !!entry?.entityRef
         
         // Build alias set - always includes display
         const aliasSet = new Set()
         aliasSet.add(display)
+        
+        // For string answers, check if there's an alias map at the question level
+        if (isString && raw.aliases?.[entry]) {
+            ensureArray(raw.aliases[entry]).forEach(alias => {
+                if (alias) aliasSet.add(alias)
+            })
+        }
         
         // Only add additional aliases if this is an entity-based answer
         if (hasEntityRef) {
@@ -192,7 +209,7 @@ function normalizeQuestion(raw) {
             .map(alias => normalizeAnswerText(alias, matchMode))
             .filter(Boolean)
         return {
-            id: entry?.id || `${raw.id || 'unknown'}-answer-${index}`,
+            id: isString ? `${raw.id || 'unknown'}-answer-${index}` : (entry?.id || `${raw.id || 'unknown'}-answer-${index}`),
             display,
             aliases: Array.from(aliasSet),
             normalizedAliases,
@@ -246,7 +263,7 @@ function normalizeQuestion(raw) {
         })
     }
 
-    const normalizedContent = normalizeContent(raw.content, raw.id)
+    const normalizedContent = normalizeContent(raw.content, raw.id, raw.text)
     
     // Build base question object
     const question = {
@@ -315,9 +332,123 @@ function normalizeQuestion(raw) {
             // Template format: correctAnswer determined at runtime
             question.primaryAnswer = singleAnswer?.display || 'Unknown'
         }
+    } else if (questionType === QUESTION_TYPES.NUMERIC) {
+        // Numeric questions have min, max, correctAnswer
+        question.min = raw.min ?? 1900
+        question.max = raw.max ?? 2100
+        question.step = raw.step ?? 1
+        if (raw.correctAnswer !== undefined) {
+            question.correctAnswer = Number(raw.correctAnswer)
+            question.primaryAnswer = String(raw.correctAnswer)
+        }
+        question.scoringMode = raw.scoringMode || 'proximity'
+    } else if (questionType === QUESTION_TYPES.ORDERED_LIST) {
+        // Ordered-list questions have items and correctOrder
+        if (Array.isArray(raw.items)) {
+            question.items = raw.items.map((item, idx) => ({
+                id: item?.id?.toString() || `item-${idx}`,
+                text: item?.text?.toString() || `Item ${idx + 1}`
+            }))
+        }
+        if (Array.isArray(raw.correctOrder)) {
+            question.correctOrder = raw.correctOrder
+        }
+        question.scoringMode = raw.scoringMode || 'ranked'
+        question.primaryAnswer = 'Ordered list'
+    } else if (questionType === QUESTION_TYPES.MULTI_ENTRY) {
+        // Multi-entry questions have multiple answers and maxGuesses
+        if (answers.length > 0) {
+            question.answers = answers
+        }
+        question.acceptedAliasMap = acceptedAliasMap
+        question.maxGuesses = raw.maxGuesses || 10
+        question.totalAnswers = answers.length || 0
+        question.primaryAnswer = answers.map(a => a.display).join(', ')
+        question.scoringMode = raw.scoringMode || 'multi-entry'
+        // Use LOOSE matching for multi-entry (names typically need fuzzy matching)
+        question.matchMode = raw.matchMode || 'loose'
     }
 
     return question
+}
+
+/**
+ * Validate a normalized question for required fields
+ * Returns array of error messages (empty if valid)
+ */
+function validateQuestion(question) {
+    const errors = []
+    
+    if (!question.id) errors.push('Missing id')
+    if (!question.type) errors.push('Missing type')
+    if (!question.title) errors.push('Missing title')
+    if (!question.content) errors.push('Missing content')
+    
+    // Check if this is a template question (choices/answers built at runtime)
+    const isTemplate = !!(question.wrongAnswerPool || question.lyricPool || question.answer?.entityRef)
+    
+    switch (question.type) {
+        case QUESTION_TYPES.FREE_TEXT:
+            // Template questions have 'answer' object, legacy have 'answers' array
+            if (!question.answers?.length && !question.answer) {
+                errors.push('Free-text: Missing answers')
+            }
+            break
+            
+        case QUESTION_TYPES.MULTIPLE_CHOICE:
+            // Template questions build choices at runtime from wrongAnswerPool
+            if (isTemplate) {
+                if (!question.answer) {
+                    errors.push('Multiple-choice template: Missing answer')
+                }
+                if (!question.wrongAnswerPool?.length) {
+                    errors.push('Multiple-choice template: Missing wrongAnswerPool')
+                }
+            } else {
+                if (!question.choices?.length || question.choices.length < 2) {
+                    errors.push('Multiple-choice: Need at least 2 choices')
+                }
+                if (!question.correctChoiceId) {
+                    errors.push('Multiple-choice: Missing correctChoiceId')
+                }
+            }
+            break
+            
+        case QUESTION_TYPES.TRUE_FALSE:
+            if (question.correctAnswer === undefined) {
+                errors.push('True-false: Missing correctAnswer')
+            }
+            break
+            
+        case QUESTION_TYPES.MULTI_ENTRY:
+            if (!question.answers?.length) {
+                errors.push('Multi-entry: Missing answers array')
+            }
+            if (!question.totalAnswers) {
+                errors.push('Multi-entry: Missing totalAnswers')
+            }
+            break
+            
+        case QUESTION_TYPES.NUMERIC:
+            if (question.correctAnswer === undefined) {
+                errors.push('Numeric: Missing correctAnswer')
+            }
+            if (question.min === undefined || question.max === undefined) {
+                errors.push('Numeric: Missing min or max')
+            }
+            break
+            
+        case QUESTION_TYPES.ORDERED_LIST:
+            if (!question.items?.length) {
+                errors.push('Ordered-list: Missing items')
+            }
+            if (!question.correctOrder?.length) {
+                errors.push('Ordered-list: Missing correctOrder')
+            }
+            break
+    }
+    
+    return errors
 }
 
 /**
@@ -413,6 +544,25 @@ function initializeFromDirectory(dirPath) {
             }
             
             const normalized = questions.map(normalizeQuestion)
+            
+            // Validate questions and log errors
+            let validCount = 0
+            let invalidCount = 0
+            for (const q of normalized) {
+                const errors = validateQuestion(q)
+                if (errors.length > 0) {
+                    invalidCount++
+                    if (invalidCount <= 3) { // Only log first 3 errors per file
+                        console.warn(`[questionStore] Invalid question ${q.id}: ${errors.join(', ')}`)
+                    }
+                } else {
+                    validCount++
+                }
+            }
+            if (invalidCount > 3) {
+                console.warn(`[questionStore] ... and ${invalidCount - 3} more invalid questions in ${file}`)
+            }
+            
             allQuestions.push(...normalized)
             
             const meta = parsed.meta || {}
@@ -688,6 +838,28 @@ export function formatQuestionForClient(question) {
         }))
     }
     
+    // Add numeric question fields (without correct answer!)
+    if (questionType === QUESTION_TYPES.NUMERIC) {
+        clientQuestion.min = question.min ?? 1900
+        clientQuestion.max = question.max ?? 2100
+        clientQuestion.step = question.step ?? 1
+        // NOTE: We don't send correctAnswer to prevent cheating
+    }
+    
+    // Add ordered-list question fields (without correct order!)
+    if (questionType === QUESTION_TYPES.ORDERED_LIST && question.items) {
+        // Send items in shuffled order to prevent cheating
+        clientQuestion.items = [...question.items].sort(() => Math.random() - 0.5)
+        // NOTE: We don't send correctOrder to prevent cheating
+    }
+    
+    // Add multi-entry question fields
+    if (questionType === QUESTION_TYPES.MULTI_ENTRY) {
+        clientQuestion.maxGuesses = question.maxGuesses || 10
+        clientQuestion.totalAnswers = question.totalAnswers || question.answers?.length || 0
+        // NOTE: We don't send answers to prevent cheating
+    }
+    
     return clientQuestion
 }
 
@@ -723,6 +895,25 @@ export function formatQuestionForReveal(question) {
     
     if (questionType === QUESTION_TYPES.FREE_TEXT && question.answers) {
         revealQuestion.answers = question.answers.map(a => a.display)
+    }
+    
+    // Numeric reveal - include correct answer
+    if (questionType === QUESTION_TYPES.NUMERIC) {
+        revealQuestion.correctAnswer = question.correctAnswer
+        revealQuestion.min = question.min
+        revealQuestion.max = question.max
+    }
+    
+    // Ordered-list reveal - include items and correct order
+    if (questionType === QUESTION_TYPES.ORDERED_LIST) {
+        revealQuestion.items = question.items
+        revealQuestion.correctOrder = question.correctOrder
+    }
+    
+    // Multi-entry reveal - include all answers
+    if (questionType === QUESTION_TYPES.MULTI_ENTRY && question.answers) {
+        revealQuestion.answers = question.answers.map(a => a.display)
+        revealQuestion.totalAnswers = question.totalAnswers || question.answers.length
     }
     
     return revealQuestion

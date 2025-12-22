@@ -10,7 +10,14 @@ export default function BottomBar({
   timerProgress,
   lastResult,
   hasAnsweredCorrectly,
-  shouldFocus
+  hasSubmittedNumeric = false,
+  submittedNumericValue = null,
+  shouldFocus,
+  // Multi-entry props
+  foundAnswers = [],
+  wrongGuesses = [],
+  totalAnswers = 0,
+  maxGuesses = 15
 }) {
   const inputRef = useRef(null);
 
@@ -59,6 +66,9 @@ export default function BottomBar({
   
   if (hasAnsweredCorrectly) {
     feedbackMessage = '✓ Correct!';
+    feedbackClass = 'text-success font-bold';
+  } else if (hasSubmittedNumeric) {
+    feedbackMessage = `✓ Submitted: ${submittedNumericValue}`;
     feedbackClass = 'text-success font-bold';
   } else if (lastResult) {
     if (lastResult.status === 'incorrect' || lastResult.result === false) {

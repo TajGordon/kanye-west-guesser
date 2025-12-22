@@ -28,6 +28,10 @@ import {
     validateSubmission,
     canPlayerSubmit
 } from './validation.js'
+import {
+    normalizeForComparison,
+    MATCH_MODES
+} from './answerNormalization.js'
 import { filterQuestionsByExpression } from './questionFilter.js'
 
 const roundsByLobbyId = new Map()
@@ -355,6 +359,8 @@ function submitMultiEntryGuess(round, playerId, guess, previousEntry) {
         round,
         entry,
         revealResult: true,
+        // Include _isCorrect for server-side scoring when all answers are found
+        _isCorrect: entry.isCorrect,
         foundAnswer: isMatch ? (matchedAnswer?.display || matchedAnswer) : null,
         remainingGuesses: maxGuesses - entry.guessCount,
         foundCount: entry.foundAnswers.length,
@@ -364,29 +370,48 @@ function submitMultiEntryGuess(round, playerId, guess, previousEntry) {
 
 /**
  * Evaluate a single guess against remaining multi-entry answers
+ * Uses loose matching for names (strips punctuation, case-insensitive)
  */
 function evaluateMultiEntryGuess(question, guess, alreadyFound) {
     if (!question?.answers) return { isMatch: false }
 
-    const normalizedGuess = guess.toLowerCase().trim()
-    const foundNormalized = alreadyFound.map(f => f.toLowerCase())
+    // Use LOOSE matching for names - strips all punctuation
+    const matchMode = question.matchMode || MATCH_MODES.LOOSE
+    const normalizedGuess = normalizeForComparison(guess, matchMode)
+    
+    // Normalize already found for comparison
+    const foundNormalized = alreadyFound.map(f => normalizeForComparison(f, matchMode))
 
     for (const answer of question.answers) {
-        // Skip already found answers
+        // Get the display name
         const answerDisplay = answer.display || answer
-        if (foundNormalized.includes(answerDisplay.toLowerCase())) continue
+        const answerNormalized = normalizeForComparison(answerDisplay, matchMode)
+        
+        // Skip already found answers
+        if (foundNormalized.includes(answerNormalized)) continue
 
         // Check primary answer
-        const primaryNormalized = (answer.display || answer).toLowerCase()
-        if (primaryNormalized === normalizedGuess) {
+        if (answerNormalized === normalizedGuess) {
             return { isMatch: true, matchedAnswer: answer }
         }
 
-        // Check aliases
+        // Check aliases (if any)
         const aliases = answer.aliases || question.aliases?.[answerDisplay] || []
         for (const alias of aliases) {
-            if (alias.toLowerCase() === normalizedGuess) {
+            const aliasNormalized = normalizeForComparison(alias, matchMode)
+            if (aliasNormalized === normalizedGuess) {
                 return { isMatch: true, matchedAnswer: answer }
+            }
+        }
+        
+        // Also check acceptedAliasMap if available
+        if (question.acceptedAliasMap) {
+            const acceptedAliases = question.acceptedAliasMap[answerDisplay] || []
+            for (const alias of acceptedAliases) {
+                const aliasNormalized = normalizeForComparison(alias, matchMode)
+                if (aliasNormalized === normalizedGuess) {
+                    return { isMatch: true, matchedAnswer: answer }
+                }
             }
         }
     }

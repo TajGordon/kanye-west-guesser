@@ -382,6 +382,44 @@ function finalizeRoundAndBroadcast(lobbyId, reason = 'manual') {
                     lobbyPlayer.correctElapsedMs = elapsedMs;
                 }
             });
+        } else if (questionType === QUESTION_TYPES.NUMERIC) {
+            // Numeric questions: award points based on proximity (closest wins most)
+            const numericSubmissions = Array.from(round.submissions.values())
+                .filter(s => s.numericValue != null && s.hasSubmitted)
+                .sort((a, b) => {
+                    // Sort by difference (closest first), then by time
+                    if (a.difference !== b.difference) {
+                        return a.difference - b.difference;
+                    }
+                    return a.submittedAt - b.submittedAt;
+                });
+            
+            // Award points in rank order - everyone who submitted gets points
+            numericSubmissions.forEach((submission, index) => {
+                const lobbyPlayer = lobby.players.find(p => p.playerId === submission.playerId);
+                if (lobbyPlayer) {
+                    // Points based on rank: 1st gets MAX, 2nd gets MAX-1, etc.
+                    const pointsAwarded = Math.max(
+                        MIN_CORRECT_POINTS,
+                        MAX_CORRECT_POINTS - index
+                    );
+                    
+                    lobbyPlayer.score = (lobbyPlayer.score || 0) + pointsAwarded;
+                    lobby.scoreByPlayerId?.set(lobbyPlayer.playerId, lobbyPlayer.score);
+                    
+                    // Status: exact match = correct, close = partial, far = incorrect
+                    if (submission.difference === 0) {
+                        lobbyPlayer.roundGuessStatus = 'correct';
+                    } else if (index < numericSubmissions.length / 2) {
+                        lobbyPlayer.roundGuessStatus = 'partial'; // Top half
+                    } else {
+                        lobbyPlayer.roundGuessStatus = 'incorrect';
+                    }
+                    
+                    const elapsedMs = typeof round.startedAt === 'number' ? submission.submittedAt - round.startedAt : null;
+                    lobbyPlayer.correctElapsedMs = elapsedMs;
+                }
+            });
         } else {
             // Standard deferred scoring for other question types
             const correctSubmissions = Array.from(round.submissions.values())
@@ -451,8 +489,9 @@ function buildRoundEndPayload(summary, reason) {
         });
     }
 
-    return {
+    const payload = {
         lobbyId: summary.lobbyId,
+        questionType: summary.questionType,
         question: summary.question,
         correctAnswer: summary.correctAnswer,
         correctResponders: summary.correctResponders.map(entry => ({
@@ -463,6 +502,39 @@ function buildRoundEndPayload(summary, reason) {
         startedAt: summary.startedAt,
         endedAt: summary.endedAt
     };
+    
+    // Include proximity ranking for numeric questions (with player names)
+    if (summary.proximityRanking) {
+        payload.proximityRanking = summary.proximityRanking.map(entry => ({
+            ...entry,
+            name: nameLookup.get(entry.playerId) || 'Unknown'
+        }));
+    }
+    
+    // Include multi-entry stats (with player names)
+    if (summary.multiEntryStats) {
+        payload.multiEntryStats = summary.multiEntryStats.map(entry => ({
+            ...entry,
+            name: nameLookup.get(entry.playerId) || 'Unknown'
+        }));
+        payload.allAnswers = summary.allAnswers;
+    }
+    
+    // Include ordered list results (with player names)
+    if (summary.orderedListResults) {
+        payload.orderedListResults = summary.orderedListResults.map(entry => ({
+            ...entry,
+            name: nameLookup.get(entry.playerId) || 'Unknown'
+        }));
+        payload.correctOrder = summary.correctOrder;
+    }
+    
+    // Include choice distribution
+    if (summary.choiceDistribution) {
+        payload.choiceDistribution = summary.choiceDistribution;
+    }
+    
+    return payload;
 }
 
 function buildWinPayload(lobby, winnerPlayer, targetScore) {
@@ -574,16 +646,6 @@ function beginRoundForLobby(lobbyId, reason = 'manual') {
     const round = startNewRound(lobbyId, roundDurationMs, questionFilter);
     resetLobbyRoundGuesses(lobbyId);
     const payload = buildRoundPayload(round);
-    console.log('[DEBUG] Round payload question:', JSON.stringify({
-        id: payload?.question?.id,
-        type: payload?.question?.type,
-        title: payload?.question?.title,
-        prompt: payload?.question?.prompt,
-        content: payload?.question?.content,
-        hasChoices: !!payload?.question?.choices,
-        choiceCount: payload?.question?.choices?.length,
-        filter: questionFilter
-    }, null, 2));
     if (payload) {
         setLobbyPhase(lobbyId, getLobbyPhases().ROUND, { round: payload, reason });
         io.to(lobbyId).emit('roundStarted', payload);
@@ -891,6 +953,25 @@ io.on('connection', (socket) => {
         
         if (result.success) {
             console.log(`Player ${playerName} flagged question ${questionId}`);
+        }
+    });
+
+    socket.on('leaveLobby', () => {
+        const player = getPlayerBySocket(socket);
+        if (!player) return;
+
+        const { lobbyId, playerId } = player;
+        if (lobbyId && playerId) {
+            console.log(`Player ${player.name} leaving lobby ${lobbyId}`);
+            removePlayerFromLobby(lobbyId, playerId);
+            broadcastLobbyRoster(lobbyId);
+            emitLobbyPhase(lobbyId);
+            
+            // Clear player's lobby association
+            player.lobbyId = null;
+            
+            // Notify the player they left successfully
+            socket.emit('leftLobby', { success: true });
         }
     });
 

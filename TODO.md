@@ -8,3 +8,8 @@ do the stuff about how input can or cant be sanitised to like not have the punct
 
 
 aliases should only apply for like asking "who said this" and should not apply for like "fill in the lyric"!!! whether aliases are allowed should depend on the strictness of the answer type. ✅ IMPLEMENTED - aliases only apply to entity-based answers (those with entityRef like artist:kanye-west), not to literal answers (lyrics, words)
+
+
+
+
+edit the question generation, especially for the multiple choice, to be better. the multiple choice should use a synonym dictionary not just random words, and should match the same grammar, like if the answer is plural, all options should be plural

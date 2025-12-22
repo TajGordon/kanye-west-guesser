@@ -76,7 +76,14 @@ export default function GameInterface() {
 
   const handleSubmitAnswer = () => {
     if (!inputValue.trim()) return;
-    if (emit) {
+    
+    // For numeric questions, send numericValue
+    if (isNumeric) {
+      const numVal = parseFloat(inputValue);
+      if (!isNaN(numVal) && emit) {
+        emit('submitAnswer', { numericValue: numVal });
+      }
+    } else if (emit) {
       emit('submitAnswer', { answer: inputValue });
     } else if (actions?.submitTextAnswer) {
       actions.submitTextAnswer(inputValue);
@@ -93,6 +100,13 @@ export default function GameInterface() {
     }
   };
 
+  const handleSubmitOrder = (orderedIds) => {
+    if (answerState?.hasSubmittedOrder) return;
+    if (emit) {
+      emit('submitAnswer', { orderedIds });
+    }
+  };
+
   const handleReturnToLobby = () => {
     if (emit) {
       emit('resetGameRequest');
@@ -101,11 +115,21 @@ export default function GameInterface() {
     }
   };
 
+  const handleLeaveLobby = () => {
+    if (emit) {
+      emit('leaveLobby');
+      // Redirect to home/join page by clearing lobby state
+      window.location.href = '/';
+    }
+  };
+
   // Get summary data
   const currentSummary = summaryState?.current || summaryState?.last;
   
   // Determine question type and if it's a typing mode
   const questionType = roundState?.questionType || QUESTION_TYPES.FREE_TEXT;
+  const isNumeric = questionType === QUESTION_TYPES.NUMERIC;
+  const isMultiEntry = questionType === QUESTION_TYPES.MULTI_ENTRY;
   const isTypingMode = [QUESTION_TYPES.FREE_TEXT, QUESTION_TYPES.MULTI_ENTRY, QUESTION_TYPES.NUMERIC]
     .includes(questionType);
   
@@ -135,6 +159,14 @@ export default function GameInterface() {
         onSelectOption={handleSelectOption}
         selectedOptionId={answerState?.selectedChoiceId}
         hasSubmittedChoice={answerState?.hasSubmittedChoice}
+        // Multi-entry props
+        foundAnswers={answerState?.foundAnswers || []}
+        wrongGuesses={answerState?.wrongGuesses || []}
+        multiEntryComplete={answerState?.multiEntryComplete || answerState?.hasAnsweredCorrectly}
+        // Ordered-list props
+        onSubmitOrder={handleSubmitOrder}
+        hasSubmittedOrder={answerState?.hasSubmittedOrder || false}
+        submittedOrder={answerState?.submittedOrder}
       />
     );
   } else if (phase === 'summary') {
@@ -184,6 +216,7 @@ export default function GameInterface() {
           onToggleSettings={() => setIsSettingsOpen(!isSettingsOpen)} 
           isSettingsOpen={isSettingsOpen}
           phase={phase}
+          onLeaveLobby={handleLeaveLobby}
         />
       }
       leftSidebar={
@@ -206,15 +239,32 @@ export default function GameInterface() {
           inputValue={inputValue}
           onInputChange={setInputValue}
           onSubmit={handleSubmitAnswer}
-          isEnabled={phase === 'round' && isTypingMode && !answerState?.hasAnsweredCorrectly}
+          isEnabled={
+            phase === 'round' && 
+            isTypingMode && 
+            !answerState?.hasAnsweredCorrectly && 
+            !answerState?.multiEntryComplete &&
+            !answerState?.hasSubmittedNumeric
+          }
           timerProgress={timerProgress}
           lastResult={answerState?.lastResult}
           hasAnsweredCorrectly={answerState?.hasAnsweredCorrectly}
-          shouldFocus={phase === 'round' && isTypingMode}
+          hasSubmittedNumeric={answerState?.hasSubmittedNumeric}
+          submittedNumericValue={answerState?.submittedNumericValue}
+          shouldFocus={phase === 'round' && isTypingMode && !answerState?.hasSubmittedNumeric}
           placeholder={
             answerState?.hasAnsweredCorrectly ? "Correct! Waiting for others..." : 
+            answerState?.hasSubmittedNumeric ? `Submitted: ${answerState?.submittedNumericValue}` :
+            answerState?.multiEntryComplete ? "Out of guesses!" :
+            isNumeric ? "Enter a number..." :
+            isMultiEntry ? "Guess a name..." :
             "Type your answer..."
           }
+          // Multi-entry props
+          foundAnswers={answerState?.foundAnswers || []}
+          wrongGuesses={answerState?.wrongGuesses || []}
+          totalAnswers={roundState?.question?.totalAnswers || 0}
+          maxGuesses={roundState?.question?.maxGuesses || 15}
         />
       }
     >
