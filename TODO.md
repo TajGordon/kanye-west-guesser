@@ -12,4 +12,11 @@ aliases should only apply for like asking "who said this" and should not apply f
 
 
 
-edit the question generation, especially for the multiple choice, to be better. the multiple choice should use a synonym dictionary not just random words, and should match the same grammar, like if the answer is plural, all options should be plural
+edit the question generation, especially for the multiple choice, to be better. the multiple choice should use a synonym dictionary not just random words, and should match the same grammar, like if the answer is plural, all options should be pluralo
+
+needs to say what song its from for lyric fill in
+
+
+max name length
+max answer length
+sanitisation
