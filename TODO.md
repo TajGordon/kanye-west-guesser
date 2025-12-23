@@ -16,6 +16,8 @@ edit the question generation, especially for the multiple choice, to be better. 
 
 needs to say what song its from for lyric fill in
 
+sound effects!
+lowk kinda bored of ts project now
 
 max name length
 max answer length
